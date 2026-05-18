@@ -1,171 +1,118 @@
 # Shay Acoca Portfolio
 
-A modern portfolio built with Next.js, TypeScript and Tailwind CSS to showcase my full stack projects and professional profile.
+A modern portfolio built with Next.js 14, TypeScript, Tailwind CSS and MongoDB Atlas to showcase my full stack projects, capture contact messages and host project comments.
 
 ## About
 
-This portfolio is designed to present my projects clearly and professionally for startup and junior developer opportunities.
+This portfolio is designed to present my projects clearly and professionally for startup and junior developer opportunities. It includes a private admin dashboard, a MongoDB-backed contact form and per-project visitor comments.
 
 ## 🚀 Tech Stack
 
-- **Framework**: Next.js 14 (App Router)
+- **Framework**: Next.js 14.2 (App Router)
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
 - **Animations**: Framer Motion
+- **Database**: MongoDB Atlas + Mongoose
 - **Translations**: English & French support
-- **Contact Form**: Formspree integration
-- **Deployment**: Ready for Vercel
+- **Deployment**: Vercel / Render compatible
 
-## 📁 Project Structure
+## � Portfolio MongoDB Admin
 
-```
-shay-acoca-portfolio/
-├── app/
-│   ├── layout.tsx          # Root layout with metadata
-│   ├── page.tsx            # Main page with all sections
-│   └── globals.css         # Global styles and design tokens
-├── components/
-│   ├── navbar.tsx          # Sticky navigation
-│   ├── hero.tsx            # Hero section
-│   ├── about.tsx           # About section with attribute cards
-│   ├── projects.tsx        # Projects section
-│   ├── project-card.tsx    # Individual project card
-│   ├── skills.tsx          # Skills section with categories
-│   ├── experience.tsx      # Experience/Education timeline
-│   ├── why-hire-me.tsx     # Value proposition section
-│   ├── contact.tsx         # Contact section with form
-│   ├── footer.tsx          # Footer component
-│   └── section-title.tsx   # Reusable section title
-├── data/
-│   ├── projects.ts         # Project data
-│   ├── skills.ts           # Skills data
-│   └── experience.ts       # Experience data
-├── lib/
-│   ├── utils.ts            # Utility functions (cn helper)
-│   ├── translations.ts     # English & French translations
-│   └── language-context.tsx # Language context provider
-├── public/
-│   ├── projects/           # Project images
-│   └── resume.pdf          # Add your resume here
-├── package.json
-├── tsconfig.json
-├── tailwind.config.ts
-├── next.config.js
-├── postcss.config.js
-└── .eslintrc.json
+This project ships with a full backend on top of Next.js App Router:
+
+- `/api/contact` — public POST + admin-only GET (Bearer token)
+- `/api/contact/[id]` — admin-only PATCH (status) + DELETE
+- `/api/comments` — public GET + POST per project
+- `/api/comments/[id]` — DELETE restricted to the original author email
+- `/api/auth` — admin login (compares against `ADMIN_PASSWORD`)
+- `/admin` — private dashboard with stats, filters, status update, delete
+
+### Required environment variables
+
+Create a local `.env.local` (never commit it):
+
+```env
+MONGODB_URI=mongodb+srv://YOUR_USER:YOUR_PASSWORD@cluster0.ticelk0.mongodb.net/portfolio?retryWrites=true&w=majority&appName=Cluster0
+ADMIN_PASSWORD=admin123
 ```
 
-## 🛠️ Installation
+> ⚠️ Replace `admin123` with a strong password before deploying to production.
+> ⚠️ If your MongoDB password was ever exposed (committed, screenshotted, sent in chat), rotate it immediately in MongoDB Atlas → Database Access.
 
-### Prerequisites
+A safe template is provided in `.env.example`. The file `.env.local` is git-ignored.
 
-- Node.js 18+ installed
-- npm package manager
-
-### Setup Instructions
+### Install & run
 
 ```bash
-# Install dependencies
 npm install
-
-# Set up environment variables
-cp .env.local.example .env.local
-# Edit .env.local and add your Formspree ID
-
-# Run development server
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the portfolio.
+Then open:
 
-## 🏗️ Building for Production
+- Public site: http://localhost:3000
+- Admin dashboard: http://localhost:3000/admin
+
+### Build
 
 ```bash
-# Set up environment variables for production
-# Add NEXT_PUBLIC_FORMSPREE_ID to your deployment environment
-
 npm run build
 npm start
 ```
 
-## 📦 Deployment to Vercel
+### Manual tests
 
-1. Push your code to GitHub
-2. Import the repository in [Vercel](https://vercel.com)
-3. Vercel will automatically detect Next.js and deploy
-4. Add your environment variable `NEXT_PUBLIC_FORMSPREE_ID` in Vercel project settings
+1. **Homepage** — verify visible info: `shayacoca20@gmail.com`, `053-3700551`, Jerusalem, Israel.
+2. **Contact form** — submit a message of type `recruteur`, expect success state and a new MongoDB document.
+3. **Admin** — open `/admin`, wrong password is rejected, `admin123` is accepted, the message appears in the list, status can be changed, deletion works.
+4. **Comments** — open any project card, click "Voir / ajouter des commentaires", post a comment, refresh the page → comment still visible, delete button only appears for comments you own (tracked in `localStorage`).
+5. **Build** — `npm run build` exits without errors.
 
-## 🎨 Customization
+## 📁 Project Structure (key files)
 
-### Environment Variables
-
-Create a `.env.local` file (copy from `.env.local.example`):
-
-```env
-NEXT_PUBLIC_FORMSPREE_ID=your_formspree_id_here
+```
+app/
+├── admin/page.tsx              # Private admin dashboard
+├── api/
+│   ├── auth/route.ts           # Admin password check
+│   ├── contact/route.ts        # POST contact, GET messages (admin)
+│   ├── contact/[id]/route.ts   # PATCH/DELETE messages (admin)
+│   ├── comments/route.ts       # GET/POST project comments
+│   └── comments/[id]/route.ts  # DELETE own comment
+├── layout.tsx
+└── page.tsx                    # Homepage
+components/
+├── contact.tsx                 # Contact form (MongoDB-powered)
+├── project-card.tsx            # Project card + comments toggle
+├── project-comments.tsx        # Comments per project
+├── hero.tsx                    # Hero section
+└── ...
+lib/
+├── mongodb.ts                  # Mongoose connection cache
+├── models/
+│   ├── ContactMessage.ts       # Mongoose model (timestamps + status)
+│   └── Comment.ts              # Mongoose model
+└── translations.ts             # i18n (Jerusalem, Israel)
+data/
+└── projects.ts                 # Project data (FitWell URL updated)
 ```
 
-**To set up Formspree for email functionality:**
+## � Security checklist
 
-1. Go to [Formspree.io](https://formspree.io) and sign up
-2. Create a new form and get your Form ID
-3. Add the Form ID to your `.env.local` file
-4. The contact form will now send emails directly to your inbox
-
-### Placeholders to Update
-
-Update the following placeholders in the code:
-
-1. **LinkedIn**: Replace `YOUR_LINKEDIN_USERNAME` in:
-   - `components/hero.tsx`
-   - `components/contact.tsx`
-   - `components/footer.tsx`
-
-2. **Email**: Replace `shayacoca@example.com` in:
-   - `components/contact.tsx`
-   - `components/footer.tsx`
-
-3. **Resume**: Add your resume PDF to `public/resume.pdf`
-
-4. **Project Images**: Add screenshots to `public/projects/`:
-   - `fitwell.png`
-   - `opticglass.png`
-   - `flavors-of-israel.png`
-
-### Projects
-
-The portfolio currently showcases 3 projects:
-- **FitWell**: Fitness & Wellness SaaS Platform
-- **OpticGlass**: Premium Eyewear E-commerce
-- **Flavors of Israel**: Restaurant Discovery Platform
-
-Edit `data/projects.ts` to add or modify projects.
+- `.env.local` is in `.gitignore` and must never be committed.
+- The MongoDB password used during setup must be rotated if it was ever shared in plain text.
+- `ADMIN_PASSWORD` should be replaced with a strong value in production.
+- Admin endpoints (`GET /api/contact`, `PATCH/DELETE /api/contact/[id]`) require an `Authorization: Bearer <ADMIN_PASSWORD>` header.
 
 ## 📱 Features
 
-- **Fully Responsive**: Optimized for mobile, tablet, and desktop
-- **Fast Performance**: Built with Next.js for optimal loading
-- **SEO Optimized**: Proper metadata and Open Graph tags
-- **Accessible**: Semantic HTML and ARIA labels
-- **Modern Design**: Clean, minimalist aesthetic inspired by Vercel/Linear
-- **Smooth Animations**: Subtle Framer Motion animations
-- **Bilingual Support**: English & French with language toggle
-- **Contact Form**: Integrated with Formspree for direct email delivery
-- **Language Persistence**: Language preference saved in localStorage
-
-## 🎯 Sections
-
-1. **Navbar**: Sticky navigation with smooth scroll, Resume button, and language toggle
-2. **Hero**: Professional introduction with availability badge
-3. **About**: Background story with 3 attribute cards
-4. **Projects**: 3 detailed project case studies with live demos
-5. **Skills**: Categorized skills (Frontend, Backend, Tools, Product)
-6. **Experience**: Timeline of education and experience
-7. **Why Hire Me**: Value proposition for recruiters
-8. **Contact**: Contact information and form with email integration
-9. **Footer**: Minimal footer with social links
-10. **Resume Page**: Bilingual resume with print functionality
+- Fully responsive Tailwind UI
+- Bilingual content (English / French)
+- MongoDB-backed contact form (recruteur, startup, partenariat, autre)
+- Per-project comments with author-only delete (via `localStorage`)
+- Private admin dashboard with stats, filters and CRUD on messages
 
 ---
 
-Built with Next.js, TypeScript and Tailwind CSS
+Built with Next.js 14, TypeScript, Tailwind CSS and MongoDB.
+

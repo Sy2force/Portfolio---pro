@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import { Project } from "@/data/projects"
 import { useLanguage } from "@/lib/language-context"
 import { translations } from "@/lib/translations"
+import { ProjectComments } from "./project-comments"
 
 interface ProjectCardProps {
   project: Project
@@ -57,7 +58,7 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
           ))}
         </div>
 
-        <div className="flex gap-3">
+        <div className="flex gap-3 mb-6">
           <a
             href={project.liveUrl}
             target="_blank"
@@ -75,6 +76,8 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
             {t.projects.github}
           </a>
         </div>
+
+        <ProjectComments projectId={project.id} />
       </div>
     </motion.div>
   )

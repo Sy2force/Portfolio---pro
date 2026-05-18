@@ -78,7 +78,7 @@ export function Hero() {
               </svg>
             </a>
             <a
-              href="mailto:shayacoca@gmail.com"
+              href="mailto:shayacoca20@gmail.com"
               className="text-gray-400 hover:text-white transition-colors p-2 rounded-lg hover:bg-gray-800/50"
               aria-label="Email"
             >

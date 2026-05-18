@@ -55,10 +55,16 @@ export function Footer() {
           </p>
         </div>
 
-        <div className="mt-6 pt-6 border-t border-border text-center">
+        <div className="mt-6 pt-6 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs text-muted">
             {t.footer.copyright}
           </p>
+          <a
+            href="/admin"
+            className="text-xs text-muted hover:text-foreground transition-colors border border-border hover:border-foreground px-3 py-1 rounded"
+          >
+            Espace Admin
+          </a>
         </div>
       </div>
     </footer>

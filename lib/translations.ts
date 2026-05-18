@@ -19,7 +19,7 @@ export const translations = {
       description: "After completing my military service in Israel and studying digital marketing, I focused on full stack development to build useful, clean and business-oriented web applications.",
       viewProjects: "View Projects",
       contactMe: "Contact Me",
-      location: "Based in Israel · Open to startup and junior developer opportunities"
+      location: "Based in Jerusalem, Israel · Open to startup and junior developer opportunities"
     },
     // About
     about: {
@@ -102,7 +102,7 @@ export const translations = {
       print: "Print",
       liveDemo: "Live Demo",
       github: "GitHub",
-      basedIn: "Based in Israel · Open to junior full stack opportunities"
+      basedIn: "Based in Jerusalem, Israel · Open to junior full stack opportunities"
     }
   },
   fr: {
@@ -123,7 +123,7 @@ export const translations = {
       description: "Après avoir terminé mon service militaire en Israël et étudié le marketing digital, je me suis concentré sur le développement full stack pour créer des applications web utiles, propres et orientées business.",
       viewProjects: "Voir les projets",
       contactMe: "Me contacter",
-      location: "Basé en Israël · Ouvert aux opportunités de startup et développeur junior"
+      location: "Basé à Jérusalem, Israël · Ouvert aux opportunités de startup et développeur junior"
     },
     // About
     about: {
@@ -206,7 +206,7 @@ export const translations = {
       print: "Imprimer",
       liveDemo: "Démo en direct",
       github: "GitHub",
-      basedIn: "Basé en Israël · Ouvert aux opportunités de développeur full stack junior"
+      basedIn: "Basé à Jérusalem, Israël · Ouvert aux opportunités de développeur full stack junior"
     }
   }
 }
