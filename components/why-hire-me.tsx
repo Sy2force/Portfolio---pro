@@ -19,12 +19,16 @@ export function WhyHireMe() {
       description: t.whyHireMe.productAwarenessDesc
     },
     {
+      title: t.whyHireMe.fullStackMindset,
+      description: t.whyHireMe.fullStackMindsetDesc
+    },
+    {
       title: t.whyHireMe.fastLearning,
       description: t.whyHireMe.fastLearningDesc
     },
     {
-      title: t.whyHireMe.discipline,
-      description: t.whyHireMe.disciplineDesc
+      title: t.whyHireMe.professionalEthic,
+      description: t.whyHireMe.professionalEthicDesc
     }
   ]
 
@@ -41,7 +45,7 @@ export function WhyHireMe() {
             {t.whyHireMe.title}
           </h2>
 
-          <div className="grid md:grid-cols-2 gap-4 md:gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
             {reasons.map((reason, index) => (
               <motion.div
                 key={reason.title}

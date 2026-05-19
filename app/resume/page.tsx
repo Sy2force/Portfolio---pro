@@ -41,6 +41,11 @@ export default function ResumePage() {
           <p className="text-muted max-w-2xl mx-auto">
             {t.resume.about}
           </p>
+          {t.resume.shortSummary && (
+            <p className="text-sm text-muted max-w-2xl mx-auto mt-4 italic">
+              {t.resume.shortSummary}
+            </p>
+          )}
 
           <div className="flex justify-center gap-4 mt-6">
             <button
@@ -214,7 +219,7 @@ export default function ResumePage() {
                 <span className="text-accent">GitHub:</span> github.com/Sy2force
               </a>
               <a
-                href="https://linkedin.com/in/shay-acoca"
+                href="https://www.linkedin.com/in/shay-acoca-046311302/?locale=en-US"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-muted hover:text-foreground transition-colors"

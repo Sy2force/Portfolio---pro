@@ -67,7 +67,7 @@ export function Hero() {
               </svg>
             </a>
             <a
-              href="https://linkedin.com/in/shay-acoca"
+              href="https://www.linkedin.com/in/shay-acoca-046311302/?locale=en-US"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors p-2 rounded-lg hover:bg-gray-800/50"
@@ -88,9 +88,15 @@ export function Hero() {
             </a>
           </div>
 
-          <p className="text-xs md:text-sm text-gray-500">
+          <p className="text-xs md:text-sm text-gray-500 mb-6">
             {t.hero.location}
           </p>
+
+          {t.hero.homepageSentence && (
+            <p className="text-xs md:text-sm text-gray-400 max-w-2xl mx-auto italic">
+              {t.hero.homepageSentence}
+            </p>
+          )}
         </motion.div>
       </div>
     </section>

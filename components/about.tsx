@@ -40,8 +40,11 @@ export function About() {
             <p className="text-base md:text-lg text-muted mb-6 leading-relaxed">
               {t.about.text1}
             </p>
-            <p className="text-base md:text-lg text-muted leading-relaxed">
+            <p className="text-base md:text-lg text-muted mb-6 leading-relaxed">
               {t.about.text2}
+            </p>
+            <p className="text-base md:text-lg text-muted leading-relaxed">
+              {t.about.text3}
             </p>
           </div>
 

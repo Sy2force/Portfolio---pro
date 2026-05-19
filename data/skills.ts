@@ -6,7 +6,9 @@ export const skills = {
     { name: { en: "JavaScript", fr: "JavaScript" } },
     { name: { en: "Tailwind CSS", fr: "Tailwind CSS" } },
     { name: { en: "Responsive Design", fr: "Design responsive" } },
-    { name: { en: "Framer Motion", fr: "Framer Motion" } }
+    { name: { en: "Framer Motion", fr: "Framer Motion" } },
+    { name: { en: "UI Structure", fr: "Structure UI" } },
+    { name: { en: "Reusable Components", fr: "Composants réutilisables" } }
   ],
   backend: [
     { name: { en: "Node.js", fr: "Node.js" } },
@@ -15,7 +17,9 @@ export const skills = {
     { name: { en: "REST APIs", fr: "APIs REST" } },
     { name: { en: "JWT Authentication", fr: "Authentification JWT" } },
     { name: { en: "Django", fr: "Django" } },
-    { name: { en: "Python", fr: "Python" } }
+    { name: { en: "Python", fr: "Python" } },
+    { name: { en: "Backend Architecture", fr: "Architecture backend" } },
+    { name: { en: "Server-side Logic", fr: "Logique serveur" } }
   ],
   tools: [
     { name: { en: "Git", fr: "Git" } },
@@ -24,13 +28,18 @@ export const skills = {
     { name: { en: "Render", fr: "Render" } },
     { name: { en: "GitHub Actions", fr: "GitHub Actions" } },
     { name: { en: "VS Code", fr: "VS Code" } },
-    { name: { en: "Postman", fr: "Postman" } }
+    { name: { en: "Postman", fr: "Postman" } },
+    { name: { en: "Environment Variables", fr: "Variables d'environnement" } },
+    { name: { en: "Deployment Debugging", fr: "Debugging de déploiement" } }
   ],
   product: [
-    { name: { en: "Digital marketing", fr: "Marketing digital" } },
-    { name: { en: "Landing pages", fr: "Landing pages" } },
-    { name: { en: "UI/UX fundamentals", fr: "Fondamentaux UI/UX" } },
-    { name: { en: "SEO basics", fr: "Bases SEO" } },
-    { name: { en: "Product thinking", fr: "Raisonnement produit" } }
+    { name: { en: "Digital Marketing", fr: "Marketing digital" } },
+    { name: { en: "Landing Pages", fr: "Landing pages" } },
+    { name: { en: "SEO Basics", fr: "Bases SEO" } },
+    { name: { en: "UI/UX Fundamentals", fr: "Fondamentaux UI/UX" } },
+    { name: { en: "Branding", fr: "Branding" } },
+    { name: { en: "Content Strategy", fr: "Stratégie de contenu" } },
+    { name: { en: "Product Thinking", fr: "Raisonnement produit" } },
+    { name: { en: "User-focused Communication", fr: "Communication orientée utilisateur" } }
   ]
 }
