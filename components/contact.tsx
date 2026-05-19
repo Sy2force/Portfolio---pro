@@ -104,7 +104,7 @@ export function Contact() {
                     Jerusalem, Israel
                   </div>
                   <a
-                    href="https://linkedin.com/in/shay-acoca"
+                    href="https://www.linkedin.com/in/shay-acoca-046311302/?locale=en-US"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-3 text-muted hover:text-accent transition-colors"

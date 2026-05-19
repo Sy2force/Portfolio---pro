@@ -29,7 +29,7 @@ export function Footer() {
               </svg>
             </a>
             <a
-              href="https://linkedin.com/in/shay-acoca"
+              href="https://www.linkedin.com/in/shay-acoca-046311302/?locale=en-US"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted hover:text-accent transition-colors"
