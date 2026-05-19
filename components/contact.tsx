@@ -130,7 +130,7 @@ export function Contact() {
 
               <div className="pt-6 border-t border-border">
                 <a
-                  href="/resume.pdf"
+                  href="/resume"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-4 py-2 bg-card border border-border hover:border-accent text-foreground text-sm font-medium rounded-lg transition-colors"
