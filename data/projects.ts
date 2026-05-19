@@ -78,7 +78,7 @@ export const projects: Project[] = [
       en: "Backend-heavy architecture, real project organization, documentation quality, deployment process, ability to handle a larger codebase, product thinking",
       fr: "Architecture backend lourde, organisation de projet réel, qualité de documentation, processus de déploiement, capacité à gérer une base de code plus importante, raisonnement produit"
     },
-    liveUrl: "https://fitwell-mkqi.onrender.com/fr/",
+    liveUrl: "https://app-fitwell.onrender.com",
     githubUrl: "https://github.com/Sy2force/Fitwell",
     images: [
       "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80",
