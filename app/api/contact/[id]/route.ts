@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from "next/server"
 import { connectToDatabase } from "@/lib/mongodb"
 import ContactMessage from "@/lib/models/ContactMessage"
 
+export const dynamic = 'force-dynamic'
+
 const ALLOWED_STATUS = ["nouveau", "lu", "archive"]
 
 function isAdminAuthorized(request: NextRequest): boolean {
