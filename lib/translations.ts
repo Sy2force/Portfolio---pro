@@ -13,27 +13,27 @@ export const translations = {
     },
     // Hero
     hero: {
-      badge: "Open to Mid-Level Full Stack Developer roles",
-      title: "Full Stack Developer with 3+ years in design & 1.5 years in full stack development.",
+      badge: "Open to Full Stack Developer roles",
+      title: "Full Stack Developer with a background in web design.",
       subtitle: "I design and build responsive web applications, professional websites and digital tools with React, Next.js, Node.js and modern web technologies.",
-      description: "With over 3 years of experience in web design and 1.5 years in full stack development, I build complete products from concept to deployment. This portfolio showcases my technical skills, design expertise and the various applications I have created: web platforms, e-commerce solutions, business websites, backend APIs and digital tools.",
+      description: "With a background in web design and 1.5 years in full stack development, I build complete products from concept to deployment. This portfolio showcases my technical skills, design expertise and the various applications I have created: web platforms, e-commerce solutions, business websites, backend APIs and digital tools.",
       viewProjects: "View Projects",
       contactMe: "Contact Me",
-      location: "Based in Jerusalem, Israel · Available for mid-level full stack, frontend developer and startup opportunities",
+      location: "Based in Jerusalem, Israel · Available for full stack, frontend developer and startup opportunities",
       homepageSentence: "This portfolio demonstrates my evolution from design to full stack development, my ability to ship complete products and my commitment to building practical solutions."
     },
     // About
     about: {
       title: "About",
-      text1: "I am a full stack developer with over 3 years of experience in web design and 1.5 years in full stack development. My background in design and digital marketing allows me to build products that are not only technically solid, but also visually polished and user-centered.",
-      text2: "I have worked on numerous web applications, professional websites and digital tools, covering the entire development cycle: from design concept to frontend implementation, backend APIs, authentication, databases and deployment. I specialize in practical solutions like SaaS platforms, e-commerce systems, dashboards and business websites.",
-      text3: "I am looking for a mid-level position where I can leverage my full stack skills and design expertise to contribute to meaningful projects, collaborate with experienced teams and continue growing as a developer.",
+      text1: "I am a full stack developer with a background in web design and digital marketing. This combination helps me build products that are not only technically solid, but also visually polished and user-centered.",
+      text2: "I work on web applications, professional websites and digital tools, covering the development cycle: from design concept to frontend implementation, backend APIs, authentication, databases and deployment. I focus on practical solutions like SaaS platforms, e-commerce systems, dashboards and business websites.",
+      text3: "I am looking for a position where I can contribute my full stack skills and design expertise to meaningful projects, collaborate with teams and continue growing as a developer.",
       productMinded: "Product & design awareness",
-      productMindedDesc: "With my design background, I naturally consider user experience, visual consistency and business goals in every feature I build.",
+      productMindedDesc: "With my design background, I consider user experience, visual consistency and business goals in every feature I build.",
       fullStackFoundation: "Full stack expertise",
-      fullStackFoundationDesc: "I build complete applications from scratch: responsive interfaces, scalable APIs, secure authentication and database architecture.",
+      fullStackFoundationDesc: "I build complete applications: responsive interfaces, scalable APIs, secure authentication and database architecture.",
       consistentLearner: "Continuous improvement",
-      consistentLearnerDesc: "I constantly refine my skills through real projects, code reviews, new technologies and best practices."
+      consistentLearnerDesc: "I refine my skills through real projects, code reviews, new technologies and best practices."
     },
     // Projects
     projects: {
@@ -73,26 +73,26 @@ export const translations = {
     // Experience
     experience: {
       title: "Experience",
-      subtitle: "With over 3 years in web design and 1.5 years in full stack development, I have evolved from designer to developer, building complete products from concept to deployment. My journey includes technical training, practical project experience and military service, giving me a unique perspective on building useful products."
+      subtitle: "My background combines web design, full stack development and military service. This path helped me develop technical skills, discipline, communication awareness and a practical approach to building useful products."
     },
     // Why Hire Me
     whyHireMe: {
-      title: "Why I can contribute immediately",
+      title: "Why I could be a good fit",
       cleanExecution: "Clean execution",
-      cleanExecutionDesc: "I deliver well-structured, responsive and maintainable code with attention to detail and performance.",
+      cleanExecutionDesc: "I deliver well-structured, responsive and maintainable code with attention to detail.",
       productAwareness: "Design & product mindset",
-      productAwarenessDesc: "With 3+ years in design, I understand user experience, visual consistency and how to translate business goals into functional features.",
+      productAwarenessDesc: "With my design background, I understand user experience, visual consistency and how to translate business goals into functional features.",
       fullStackMindset: "Full stack expertise",
-      fullStackMindsetDesc: "I can handle entire projects: from design concept to frontend, backend, APIs, authentication, databases and deployment.",
+      fullStackMindsetDesc: "I can handle projects: from design concept to frontend, backend, APIs, authentication, databases and deployment.",
       fastLearning: "Adaptable & proactive",
-      fastLearningDesc: "I quickly learn new technologies, adapt to team workflows and take initiative to solve problems independently.",
+      fastLearningDesc: "I learn new technologies quickly, adapt to team workflows and take initiative to solve problems.",
       professionalEthic: "Reliable & autonomous",
-      professionalEthicDesc: "My experience has taught me discipline, ownership and the ability to deliver quality work consistently."
+      professionalEthicDesc: "My experience has taught me discipline, ownership and the ability to deliver quality work."
     },
     // Contact
     contact: {
       title: "Let's build something useful.",
-      subtitle: "I am open to junior full stack developer, frontend developer and startup opportunities. If you are looking for someone serious, motivated and able to build clean web applications while understanding product, business and user needs, feel free to contact me.",
+      subtitle: "I am open to full stack developer, frontend developer and startup opportunities. With a background in design and full stack development, I can contribute to your projects. If you are looking for someone who combines technical skills with design expertise, feel free to contact me.",
       getInTouch: "Get in touch",
       name: "Name",
       email: "Email",
@@ -111,8 +111,8 @@ export const translations = {
     resume: {
       title: "Shay Acoca — Full Stack Developer",
       subtitle: "Shay Acoca — Full Stack Developer",
-      about: "Full stack developer based in Jerusalem, Israel, with over 3 years of experience in web design and 1.5 years in full stack development. I build complete web applications from concept to deployment, combining technical expertise with design sensibility.",
-      shortSummary: "With 3+ years in design and 1.5 years in full stack development, I deliver complete solutions from design to deployment. I am open to mid-level full stack, frontend developer and startup opportunities.",
+      about: "Full stack developer based in Jerusalem, Israel, with a background in web design and 1.5 years in full stack development. I build complete web applications from concept to deployment, combining technical expertise with design sensibility.",
+      shortSummary: "With a background in design and full stack development, I deliver complete solutions from design to deployment. I am open to full stack, frontend developer and startup opportunities.",
       experience: "Experience & Education",
       skills: "Skills",
       techStack: "Tech Stack",
@@ -121,7 +121,7 @@ export const translations = {
       print: "Print",
       liveDemo: "Live Demo",
       github: "GitHub",
-      basedIn: "Based in Jerusalem, Israel · Open to mid-level full stack, frontend developer and startup opportunities"
+      basedIn: "Based in Jerusalem, Israel · Open to full stack, frontend developer and startup opportunities"
     }
   },
   fr: {
@@ -136,27 +136,27 @@ export const translations = {
     },
     // Hero
     hero: {
-      badge: "Ouvert aux opportunités Mid-Level Full Stack Developer",
-      title: "Développeur Full Stack avec 3+ ans en design et 1.5 an en développement full stack.",
+      badge: "Ouvert aux opportunités Full Stack Developer",
+      title: "Développeur Full Stack avec un parcours en design web.",
       subtitle: "Je conçois et développe des applications web, sites professionnels et outils digitaux responsives avec React, Next.js, Node.js et les technologies web modernes.",
-      description: "Avec plus de 3 ans d'expérience en design web et 1.5 an en développement full stack, je construis des produits complets du concept au déploiement. Ce portfolio présente mes compétences techniques, mon expertise en design et les différentes applications que j'ai créées : plateformes web, solutions e-commerce, sites professionnels, APIs backend et outils digitaux.",
+      description: "Avec un parcours en design web et 1.5 an en développement full stack, je construis des produits complets du concept au déploiement. Ce portfolio présente mes compétences techniques, mon expertise en design et les différentes applications que j'ai créées : plateformes web, solutions e-commerce, sites professionnels, APIs backend et outils digitaux.",
       viewProjects: "Voir mes projets",
       contactMe: "Me contacter",
-      location: "Basé à Jérusalem, Israël · Disponible pour des opportunités mid-level full stack, frontend developer et startup",
+      location: "Basé à Jérusalem, Israël · Disponible pour des opportunités full stack, frontend developer et startup",
       homepageSentence: "Ce portfolio démontre mon évolution du design vers le développement full stack, ma capacité à livrer des produits complets et mon engagement à construire des solutions pratiques."
     },
     // About
     about: {
       title: "À propos",
-      text1: "Je suis développeur full stack avec plus de 3 ans d'expérience en design web et 1.5 an en développement full stack. Mon parcours en design et marketing digital me permet de créer des produits qui sont non seulement techniquement solides, mais aussi visuellement aboutis et centrés sur l'utilisateur.",
-      text2: "J'ai travaillé sur de nombreuses applications web, sites professionnels et outils digitaux, couvrant tout le cycle de développement : du concept design à l'implémentation frontend, aux APIs backend, à l'authentification, aux bases de données et au déploiement. Je me spécialise dans les solutions concrètes comme les plateformes SaaS, les systèmes e-commerce, les dashboards et les sites professionnels.",
-      text3: "Je recherche un poste mid-level où je peux mettre à profit mes compétences full stack et mon expertise en design pour contribuer à des projets significatifs, collaborer avec des équipes expérimentées et continuer à évoluer en tant que développeur.",
+      text1: "Je suis développeur full stack avec un parcours en design web et marketing digital. Cette combinaison m'aide à créer des produits qui sont non seulement techniquement solides, mais aussi visuellement aboutis et centrés sur l'utilisateur.",
+      text2: "Je travaille sur des applications web, sites professionnels et outils digitaux, couvrant le cycle de développement : du concept design à l'implémentation frontend, aux APIs backend, à l'authentification, aux bases de données et au déploiement. Je me concentre sur des solutions concrètes comme les plateformes SaaS, les systèmes e-commerce, les dashboards et les sites professionnels.",
+      text3: "Je recherche un poste où je peux contribuer mes compétences full stack et mon expertise en design à des projets significatifs, collaborer avec des équipes et continuer à évoluer en tant que développeur.",
       productMinded: "Vision produit & design",
-      productMindedDesc: "Avec mon parcours en design, je considère naturellement l'expérience utilisateur, la cohérence visuelle et les objectifs business dans chaque fonctionnalité que je construis.",
+      productMindedDesc: "Avec mon parcours en design, je considère l'expérience utilisateur, la cohérence visuelle et les objectifs business dans chaque fonctionnalité que je construis.",
       fullStackFoundation: "Expertise full stack",
-      fullStackFoundationDesc: "Je construis des applications complètes de zéro : interfaces responsives, APIs évolutives, authentification sécurisée et architecture de base de données.",
+      fullStackFoundationDesc: "Je construis des applications complètes : interfaces responsives, APIs évolutives, authentification sécurisée et architecture de base de données.",
       consistentLearner: "Amélioration continue",
-      consistentLearnerDesc: "Je perfectionne constamment mes compétences à travers des projets réels, les revues de code, les nouvelles technologies et les meilleures pratiques."
+      consistentLearnerDesc: "Je perfectionne mes compétences à travers des projets réels, les revues de code, les nouvelles technologies et les meilleures pratiques."
     },
     // Projects
     projects: {
@@ -187,7 +187,7 @@ export const translations = {
     // Skills
     skills: {
       title: "Compétences",
-      subtitle: "Avec 3+ ans en design web et 1.5 an en développement full stack, j'ai construit une base technique solide sur l'ensemble de la stack de développement. Mon expertise couvre le développement frontend, les APIs backend, l'architecture de base de données, l'authentification, le déploiement et le design produit.",
+      subtitle: "Avec 3+ nndesign web et 1.5 an en développement full stack, j'ai construit une base technique solide sur 'sur l'nnsembleede la stamk de dévelbepeme t. Mon axperti estack ddéveloppement. Mon expertise couvre le développement frontend, les APIs backend, l'architecture de base de données, l'authentification, le déploiement et le design produit.",
       frontend: "Frontend",
       backend: "Backend",
       tools: "Outils & Déploiement",
@@ -196,21 +196,21 @@ export const translations = {
     // Experience
     experience: {
       title: "Expérience",
-      subtitle: "Avec plus de 3 ans en design web et 1.5 an en développement full stack, j'ai évolué du designer vers le développeur, construisant des produits complets du concept au déploiement. Mon parcours inclut une formation technique, des projets pratiques et le service militaire, me donnant une perspective unique sur la création de produits utiles."
+      subtitle: "Mon parcours combine design web, développement full stack et service militaire. Cette trajectoire m'a permis de développer des compétences techniques, de la discipline, une meilleure compréhension de la communication et une approche concrète de la création de produits utiles."
     },
     // Why Hire Me
     whyHireMe: {
-      title: "Pourquoi je peux contribuer immédiatement",
+      title: "Pourquoi je peux être un bon profil",
       cleanExecution: "Exécution propre",
-      cleanExecutionDesc: "Je livre du code bien structuré, responsive et maintenable, avec attention aux détails et aux performances.",
+      cleanExecutionDesc: "Je livre du code bien structuré, responsive et maintenable, avec attention aux détails.",
       productAwareness: "Vision produit & design",
-      productAwarenessDesc: "Avec 3+ ans en design, je comprends l'expérience utilisateur, la cohérence visuelle et comment traduire les objectifs business en fonctionnalités concrètes.",
+      productAwarenessDesc: "Avec mon parcours en design, je comprends l'expérience utilisateur, la cohérence visuelle et comment traduire les objectifs business en fonctionnalités concrètes.",
       fullStackMindset: "Expertise full stack",
-      fullStackMindsetDesc: "Je peux gérer des projets complets : du concept design au frontend, backend, APIs, authentification, bases de données et déploiement.",
+      fullStackMindsetDesc: "Je peux gérer des projets : du concept design au frontend, backend, APIs, authentification, bases de données et déploiement.",
       fastLearning: "Adaptable & proactif",
-      fastLearningDesc: "J'apprends rapidement les nouvelles technologies, je m'adapte aux workflows d'équipe et je prends l'initiative pour résoudre les problèmes de manière autonome.",
+      fastLearningDesc: "J'apprends rapidement les nouvelles technologies, je m'adapte aux workflows d'équipe et je prends l'initiative pour résoudre les problèmes.",
       professionalEthic: "Fiable & autonome",
-      professionalEthicDesc: "Mon expérience m'a enseigné la discipline, la prise de responsabilité et la capacité à livrer un travail de qualité de manière constante."
+      professionalEthicDesc: "Mon expérience m'a enseigné la discipline, la prise de responsabilité et la capacité à livrer un travail de qualité."
     },
     // Contact
     contact: {
@@ -234,8 +234,8 @@ export const translations = {
     resume: {
       title: "Shay Acoca — Développeur Full Stack",
       subtitle: "Shay Acoca — Développeur Full Stack",
-      about: "Développeur full stack basé à Jérusalem, Israël, avec plus de 3 ans d'expérience en design web et 1.5 an en développement full stack. Je construis des applications web complètes du concept au déploiement, combinant expertise technique et sensibilité au design.",
-      shortSummary: "Avec 3+ ans en design et 1.5 an en développement full stack, je livre des solutions complètes du design au déploiement. Je suis ouvert aux opportunités mid-level full stack, frontend developer et startup.",
+      about: "Développeur full stack basé à Jérusalem, Israël, avec un parcours en design web et 1.5 an en développement full stack. Je construis des applications web complètes du concept au déploiement, combinant expertise technique et sensibilité au design.",
+      shortSummary: "Avec un parcours en design et développement full stack, je livre des solutions complètes du design au déploiement. Je suis ouvert aux opportunités full stack, frontend developer et startup.",
       experience: "Expérience & Formation",
       skills: "Compétences",
       techStack: "Stack technique",
@@ -244,7 +244,7 @@ export const translations = {
       print: "Imprimer",
       liveDemo: "Démo en ligne",
       github: "GitHub",
-      basedIn: "Basé à Jérusalem, Israël · Ouvert aux opportunités mid-level full stack, frontend developer et startup"
+      basedIn: "Basé à Jérusalem, Israël · Ouvert aux opportunités full stack, frontend developer et startup"
     }
   }
 }
