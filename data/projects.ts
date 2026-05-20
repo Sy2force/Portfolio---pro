@@ -40,12 +40,12 @@ export const projects: Project[] = [
       fr: "Plateforme SaaS Fitness & Bien-être"
     },
     description: {
-      en: "FitWell is a full stack fitness and wellness platform designed to bring workout tracking, wellness features, user engagement and analytics into one structured experience.",
-      fr: "FitWell est une plateforme full stack dédiée au fitness et au bien-être, pensée pour regrouper le suivi d'entraînement, les fonctionnalités wellness, l'engagement utilisateur et les statistiques dans une seule expérience."
+      en: "Fitness & wellness full stack platform with dashboard, backend and user progression tracking.",
+      fr: "Plateforme fitness & bien-être full stack, dashboard, backend et suivi de progression utilisateur."
     },
     problemSolved: {
-      en: "Fitness users often need a clear space to track their progress, stay motivated and access their data. FitWell explores how to organize fitness, wellness and analytics inside a structured and easy-to-use platform.",
-      fr: "Les utilisateurs de fitness ont souvent besoin d'un espace clair pour suivre leur progression, rester motivés et accéder à leurs données. FitWell explore comment organiser le fitness, le bien-être et l'analyse dans une plateforme structurée et facile à utiliser."
+      en: "Fitness users need a clear space to track progress, stay motivated and access their data. FitWell organizes fitness, wellness and analytics in a structured platform.",
+      fr: "Les utilisateurs de fitness ont besoin d'un espace clair pour suivre leur progression, rester motivés et accéder à leurs données. FitWell organise le fitness, le bien-être et l'analyse dans une plateforme structurée."
     },
     role: {
       en: "Full stack development, backend architecture, frontend integration, product logic, documentation and deployment workflow.",
@@ -75,8 +75,8 @@ export const projects: Project[] = [
       ]
     },
     demonstrates: {
-      en: "Backend architecture, product thinking, dashboard logic, complete project organization, documentation, deployment and the ability to handle a larger codebase.",
-      fr: "Architecture backend, raisonnement produit, logique de dashboard, organisation d'un projet complet, documentation, déploiement et capacité à gérer une base de code plus large."
+      en: "Backend architecture, product thinking, dashboard logic, project organization, documentation and deployment.",
+      fr: "Architecture backend, réflexion produit, logique de dashboard, organisation de projet, documentation et déploiement."
     },
     liveUrl: "https://app-fitwell.onrender.com",
     githubUrl: "https://github.com/Sy2force/Fitwell",
@@ -94,8 +94,8 @@ export const projects: Project[] = [
       fr: "Projet E-commerce Lunettes Premium"
     },
     description: {
-      en: "OpticGlass is a premium eyewear e-commerce project focused on clean product presentation, elegant visual identity and a smooth shopping experience.",
-      fr: "OpticGlass est un projet e-commerce de lunettes premium, axé sur une présentation produit claire, une identité visuelle élégante et une expérience d'achat fluide."
+      en: "Premium eyewear e-commerce with visual identity, product presentation and smooth shopping experience.",
+      fr: "E-commerce premium de lunettes avec identité visuelle, présentation produit et expérience d'achat fluide."
     },
     problemSolved: {
       en: "Premium products need a strong visual identity, clear navigation and trustworthy product presentation. OpticGlass focuses on a modern, responsive and user-oriented e-commerce experience.",
@@ -129,8 +129,8 @@ export const projects: Project[] = [
       ]
     },
     demonstrates: {
-      en: "Frontend quality, e-commerce structure, authentication logic, API connection, responsive design, visual hierarchy and product presentation.",
-      fr: "Qualité frontend, structure e-commerce, logique d'authentification, connexion API, design responsive, hiérarchie visuelle et présentation produit."
+      en: "Frontend quality, e-commerce structure, authentication logic, API connection, responsive design and product presentation.",
+      fr: "Qualité frontend, structure e-commerce, logique d'authentification, connexion API, design responsive et présentation produit."
     },
     liveUrl: "https://optic-glass.vercel.app",
     githubUrl: "https://github.com/Sy2force/OpticGlass",
@@ -148,12 +148,12 @@ export const projects: Project[] = [
       fr: "Plateforme Full Stack de Découverte de Restaurants"
     },
     description: {
-      en: "Food App is a full stack food discovery platform focused on Israeli gastronomy, restaurants, recipes and localized user experience.",
-      fr: "Food App est une plateforme full stack de découverte culinaire autour de la gastronomie israélienne, des restaurants, des recettes et d'une expérience utilisateur localisée."
+      en: "Food discovery application with restaurants, recipes and Hebrew / RTL localization.",
+      fr: "Application de découverte culinaire avec restaurants, recettes et localisation hébreu / RTL."
     },
     problemSolved: {
-      en: "Food discovery can be spread across multiple platforms. This project explores how to create a centralized experience around restaurants, recipes and food content, with special attention to localization.",
-      fr: "La découverte culinaire peut être dispersée entre plusieurs plateformes. Ce projet explore la création d'une expérience centralisée autour des restaurants, recettes et contenus gastronomiques, avec une attention particulière à la localisation."
+      en: "Food discovery can be spread across multiple platforms. This project creates a centralized experience around restaurants and recipes, with attention to localization.",
+      fr: "La découverte culinaire peut être dispersée entre plusieurs plateformes. Ce projet crée une expérience centralisée autour des restaurants et recettes, avec une attention à la localisation."
     },
     role: {
       en: "Full stack development, frontend implementation, backend APIs, localization and deployment configuration.",
@@ -181,8 +181,8 @@ export const projects: Project[] = [
       ]
     },
     demonstrates: {
-      en: "Full stack structure, localization, RTL design, API integration, deployment problem solving and practical product thinking.",
-      fr: "Structure full stack, localisation, design RTL, intégration API, résolution de problèmes de déploiement et réflexion produit concrète."
+      en: "Full stack structure, localization, RTL design, API integration and deployment problem solving.",
+      fr: "Structure full stack, localisation, design RTL, intégration API et résolution de problèmes de déploiement."
     },
     liveUrl: "https://restaurant-app-phi-gray.vercel.app",
     githubUrl: "https://github.com/Sy2force/Restaurant-app",

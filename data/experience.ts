@@ -32,8 +32,8 @@ export const experience = [
       fr: "2021 – Présent"
     },
     description: {
-      en: "Designed and developed numerous websites, web applications and digital tools for clients across various industries. Responsible for the entire project lifecycle: from initial concept and design to frontend implementation, responsive layouts, user experience optimization and deployment. Gained deep expertise in web design principles, UI/UX best practices, modern CSS frameworks and client communication.",
-      fr: "Conception et développement de nombreux sites web, applications web et outils digitaux pour des clients de divers secteurs. Responsable de l'ensemble du cycle de vie des projets : du concept initial et design à l'implémentation frontend, aux layouts responsives, à l'optimisation de l'expérience utilisateur et au déploiement. Acquis une expertise approfondie en principes de design web, meilleures pratiques UI/UX, frameworks CSS modernes et communication client."
+      en: "Designed and developed websites, web applications and digital tools for clients. Responsible for the entire project lifecycle: from concept and design to frontend implementation, responsive layouts, user experience optimization and deployment.",
+      fr: "Conception et développement de sites web, applications web et outils digitaux pour des clients. Responsable de l'ensemble du cycle de vie des projets : du concept et design à l'implémentation frontend, aux layouts responsives, à l'optimisation de l'expérience utilisateur et au déploiement."
     },
     type: "experience"
   },
@@ -70,8 +70,8 @@ export const experience = [
       fr: "2019 – 2022"
     },
     description: {
-      en: "Completed military service in Israel, developing discipline, responsibility, teamwork and the ability to work under pressure. This experience strengthened my seriousness, consistency and professional approach to work.",
-      fr: "Service militaire effectué en Israël, avec développement de la discipline, du sens des responsabilités, du travail en équipe et de la capacité à travailler sous pression. Cette expérience a renforcé mon sérieux, ma régularité et mon approche professionnelle du travail."
+      en: "Completed military service in Israel, developing discipline, responsibility, teamwork and the ability to work under pressure. This experience strengthened my seriousness and professional approach to work.",
+      fr: "Service militaire effectué en Israël, avec développement de la discipline, du sens des responsabilités, du travail en équipe et de la capacité à travailler sous pression. Cette expérience a renforcé mon sérieux et mon approche professionnelle du travail."
     },
     type: "experience"
   }
