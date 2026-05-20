@@ -20,6 +20,25 @@ export const experience = [
   },
   {
     title: {
+      en: "Freelance Web Designer & Developer",
+      fr: "Web Designer & Développeur Freelance"
+    },
+    organization: {
+      en: "Freelance",
+      fr: "Freelance"
+    },
+    date: {
+      en: "2021 – Present",
+      fr: "2021 – Présent"
+    },
+    description: {
+      en: "Designed and developed numerous websites, web applications and digital tools for clients across various industries. Responsible for the entire project lifecycle: from initial concept and design to frontend implementation, responsive layouts, user experience optimization and deployment. Gained deep expertise in web design principles, UI/UX best practices, modern CSS frameworks and client communication.",
+      fr: "Conception et développement de nombreux sites web, applications web et outils digitaux pour des clients de divers secteurs. Responsable de l'ensemble du cycle de vie des projets : du concept initial et design à l'implémentation frontend, aux layouts responsives, à l'optimisation de l'expérience utilisateur et au déploiement. Acquis une expertise approfondie en principes de design web, meilleures pratiques UI/UX, frameworks CSS modernes et communication client."
+    },
+    type: "experience"
+  },
+  {
+    title: {
       en: "Digital Marketing & Content Creation",
       fr: "Marketing Digital & Création de Contenu"
     },
