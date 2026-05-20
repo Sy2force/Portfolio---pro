@@ -90,7 +90,7 @@
     display: none;
   }
 
-  /* Mobile optimizations */
+  /* Mobile optimizations 11/10 */
   @media (max-width: 768px) {
     .mobile-optimized {
       @apply text-base leading-relaxed;
@@ -107,5 +107,21 @@
     .mobile-text {
       @apply text-sm leading-relaxed;
     }
+  }
+
+  /* Touch targets */
+  .touch-target {
+    @apply min-h-[44px] min-w-[44px];
+  }
+
+  /* Prevent text overflow */
+  .break-anywhere {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
+  /* Safe area for mobile */
+  .pb-safe {
+    padding-bottom: max(20px, env(safe-area-inset-bottom));
   }
 }
