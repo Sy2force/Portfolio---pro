@@ -54,6 +54,17 @@
 @layer base {
   body {
     @apply bg-gradient-to-br from-gray-950 via-gray-900 to-black text-foreground min-h-screen;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  * {
+    @apply max-w-full;
+  }
+
+  html {
+    scroll-behavior: smooth;
   }
 }
 
@@ -61,7 +72,40 @@
   .safe-area-bottom {
     padding-bottom: env(safe-area-inset-bottom, 20px);
   }
+
+  .safe-area-top {
+    padding-top: env(safe-area-inset-top, 20px);
+  }
+
   .text-balance {
     text-wrap: balance;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Mobile optimizations */
+  @media (max-width: 768px) {
+    .mobile-optimized {
+      @apply text-base leading-relaxed;
+    }
+
+    .mobile-heading {
+      @apply text-xl font-bold leading-tight;
+    }
+
+    .mobile-subheading {
+      @apply text-lg font-semibold leading-snug;
+    }
+
+    .mobile-text {
+      @apply text-sm leading-relaxed;
+    }
   }
 }
