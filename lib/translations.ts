@@ -26,8 +26,8 @@ export const translations = {
     about: {
       title: "About",
       text1: "My name is Shay Acoca, a Full Stack Developer based in Jerusalem.",
-      text2: "My background combines web development, design, digital marketing and content creation. This gives me a practical vision of digital products: not only how they work, but also how they look, feel and serve real business needs.",
-      text3: "I work on professional websites, web applications, SaaS platforms, dashboards, e-commerce projects and digital tools. I focus on clean interfaces, solid structure and simple user experiences.",
+      text2: "My background combines web development, design, digital marketing and content creation. I approach digital products with a practical vision: understanding not only how they work, but also how they look, feel and serve real business needs.",
+      text3: "I build professional websites, web applications, SaaS platforms, dashboards, e-commerce projects and digital tools. I focus on clean interfaces, solid structure and simple user experiences.",
       text4: "I'm looking to join a team where I can bring reliability, creativity and technical skills to real projects.",
       productMinded: "Product & design mindset",
       productMindedDesc: "I think about interfaces so they are clear, useful and aligned with real needs.",
@@ -65,7 +65,7 @@ export const translations = {
     // Skills
     skills: {
       title: "Skills",
-      subtitle: "My skills cover the main parts of a web project: interface, backend, database, authentication, deployment and user experience.",
+      subtitle: "My skills cover the essential parts of a web project: interface, backend, database, authentication, deployment and user experience.",
       frontend: "Frontend",
       backend: "Backend",
       tools: "Tools & Deployment",
@@ -113,7 +113,7 @@ export const translations = {
       title: "Shay Acoca — Full Stack Developer",
       subtitle: "Shay Acoca — Full Stack Developer",
       about: "Full Stack Developer based in Jerusalem, with a background in web design, digital marketing and content creation.\nI design and build websites, applications and digital platforms by combining technical structure, clean interfaces and user-focused thinking.",
-      shortSummary: "Full Stack Developer with a solid background in web design and digital marketing.\nI work on complete web projects: modern interfaces, backend APIs, authentication, databases, dashboards and deployment.\nI'm looking to join a team where I can contribute to real products, keep growing and bring a serious, creative and user-focused approach.",
+      shortSummary: "Full Stack Developer with a solid background in web design and digital marketing.\nI build complete web projects: modern interfaces, backend APIs, authentication, databases, dashboards and deployment.\nI'm looking to join a team where I can contribute to real products, keep growing and bring a serious, creative and user-focused approach.",
       experience: "Experience & Education",
       skills: "Skills",
       techStack: "Tech Stack",
@@ -150,8 +150,8 @@ export const translations = {
     about: {
       title: "À propos",
       text1: "Je m'appelle Shay Acoca, développeur Full Stack basé à Jérusalem.",
-      text2: "Mon parcours combine développement web, design, marketing digital et création de contenu. Cette vision me permet de créer des projets qui ne sont pas seulement techniques, mais aussi clairs, cohérents et adaptés aux besoins d'une entreprise.",
-      text3: "Je travaille sur des sites professionnels, applications web, plateformes SaaS, dashboards, e-commerce et outils digitaux. J'aime construire des interfaces propres, des structures solides et des expériences simples à utiliser.",
+      text2: "Mon parcours combine développement web, design, marketing digital et création de contenu. J'aborde les produits digitaux avec une vision pratique : comprendre non seulement comment ils fonctionnent, mais aussi comment ils se présentent, se ressentent et servent les besoins réels d'une entreprise.",
+      text3: "Je construis des sites professionnels, applications web, plateformes SaaS, dashboards, e-commerce et outils digitaux. Je privilégie les interfaces propres, les structures solides et les expériences simples à utiliser.",
       text4: "Aujourd'hui, je cherche à rejoindre une équipe où je peux apporter mon sérieux, ma créativité et mes compétences techniques sur des projets concrets.",
       productMinded: "Vision produit & design",
       productMindedDesc: "Je pense les interfaces pour qu'elles soient claires, utiles et adaptées aux besoins réels.",
@@ -189,7 +189,7 @@ export const translations = {
     // Skills
     skills: {
       title: "Compétences",
-      subtitle: "Mes compétences couvrent les principales parties d'un projet web : interface, backend, base de données, authentification, déploiement et expérience utilisateur.",
+      subtitle: "Mes compétences couvrent les parties essentielles d'un projet web : interface, backend, base de données, authentification, déploiement et expérience utilisateur.",
       frontend: "Frontend",
       backend: "Backend",
       tools: "Outils & Déploiement",
@@ -237,7 +237,7 @@ export const translations = {
       title: "Shay Acoca — Développeur Full Stack",
       subtitle: "Shay Acoca — Développeur Full Stack",
       about: "Développeur Full Stack basé à Jérusalem, avec un parcours en design web, marketing digital et création de contenu.\nJe conçois des sites, applications et plateformes digitales en combinant structure technique, interface claire et vision utilisateur.",
-      shortSummary: "Développeur Full Stack avec une base solide en design web et marketing digital.\nJe travaille sur des projets web complets : interfaces modernes, APIs backend, authentification, bases de données, dashboards et déploiement.\nJe cherche à rejoindre une équipe où je peux contribuer à des produits concrets, continuer à progresser et apporter une approche sérieuse, créative et orientée utilisateur.",
+      shortSummary: "Développeur Full Stack avec une base solide en design web et marketing digital.\nJe construis des projets web complets : interfaces modernes, APIs backend, authentification, bases de données, dashboards et déploiement.\nJe cherche à rejoindre une équipe où je peux contribuer à des produits concrets, continuer à progresser et apporter une approche sérieuse, créative et orientée utilisateur.",
       experience: "Expérience & Formation",
       skills: "Compétences",
       techStack: "Stack technique",

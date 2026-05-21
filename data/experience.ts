@@ -13,8 +13,8 @@ export const experience = [
       fr: "Novembre 2024 – Présent"
     },
     description: {
-      en: "Intensive full stack development training focused on modern web technologies including React, Next.js, Node.js, MongoDB, TypeScript and deployment workflows. During this training, I built several practical projects to strengthen my frontend, backend, database, authentication, project architecture and deployment skills.",
-      fr: "Formation intensive en développement full stack axée sur les technologies web modernes : React, Next.js, Node.js, MongoDB, TypeScript et workflows de déploiement. Pendant cette formation, j'ai construit plusieurs projets pratiques pour renforcer mes compétences frontend, backend, base de données, authentification, architecture de projet et déploiement."
+      en: "Intensive full stack development training covering modern web technologies: React, Next.js, Node.js, MongoDB, TypeScript and deployment workflows. Built several practical projects to strengthen frontend, backend, database, authentication, project architecture and deployment skills.",
+      fr: "Formation intensive en développement full stack couvrant les technologies web modernes : React, Next.js, Node.js, MongoDB, TypeScript et workflows de déploiement. Construction de plusieurs projets pratiques pour renforcer les compétences frontend, backend, base de données, authentification, architecture de projet et déploiement."
     },
     type: "education"
   },
@@ -32,8 +32,8 @@ export const experience = [
       fr: "2021 – Présent"
     },
     description: {
-      en: "Designed and developed websites, web applications and digital tools for clients. Responsible for the entire project lifecycle: from concept and design to frontend implementation, responsive layouts, user experience optimization and deployment.",
-      fr: "Conception et développement de sites web, applications web et outils digitaux pour des clients. Responsable de l'ensemble du cycle de vie des projets : du concept et design à l'implémentation frontend, aux layouts responsives, à l'optimisation de l'expérience utilisateur et au déploiement."
+      en: "Designed and developed websites, web applications and digital tools for clients. Managed the entire project lifecycle: from concept and design to frontend implementation, responsive layouts, user experience optimization and deployment.",
+      fr: "Conception et développement de sites web, applications web et outils digitaux pour des clients. Gestion de l'ensemble du cycle de vie des projets : du concept et design à l'implémentation frontend, aux layouts responsives, à l'optimisation de l'expérience utilisateur et au déploiement."
     },
     type: "experience"
   },
@@ -51,8 +51,8 @@ export const experience = [
       fr: "Janvier 2024 – Juillet 2024"
     },
     description: {
-      en: "Studied digital marketing fundamentals, content strategy, social media, branding and communication. This experience helps me better understand how users interact with digital products, how to present an offer clearly and how to create more business-oriented web experiences.",
-      fr: "Études des fondamentaux du marketing digital, de la stratégie de contenu, des réseaux sociaux, du branding et de la communication. Cette expérience m'aide à mieux comprendre comment les utilisateurs interagissent avec les produits digitaux, comment présenter une offre clairement et comment créer des expériences web plus orientées business."
+      en: "Studied digital marketing fundamentals, content strategy, social media, branding and communication. This experience helps me understand how users interact with digital products, how to present offers clearly and how to create business-oriented web experiences.",
+      fr: "Études des fondamentaux du marketing digital, de la stratégie de contenu, des réseaux sociaux, du branding et de la communication. Cette expérience permet de comprendre comment les utilisateurs interagissent avec les produits digitaux, comment présenter une offre clairement et comment créer des expériences web orientées business."
     },
     type: "education"
   },
@@ -71,7 +71,7 @@ export const experience = [
     },
     description: {
       en: "Completed military service in Israel, developing discipline, responsibility, teamwork and the ability to work under pressure. This experience strengthened my seriousness and professional approach to work.",
-      fr: "Service militaire effectué en Israël, avec développement de la discipline, du sens des responsabilités, du travail en équipe et de la capacité à travailler sous pression. Cette expérience a renforcé mon sérieux et mon approche professionnelle du travail."
+      fr: "Service militaire effectué en Israël, avec développement de la discipline, du sens des responsabilités, du travail en équipe et de la capacité à travailler sous pression. Cette expérience a renforcé le sérieux et l'approche professionnelle du travail."
     },
     type: "experience"
   }
