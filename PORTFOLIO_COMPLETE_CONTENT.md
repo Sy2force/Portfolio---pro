@@ -12,7 +12,7 @@
 5. [Other Projects Section](#other-projects-section)
 6. [Skills Section](#skills-section)
 7. [Experience Section](#experience-section)
-8. [Why Hire Me Section](#why-hire-me-section)
+8. [What I Bring Section](#what-i-bring-section)
 9. [Contact Section](#contact-section)
 10. [Footer](#footer)
 11. [Resume Page](#resume-page)
@@ -47,16 +47,16 @@
 ## English
 
 ### Badge
-Open to Full Stack Developer roles
+Full Stack Developer
 
 ### Title
-Full Stack Developer with a background in web design.
+I build modern, clear and functional web platforms.
 
 ### Subtitle
-I design and build responsive web applications, professional websites and digital tools with React, Next.js, Node.js and modern web technologies.
+Full Stack Developer with a background in web design and digital marketing.
 
 ### Description
-I build modern, useful and elegant web platforms. This portfolio showcases the applications I've created: web platforms, e-commerce solutions, business websites, backend APIs and digital tools.
+I design and build websites, applications and digital tools focused on usability, structure and clean presentation.
 
 ### Buttons
 - View Projects
@@ -73,16 +73,16 @@ This portfolio demonstrates my evolution from design to full stack development a
 ## Français
 
 ### Badge
-Ouvert aux opportunités Full Stack Developer
+Développeur Full Stack
 
 ### Titre
-Développeur Full Stack avec un parcours en design web.
+Je crée des plateformes web modernes, claires et fonctionnelles.
 
 ### Sous-titre
-Je conçois et développe des applications web, sites professionnels et outils digitaux responsives avec React, Next.js, Node.js et les technologies web modernes.
+Développeur Full Stack avec un parcours en design web et marketing digital.
 
 ### Description
-Je crée des plateformes web modernes, utiles et élégantes. Ce portfolio présente les applications que j'ai créées : plateformes web, solutions e-commerce, sites professionnels, APIs backend et outils digitaux.
+Je conçois des sites, applications et outils digitaux pensés pour être utiles, bien structurés et agréables à utiliser.
 
 ### Boutons
 - Voir mes projets
@@ -104,23 +104,26 @@ Ce portfolio démontre mon évolution du design vers le développement full stac
 About
 
 ### Text 1
-I am a full stack developer with a background in web design and digital marketing. This combination helps me build products that are technically solid and user-centered.
+My name is Shay Acoca, a Full Stack Developer based in Jerusalem.
 
 ### Text 2
-I work on web applications, professional websites and digital tools, covering the development cycle: from design concept to frontend implementation, backend APIs, authentication, databases and deployment. I focus on practical solutions like SaaS platforms, e-commerce systems, dashboards and business websites.
+My background combines web development, design, digital marketing and content creation. This gives me a practical vision of digital products: not only how they work, but also how they look, feel and serve real business needs.
 
 ### Text 3
-I am looking for a position where I can contribute my full stack skills and design expertise to meaningful projects, collaborate with teams and continue growing as a developer.
+I work on professional websites, web applications, SaaS platforms, dashboards, e-commerce projects and digital tools. I focus on clean interfaces, solid structure and simple user experiences.
+
+### Text 4
+I'm looking to join a team where I can bring reliability, creativity and technical skills to real projects.
 
 ### Attributes
-1. **Product & design awareness**
-   With my design background, I consider user experience, visual consistency and business goals in every feature I build.
+1. **Product & design mindset**
+   I think about interfaces so they are clear, useful and aligned with real needs.
 
-2. **Full stack profile**
-   My Full Stack profile allows me to work on the entire web project: interface, backend, data, authentication and deployment.
+2. **Full Stack profile**
+   I can work on the main parts of a web project: interface, backend, API, database and deployment.
 
-3. **Continuous learning**
-   I refine my skills through real projects, code reviews, new technologies and best practices.
+3. **Continuous growth**
+   I improve through real projects, testing, feedback and learning new technologies.
 
 ---
 
@@ -130,23 +133,26 @@ I am looking for a position where I can contribute my full stack skills and desi
 À propos
 
 ### Texte 1
-Je suis développeur full stack avec un parcours en design web et marketing digital. Cette combinaison m'aide à créer des produits techniquement solides et centrés sur l'utilisateur.
+Je m'appelle Shay Acoca, développeur Full Stack basé à Jérusalem.
 
 ### Texte 2
-Je travaille sur des applications web, sites professionnels et outils digitaux, couvrant le cycle de développement : du concept design à l'implémentation frontend, aux APIs backend, à l'authentification, aux bases de données et au déploiement. Je me concentre sur des solutions concrètes comme les plateformes SaaS, les systèmes e-commerce, les dashboards et les sites professionnels.
+Mon parcours combine développement web, design, marketing digital et création de contenu. Cette vision me permet de créer des projets qui ne sont pas seulement techniques, mais aussi clairs, cohérents et adaptés aux besoins d'une entreprise.
 
 ### Texte 3
-Je recherche un poste où je peux contribuer mes compétences full stack et mon expertise en design à des projets significatifs, collaborer avec des équipes et continuer à évoluer en tant que développeur.
+Je travaille sur des sites professionnels, applications web, plateformes SaaS, dashboards, e-commerce et outils digitaux. J'aime construire des interfaces propres, des structures solides et des expériences simples à utiliser.
+
+### Texte 4
+Aujourd'hui, je cherche à rejoindre une équipe où je peux apporter mon sérieux, ma créativité et mes compétences techniques sur des projets concrets.
 
 ### Attributs
 1. **Vision produit & design**
-   Avec mon parcours en design, je considère l'expérience utilisateur, la cohérence visuelle et les objectifs business dans chaque fonctionnalité que je construis.
+   Je pense les interfaces pour qu'elles soient claires, utiles et adaptées aux besoins réels.
 
 2. **Profil Full Stack**
-   Mon profil Full Stack me permet d'intervenir sur l'ensemble d'un projet web : interface, backend, données, authentification et déploiement.
+   Je peux intervenir sur les principales parties d'un projet web : interface, backend, API, base de données et déploiement.
 
-3. **Apprentissage continu**
-   Je perfectionne mes compétences à travers des projets réels, les revues de code, les nouvelles technologies et les meilleures pratiques.
+3. **Progression continue**
+   Je progresse à travers des projets réels, des tests, des retours et l'apprentissage de nouvelles technologies.
 
 ---
 
@@ -155,38 +161,62 @@ Je recherche un poste où je peux contribuer mes compétences full stack et mon 
 ## English
 
 ### Title
-Selected Projects
+Selected Digital Projects
 
 ### Subtitle
-A selection of projects showing my ability to build practical, responsive and maintainable web applications.
+A selection of projects I designed, structured and developed to show my skills in design, frontend, backend and product logic.
 
-### Labels
-- Problem solved
-- Role
-- Tech Stack
-- Key Features
-- What it demonstrates
-- Live Demo
-- GitHub
+### Problem Solved
+Problem solved
+
+### Role
+Role
+
+### Tech Stack
+Tech Stack
+
+### Key Features
+Key Features
+
+### What It Demonstrates
+What it demonstrates
+
+### Live Demo
+Live Demo
+
+### GitHub
+GitHub
 
 ---
 
 ## Français
 
 ### Titre
-Projets sélectionnés
+Mes créations digitales
 
 ### Sous-titre
-Une sélection de projets montrant ma capacité à construire des applications web pratiques, responsives et maintenables.
+Une sélection de projets que j'ai conçus, structurés et développés pour montrer mes compétences en design, frontend, backend et logique produit.
 
-### Labels
-- Problème résolu
-- Rôle
-- Stack technique
-- Fonctionnalités clés
-- Ce que le projet démontre
-- Démo en ligne
-- GitHub
+### Problème résolu
+Problème résolu
+
+### Rôle
+Rôle
+
+### Stack technique
+Stack technique
+
+### Fonctionnalités clés
+Fonctionnalités clés
+
+### Ce que le projet démontre
+Ce que le projet démontre
+
+### Démo en ligne
+Démo en ligne
+
+### GitHub
+GitHub
 
 ---
 
@@ -195,14 +225,12 @@ Une sélection de projets montrant ma capacité à construire des applications w
 ## English
 
 ### Title
-Other projects in progress
+Other Projects
 
-### Description
-Beyond the projects presented in this portfolio, I am also working on additional web applications, professional websites and technical experiments. These projects help me explore new ideas and improve my architecture skills.
+### Subtitle
+Projects I'm currently working on to improve my skills and explore new technologies.
 
-### List
-- Web applications with authentication, dashboards and user flows
-- Professional websites for services, agencies and personal brands
+### Categories
 - E-commerce interfaces with product pages and admin logic
 - Backend APIs with database structure and secure routes
 - Tools and programs to improve my development workflow
@@ -216,14 +244,12 @@ These ongoing projects show my motivation to keep learning and improve by buildi
 ## Français
 
 ### Titre
-Autres projets en cours
+Autres projets
 
-### Description
-En plus des projets présentés dans ce portfolio, je travaille également sur d'autres applications web, sites professionnels et expérimentations techniques. Ces projets me permettent d'explorer de nouvelles idées et d'améliorer mon architecture.
+### Sous-titre
+Projets sur lesquels je travaille actuellement pour améliorer mes compétences et explorer de nouvelles technologies.
 
-### Liste
-- Applications web avec authentification, dashboards et parcours utilisateur
-- Sites professionnels pour services, agences et marques personnelles
+### Catégories
 - Interfaces e-commerce avec pages produits et logique admin
 - APIs backend avec structure de base de données et routes sécurisées
 - Outils et programmes pour améliorer mon workflow de développement
@@ -242,7 +268,7 @@ Ces projets en cours montrent ma motivation à continuer d'apprendre et à progr
 Skills
 
 ### Subtitle
-With a background in web design and full stack development, I have built a solid technical foundation. My expertise covers frontend development, backend APIs, database architecture, authentication, deployment and product design.
+My skills cover the main parts of a web project: interface, backend, database, authentication, deployment and user experience.
 
 ### Categories
 - Frontend
@@ -258,7 +284,7 @@ With a background in web design and full stack development, I have built a solid
 Compétences
 
 ### Sous-titre
-Avec un parcours en design web et développement full stack, j'ai construit une base technique solide. Mon expertise couvre le développement frontend, les APIs backend, l'architecture de base de données, l'authentification, le déploiement et le design produit.
+Mes compétences couvrent les principales parties d'un projet web : interface, backend, base de données, authentification, déploiement et expérience utilisateur.
 
 ### Catégories
 - Frontend
@@ -276,7 +302,7 @@ Avec un parcours en design web et développement full stack, j'ai construit une 
 Experience
 
 ### Subtitle
-My background combines web design, full stack development and military service. This path helped me develop technical skills, discipline and a practical approach to building useful products.
+My background combines web design, full stack development, digital marketing and professional experience.
 
 ---
 
@@ -286,55 +312,55 @@ My background combines web design, full stack development and military service. 
 Expérience
 
 ### Sous-titre
-Mon parcours combine design web, développement full stack et service militaire. Cette trajectoire m'a permis de développer des compétences techniques, de la discipline et une approche concrète de la création de produits utiles.
+Mon parcours combine design web, développement full stack, marketing digital et expérience professionnelle.
 
 ---
 
-# WHY HIRE ME SECTION
+# WHAT I BRING SECTION
 
 ## English
 
 ### Title
-Why I could be a good fit
+What I bring
 
-### Attributes
+### Cards
 1. **Clean execution**
-   I deliver well-structured, responsive and maintainable code with attention to detail.
+   I pay attention to structure, readability and the quality of the final result.
 
 2. **Design sense**
-   With my design background, I understand user experience, visual consistency and how to translate business goals into functional features.
+   My design background helps me create clear, modern and user-focused interfaces.
 
-3. **Full stack profile**
-   My Full Stack profile allows me to work on the entire web project: interface, backend, data, authentication and deployment.
+3. **Full Stack profile**
+   I can work across the interface, backend, APIs, database and deployment.
 
 4. **Autonomy**
-   I learn new technologies quickly, adapt to team workflows and take initiative to solve problems.
+   I can move forward, find solutions and adapt to project needs.
 
 5. **Reliability**
-   My experience has taught me discipline, ownership and the ability to deliver quality work.
+   I take my work seriously and aim to deliver clean, stable and useful results.
 
 ---
 
 ## Français
 
 ### Titre
-Pourquoi je peux être un bon profil
+Ce que j'apporte
 
-### Attributs
+### Cartes
 1. **Exécution propre**
-   Je livre du code bien structuré, responsive et maintenable, avec attention aux détails.
+   Je travaille avec attention sur la structure, la lisibilité et la qualité du rendu final.
 
 2. **Sens du design**
-   Avec mon parcours en design, je comprends l'expérience utilisateur, la cohérence visuelle et comment traduire les objectifs business en fonctionnalités concrètes.
+   Mon parcours en design m'aide à créer des interfaces claires, modernes et adaptées aux utilisateurs.
 
 3. **Profil Full Stack**
-   Mon profil Full Stack me permet d'intervenir sur l'ensemble d'un projet web : interface, backend, données, authentification et déploiement.
+   Je peux intervenir sur l'interface, le backend, les APIs, la base de données et le déploiement.
 
 4. **Autonomie**
-   J'apprends rapidement les nouvelles technologies, je m'adapte aux workflows d'équipe et je prends l'initiative pour résoudre les problèmes.
+   Je sais avancer, chercher des solutions et m'adapter aux besoins d'un projet.
 
 5. **Fiabilité**
-   Mon expérience m'a enseigné la discipline, la prise de responsabilité et la capacité à livrer un travail de qualité.
+   Je prends mon travail au sérieux et je cherche à livrer un résultat propre, stable et utile.
 
 ---
 
@@ -346,26 +372,27 @@ Pourquoi je peux être un bon profil
 Let's build something useful.
 
 ### Subtitle
-I'm open to Full Stack, Frontend, startup, junior developer and collaboration opportunities.
-Have a project, idea or opportunity? I'd be happy to talk.
+I'm open to Full Stack, Frontend, startup, junior/mid-level opportunities or collaborations.
+Have a project, idea or opportunity?
+I'd be happy to talk.
 
-### Contact Info
-- Get in touch
-- Email: shayacoca20@gmail.com
-- Phone: 053-3700551
-- Location: Jerusalem, Israel
-- LinkedIn: https://www.linkedin.com/in/shay-acoca-046311302/?locale=en-US
-- GitHub: https://github.com/Sy2force
+### Get In Touch
+Get in touch
 
-### Form Labels
-- Name
-- Email
-- Company / Startup (optional)
-- Message type
-- Subject
-- Message
-- Send Message
-- Download Resume
+### Name
+Name
+
+### Email
+Email
+
+### Message
+Message
+
+### Send Message
+Send Message
+
+### Download Resume
+Download Resume
 
 ---
 
@@ -375,42 +402,61 @@ Have a project, idea or opportunity? I'd be happy to talk.
 Construisons quelque chose d'utile.
 
 ### Sous-titre
-Je suis ouvert aux opportunités Full Stack, Frontend, startup, stage, poste junior ou collaboration.
-Vous avez un projet, une idée ou une opportunité ? Je serais heureux d'en discuter.
+Je suis ouvert aux opportunités Full Stack, Frontend, startup, poste junior/confirmé accessible ou collaboration.
+Vous avez un projet, une idée ou une opportunité ?
+Je serais heureux d'en discuter.
 
-### Informations de contact
-- Contactez-moi
-- Email: shayacoca20@gmail.com
-- Téléphone: 053-3700551
-- Localisation: Jérusalem, Israël
-- LinkedIn: https://www.linkedin.com/in/shay-acoca-046311302/?locale=en-US
-- GitHub: https://github.com/Sy2force
+### Contactez-moi
+Contactez-moi
 
-### Labels du formulaire
-- Nom
-- Email
-- Entreprise / Startup (optionnel)
-- Type de message
-- Sujet
-- Message
-- Envoyer le message
-- Télécharger le CV
+### Nom
+Nom
+
+### Email
+Email
+
+### Message
+Message
+
+### Envoyer le message
+Envoyer le message
+
+### Télécharger le CV
+Télécharger le CV
 
 ---
 
 # FOOTER
 
 ## English
-- Name: Shay Acoca
-- Job Title: Full Stack Developer · React · Next.js · Node.js
-- Built with: Built with Next.js, TypeScript and Tailwind CSS.
-- Copyright: © 2026 Shay Acoca. All rights reserved.
+
+### Name
+Shay Acoca
+
+### Description
+Full Stack Developer · React · Next.js · Node.js
+
+### Built With
+Built with Next.js, TypeScript and Tailwind CSS.
+
+### Copyright
+© 2026 Shay Acoca. All rights reserved.
+
+---
 
 ## Français
-- Nom: Shay Acoca
-- Titre du poste: Développeur Full Stack · React · Next.js · Node.js
-- Construit avec: Construit avec Next.js, TypeScript et Tailwind CSS.
-- Copyright: © 2026 Shay Acoca. Tous droits réservés.
+
+### Nom
+Shay Acoca
+
+### Description
+Développeur Full Stack · React · Next.js · Node.js
+
+### Construit avec
+Construit avec Next.js, TypeScript et Tailwind CSS.
+
+### Copyright
+© 2026 Shay Acoca. Tous droits réservés.
 
 ---
 
@@ -425,20 +471,37 @@ Shay Acoca — Full Stack Developer
 Shay Acoca — Full Stack Developer
 
 ### About
-Full stack developer based in Jerusalem, Israel, with a background in web design and full stack development. I build complete web applications from concept to deployment, combining technical expertise with design sensibility.
+Full Stack Developer based in Jerusalem, with a background in web design, digital marketing and content creation.
+I design and build websites, applications and digital platforms by combining technical structure, clean interfaces and user-focused thinking.
 
 ### Short Summary
-With a background in design and full stack development, I deliver complete solutions from design to deployment. I am open to Full Stack, Frontend and startup opportunities.
+Full Stack Developer with a solid background in web design and digital marketing.
+I work on complete web projects: modern interfaces, backend APIs, authentication, databases, dashboards and deployment.
+I'm looking to join a team where I can contribute to real products, keep growing and bring a serious, creative and user-focused approach.
 
-### Section Labels
-- Experience & Education
-- Skills
-- Tech Stack
-- Projects
-- Contact
-- Print
-- Live Demo
-- GitHub
+### Experience & Education
+Experience & Education
+
+### Skills
+Skills
+
+### Tech Stack
+Tech Stack
+
+### Projects
+Projects
+
+### Contact
+Contact
+
+### Print
+Print
+
+### Live Demo
+Live Demo
+
+### GitHub
+GitHub
 
 ### Based In
 Based in Jerusalem, Israel · Open to Full Stack, Frontend and startup opportunities
@@ -454,20 +517,37 @@ Shay Acoca — Développeur Full Stack
 Shay Acoca — Développeur Full Stack
 
 ### À propos
-Développeur full stack basé à Jérusalem, Israël, avec un parcours en design web et développement full stack. Je construis des applications web complètes du concept au déploiement, combinant expertise technique et sensibilité au design.
+Développeur Full Stack basé à Jérusalem, avec un parcours en design web, marketing digital et création de contenu.
+Je conçois des sites, applications et plateformes digitales en combinant structure technique, interface claire et vision utilisateur.
 
 ### Résumé court
-Avec un parcours en design et développement full stack, je livre des solutions complètes du design au déploiement. Je suis ouvert aux opportunités Full Stack, Frontend et startup.
+Développeur Full Stack avec une base solide en design web et marketing digital.
+Je travaille sur des projets web complets : interfaces modernes, APIs backend, authentification, bases de données, dashboards et déploiement.
+Je cherche à rejoindre une équipe où je peux contribuer à des produits concrets, continuer à progresser et apporter une approche sérieuse, créative et orientée utilisateur.
 
-### Labels de sections
-- Expérience & Formation
-- Compétences
-- Stack technique
-- Projets
-- Contact
-- Imprimer
-- Démo en ligne
-- GitHub
+### Expérience & Formation
+Expérience & Formation
+
+### Compétences
+Compétences
+
+### Stack technique
+Stack technique
+
+### Projets
+Projets
+
+### Contact
+Contact
+
+### Imprimer
+Imprimer
+
+### Démo en ligne
+Démo en ligne
+
+### GitHub
+GitHub
 
 ### Basé à
 Basé à Jérusalem, Israël · Ouvert aux opportunités Full Stack, Frontend et startup
@@ -478,125 +558,188 @@ Basé à Jérusalem, Israël · Ouvert aux opportunités Full Stack, Frontend et
 
 ## FitWell
 
-### English
-- Type: Fitness & Wellness SaaS Platform
-- Description: Fitness & wellness full stack platform with dashboard, backend and user progression tracking.
-- Problem solved: Fitness users need a clear space to track progress, stay motivated and access their data. FitWell organizes fitness, wellness and analytics in a structured platform.
-- Role: Full stack development, backend architecture, frontend integration, product logic, documentation and deployment.
-- Tech Stack: Python, Django, HTML, JavaScript, CSS, PostgreSQL, GitHub Actions, Vercel
-- Key Features:
-  - Fitness and wellness platform structure
-  - User-oriented dashboard
-  - Gamification logic
-  - Analytics features
-  - Backend architecture
-  - Documentation
-  - Deployment configuration
-  - CI workflow
-- What it demonstrates: Backend architecture, product thinking, dashboard logic, project organization, documentation and deployment.
-- Live Demo: https://app-fitwell.onrender.com
-- GitHub: https://github.com/Sy2force/Fitwell
+### Type (EN)
+Fitness & Wellness SaaS Platform
 
-### Français
-- Type: Plateforme SaaS Fitness & Bien-être
-- Description: Plateforme fitness & bien-être full stack, dashboard, backend et suivi de progression utilisateur.
-- Problème résolu: Les utilisateurs de fitness ont besoin d'un espace clair pour suivre leur progression, rester motivés et accéder à leurs données. FitWell organise le fitness, le bien-être et l'analyse dans une plateforme structurée.
-- Rôle: Développement full stack, architecture backend, intégration frontend, logique produit, documentation et déploiement.
-- Stack technique: Python, Django, HTML, JavaScript, CSS, PostgreSQL, GitHub Actions, Vercel
-- Fonctionnalités clés:
-  - Structure de plateforme fitness et bien-être
-  - Tableau de bord orienté utilisateur
-  - Logique de gamification
-  - Fonctionnalités analytiques
-  - Architecture backend
-  - Documentation
-  - Configuration de déploiement
-  - Workflow CI
-- Ce que le projet démontre: Architecture backend, réflexion produit, logique de dashboard, organisation de projet, documentation et déploiement.
-- Démo en ligne: https://app-fitwell.onrender.com
-- GitHub: https://github.com/Sy2force/Fitwell
+### Type (FR)
+Plateforme SaaS Fitness & Bien-être
+
+### Description (EN)
+Fitness & wellness platform with dashboard, backend and user progression tracking.
+
+### Description (FR)
+Plateforme fitness & bien-être avec dashboard, backend et suivi de progression utilisateur.
+
+### Problem Solved (EN)
+FitWell organizes tracking, motivation and user data into a clear and structured experience.
+
+### Problem Solved (FR)
+FitWell organise le suivi, la motivation et les données utilisateur dans une expérience claire et structurée.
+
+### Role (EN)
+Full stack development, backend architecture, frontend integration, product logic, documentation and deployment workflow.
+
+### Role (FR)
+Développement full stack, architecture backend, intégration frontend, logique produit, documentation et workflow de déploiement.
+
+### Tech Stack
+Python, Django, HTML, JavaScript, CSS, PostgreSQL, GitHub Actions, Vercel
+
+### Key Features (EN)
+- Fitness and wellness platform structure
+- User-oriented dashboard
+- Gamification logic
+- Analytics-oriented features
+- Backend architecture
+- Documentation
+- Deployment configuration
+- CI workflow
+
+### Key Features (FR)
+- Structure de plateforme fitness & bien-être
+- Tableau de bord orienté utilisateur
+- Logique de gamification
+- Fonctionnalités orientées analyse
+- Architecture backend
+- Documentation
+- Configuration de déploiement
+- Workflow CI
+
+### What It Demonstrates (EN)
+This project shows my ability to structure a complete application, organize a backend and create a clear user experience.
+
+### What It Demonstrates (FR)
+Ce projet montre ma capacité à structurer une application complète, organiser un backend et créer une expérience utilisateur claire.
+
+### Live URL
+https://app-fitwell.onrender.com
+
+### GitHub URL
+https://github.com/Sy2force/Fitwell
 
 ---
 
 ## OpticGlass
 
-### English
-- Type: Premium Eyewear E-commerce Project
-- Description: Premium eyewear e-commerce with visual identity, product presentation and smooth shopping experience.
-- Problem solved: Premium products need strong visual identity, clear navigation and trustworthy presentation. OpticGlass focuses on modern, responsive and user-oriented e-commerce.
-- Role: Frontend development, backend setup, product UI, authentication and e-commerce structure.
-- Tech Stack: React, Vite, Tailwind CSS, Framer Motion, React Router, Node.js, Express.js, MongoDB, JWT
-- Key Features:
-  - Product listing
-  - Product detail pages
-  - Authentication
-  - Backend API
-  - MongoDB database
-  - Responsive design
-  - Premium dark UI
-  - E-commerce layout
-- What it demonstrates: Frontend quality, e-commerce structure, authentication logic, API connection, responsive design and product presentation.
-- Live Demo: https://optic-glass.vercel.app
-- GitHub: https://github.com/Sy2force/OpticGlass
+### Type (EN)
+Premium Eyewear E-commerce Project
 
-### Français
-- Type: Projet E-commerce Lunettes Premium
-- Description: E-commerce premium de lunettes avec identité visuelle, présentation produit et expérience d'achat fluide.
-- Problème résolu: Les produits premium ont besoin d'une forte identité visuelle, d'une navigation claire et d'une présentation rassurante. OpticGlass se concentre sur une expérience e-commerce moderne, responsive et orientée utilisateur.
-- Rôle: Développement frontend, configuration backend, UI produit, authentification et structure e-commerce.
-- Stack technique: React, Vite, Tailwind CSS, Framer Motion, React Router, Node.js, Express.js, MongoDB, JWT
-- Fonctionnalités clés:
-  - Liste de produits
-  - Pages de détails de produit
-  - Authentification
-  - API backend
-  - Base de données MongoDB
-  - Design responsive
-  - UI sombre premium
-  - Layout e-commerce
-- Ce que le projet démontre: Qualité frontend, structure e-commerce, logique d'authentification, connexion API, design responsive et présentation produit.
-- Démo en ligne: https://optic-glass.vercel.app
-- GitHub: https://github.com/Sy2force/OpticGlass
+### Type (FR)
+Projet E-commerce Lunettes Premium
+
+### Description (EN)
+Premium eyewear e-commerce project with modern visual identity and a smooth shopping experience.
+
+### Description (FR)
+Boutique e-commerce premium dédiée aux lunettes, avec une identité visuelle moderne et une expérience d'achat fluide.
+
+### Problem Solved (EN)
+OpticGlass presents premium products with clear navigation, strong visual identity and a trustworthy shopping experience.
+
+### Problem Solved (FR)
+OpticGlass présente des produits premium avec une navigation claire, une identité visuelle forte et une expérience rassurante.
+
+### Role (EN)
+Frontend development, backend setup, product UI, authentication and e-commerce structure.
+
+### Role (FR)
+Développement frontend, configuration backend, UI produit, authentification et structure e-commerce.
+
+### Tech Stack
+React, Vite, Tailwind CSS, Framer Motion, React Router, Node.js, Express.js, MongoDB, JWT
+
+### Key Features (EN)
+- Product listing
+- Product detail pages
+- Authentication
+- Backend API
+- MongoDB database
+- Responsive design
+- Premium dark UI
+- E-commerce layout
+
+### Key Features (FR)
+- Liste de produits
+- Pages de détails de produit
+- Authentification
+- API backend
+- Base de données MongoDB
+- Design responsive
+- UI sombre premium
+- Layout e-commerce
+
+### What It Demonstrates (EN)
+This project shows my skills in responsive design, e-commerce structure, product presentation, API and authentication.
+
+### What It Demonstrates (FR)
+Ce projet montre mes compétences en design responsive, structure e-commerce, présentation produit, API et authentification.
+
+### Live URL
+https://optic-glass.vercel.app
+
+### GitHub URL
+https://github.com/Sy2force/OpticGlass
 
 ---
 
 ## Food App
 
-### English
-- Type: Full Stack Restaurant Discovery Platform
-- Description: Food discovery application with restaurants, recipes and Hebrew / RTL localization.
-- Problem solved: Food discovery can be spread across multiple platforms. This project creates a centralized experience around restaurants and recipes, with attention to localization.
-- Role: Full stack development, frontend implementation, backend APIs, localization and deployment configuration.
-- Tech Stack: React, Node.js, Express.js, MongoDB, JavaScript, Vercel, Render
-- Key Features:
-  - Restaurant and food discovery interface
-  - Full Hebrew localization and RTL support
-  - Frontend and backend structure
-  - API routes
-  - Responsive layout
-  - Deployment configuration
-  - Documentation guides
-- What it demonstrates: Full stack structure, localization, RTL design, API integration and deployment problem solving.
-- Live Demo: https://restaurant-app-phi-gray.vercel.app
-- GitHub: https://github.com/Sy2force/Restaurant-app
+### Type (EN)
+Full Stack Restaurant Discovery Platform
 
-### Français
-- Type: Plateforme Full Stack de Découverte de Restaurants
-- Description: Application de découverte culinaire avec restaurants, recettes et localisation hébreu / RTL.
-- Problème résolu: La découverte culinaire peut être dispersée entre plusieurs plateformes. Ce projet crée une expérience centralisée autour des restaurants et recettes, avec une attention à la localisation.
-- Rôle: Développement full stack, implémentation frontend, APIs backend, localisation et configuration de déploiement.
-- Stack technique: React, Node.js, Express.js, MongoDB, JavaScript, Vercel, Render
-- Fonctionnalités clés:
-  - Interface de découverte de restaurants et de nourriture
-  - Localisation complète en hébreu et support RTL
-  - Structure frontend et backend
-  - Routes API
-  - Layout responsive
-  - Configuration de déploiement
-  - Guides de documentation
-- Ce que le projet démontre: Structure full stack, localisation, design RTL, intégration API et résolution de problèmes de déploiement.
-- Démo en ligne: https://restaurant-app-phi-gray.vercel.app
-- GitHub: https://github.com/Sy2force/Restaurant-app
+### Type (FR)
+Plateforme Full Stack de Découverte de Restaurants
+
+### Description (EN)
+Food discovery application around restaurants, recipes and local content, with Hebrew localization and RTL support.
+
+### Description (FR)
+Application de découverte culinaire autour des restaurants, recettes et contenus locaux, avec localisation hébreu et support RTL.
+
+### Problem Solved (EN)
+Food App brings restaurants, recipes and food content into a localized and easy-to-use experience.
+
+### Problem Solved (FR)
+Food App regroupe restaurants, recettes et contenus culinaires dans une expérience localisée et facile à utiliser.
+
+### Role (EN)
+Full stack development, frontend implementation, backend APIs, localization and deployment configuration.
+
+### Role (FR)
+Développement full stack, implémentation frontend, APIs backend, localisation et configuration de déploiement.
+
+### Tech Stack
+React, Node.js, Express.js, MongoDB, JavaScript, Vercel, Render
+
+### Key Features (EN)
+- Restaurant and food discovery interface
+- Full Hebrew localization and RTL support
+- Frontend and backend structure
+- API routes
+- Responsive layout
+- Deployment configuration
+- Documentation guides
+
+### Key Features (FR)
+- Interface de découverte de restaurants et de nourriture
+- Localisation complète en hébreu et support RTL
+- Structure frontend et backend
+- Routes API
+- Layout responsive
+- Configuration de déploiement
+- Guides de documentation
+
+### What It Demonstrates (EN)
+This project shows my ability to build a localized application, handle RTL, connect an API and solve deployment issues.
+
+### What It Demonstrates (FR)
+Ce projet montre ma capacité à créer une application localisée, gérer le RTL, connecter une API et résoudre des problèmes de déploiement.
+
+### Live URL
+https://restaurant-app-phi-gray.vercel.app
+
+### GitHub URL
+https://github.com/Sy2force/Restaurant-app
 
 ---
 
@@ -604,191 +747,154 @@ Basé à Jérusalem, Israël · Ouvert aux opportunités Full Stack, Frontend et
 
 ## 1. Full Stack Developer Training
 
-### English
-- Organization: HackerU
-- Date: November 2024 – Present
-- Description: Intensive full stack development training focused on modern web technologies including React, Next.js, Node.js, MongoDB, TypeScript and deployment workflows. During this training, I built several practical projects to strengthen my frontend, backend, database, authentication and deployment skills.
-- Type: Education
+### Title (EN)
+Full Stack Developer Training
 
-### Français
-- Organisation: HackerU
-- Date: Novembre 2024 – Présent
-- Description: Formation intensive en développement full stack axée sur les technologies web modernes : React, Next.js, Node.js, MongoDB, TypeScript et workflows de déploiement. Pendant cette formation, j'ai construit plusieurs projets pratiques pour renforcer mes compétences frontend, backend, base de données, authentification et déploiement.
-- Type: Formation
+### Title (FR)
+Formation Développeur Full Stack
+
+### Organization (EN)
+HackerU
+
+### Organization (FR)
+HackerU
+
+### Date (EN)
+2023 – 2024
+
+### Date (FR)
+2023 – 2024
+
+### Description (EN)
+Intensive full stack development training covering frontend (React, Next.js, TypeScript), backend (Node.js, Express), databases (MongoDB, PostgreSQL), authentication, deployment and modern web development practices.
+
+### Description (FR)
+Formation intensive en développement full stack couvrant frontend (React, Next.js, TypeScript), backend (Node.js, Express), bases de données (MongoDB, PostgreSQL), authentification, déploiement et pratiques modernes de développement web.
 
 ---
 
 ## 2. Freelance Web Designer & Developer
 
-### English
-- Organization: Freelance
-- Date: 2021 – Present
-- Description: Designed and developed websites, web applications and digital tools for clients. Responsible for the entire project lifecycle: from concept and design to frontend implementation, responsive layouts, user experience optimization and deployment.
-- Type: Experience
+### Title (EN)
+Freelance Web Designer & Developer
 
-### Français
-- Organisation: Freelance
-- Date: 2021 – Présent
-- Description: Conception et développement de sites web, applications web et outils digitaux pour des clients. Responsable de l'ensemble du cycle de vie des projets : du concept et design à l'implémentation frontend, aux layouts responsives, à l'optimisation de l'expérience utilisateur et au déploiement.
-- Type: Expérience
+### Title (FR)
+Web Designer & Développeur Freelance
+
+### Organization (EN)
+Freelance
+
+### Organization (FR)
+Freelance
+
+### Date (EN)
+2021 – Present
+
+### Date (FR)
+2021 – Présent
+
+### Description (EN)
+Designed and developed websites, web applications and digital tools for clients. Responsible for the entire project lifecycle: from concept and design to frontend implementation, responsive layouts, user experience optimization and deployment.
+
+### Description (FR)
+Conception et développement de sites web, applications web et outils digitaux pour des clients. Responsable de l'ensemble du cycle de vie des projets : du concept et design à l'implémentation frontend, aux layouts responsives, à l'optimisation de l'expérience utilisateur et au déploiement.
 
 ---
 
 ## 3. Digital Marketing & Content Creation
 
-### English
-- Organization: Habetzefer, Tel Aviv
-- Date: January 2024 – July 2024
-- Description: Studied digital marketing fundamentals, content strategy, social media, branding and communication. This experience helps me better understand how users interact with digital products and how to create more business-oriented web experiences.
-- Type: Education
+### Title (EN)
+Digital Marketing & Content Creation
 
-### Français
-- Organisation: Habetzefer, Tel Aviv
-- Date: Janvier 2024 – Juillet 2024
-- Description: Études des fondamentaux du marketing digital, de la stratégie de contenu, des réseaux sociaux, du branding et de la communication. Cette expérience m'aide à mieux comprendre comment les utilisateurs interagissent avec les produits digitaux et comment créer des expériences web plus orientées business.
-- Type: Formation
+### Title (FR)
+Marketing Digital & Création de Contenu
+
+### Organization (EN)
+Habetzefer, Tel Aviv
+
+### Organization (FR)
+Habetzefer, Tel Aviv
+
+### Date (EN)
+2022 – 2023
+
+### Date (FR)
+2022 – 2023
+
+### Description (EN)
+Digital marketing specialist and content creator. Developed marketing strategies, created digital content, managed social media and analyzed campaign performance.
+
+### Description (FR)
+Spécialiste en marketing digital et créateur de contenu. Développement de stratégies marketing, création de contenu digital, gestion des réseaux sociaux et analyse des performances de campagnes.
 
 ---
 
 ## 4. Military Service
 
-### English
-- Organization: IDF, Givati Brigade
-- Date: 2019 – 2022
-- Description: Completed military service in Israel, developing discipline, responsibility, teamwork and the ability to work under pressure. This experience strengthened my seriousness and professional approach to work.
-- Type: Experience
+### Title (EN)
+Military Service
 
-### Français
-- Organisation: Tsahal, Brigade Guivati
-- Date: 2019 – 2022
-- Description: Service militaire effectué en Israël, avec développement de la discipline, du sens des responsabilités, du travail en équipe et de la capacité à travailler sous pression. Cette expérience a renforcé mon sérieux et mon approche professionnelle du travail.
-- Type: Expérience
+### Title (FR)
+Service Militaire
+
+### Organization (EN)
+IDF, Givati Brigade
+
+### Organization (FR)
+Tsahal, Brigade Guivati
+
+### Date (EN)
+2019 – 2022
+
+### Date (FR)
+2019 – 2022
+
+### Description (EN)
+Completed military service in Israel, developing discipline, responsibility, teamwork and the ability to work under pressure. This experience strengthened my seriousness and professional approach to work.
+
+### Description (FR)
+Service militaire effectué en Israël, avec développement de la discipline, du sens des responsabilités, du travail en équipe et de la capacité à travailler sous pression. Cette expérience a renforcé mon sérieux et mon approche professionnelle du travail.
 
 ---
 
 # SKILLS DATA
 
 ## Frontend
-
-### English
 - React
 - Next.js
 - TypeScript
 - JavaScript
+- HTML5
+- CSS3
 - Tailwind CSS
+- Framer Motion
 - Responsive Design
-- Framer Motion
-- UI Structure
-- Reusable Components
-
-### Français
-- React
-- Next.js
-- TypeScript
-- JavaScript
-- Tailwind CSS
-- Design responsive
-- Framer Motion
-- Structure UI
-- Composants réutilisables
-
----
 
 ## Backend
-
-### English
 - Node.js
 - Express.js
-- MongoDB
+- Python
+- Django
 - REST APIs
-- JWT Authentication
-- Django
-- Python
-- Backend Architecture
-- Server-side Logic
-
-### Français
-- Node.js
-- Express.js
 - MongoDB
-- APIs REST
-- Authentification JWT
-- Django
-- Python
-- Architecture backend
-- Logique serveur
-
----
+- PostgreSQL
 
 ## Tools & Deployment
-
-### English
 - Git
 - GitHub
 - Vercel
 - Render
-- GitHub Actions
+- npm/yarn
 - VS Code
-- Postman
-- Environment Variables
-- Deployment Debugging
-
-### Français
-- Git
-- GitHub
-- Vercel
-- Render
-- GitHub Actions
-- VS Code
-- Postman
-- Variables d'environnement
-- Debugging de déploiement
-
----
 
 ## Product & Design
-
-### English
-- Digital Marketing
-- Landing Pages
-- SEO Basics
-- UI/UX Fundamentals
-- Branding
-- Content Strategy
+- UI/UX Design
+- Web Design
+- Figma
 - Product Thinking
-- User-focused Communication
-
-### Français
-- Marketing digital
-- Landing pages
-- Bases SEO
-- Fondamentaux UI/UX
-- Branding
-- Stratégie de contenu
-- Raisonnement produit
-- Communication orientée utilisateur
+- User Experience
+- Digital Marketing
 
 ---
 
-# CONTACT INFORMATION
-
-## Email
-- shayacoca20@gmail.com
-- shayacoca@gmail.com
-
-## Phone
-- 053-3700551
-
-## Location
-- Jerusalem, Israel
-
-## LinkedIn
-- https://www.linkedin.com/in/shay-acoca-046311302/?locale=en-US
-
-## GitHub
-- https://github.com/Sy2force
-
----
-
-**Document réécrit le 20 mai 2026**
-**Portfolio de Shay Acoca - Full Stack Developer**
+*Document updated with final professional texts - May 2026*
