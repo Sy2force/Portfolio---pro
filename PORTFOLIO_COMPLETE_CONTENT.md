@@ -565,16 +565,16 @@ Fitness & Wellness SaaS Platform
 Plateforme SaaS Fitness & Bien-être
 
 ### Description (EN)
-Fitness & wellness platform with dashboard, backend and user progression tracking.
+Fitness & wellness platform with dashboard, backend and user progression tracking. Built with Python and Django, this project provides a complete solution for tracking fitness goals and user progress.
 
 ### Description (FR)
-Plateforme fitness & bien-être avec dashboard, backend et suivi de progression utilisateur.
+Plateforme fitness & bien-être avec dashboard, backend et suivi de progression utilisateur. Construite avec Python et Django, cette solution complète permet de suivre les objectifs fitness et la progression utilisateur.
 
 ### Problem Solved (EN)
-FitWell organizes tracking, motivation and user data into a clear and structured experience.
+FitWell organizes tracking, motivation and user data into a clear and structured experience. The platform simplifies fitness management through an intuitive dashboard and organized data visualization.
 
 ### Problem Solved (FR)
-FitWell organise le suivi, la motivation et les données utilisateur dans une expérience claire et structurée.
+FitWell organise le suivi, la motivation et les données utilisateur dans une expérience claire et structurée. La plateforme simplifie la gestion fitness grâce à un tableau de bord intuitif et une visualisation organisée des données.
 
 ### Role (EN)
 Full stack development, backend architecture, frontend integration, product logic, documentation and deployment workflow.
@@ -606,10 +606,10 @@ Python, Django, HTML, JavaScript, CSS, PostgreSQL, GitHub Actions, Vercel
 - Workflow CI
 
 ### What It Demonstrates (EN)
-This project shows my ability to structure a complete application, organize a backend and create a clear user experience.
+This project shows my ability to structure a complete application, organize a backend and create a clear user experience using Django and PostgreSQL.
 
 ### What It Demonstrates (FR)
-Ce projet montre ma capacité à structurer une application complète, organiser un backend et créer une expérience utilisateur claire.
+Ce projet montre ma capacité à structurer une application complète, organiser un backend et créer une expérience utilisateur claire avec Django et PostgreSQL.
 
 ### Live URL
 https://app-fitwell.onrender.com
@@ -628,16 +628,16 @@ Premium Eyewear E-commerce Project
 Projet E-commerce Lunettes Premium
 
 ### Description (EN)
-Premium eyewear e-commerce project with modern visual identity and a smooth shopping experience.
+Premium eyewear e-commerce project with modern visual identity and a smooth shopping experience. Built with React and Node.js, this project showcases product management and secure authentication.
 
 ### Description (FR)
-Boutique e-commerce premium dédiée aux lunettes, avec une identité visuelle moderne et une expérience d'achat fluide.
+Boutique e-commerce premium dédiée aux lunettes, avec une identité visuelle moderne et une expérience d'achat fluide. Construite avec React et Node.js, cette solution met en valeur la gestion produit et l'authentification sécurisée.
 
 ### Problem Solved (EN)
-OpticGlass presents premium products with clear navigation, strong visual identity and a trustworthy shopping experience.
+OpticGlass presents premium products with clear navigation, strong visual identity and a trustworthy shopping experience. The project demonstrates e-commerce structure with secure user authentication.
 
 ### Problem Solved (FR)
-OpticGlass présente des produits premium avec une navigation claire, une identité visuelle forte et une expérience rassurante.
+OpticGlass présente des produits premium avec une navigation claire, une identité visuelle forte et une expérience rassurante. Le projet démontre une structure e-commerce avec authentification utilisateur sécurisée.
 
 ### Role (EN)
 Frontend development, backend setup, product UI, authentication and e-commerce structure.
@@ -669,10 +669,10 @@ React, Vite, Tailwind CSS, Framer Motion, React Router, Node.js, Express.js, Mon
 - Layout e-commerce
 
 ### What It Demonstrates (EN)
-This project shows my skills in responsive design, e-commerce structure, product presentation, API and authentication.
+This project shows my skills in responsive design, e-commerce structure, product presentation, API and authentication using React and MongoDB.
 
 ### What It Demonstrates (FR)
-Ce projet montre mes compétences en design responsive, structure e-commerce, présentation produit, API et authentification.
+Ce projet montre mes compétences en design responsive, structure e-commerce, présentation produit, API et authentification avec React et MongoDB.
 
 ### Live URL
 https://optic-glass.vercel.app
@@ -691,16 +691,16 @@ Full Stack Restaurant Discovery Platform
 Plateforme Full Stack de Découverte de Restaurants
 
 ### Description (EN)
-Food discovery application around restaurants, recipes and local content, with Hebrew localization and RTL support.
+Food discovery application around restaurants, recipes and local content, with Hebrew localization and RTL support. Built with React and Node.js, this project handles multilingual content and right-to-left layouts.
 
 ### Description (FR)
-Application de découverte culinaire autour des restaurants, recettes et contenus locaux, avec localisation hébreu et support RTL.
+Application de découverte culinaire autour des restaurants, recettes et contenus locaux, avec localisation hébreu et support RTL. Construite avec React et Node.js, cette solution gère le contenu multilingue et les layouts droite-à-gauche.
 
 ### Problem Solved (EN)
-Food App brings restaurants, recipes and food content into a localized and easy-to-use experience.
+Food App brings restaurants, recipes and food content into a localized and easy-to-use experience. The project demonstrates RTL support and API integration for localized content.
 
 ### Problem Solved (FR)
-Food App regroupe restaurants, recettes et contenus culinaires dans une expérience localisée et facile à utiliser.
+Food App regroupe restaurants, recettes et contenus culinaires dans une expérience localisée et facile à utiliser. Le projet démontre le support RTL et l'intégration API pour le contenu localisé.
 
 ### Role (EN)
 Full stack development, frontend implementation, backend APIs, localization and deployment configuration.
@@ -730,10 +730,10 @@ React, Node.js, Express.js, MongoDB, JavaScript, Vercel, Render
 - Guides de documentation
 
 ### What It Demonstrates (EN)
-This project shows my ability to build a localized application, handle RTL, connect an API and solve deployment issues.
+This project shows my ability to build a localized application, handle RTL, connect an API and solve deployment issues using React and MongoDB.
 
 ### What It Demonstrates (FR)
-Ce projet montre ma capacité à créer une application localisée, gérer le RTL, connecter une API et résoudre des problèmes de déploiement.
+Ce projet montre ma capacité à créer une application localisée, gérer le RTL, connecter une API et résoudre des problèmes de déploiement avec React et MongoDB.
 
 ### Live URL
 https://restaurant-app-phi-gray.vercel.app
