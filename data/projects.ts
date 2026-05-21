@@ -40,12 +40,12 @@ export const projects: Project[] = [
       fr: "Plateforme SaaS Fitness & Bien-être"
     },
     description: {
-      en: "Fitness & wellness platform with dashboard, backend and user progression tracking.",
-      fr: "Plateforme fitness & bien-être avec dashboard, backend et suivi de progression utilisateur."
+      en: "Fitness & wellness platform with dashboard, backend and user progression tracking. Built with Python and Django, this project provides a complete solution for tracking fitness goals and user progress.",
+      fr: "Plateforme fitness & bien-être avec dashboard, backend et suivi de progression utilisateur. Construite avec Python et Django, cette solution complète permet de suivre les objectifs fitness et la progression utilisateur."
     },
     problemSolved: {
-      en: "FitWell organizes tracking, motivation and user data into a clear and structured experience.",
-      fr: "FitWell organise le suivi, la motivation et les données utilisateur dans une expérience claire et structurée."
+      en: "FitWell organizes tracking, motivation and user data into a clear and structured experience. The platform simplifies fitness management through an intuitive dashboard and organized data visualization.",
+      fr: "FitWell organise le suivi, la motivation et les données utilisateur dans une expérience claire et structurée. La plateforme simplifie la gestion fitness grâce à un tableau de bord intuitif et une visualisation organisée des données."
     },
     role: {
       en: "Full stack development, backend architecture, frontend integration, product logic, documentation and deployment workflow.",
@@ -75,8 +75,8 @@ export const projects: Project[] = [
       ]
     },
     demonstrates: {
-      en: "This project shows my ability to structure a complete application, organize a backend and create a clear user experience.",
-      fr: "Ce projet montre ma capacité à structurer une application complète, organiser un backend et créer une expérience utilisateur claire."
+      en: "This project shows my ability to structure a complete application, organize a backend and create a clear user experience using Django and PostgreSQL.",
+      fr: "Ce projet montre ma capacité à structurer une application complète, organiser un backend et créer une expérience utilisateur claire avec Django et PostgreSQL."
     },
     liveUrl: "https://app-fitwell.onrender.com",
     githubUrl: "https://github.com/Sy2force/Fitwell",
@@ -94,12 +94,12 @@ export const projects: Project[] = [
       fr: "Projet E-commerce Lunettes Premium"
     },
     description: {
-      en: "Premium eyewear e-commerce project with modern visual identity and a smooth shopping experience.",
-      fr: "Boutique e-commerce premium dédiée aux lunettes, avec une identité visuelle moderne et une expérience d'achat fluide."
+      en: "Premium eyewear e-commerce project with modern visual identity and a smooth shopping experience. Built with React and Node.js, this project showcases product management and secure authentication.",
+      fr: "Boutique e-commerce premium dédiée aux lunettes, avec une identité visuelle moderne et une expérience d'achat fluide. Construite avec React et Node.js, cette solution met en valeur la gestion produit et l'authentification sécurisée."
     },
     problemSolved: {
-      en: "OpticGlass presents premium products with clear navigation, strong visual identity and a trustworthy shopping experience.",
-      fr: "OpticGlass présente des produits premium avec une navigation claire, une identité visuelle forte et une expérience rassurante."
+      en: "OpticGlass presents premium products with clear navigation, strong visual identity and a trustworthy shopping experience. The project demonstrates e-commerce structure with secure user authentication.",
+      fr: "OpticGlass présente des produits premium avec une navigation claire, une identité visuelle forte et une expérience rassurante. Le projet démontre une structure e-commerce avec authentification utilisateur sécurisée."
     },
     role: {
       en: "Frontend development, backend setup, product UI, authentication and e-commerce structure.",
@@ -129,8 +129,8 @@ export const projects: Project[] = [
       ]
     },
     demonstrates: {
-      en: "This project shows my skills in responsive design, e-commerce structure, product presentation, API and authentication.",
-      fr: "Ce projet montre mes compétences en design responsive, structure e-commerce, présentation produit, API et authentification."
+      en: "This project shows my skills in responsive design, e-commerce structure, product presentation, API and authentication using React and MongoDB.",
+      fr: "Ce projet montre mes compétences en design responsive, structure e-commerce, présentation produit, API et authentification avec React et MongoDB."
     },
     liveUrl: "https://optic-glass.vercel.app",
     githubUrl: "https://github.com/Sy2force/OpticGlass",
@@ -148,12 +148,12 @@ export const projects: Project[] = [
       fr: "Plateforme Full Stack de Découverte de Restaurants"
     },
     description: {
-      en: "Food discovery application around restaurants, recipes and local content, with Hebrew localization and RTL support.",
-      fr: "Application de découverte culinaire autour des restaurants, recettes et contenus locaux, avec localisation hébreu et support RTL."
+      en: "Food discovery application around restaurants, recipes and local content, with Hebrew localization and RTL support. Built with React and Node.js, this project handles multilingual content and right-to-left layouts.",
+      fr: "Application de découverte culinaire autour des restaurants, recettes et contenus locaux, avec localisation hébreu et support RTL. Construite avec React et Node.js, cette solution gère le contenu multilingue et les layouts droite-à-gauche."
     },
     problemSolved: {
-      en: "Food App brings restaurants, recipes and food content into a localized and easy-to-use experience.",
-      fr: "Food App regroupe restaurants, recettes et contenus culinaires dans une expérience localisée et facile à utiliser."
+      en: "Food App brings restaurants, recipes and food content into a localized and easy-to-use experience. The project demonstrates RTL support and API integration for localized content.",
+      fr: "Food App regroupe restaurants, recettes et contenus culinaires dans une expérience localisée et facile à utiliser. Le projet démontre le support RTL et l'intégration API pour le contenu localisé."
     },
     role: {
       en: "Full stack development, frontend implementation, backend APIs, localization and deployment configuration.",
@@ -181,8 +181,8 @@ export const projects: Project[] = [
       ]
     },
     demonstrates: {
-      en: "This project shows my ability to build a localized application, handle RTL, connect an API and solve deployment issues.",
-      fr: "Ce projet montre ma capacité à créer une application localisée, gérer le RTL, connecter une API et résoudre des problèmes de déploiement."
+      en: "This project shows my ability to build a localized application, handle RTL, connect an API and solve deployment issues using React and MongoDB.",
+      fr: "Ce projet montre ma capacité à créer une application localisée, gérer le RTL, connecter une API et résoudre des problèmes de déploiement avec React et MongoDB."
     },
     liveUrl: "https://restaurant-app-phi-gray.vercel.app",
     githubUrl: "https://github.com/Sy2force/Restaurant-app",
