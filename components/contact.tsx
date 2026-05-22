@@ -64,12 +64,7 @@ export function Contact() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground mb-4 text-center">
-            {t.contact.title}
-          </h2>
-          <p className="text-base md:text-lg text-muted mb-12 max-w-2xl mx-auto text-center">
-            {t.contact.text}
-          </p>
+          <SectionTitle title={t.contact.title} subtitle={t.contact.text} />
 
           <div className="grid md:grid-cols-2 gap-8 md:gap-12">
             <div className="space-y-6">

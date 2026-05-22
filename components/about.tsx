@@ -3,6 +3,7 @@
 import { motion } from "framer-motion"
 import { useLanguage } from "@/lib/language-context"
 import { translations } from "@/lib/translations"
+import { SectionTitle } from "./section-title"
 
 export function About() {
   const { language } = useLanguage()
@@ -37,9 +38,7 @@ export function About() {
           transition={{ duration: 0.6 }}
           className="px-2"
         >
-          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-foreground mb-6 md:mb-8 text-center">
-            {t.about.title}
-          </h2>
+          <SectionTitle title={t.about.title} />
 
           <div className="max-w-3xl mb-8 md:mb-12 lg:mb-16 px-2">
             <p className="text-sm md:text-base lg:text-lg text-muted leading-relaxed whitespace-pre-line">

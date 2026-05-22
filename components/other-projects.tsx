@@ -3,6 +3,7 @@
 import { motion } from "framer-motion"
 import { useLanguage } from "@/lib/language-context"
 import { translations } from "@/lib/translations"
+import { SectionTitle } from "./section-title"
 
 export function OtherProjects() {
   const { language } = useLanguage()
@@ -17,17 +18,13 @@ export function OtherProjects() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <div className="text-center mb-8">
-            <span className="inline-block px-3 py-1 bg-accent/10 border border-accent/20 text-accent text-xs font-medium rounded-full mb-4">
+          <div className="text-center mb-4">
+            <span className="inline-block px-3 py-1 bg-accent/10 border border-accent/20 text-accent text-xs font-medium rounded-full">
               {language === "en" ? "In Progress" : "En cours"}
             </span>
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground mb-4">
-              {t.otherProjects.title}
-            </h2>
-            <p className="text-base md:text-lg text-muted max-w-3xl mx-auto">
-              {t.otherProjects.description}
-            </p>
           </div>
+          
+          <SectionTitle title={t.otherProjects.title} subtitle={t.otherProjects.description} />
 
           <div className="grid md:grid-cols-2 gap-4 mb-8">
             {t.otherProjects.list.map((item, index) => (
