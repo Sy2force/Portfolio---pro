@@ -227,5 +227,55 @@ export const projects: Project[] = [
       "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
       "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80"
     ]
+  },
+  {
+    id: 5,
+    title: "Body Institut",
+    type: {
+      en: "Premium Conversion Micro-Site + CRM",
+      fr: "Micro-Site de Conversion Premium + CRM"
+    },
+    description: {
+      en: "Apple-grade marketing site with intelligent simulator, automated lead pipeline, and built-in admin CRM for beauty institute.",
+      fr: "Site marketing de niveau Apple avec simulateur intelligent, pipeline de leads automatisé et CRM admin intégré pour institut de beauté."
+    },
+    problemSolved: {
+      en: "Body Institut provides a complete conversion solution with cinematic hero, smart simulator, lead management, and admin dashboard for beauty institute operations.",
+      fr: "Body Institut fournit une solution de conversion complète avec hero cinématographique, simulateur intelligent, gestion des leads et dashboard admin pour les opérations d'institut de beauté."
+    },
+    role: {
+      en: "Full stack development with Next.js 14, TypeScript, SQLite database, authentication, and email automation.",
+      fr: "Développement full stack avec Next.js 14, TypeScript, base de données SQLite, authentification et automatisation email."
+    },
+    techStack: ["Next.js 14", "TypeScript", "React 18", "Tailwind CSS", "Framer Motion", "SQLite", "Nodemailer", "Zod"],
+    keyFeatures: {
+      en: [
+        "Cinematic parallax hero",
+        "Apple-grade simulator",
+        "6-step smart recommendation",
+        "Lead pipeline automation",
+        "Admin CRM dashboard",
+        "Security & rate limiting"
+      ],
+      fr: [
+        "Hero parallax cinématographique",
+        "Simulateur de niveau Apple",
+        "Recommandation intelligente 6 étapes",
+        "Automatisation pipeline leads",
+        "Dashboard CRM admin",
+        "Sécurité et rate limiting"
+      ]
+    },
+    demonstrates: {
+      en: "This project demonstrates my ability to build premium marketing sites with advanced features like simulators, automated pipelines, and admin dashboards using modern Next.js.",
+      fr: "Ce projet démontre ma capacité à construire des sites marketing premium avec fonctionnalités avancées comme simulateurs, pipelines automatisés et dashboards admin en utilisant Next.js moderne."
+    },
+    liveUrl: "https://bodyinstitut.vercel.app",
+    githubUrl: "https://github.com/Sy2force/BodyInstitut",
+    images: [
+      "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&q=80",
+      "https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=800&q=80",
+      "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&q=80"
+    ]
   }
 ]
