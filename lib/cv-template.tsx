@@ -15,41 +15,41 @@ const styles = StyleSheet.create({
     lineHeight: 1.42,
     color: "#1F2933",
     backgroundColor: "#FFFFFF",
-    paddingTop: 34,
-    paddingBottom: 32,
-    paddingHorizontal: 38,
+    paddingTop: 32,
+    paddingBottom: 40,
+    paddingHorizontal: 42,
   },
   header: {
-    marginBottom: 16,
+    marginBottom: 18,
   },
   name: {
-    fontSize: 26,
+    fontSize: 28,
     fontWeight: 700,
-    letterSpacing: 0.6,
+    letterSpacing: 0.8,
     color: "#111827",
     textTransform: "uppercase",
-    marginBottom: 4,
+    marginBottom: 6,
   },
   title: {
     fontSize: 13,
     fontWeight: 500,
     color: "#1F2937",
-    marginBottom: 3,
+    marginBottom: 4,
   },
   stack: {
     fontSize: 10.5,
     color: "#4B5563",
-    marginBottom: 8,
+    marginBottom: 10,
   },
   contacts: {
-    fontSize: 9.5,
+    fontSize: 9.2,
     color: "#374151",
-    lineHeight: 1.4,
+    lineHeight: 1.5,
   },
-  separator: {
+  headerSeparator: {
     borderBottomColor: "#D1D5DB",
-    borderBottomWidth: 1,
-    marginBottom: 16,
+    borderBottomWidth: 1.5,
+    marginBottom: 18,
   },
   sectionTitle: {
     fontSize: 10.5,
@@ -60,22 +60,22 @@ const styles = StyleSheet.create({
     borderBottomColor: "#D1D5DB",
     borderBottomWidth: 1,
     paddingBottom: 3,
-    marginBottom: 6,
-    marginTop: 14,
+    marginBottom: 8,
+    marginTop: 16,
   },
   text: {
     fontSize: 10,
-    lineHeight: 1.42,
+    lineHeight: 1.45,
     marginBottom: 4,
   },
   bullet: {
-    fontSize: 9.6,
-    lineHeight: 1.35,
-    marginBottom: 2.5,
-    marginLeft: 12,
+    fontSize: 9.5,
+    lineHeight: 1.4,
+    marginBottom: 3,
+    marginLeft: 14,
   },
   projectTitle: {
-    fontSize: 10.4,
+    fontSize: 10.5,
     fontWeight: 700,
     color: "#111827",
     marginBottom: 2,
@@ -87,7 +87,7 @@ const styles = StyleSheet.create({
     marginBottom: 3,
   },
   experienceHeader: {
-    fontSize: 10.2,
+    fontSize: 10.3,
     fontWeight: 600,
     marginBottom: 1,
     color: "#111827",
@@ -95,15 +95,30 @@ const styles = StyleSheet.create({
   experienceDate: {
     fontSize: 9.4,
     color: "#4B5563",
-    marginBottom: 3,
+    marginBottom: 4,
   },
   languages: {
     fontSize: 10,
-    lineHeight: 1.42,
+    lineHeight: 1.45,
   },
   footer: {
-    marginTop: 20,
-    fontSize: 9,
+    position: "absolute",
+    bottom: 18,
+    left: 42,
+    right: 42,
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    borderTopColor: "#E5E7EB",
+    borderTopWidth: 0.5,
+    paddingTop: 8,
+  },
+  footerText: {
+    fontSize: 8,
+    color: "#9CA3AF",
+  },
+  pageNumber: {
+    fontSize: 8,
     color: "#9CA3AF",
   },
 })
@@ -125,7 +140,7 @@ export const CVDocument: React.FC<CVDocumentProps> = ({ content }) => (
         </Text>
       </View>
 
-      <View style={styles.separator} />
+      <View style={styles.headerSeparator} />
 
       {/* Summary */}
       <Text style={styles.sectionTitle}>{content.summary.title}</Text>
@@ -144,7 +159,7 @@ export const CVDocument: React.FC<CVDocumentProps> = ({ content }) => (
       {/* Projects */}
       <Text style={styles.sectionTitle}>{content.projects.title}</Text>
       {content.projects.items.map((project, index) => (
-        <View key={index}>
+        <View key={index} wrap={false}>
           <Text style={styles.projectTitle}>{project.title}</Text>
           <Text style={styles.projectStack}>{project.stack}</Text>
           <Text style={styles.text}>
@@ -156,10 +171,18 @@ export const CVDocument: React.FC<CVDocumentProps> = ({ content }) => (
         </View>
       ))}
 
+      {/* Footer Page 1 */}
+      <View style={styles.footer}>
+        <Text style={styles.footerText}>{content.footer}</Text>
+        <Text style={styles.pageNumber}>Page 1 / 2</Text>
+      </View>
+    </Page>
+
+    <Page size="A4" style={styles.page}>
       {/* Experience */}
       <Text style={styles.sectionTitle}>{content.experience.title}</Text>
       {content.experience.items.map((item, index) => (
-        <View key={index}>
+        <View key={index} wrap={false}>
           <Text style={styles.experienceHeader}>{item.title}</Text>
           <Text style={styles.experienceDate}>{item.date}</Text>
           {item.bullets.map((bullet, bIndex) => (
@@ -188,10 +211,11 @@ export const CVDocument: React.FC<CVDocumentProps> = ({ content }) => (
         </Text>
       ))}
 
-      {/* Footer */}
-      <Text style={styles.footer}>
-        {content.footer}
-      </Text>
+      {/* Footer Page 2 */}
+      <View style={styles.footer}>
+        <Text style={styles.footerText}>{content.footer}</Text>
+        <Text style={styles.pageNumber}>Page 2 / 2</Text>
+      </View>
     </Page>
   </Document>
 )

@@ -65,25 +65,25 @@ export const cvContentEN: CVContent = {
   },
   summary: {
     title: "PROFESSIONAL SUMMARY",
-    text: "Full Stack Developer based in Jerusalem, Israel, with a background in digital marketing, web design and content creation. I build modern, responsive web applications using React, Next.js, Node.js, Express, MongoDB and Django. My projects include e-commerce platforms, dashboards, REST APIs, authentication systems and clean user interfaces. I am looking for a developer role where I can contribute to real products, learn from a professional team and continue growing as a developer."
+    text: "Full Stack Developer based in Jerusalem, with a background in digital marketing, web design and content creation. I build responsive web applications with React, Next.js, Node.js, Express, MongoDB and Django, with a focus on clean interfaces, structured backend logic and practical user experiences. I am looking for a developer role where I can contribute to real products and grow within a professional team."
   },
   skills: {
     title: "TECHNICAL SKILLS",
     categories: [
       {
         name: "Frontend",
-        skills: "React, Next.js, JavaScript, TypeScript, HTML5, CSS3, Tailwind CSS, Responsive Design, Framer Motion"
+        skills: "React, Next.js, JavaScript, TypeScript, HTML5, CSS3, Tailwind CSS, Responsive Design"
       },
       {
         name: "Backend",
-        skills: "Node.js, Express.js, Django, Django REST Framework, REST APIs, JWT Authentication, MongoDB, PostgreSQL"
+        skills: "Node.js, Express.js, Django, Django REST Framework, REST APIs, JWT, MongoDB, PostgreSQL"
       },
       {
-        name: "Tools & Deployment",
+        name: "Tools",
         skills: "Git, GitHub, Vercel, Render, MongoDB Atlas, Postman, Docker, Swagger"
       },
       {
-        name: "Digital & Product",
+        name: "Digital",
         skills: "Web Design, Landing Pages, Digital Marketing, SEO Basics, Content Creation, UX Writing"
       }
     ]
@@ -93,46 +93,38 @@ export const cvContentEN: CVContent = {
     items: [
       {
         title: "FitWell — Full Stack Health & Fitness Platform",
-        stack: "Django, Django REST Framework, PostgreSQL, JWT, Swagger, Docker",
-        description: "Built a full stack health and fitness platform focused on backend API structure, content management and user-oriented features.",
+        stack: "Django · Django REST Framework · PostgreSQL · JWT · Swagger · Docker",
+        description: "Built a full stack health and fitness platform focused on API structure, content management and user-oriented backend features.",
         bullets: [
           "Developed REST API logic for articles, comments and user-related features.",
-          "Implemented authentication structure and backend data management.",
-          "Added API documentation and deployment-ready project organization.",
-          "Focused on clean architecture, maintainability and practical backend workflows."
+          "Implemented authentication, documentation and deployment-ready project organization."
         ]
       },
       {
         title: "OpticGlass — Luxury E-commerce Web Application",
-        stack: "React, Vite, Tailwind CSS, Node.js, Express, MongoDB",
-        description: "Built a modern e-commerce web application for premium eyewear with a strong focus on product presentation, responsive UI and user experience.",
+        stack: "React · Vite · Tailwind CSS · Node.js · Express · MongoDB",
+        description: "Built a modern e-commerce application for premium eyewear with a focus on product presentation and responsive UI.",
         bullets: [
-          "Created product catalog, product detail pages and responsive frontend layouts.",
-          "Structured frontend and backend logic for an e-commerce-style application.",
-          "Worked on authentication structure, admin-oriented logic and reusable components.",
-          "Focused on clean visual design, premium branding and deployment-ready architecture."
+          "Created product catalog, product detail pages and reusable frontend components.",
+          "Structured frontend and backend logic for an e-commerce-style application."
         ]
       },
       {
         title: "Food App — Restaurant & Food Ordering Interface",
-        stack: "React, JavaScript, CSS, API Logic",
-        description: "Built a responsive food application designed to present meals, categories and ordering flows through a clean and user-friendly interface.",
+        stack: "React · JavaScript · CSS · API Logic",
+        description: "Built a responsive food application designed to present meals, categories and ordering flows through a clean interface.",
         bullets: [
-          "Developed a modern responsive interface for food browsing and ordering.",
-          "Built reusable components and category-based UI structure.",
-          "Focused on mobile-friendly layouts and simple user experience.",
-          "Improved visual hierarchy and frontend organization."
+          "Developed mobile-friendly layouts and category-based UI structure.",
+          "Improved visual hierarchy, component organization and user experience."
         ]
       },
       {
         title: "Digital Business Card App — Full Stack SaaS-style Application",
-        stack: "React, Node.js, Express, MongoDB, JWT, Tailwind CSS",
-        description: "Built a digital business card platform with authentication, dashboard logic, protected routes and dynamic card management.",
+        stack: "React · Node.js · Express · MongoDB · JWT · Tailwind CSS",
+        description: "Built a digital business card platform with authentication, protected routes and dashboard-oriented features.",
         bullets: [
-          "Implemented user authentication and protected routes.",
-          "Built dashboard-oriented features and role-based logic.",
-          "Created responsive interfaces for card creation and management.",
-          "Connected frontend and backend logic with a structured full stack approach."
+          "Implemented user authentication, protected routes and role-based logic.",
+          "Connected frontend and backend features with a structured full stack approach."
         ]
       }
     ]
@@ -144,9 +136,8 @@ export const cvContentEN: CVContent = {
         title: "Full Stack Developer — Personal Projects & Portfolio",
         date: "2024 – Present",
         bullets: [
-          "Built and deployed several web applications using React, Next.js, Node.js, Express, MongoDB and Django.",
+          "Built and deployed web applications using React, Next.js, Node.js, Express, MongoDB and Django.",
           "Developed frontend interfaces, backend APIs, authentication systems and database-connected features.",
-          "Improved project structure, UI consistency and responsive user experience across multiple applications.",
           "Used Git, GitHub, Vercel, Render and MongoDB Atlas for development and deployment workflows."
         ]
       },
@@ -155,8 +146,7 @@ export const cvContentEN: CVContent = {
         date: "2024 – Present",
         bullets: [
           "Created digital concepts combining web design, branding, landing pages and content strategy.",
-          "Applied marketing principles to improve messaging, visual hierarchy and project presentation.",
-          "Worked on digital positioning, user experience and business-oriented website structure."
+          "Applied marketing principles to improve messaging, visual hierarchy and project presentation."
         ]
       },
       {
@@ -164,8 +154,7 @@ export const cvContentEN: CVContent = {
         date: "2019 – 2022",
         bullets: [
           "Completed full military service in a structured and high-responsibility environment.",
-          "Developed discipline, reliability, teamwork and the ability to stay focused under pressure.",
-          "Learned to adapt quickly and work effectively in demanding conditions."
+          "Developed discipline, reliability, teamwork and the ability to stay focused under pressure."
         ]
       }
     ]
@@ -176,24 +165,22 @@ export const cvContentEN: CVContent = {
       {
         title: "HackerU — Full Stack Development",
         date: "2024 – 2026",
-        description: "Training focused on frontend and backend web development, including React, Node.js, MongoDB, APIs, authentication, project architecture and deployment."
+        description: "Frontend and backend web development training: React, Node.js, MongoDB, APIs, authentication, project architecture and deployment."
       },
       {
         title: "Habetzefer, Tel Aviv — Digital Marketing & Content Creation",
         date: "2024",
-        description: "Studied digital marketing strategy, content creation, social media, branding and campaign structure."
+        description: "Digital marketing strategy, content creation, social media, branding and campaign structure."
       }
     ]
   },
   languages: {
     title: "LANGUAGES",
     items: [
-      "French: Native",
-      "Hebrew: Professional working proficiency",
-      "English: Professional working proficiency"
+      "French: Native | Hebrew: Professional working proficiency | English: Professional working proficiency"
     ]
   },
-  footer: "Portfolio: shay-acoca-portfolio.vercel.app"
+  footer: "Shay Acoca · Full Stack Developer · shay-acoca-portfolio.vercel.app"
 }
 
 export const cvContentFR: CVContent = {
@@ -209,25 +196,25 @@ export const cvContentFR: CVContent = {
   },
   summary: {
     title: "PROFIL PROFESSIONNEL",
-    text: "Développeur Full Stack basé à Jérusalem, avec un parcours en marketing digital, web design et création de contenu. Je conçois des applications web modernes et responsives avec React, Next.js, Node.js, Express, MongoDB et Django. Mes projets incluent des plateformes e-commerce, des dashboards, des API REST, des systèmes d'authentification et des interfaces utilisateur claires. Je recherche une opportunité en développement web où je pourrai contribuer à des produits concrets, apprendre au sein d'une équipe professionnelle et continuer à progresser techniquement."
+    text: "Développeur Full Stack basé à Jérusalem, avec un parcours en marketing digital, web design et création de contenu. Je conçois des applications web responsives avec React, Next.js, Node.js, Express, MongoDB et Django, avec une attention particulière portée aux interfaces propres, à la logique backend structurée et à l'expérience utilisateur. Je recherche une opportunité en développement web où contribuer à des produits concrets et progresser au sein d'une équipe professionnelle."
   },
   skills: {
     title: "COMPÉTENCES TECHNIQUES",
     categories: [
       {
         name: "Frontend",
-        skills: "React, Next.js, JavaScript, TypeScript, HTML5, CSS3, Tailwind CSS, Responsive Design, Framer Motion"
+        skills: "React, Next.js, JavaScript, TypeScript, HTML5, CSS3, Tailwind CSS, Responsive Design"
       },
       {
         name: "Backend",
         skills: "Node.js, Express.js, Django, Django REST Framework, API REST, Authentification JWT, MongoDB, PostgreSQL"
       },
       {
-        name: "Outils & Déploiement",
+        name: "Outils",
         skills: "Git, GitHub, Vercel, Render, MongoDB Atlas, Postman, Docker, Swagger"
       },
       {
-        name: "Digital & Produit",
+        name: "Digital",
         skills: "Web Design, Landing Pages, Marketing Digital, Bases SEO, Création de Contenu, UX Writing"
       }
     ]
@@ -237,46 +224,38 @@ export const cvContentFR: CVContent = {
     items: [
       {
         title: "FitWell — Plateforme Full Stack Santé & Fitness",
-        stack: "Django, Django REST Framework, PostgreSQL, JWT, Swagger, Docker",
-        description: "Développement d'une plateforme full stack orientée santé et fitness, centrée sur la structure backend, la gestion de contenu et des fonctionnalités utilisateur.",
+        stack: "Django · Django REST Framework · PostgreSQL · JWT · Swagger · Docker",
+        description: "Développement d'une plateforme santé et fitness centrée sur la structure API, la gestion de contenu et les fonctionnalités backend.",
         bullets: [
-          "Développement d'une logique API REST pour les articles, commentaires et fonctionnalités liées aux utilisateurs.",
-          "Mise en place d'une structure d'authentification et de gestion des données backend.",
-          "Ajout d'une documentation API et d'une organisation prête pour le déploiement.",
-          "Travail axé sur une architecture propre, maintenable et adaptée à des workflows backend réels."
+          "Création d'une logique API REST pour les articles, commentaires et fonctionnalités utilisateur.",
+          "Mise en place de l'authentification, de la documentation et d'une organisation prête au déploiement."
         ]
       },
       {
         title: "OpticGlass — Application E-commerce de Lunettes Premium",
-        stack: "React, Vite, Tailwind CSS, Node.js, Express, MongoDB",
-        description: "Développement d'une application e-commerce moderne pour lunettes premium, avec un fort accent sur la présentation produit, le responsive design et l'expérience utilisateur.",
+        stack: "React · Vite · Tailwind CSS · Node.js · Express · MongoDB",
+        description: "Développement d'une application e-commerce moderne pour lunettes premium, avec un focus sur la présentation produit et l'interface responsive.",
         bullets: [
-          "Création d'un catalogue produit, de pages détail produit et de layouts responsives.",
-          "Structuration de la logique frontend et backend pour une application de type e-commerce.",
-          "Travail sur l'authentification, la logique orientée administration et les composants réutilisables.",
-          "Mise en avant d'un design visuel propre, d'un branding premium et d'une architecture prête au déploiement."
+          "Création du catalogue produit, des pages détail et de composants frontend réutilisables.",
+          "Structuration de la logique frontend et backend pour une application de type e-commerce."
         ]
       },
       {
         title: "Food App — Interface Restaurant & Commande",
-        stack: "React, JavaScript, CSS, API Logic",
-        description: "Développement d'une application responsive destinée à présenter des plats, des catégories et un parcours de commande simple à travers une interface claire.",
+        stack: "React · JavaScript · CSS · API Logic",
+        description: "Développement d'une application responsive pour présenter des plats, catégories et parcours de commande dans une interface claire.",
         bullets: [
-          "Développement d'une interface moderne et responsive pour la navigation de plats et la commande.",
-          "Création de composants réutilisables et d'une structure par catégories.",
-          "Optimisation de l'expérience mobile et de la simplicité d'utilisation.",
-          "Amélioration de la hiérarchie visuelle et de l'organisation frontend."
+          "Création de layouts mobile-friendly et d'une structure UI basée sur les catégories.",
+          "Amélioration de la hiérarchie visuelle, de l'organisation des composants et de l'expérience utilisateur."
         ]
       },
       {
         title: "Digital Business Card App — Application Full Stack Type SaaS",
-        stack: "React, Node.js, Express, MongoDB, JWT, Tailwind CSS",
-        description: "Développement d'une plateforme de cartes de visite numériques avec authentification, dashboard, routes protégées et gestion dynamique des cartes.",
+        stack: "React · Node.js · Express · MongoDB · JWT · Tailwind CSS",
+        description: "Développement d'une plateforme de cartes de visite numériques avec authentification, routes protégées et fonctionnalités dashboard.",
         bullets: [
-          "Mise en place de l'authentification utilisateur et des routes protégées.",
-          "Développement de fonctionnalités orientées dashboard et logique de rôles.",
-          "Création d'interfaces responsives pour la création et la gestion de cartes.",
-          "Connexion entre frontend et backend dans une approche full stack structurée."
+          "Mise en place de l'authentification utilisateur, des routes protégées et de la logique de rôles.",
+          "Connexion des fonctionnalités frontend et backend dans une approche full stack structurée."
         ]
       }
     ]
@@ -288,9 +267,8 @@ export const cvContentFR: CVContent = {
         title: "Développeur Full Stack — Projets personnels & Portfolio",
         date: "2024 – Présent",
         bullets: [
-          "Développement et déploiement de plusieurs applications web avec React, Next.js, Node.js, Express, MongoDB et Django.",
-          "Création d'interfaces frontend, d'API backend, de systèmes d'authentification et de fonctionnalités connectées à des bases de données.",
-          "Amélioration de la structure des projets, de la cohérence UI et de l'expérience responsive.",
+          "Développement et déploiement d'applications web avec React, Next.js, Node.js, Express, MongoDB et Django.",
+          "Création d'interfaces frontend, d'API backend, de systèmes d'authentification et de fonctionnalités connectées aux bases de données.",
           "Utilisation de Git, GitHub, Vercel, Render et MongoDB Atlas dans les workflows de développement et déploiement."
         ]
       },
@@ -299,8 +277,7 @@ export const cvContentFR: CVContent = {
         date: "2024 – Présent",
         bullets: [
           "Création de concepts digitaux combinant web design, branding, landing pages et stratégie de contenu.",
-          "Application de principes marketing pour améliorer les messages, la hiérarchie visuelle et la présentation des projets.",
-          "Travail sur le positionnement digital, l'expérience utilisateur et la structure de sites orientés business."
+          "Application de principes marketing pour améliorer les messages, la hiérarchie visuelle et la présentation des projets."
         ]
       },
       {
@@ -308,8 +285,7 @@ export const cvContentFR: CVContent = {
         date: "2019 – 2022",
         bullets: [
           "Service militaire complet dans un environnement structuré et à haute responsabilité.",
-          "Développement de la discipline, de la fiabilité, du travail d'équipe et de la capacité à rester concentré sous pression.",
-          "Apprentissage de l'adaptation rapide et du travail efficace dans des conditions exigeantes."
+          "Développement de la discipline, de la fiabilité, du travail d'équipe et de la capacité à rester concentré sous pression."
         ]
       }
     ]
@@ -320,7 +296,7 @@ export const cvContentFR: CVContent = {
       {
         title: "HackerU — Développement Full Stack",
         date: "2024 – 2026",
-        description: "Formation axée sur le développement web frontend et backend : React, Node.js, MongoDB, API, authentification, architecture de projet et déploiement."
+        description: "Formation en développement web frontend et backend : React, Node.js, MongoDB, API, authentification, architecture de projet et déploiement."
       },
       {
         title: "Habetzefer, Tel Aviv — Marketing Digital & Création de Contenu",
@@ -332,10 +308,8 @@ export const cvContentFR: CVContent = {
   languages: {
     title: "LANGUES",
     items: [
-      "Français : Langue maternelle",
-      "Hébreu : Niveau professionnel",
-      "Anglais : Niveau professionnel"
+      "Français : Langue maternelle | Hébreu : Niveau professionnel | Anglais : Niveau professionnel"
     ]
   },
-  footer: "Portfolio : shay-acoca-portfolio.vercel.app"
+  footer: "Shay Acoca · Développeur Full Stack · shay-acoca-portfolio.vercel.app"
 }
