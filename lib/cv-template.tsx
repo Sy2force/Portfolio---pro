@@ -128,6 +128,13 @@ const styles = StyleSheet.create({
     borderLeftColor: "#000000",
     borderLeftWidth: 2,
   },
+  experienceBox: {
+    backgroundColor: "#F9F9F9",
+    padding: 6,
+    marginBottom: 6,
+    borderLeftColor: "#000000",
+    borderLeftWidth: 2,
+  },
   projectTitle: {
     fontSize: 9.8,
     fontWeight: 700,
@@ -258,7 +265,7 @@ export const CVDocument: React.FC<CVDocumentProps> = ({ content }) => (
           <View style={styles.section}>
             <Text style={styles.sectionTitle}>{content.experience.title}</Text>
             {content.experience.items.map((item, index) => (
-              <View key={index} wrap={false}>
+              <View key={index} style={styles.experienceBox} wrap={false}>
                 <Text style={styles.experienceTitle}>{item.title}</Text>
                 <Text style={styles.experienceDate}>{item.date}</Text>
                 {item.bullets.slice(0, 3).map((bullet, bIndex) => (
