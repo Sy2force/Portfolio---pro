@@ -70,11 +70,11 @@ export default function ResumePage() {
                 English Resume
               </h3>
               <span className="px-3 py-1 bg-blue-600/20 text-blue-400 text-xs font-medium rounded-full border border-blue-500/30">
-                2 pages
+                1 page
               </span>
             </div>
             <p className="text-base md:text-lg text-gray-300 mb-8 leading-relaxed flex-grow">
-              Professional CV for international and tech opportunities with modern corporate design.
+              Professional CV with modern Figma-inspired design for international and tech opportunities.
             </p>
             <div className="space-y-4">
               <a
@@ -84,14 +84,6 @@ export default function ResumePage() {
                 aria-label="Download Shay Acoca English CV PDF"
               >
                 Download English PDF
-              </a>
-              <a
-                href="/Shay_Acoca_CV_Summary_EN.pdf"
-                download
-                className="block w-full px-6 py-3 bg-gray-700 hover:bg-gray-600 text-white rounded-xl transition-all duration-300 font-medium text-center touch-manipulation active:scale-98"
-                aria-label="Download Shay Acoca English Summary CV PDF"
-              >
-                Download Summary (1 page)
               </a>
             </div>
           </motion.div>
@@ -108,11 +100,11 @@ export default function ResumePage() {
                 CV Français
               </h3>
               <span className="px-3 py-1 bg-blue-600/20 text-blue-400 text-xs font-medium rounded-full border border-blue-500/30">
-                2 pages
+                1 page
               </span>
             </div>
             <p className="text-base md:text-lg text-gray-300 mb-8 leading-relaxed flex-grow">
-              Version française complète pour candidatures francophones avec design corporate moderne.
+              Version française complète avec design moderne inspiré de Figma pour candidatures francophones.
             </p>
             <div className="space-y-4">
               <a
@@ -122,14 +114,6 @@ export default function ResumePage() {
                 aria-label="Télécharger le CV français de Shay Acoca en PDF"
               >
                 Télécharger le PDF français
-              </a>
-              <a
-                href="/Shay_Acoca_CV_Summary_FR.pdf"
-                download
-                className="block w-full px-6 py-3 bg-gray-700 hover:bg-gray-600 text-white rounded-xl transition-all duration-300 font-medium text-center touch-manipulation active:scale-98"
-                aria-label="Télécharger le CV résumé français de Shay Acoca en PDF"
-              >
-                Télécharger le résumé (1 page)
               </a>
             </div>
           </motion.div>
@@ -147,7 +131,7 @@ export default function ResumePage() {
           </h3>
           <div className="grid md:grid-cols-3 gap-6 text-center">
             <div className="space-y-2">
-              <div className="text-3xl md:text-4xl font-bold text-blue-400">4</div>
+              <div className="text-3xl md:text-4xl font-bold text-blue-400">3</div>
               <div className="text-sm md:text-base text-gray-300">Selected Projects</div>
             </div>
             <div className="space-y-2">
@@ -161,7 +145,7 @@ export default function ResumePage() {
           </div>
           <div className="mt-6 pt-6 border-t border-gray-700/50 text-center">
             <p className="text-sm md:text-base text-gray-400">
-              Optimized for startups and professional applications • Clean bilingual PDF • Designed for mobile and desktop download
+              Figma-inspired modern design • Clean bilingual PDF • Optimized for single-page layout
             </p>
           </div>
         </motion.div>
