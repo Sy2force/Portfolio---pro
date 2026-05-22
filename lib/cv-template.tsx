@@ -12,114 +12,123 @@ const styles = StyleSheet.create({
   page: {
     fontFamily: "Helvetica",
     fontSize: 10,
-    lineHeight: 1.6,
+    lineHeight: 1.5,
     color: "#1a1a1a",
     backgroundColor: "#ffffff",
-    paddingTop: 35,
-    paddingBottom: 45,
-    paddingHorizontal: 45,
+    flexDirection: "row",
   },
-  header: {
-    marginBottom: 22,
+  sidebar: {
+    width: 200,
+    backgroundColor: "#f8fafc",
+    borderRightColor: "#e5e7eb",
+    borderRightWidth: 1,
+    padding: 30,
   },
-  name: {
-    fontSize: 27,
+  mainContent: {
+    flex: 1,
+    padding: 30,
+  },
+  sidebarName: {
+    fontSize: 24,
     fontWeight: 700,
-    letterSpacing: 2.5,
+    letterSpacing: 2,
     color: "#111111",
     textTransform: "uppercase",
     marginBottom: 8,
   },
-  title: {
-    fontSize: 15,
+  sidebarTitle: {
+    fontSize: 13,
     fontWeight: 600,
     color: "#2563eb",
-    marginBottom: 6,
+    marginBottom: 4,
   },
-  stack: {
-    fontSize: 9,
-    color: "#666666",
-    marginBottom: 10,
-    letterSpacing: 0.4,
-    fontStyle: "italic",
+  sidebarSection: {
+    marginBottom: 25,
   },
-  contacts: {
-    fontSize: 8,
-    color: "#444444",
-    lineHeight: 1.9,
-    letterSpacing: 0.2,
-  },
-  headerSeparator: {
+  sidebarSectionTitle: {
+    fontSize: 10,
+    fontWeight: 700,
+    letterSpacing: 1,
+    textTransform: "uppercase",
+    color: "#111111",
+    marginBottom: 8,
     borderBottomColor: "#2563eb",
-    borderBottomWidth: 2.5,
-    marginBottom: 22,
+    borderBottomWidth: 1,
+    paddingBottom: 4,
+  },
+  sidebarText: {
+    fontSize: 9,
+    lineHeight: 1.5,
+    color: "#333333",
+    marginBottom: 3,
+  },
+  sidebarContact: {
+    fontSize: 8.5,
+    lineHeight: 1.6,
+    color: "#444444",
+    marginBottom: 4,
   },
   sectionTitle: {
-    fontSize: 11.5,
+    fontSize: 11,
     fontWeight: 700,
-    letterSpacing: 1.8,
+    letterSpacing: 1.5,
     textTransform: "uppercase",
     color: "#111111",
     borderBottomColor: "#2563eb",
-    borderBottomWidth: 2,
-    paddingBottom: 6,
-    marginBottom: 14,
-    marginTop: 20,
+    borderBottomWidth: 1.5,
+    paddingBottom: 5,
+    marginBottom: 12,
+    marginTop: 16,
   },
   text: {
     fontSize: 10,
-    lineHeight: 1.6,
-    marginBottom: 5,
+    lineHeight: 1.5,
+    marginBottom: 4,
     color: "#333333"
   },
   bullet: {
     fontSize: 9.5,
-    lineHeight: 1.5,
-    marginBottom: 3.5,
-    marginLeft: 20,
+    lineHeight: 1.4,
+    marginBottom: 3,
+    marginLeft: 18,
     color: "#333333"
   },
   projectTitle: {
-    fontSize: 11.5,
+    fontSize: 10.5,
     fontWeight: 700,
     color: "#111111",
-    marginBottom: 4,
+    marginBottom: 3,
   },
   projectStack: {
     fontSize: 8.5,
     fontStyle: "italic",
     color: "#2563eb",
-    marginBottom: 4,
-    letterSpacing: 0.4,
+    marginBottom: 3,
   },
   experienceHeader: {
-    fontSize: 11,
+    fontSize: 10,
     fontWeight: 700,
-    marginBottom: 3,
+    marginBottom: 2,
     color: "#111111",
   },
   experienceDate: {
-    fontSize: 9,
+    fontSize: 8.5,
     color: "#2563eb",
-    marginBottom: 5,
+    marginBottom: 4,
     fontWeight: 600,
-  },
-  languages: {
-    fontSize: 10,
-    lineHeight: 1.6,
-    color: "#333333"
   },
   footer: {
     position: "absolute",
-    bottom: 18,
-    left: 45,
-    right: 45,
+    bottom: 15,
+    left: 0,
+    right: 0,
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
     borderTopColor: "#e5e7eb",
     borderTopWidth: 1,
-    paddingTop: 10,
+    paddingTop: 8,
+    paddingHorizontal: 30,
   },
   footerText: {
     fontSize: 7,
@@ -140,83 +149,88 @@ interface CVDocumentProps {
 export const CVDocument: React.FC<CVDocumentProps> = ({ content }) => (
   <Document>
     <Page size="A4" style={styles.page}>
-      {/* Header */}
-      <View style={styles.header}>
-        <Text style={styles.name}>{content.header.name}</Text>
-        <Text style={styles.title}>{content.header.title}</Text>
-        <Text style={styles.stack}>{content.header.stack}</Text>
-        <Text style={styles.contacts}>
-          {content.header.location} | {content.header.email} | {content.header.portfolio} | {content.header.linkedin} | {content.header.github}
-        </Text>
+      {/* Sidebar */}
+      <View style={styles.sidebar}>
+        <Text style={styles.sidebarName}>{content.header.name}</Text>
+        <Text style={styles.sidebarTitle}>{content.header.title}</Text>
+
+        <View style={styles.sidebarSection}>
+          <Text style={styles.sidebarSectionTitle}>Contact</Text>
+          <Text style={styles.sidebarContact}>{content.header.location}</Text>
+          <Text style={styles.sidebarContact}>{content.header.email}</Text>
+          <Text style={styles.sidebarContact}>{content.header.portfolio}</Text>
+          <Text style={styles.sidebarContact}>{content.header.linkedin}</Text>
+          <Text style={styles.sidebarContact}>{content.header.github}</Text>
+        </View>
+
+        <View style={styles.sidebarSection}>
+          <Text style={styles.sidebarSectionTitle}>{content.languages.title}</Text>
+          {content.languages.items.map((item, index) => (
+            <Text key={index} style={styles.sidebarText}>
+              {item}
+            </Text>
+          ))}
+        </View>
+
+        <View style={styles.sidebarSection}>
+          <Text style={styles.sidebarSectionTitle}>{content.skills.title}</Text>
+          {content.skills.categories.map((category, index) => (
+            <View key={index} style={{ marginBottom: 6 }}>
+              <Text style={{ fontWeight: 600, fontSize: 9, color: "#111111" }}>{category.name}</Text>
+              <Text style={styles.sidebarText}>{category.skills}</Text>
+            </View>
+          ))}
+        </View>
       </View>
 
-      <View style={styles.headerSeparator} />
-
-      {/* Summary */}
-      <Text style={styles.sectionTitle}>{content.summary.title}</Text>
-      <Text style={styles.text}>
-        {content.summary.text}
-      </Text>
-
-      {/* Skills */}
-      <Text style={styles.sectionTitle}>{content.skills.title}</Text>
-      {content.skills.categories.map((category, index) => (
-        <Text key={index} style={styles.text}>
-          <Text style={{ fontWeight: 600 }}>{category.name}:</Text> {category.skills}
+      {/* Main Content */}
+      <View style={styles.mainContent}>
+        <Text style={styles.sectionTitle}>{content.summary.title}</Text>
+        <Text style={styles.text}>
+          {content.summary.text}
         </Text>
-      ))}
 
-      {/* Projects */}
-      <Text style={styles.sectionTitle}>{content.projects.title}</Text>
-      {content.projects.items.map((project, index) => (
-        <View key={index} wrap={false}>
-          <Text style={styles.projectTitle}>{project.title}</Text>
-          <Text style={styles.projectStack}>{project.stack}</Text>
-          <Text style={styles.text}>
-            {project.description}
-          </Text>
-          {project.bullets.map((bullet, bIndex) => (
-            <Text key={bIndex} style={styles.bullet}>• {bullet}</Text>
-          ))}
+        <Text style={styles.sectionTitle}>{content.projects.title}</Text>
+        {content.projects.items.map((project, index) => (
+          <View key={index} wrap={false}>
+            <Text style={styles.projectTitle}>{project.title}</Text>
+            <Text style={styles.projectStack}>{project.stack}</Text>
+            <Text style={styles.text}>
+              {project.description}
+            </Text>
+            {project.bullets.map((bullet, bIndex) => (
+              <Text key={bIndex} style={styles.bullet}>• {bullet}</Text>
+            ))}
+          </View>
+        ))}
+
+        <Text style={styles.sectionTitle}>{content.experience.title}</Text>
+        {content.experience.items.map((item, index) => (
+          <View key={index} wrap={false}>
+            <Text style={styles.experienceHeader}>{item.title}</Text>
+            <Text style={styles.experienceDate}>{item.date}</Text>
+            {item.bullets.map((bullet, bIndex) => (
+              <Text key={bIndex} style={styles.bullet}>• {bullet}</Text>
+            ))}
+          </View>
+        ))}
+
+        <Text style={styles.sectionTitle}>{content.education.title}</Text>
+        {content.education.items.map((item, index) => (
+          <View key={index}>
+            <Text style={styles.experienceHeader}>{item.title}</Text>
+            <Text style={styles.experienceDate}>{item.date}</Text>
+            <Text style={styles.text}>
+              {item.description}
+            </Text>
+          </View>
+        ))}
+
+        {/* Footer */}
+        <View style={styles.footer}>
+          <Text style={styles.footerText}>{content.footer}</Text>
+          <Text style={styles.pageNumber}>Page 1 / 1</Text>
         </View>
-      ))}
-
-      {/* Experience */}
-      <Text style={styles.sectionTitle}>{content.experience.title}</Text>
-      {content.experience.items.map((item, index) => (
-        <View key={index} wrap={false}>
-          <Text style={styles.experienceHeader}>{item.title}</Text>
-          <Text style={styles.experienceDate}>{item.date}</Text>
-          {item.bullets.map((bullet, bIndex) => (
-            <Text key={bIndex} style={styles.bullet}>• {bullet}</Text>
-          ))}
-        </View>
-      ))}
-
-      {/* Education */}
-      <Text style={styles.sectionTitle}>{content.education.title}</Text>
-      {content.education.items.map((item, index) => (
-        <View key={index}>
-          <Text style={styles.experienceHeader}>{item.title}</Text>
-          <Text style={styles.experienceDate}>{item.date}</Text>
-          <Text style={styles.text}>
-            {item.description}
-          </Text>
-        </View>
-      ))}
-
-      {/* Languages */}
-      <Text style={styles.sectionTitle}>{content.languages.title}</Text>
-      {content.languages.items.map((item, index) => (
-        <Text key={index} style={styles.languages}>
-          {item}
-        </Text>
-      ))}
-
-      {/* Footer */}
-      <View style={styles.footer}>
-        <Text style={styles.footerText}>{content.footer}</Text>
-        <Text style={styles.pageNumber}>Page 1 / 1</Text>
       </View>
     </Page>
   </Document>
