@@ -27,7 +27,7 @@ export function Navbar() {
     }
     expandTimerRef.current = setTimeout(() => {
       setIsExpanded(false)
-    }, 3000) // Auto-collapse after 3 seconds
+    }, 5000) // Auto-collapse after 5 seconds for better mobile experience
   }
 
   const handleCollapse = () => {
@@ -36,6 +36,15 @@ export function Navbar() {
     }
     setIsExpanded(false)
   }
+
+  // Cleanup timer on unmount
+  useEffect(() => {
+    return () => {
+      if (expandTimerRef.current) {
+        clearTimeout(expandTimerRef.current)
+      }
+    }
+  }, [])
 
   const t = translations[language]
 
@@ -112,8 +121,17 @@ export function Navbar() {
       <nav 
         className="md:hidden fixed top-1/2 right-4 -translate-y-1/2 z-50"
         onTouchStart={handleExpand}
+        onTouchEnd={(e) => {
+          e.preventDefault()
+          setTimeout(() => {
+            if (!expandTimerRef.current) {
+              setIsExpanded(false)
+            }
+          }, 200)
+        }}
         onMouseEnter={handleExpand}
         onMouseLeave={handleCollapse}
+        style={{ touchAction: 'manipulation' }}
       >
         <div className={cn(
           "bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl shadow-2xl overflow-hidden transition-all duration-300",
@@ -132,12 +150,13 @@ export function Navbar() {
                 key={link.name}
                 href={link.href}
                 className={cn(
-                  "flex items-center justify-center text-white rounded-xl transition-all duration-300 active:scale-95",
+                  "flex items-center justify-center text-white rounded-xl transition-all duration-150 active:scale-95",
                   isExpanded 
-                    ? "w-12 h-12 hover:bg-white/20 hover:scale-110" 
-                    : "w-10 h-10 hover:bg-white/15 hover:scale-105"
+                    ? "w-12 h-12 hover:bg-white/20 active:bg-white/30" 
+                    : "w-10 h-10 hover:bg-white/15 active:bg-white/25"
                 )}
                 title={link.name}
+                style={{ touchAction: 'manipulation', WebkitTapHighlightColor: 'transparent' }}
               >
                 {link.name === t.nav.about && (
                   <svg className={cn("fill-none stroke", isExpanded ? "w-6 h-6" : "w-5 h-5")} viewBox="0 0 24 24">
@@ -178,24 +197,26 @@ export function Navbar() {
             <button
               onClick={() => setLanguage(language === "en" ? "fr" : "en")}
               className={cn(
-                "flex items-center justify-center text-white rounded-xl transition-all duration-300 hover:bg-white/20 hover:scale-110 active:scale-95",
+                "flex items-center justify-center text-white rounded-xl transition-all duration-150 active:scale-95",
                 isExpanded 
-                  ? "w-12 h-12" 
-                  : "w-10 h-10"
+                  ? "w-12 h-12 hover:bg-white/20 active:bg-white/30" 
+                  : "w-10 h-10 hover:bg-white/15 active:bg-white/25"
               )}
               title={language === "en" ? "FR" : "EN"}
+              style={{ touchAction: 'manipulation', WebkitTapHighlightColor: 'transparent' }}
             >
               <span className={cn("font-semibold", isExpanded ? "text-xs" : "text-xs")}>{language === "en" ? "FR" : "EN"}</span>
             </button>
             <a
               href="#contact"
               className={cn(
-                "flex items-center justify-center bg-green-600/80 hover:bg-green-600 text-white rounded-xl transition-all duration-300 hover:scale-110 active:scale-95",
+                "flex items-center justify-center bg-green-600/80 hover:bg-green-600 text-white rounded-xl transition-all duration-150 active:scale-95",
                 isExpanded 
-                  ? "w-12 h-12" 
-                  : "w-10 h-10"
+                  ? "w-12 h-12 active:bg-green-500" 
+                  : "w-10 h-10 active:bg-green-500"
               )}
               title={t.nav.contact}
+              style={{ touchAction: 'manipulation', WebkitTapHighlightColor: 'transparent' }}
             >
               <svg className={cn("fill-none stroke", isExpanded ? "w-5 h-5" : "w-5 h-5")} viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
