@@ -306,7 +306,7 @@ export const cvContentEN: CVContent = {
         ]
       },
       {
-        title: "Flavors of Israel — Restaurant Discovery Platform",
+        title: "Restaurant App — Discovery Platform",
         stack: "React 18 · Vite · Tailwind CSS · Zustand · i18next · Framer Motion",
         description: "Modern React portfolio for discovering Israeli restaurants with responsive design, multilingual support (FR/EN/HE), and comprehensive testing.",
         bullets: [
@@ -431,7 +431,7 @@ export const cvContentFR: CVContent = {
         ]
       },
       {
-        title: "Flavors of Israel — Plateforme de Découverte de Restaurants",
+        title: "Restaurant App — Plateforme de Découverte",
         stack: "React 18 · Vite · Tailwind CSS · Zustand · i18next · Framer Motion",
         description: "Portfolio React moderne pour découvrir les restaurants israéliens avec design responsive, support multilingue (FR/EN/HE) et tests complets.",
         bullets: [
