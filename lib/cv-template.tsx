@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
     fontWeight: 700,
     color: "#ffffff",
     textAlign: "center",
-    lineHeight: 55,
+    lineHeight: 1,
   },
   sidebarSection: {
     marginBottom: 18,
