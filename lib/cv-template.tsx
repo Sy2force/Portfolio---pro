@@ -43,14 +43,13 @@ const styles = StyleSheet.create({
     alignItems: "center",
     marginBottom: 18,
     display: "flex",
-    alignSelf: "center",
   },
   avatarText: {
     fontSize: 22,
     fontWeight: 700,
     color: "#ffffff",
     textAlign: "center",
-    alignSelf: "center",
+    lineHeight: 55,
   },
   sidebarSection: {
     marginBottom: 18,
