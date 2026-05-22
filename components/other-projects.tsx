@@ -54,7 +54,7 @@ export function OtherProjects() {
             transition={{ duration: 0.6, delay: 0.6 }}
             className="text-center p-6 bg-card/50 border border-border rounded-lg"
           >
-            <p className="text-sm md:text-base text-muted italic max-w-2xl mx-auto">
+            <p className="text-sm md:text-base text-gray-300 italic max-w-2xl mx-auto">
               {t.otherProjects.conclusion}
             </p>
           </motion.div>
