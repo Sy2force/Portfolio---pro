@@ -74,7 +74,7 @@ export default function ResumePage() {
               </span>
             </div>
             <p className="text-base md:text-lg text-gray-300 mb-8 leading-relaxed flex-grow">
-              Professional CV with modern Figma-inspired design for international and tech opportunities.
+              Clean black-and-white PDF optimized for professional applications and printing.
             </p>
             <div className="space-y-4">
               <a
@@ -104,7 +104,7 @@ export default function ResumePage() {
               </span>
             </div>
             <p className="text-base md:text-lg text-gray-300 mb-8 leading-relaxed flex-grow">
-              Version française complète avec design moderne inspiré de Figma pour candidatures francophones.
+              CV noir et blanc, propre et optimisé pour impression et candidatures professionnelles.
             </p>
             <div className="space-y-4">
               <a
@@ -145,7 +145,7 @@ export default function ResumePage() {
           </div>
           <div className="mt-6 pt-6 border-t border-gray-700/50 text-center">
             <p className="text-sm md:text-base text-gray-400">
-              Figma-inspired modern design • Clean bilingual PDF • Optimized for single-page layout
+              Print-friendly black-and-white design • Clean professional PDF • Optimized for A4 printing
             </p>
           </div>
         </motion.div>
