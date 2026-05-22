@@ -249,129 +249,120 @@ export const cvContentEN: CVContent = {
     name: "SHAY ACOCA",
     title: "Full Stack Developer",
     stack: "React · Next.js · Node.js · MongoDB · Django",
-    location: "Jerusalem, Israel",
+    location: "Contact",
     email: "shayacoca20@gmail.com",
     portfolio: "shay-acoca-portfolio.vercel.app",
     linkedin: "linkedin.com/in/shay-acoca-046311302",
     github: "github.com/Sy2force"
   },
   summary: {
-    title: "PROFESSIONAL SUMMARY",
-    text: "Full Stack Developer based in Jerusalem, with a background in digital marketing, web design and content creation. I build responsive web applications using React, Next.js, Node.js, Express, MongoDB and Django, with a strong focus on clean interfaces, structured backend logic and practical user experience. I am looking for a web development opportunity where I can contribute to real products, collaborate within a professional team and continue growing technically."
+    title: "Professional Profile",
+    text: "Full Stack Developer based in Jerusalem with a background in digital marketing, web design and content creation. I build responsive web applications using React, Next.js, Node.js, Express, MongoDB and Django. My goal is to create clean interfaces, useful features and structured web projects while continuing to grow within a professional team."
   },
   skills: {
-    title: "TECHNICAL SKILLS",
+    title: "Skills",
     categories: [
       {
         name: "Frontend",
-        skills: "React, Next.js, JavaScript, TypeScript, HTML5, CSS3, Tailwind CSS, Responsive Design"
+        skills: "React, Next.js, JavaScript, TypeScript, HTML5, CSS3, Tailwind CSS"
       },
       {
         name: "Backend",
-        skills: "Node.js, Express.js, Django, Django REST Framework, REST APIs, JWT, MongoDB, PostgreSQL"
+        skills: "Node.js, Express.js, Django, REST APIs, JWT, MongoDB, PostgreSQL"
       },
       {
-        name: "Tools & Deployment",
-        skills: "Git, GitHub, Vercel, Render, MongoDB Atlas, Postman, Docker, Swagger"
+        name: "Tools",
+        skills: "Git, GitHub, Vercel, Render, Postman, Docker, Swagger"
       },
       {
-        name: "Digital & Product",
-        skills: "Web Design, Landing Pages, Digital Marketing, SEO Basics, Content Creation, UX Writing"
+        name: "Digital",
+        skills: "Web Design, Landing Pages, Digital Marketing, SEO, UX Writing"
       }
     ]
   },
   projects: {
-    title: "SELECTED PROJECTS",
+    title: "Selected Projects",
     items: [
       {
-        title: "FitWell — Full Stack Health & Fitness Platform",
+        title: "FitWell — Health & Fitness Platform",
         stack: "Django · Django REST Framework · PostgreSQL · JWT · Swagger · Docker",
-        description: "Built a health and fitness platform focused on API structure, content management and user-oriented backend features.",
+        description: "Backend-focused health and fitness platform with REST API logic, content management and deployment-ready structure.",
         bullets: [
-          "Developed REST API logic for articles, comments and user-related features.",
-          "Implemented authentication, documentation and deployment-ready project organization."
+          "Built API logic for articles, comments and user-related features.",
+          "Implemented authentication, documentation and backend architecture."
         ]
       },
       {
-        title: "OpticGlass — Luxury Eyewear E-commerce Application",
+        title: "OpticGlass — Premium E-commerce Application",
         stack: "React · Vite · Tailwind CSS · Node.js · Express · MongoDB",
-        description: "Built a modern premium eyewear e-commerce application with a strong focus on product presentation and responsive UI.",
+        description: "Modern premium eyewear e-commerce application focused on product presentation and user experience.",
         bullets: [
           "Created product catalog, detail pages and reusable frontend components.",
-          "Structured frontend and backend logic for an e-commerce-style application."
+          "Structured frontend/backend logic for an e-commerce-style application."
         ]
       },
       {
-        title: "Food App — Restaurant & Ordering Interface",
-        stack: "React · JavaScript · CSS · API Logic",
-        description: "Built a responsive food application to present meals, categories and ordering flows in a clear interface.",
-        bullets: [
-          "Developed mobile-friendly layouts and category-based UI structure.",
-          "Improved visual hierarchy, component organization and user experience."
-        ]
-      },
-      {
-        title: "Digital Business Card App — Full Stack SaaS-style Application",
+        title: "Digital Business Card App — SaaS-style Application",
         stack: "React · Node.js · Express · MongoDB · JWT · Tailwind CSS",
-        description: "Built a digital business card platform with authentication, protected routes and dashboard-oriented features.",
+        description: "Digital business card platform with authentication, protected routes and dashboard-oriented logic.",
         bullets: [
-          "Implemented user authentication, protected routes and role-based logic.",
+          "Implemented user authentication and role-based logic.",
           "Connected frontend and backend features with a structured full stack approach."
         ]
       }
     ]
   },
   experience: {
-    title: "EXPERIENCE",
+    title: "Experience",
     items: [
       {
         title: "Full Stack Developer — Personal Projects & Portfolio",
         date: "2024 – Present",
         bullets: [
           "Built and deployed web applications using React, Next.js, Node.js, Express, MongoDB and Django.",
-          "Developed frontend interfaces, backend APIs, authentication systems and database-connected features.",
-          "Used Git, GitHub, Vercel, Render and MongoDB Atlas for development and deployment workflows."
+          "Developed frontend interfaces, backend APIs and authentication systems.",
+          "Used Git, GitHub, Vercel, Render and MongoDB Atlas."
         ]
       },
       {
         title: "Digital Marketing & Web Creator — Personal Projects",
         date: "2024 – Present",
         bullets: [
-          "Created digital concepts combining web design, branding, landing pages and content strategy.",
-          "Applied marketing principles to improve messaging, visual hierarchy and project presentation."
+          "Created digital concepts combining web design, branding and landing pages.",
+          "Applied marketing principles to improve project presentation."
         ]
       },
       {
         title: "IDF Service — Guivati Unit",
         date: "2019 – 2022",
         bullets: [
-          "Completed full military service in a structured and high-responsibility environment.",
-          "Developed discipline, reliability, teamwork and the ability to stay focused under pressure."
+          "Completed full military service in a structured and demanding environment.",
+          "Developed discipline, teamwork and reliability."
         ]
       }
     ]
   },
   education: {
-    title: "EDUCATION",
+    title: "Education",
     items: [
       {
-        title: "HackerU — Full Stack Development",
-        date: "2024 – 2026",
-        description: "Training in frontend and backend web development: React, Node.js, MongoDB, APIs, authentication, project architecture and deployment."
+        title: "HackerU",
+        date: "Full Stack Development",
+        description: "2024 – 2026"
       },
       {
-        title: "Habetzefer, Tel Aviv — Digital Marketing & Content Creation",
-        date: "2024",
-        description: "Training in digital marketing strategy, content creation, social media, branding and campaign structure."
+        title: "Habetzefer, Tel Aviv",
+        date: "Digital Marketing & Content Creation",
+        description: "2024"
       }
     ]
   },
   languages: {
-    title: "LANGUAGES",
+    title: "Languages",
     items: [
-      "French: Native",
-      "Hebrew: Professional",
-      "English: Professional"
+      "French — Native",
+      "Hebrew — Professional",
+      "English — Professional"
     ]
   },
   footer: "Shay Acoca · Full Stack Developer · shay-acoca-portfolio.vercel.app"
@@ -382,129 +373,120 @@ export const cvContentFR: CVContent = {
     name: "SHAY ACOCA",
     title: "Développeur Full Stack",
     stack: "React · Next.js · Node.js · MongoDB · Django",
-    location: "Jérusalem, Israël",
+    location: "Contact",
     email: "shayacoca20@gmail.com",
     portfolio: "shay-acoca-portfolio.vercel.app",
     linkedin: "linkedin.com/in/shay-acoca-046311302",
     github: "github.com/Sy2force"
   },
   summary: {
-    title: "PROFIL PROFESSIONNEL",
-    text: "Développeur Full Stack basé à Jérusalem, avec un parcours en marketing digital, web design et création de contenu. Je conçois des applications web responsives avec React, Next.js, Node.js, Express, MongoDB et Django, avec une attention particulière portée aux interfaces propres, à la logique backend structurée et à l'expérience utilisateur. Je recherche une opportunité en développement web où contribuer à des produits concrets, collaborer au sein d'une équipe professionnelle et continuer à progresser techniquement."
+    title: "Profil professionnel",
+    text: "Développeur Full Stack basé à Jérusalem, avec un parcours en marketing digital, web design et création de contenu. Je conçois des applications web responsives avec React, Next.js, Node.js, Express, MongoDB et Django. Mon objectif est de créer des interfaces propres, des fonctionnalités utiles et des projets web structurés, tout en continuant à progresser au sein d'une équipe professionnelle."
   },
   skills: {
-    title: "COMPÉTENCES TECHNIQUES",
+    title: "Compétences",
     categories: [
       {
         name: "Frontend",
-        skills: "React, Next.js, JavaScript, TypeScript, HTML5, CSS3, Tailwind CSS, Responsive Design"
+        skills: "React, Next.js, JavaScript, TypeScript, HTML5, CSS3, Tailwind CSS"
       },
       {
         name: "Backend",
-        skills: "Node.js, Express.js, Django, Django REST Framework, API REST, JWT, MongoDB, PostgreSQL"
+        skills: "Node.js, Express.js, Django, API REST, JWT, MongoDB, PostgreSQL"
       },
       {
-        name: "Outils & Déploiement",
-        skills: "Git, GitHub, Vercel, Render, MongoDB Atlas, Postman, Docker, Swagger"
+        name: "Outils",
+        skills: "Git, GitHub, Vercel, Render, Postman, Docker, Swagger"
       },
       {
-        name: "Digital & Produit",
-        skills: "Web Design, Landing Pages, Marketing Digital, Bases SEO, Création de Contenu, UX Writing"
+        name: "Digital",
+        skills: "Web Design, Landing Pages, Marketing Digital, SEO, UX Writing"
       }
     ]
   },
   projects: {
-    title: "PROJETS SÉLECTIONNÉS",
+    title: "Projets sélectionnés",
     items: [
       {
-        title: "FitWell — Plateforme Full Stack Santé & Fitness",
+        title: "FitWell — Plateforme Santé & Fitness",
         stack: "Django · Django REST Framework · PostgreSQL · JWT · Swagger · Docker",
-        description: "Développement d'une plateforme santé et fitness centrée sur la structure API, la gestion de contenu et les fonctionnalités backend.",
+        description: "Plateforme backend orientée santé et fitness avec API REST, gestion de contenu et structure prête au déploiement.",
         bullets: [
-          "Création d'une logique API REST pour les articles, commentaires et fonctionnalités utilisateur.",
-          "Mise en place de l'authentification, de la documentation et d'une organisation prête au déploiement."
+          "Création d'une logique API pour articles, commentaires et utilisateurs.",
+          "Mise en place de l'authentification, documentation et architecture backend."
         ]
       },
       {
-        title: "OpticGlass — Application E-commerce de Lunettes Premium",
+        title: "OpticGlass — E-commerce Premium",
         stack: "React · Vite · Tailwind CSS · Node.js · Express · MongoDB",
-        description: "Développement d'une application e-commerce moderne pour lunettes premium, avec un focus sur la présentation produit et l'interface responsive.",
+        description: "Application e-commerce moderne pour lunettes premium, centrée sur la présentation produit et l'expérience utilisateur.",
         bullets: [
-          "Création du catalogue produit, des pages détail et de composants frontend réutilisables.",
-          "Structuration de la logique frontend et backend pour une application de type e-commerce."
+          "Création du catalogue produit, pages détail et composants réutilisables.",
+          "Structuration frontend/backend pour une application de type e-commerce."
         ]
       },
       {
-        title: "Food App — Interface Restaurant & Commande",
-        stack: "React · JavaScript · CSS · API Logic",
-        description: "Développement d'une application responsive pour présenter des plats, catégories et parcours de commande dans une interface claire.",
-        bullets: [
-          "Création de layouts mobile-friendly et d'une structure UI basée sur les catégories.",
-          "Amélioration de la hiérarchie visuelle, de l'organisation des composants et de l'expérience utilisateur."
-        ]
-      },
-      {
-        title: "Digital Business Card App — Application Full Stack Type SaaS",
+        title: "Digital Business Card App — Application SaaS",
         stack: "React · Node.js · Express · MongoDB · JWT · Tailwind CSS",
-        description: "Développement d'une plateforme de cartes de visite numériques avec authentification, routes protégées et fonctionnalités dashboard.",
+        description: "Plateforme de cartes de visite numériques avec authentification, routes protégées et logique dashboard.",
         bullets: [
-          "Mise en place de l'authentification utilisateur, des routes protégées et de la logique de rôles.",
-          "Connexion des fonctionnalités frontend et backend dans une approche full stack structurée."
+          "Mise en place de l'authentification utilisateur et de la logique de rôles.",
+          "Connexion des fonctionnalités frontend et backend dans une approche full stack."
         ]
       }
     ]
   },
   experience: {
-    title: "EXPÉRIENCE",
+    title: "Expérience",
     items: [
       {
         title: "Développeur Full Stack — Projets personnels & Portfolio",
         date: "2024 – Présent",
         bullets: [
           "Développement et déploiement d'applications web avec React, Next.js, Node.js, Express, MongoDB et Django.",
-          "Création d'interfaces frontend, d'API backend, de systèmes d'authentification et de fonctionnalités connectées aux bases de données.",
-          "Utilisation de Git, GitHub, Vercel, Render et MongoDB Atlas dans les workflows de développement et déploiement."
+          "Création d'interfaces frontend, d'API backend et de systèmes d'authentification.",
+          "Utilisation de Git, GitHub, Vercel, Render et MongoDB Atlas."
         ]
       },
       {
         title: "Marketing Digital & Création Web — Projets personnels",
         date: "2024 – Présent",
         bullets: [
-          "Création de concepts digitaux combinant web design, branding, landing pages et stratégie de contenu.",
-          "Application de principes marketing pour améliorer les messages, la hiérarchie visuelle et la présentation des projets."
+          "Création de concepts digitaux combinant web design, branding et landing pages.",
+          "Application de principes marketing pour améliorer la présentation des projets."
         ]
       },
       {
         title: "Service Militaire — Unité Guivati, IDF",
         date: "2019 – 2022",
         bullets: [
-          "Service militaire complet dans un environnement structuré et à haute responsabilité.",
-          "Développement de la discipline, de la fiabilité, du travail d'équipe et de la capacité à rester concentré sous pression."
+          "Service militaire complet dans un environnement structuré et exigeant.",
+          "Développement de la discipline, du travail d'équipe et de la fiabilité."
         ]
       }
     ]
   },
   education: {
-    title: "FORMATION",
+    title: "Formation",
     items: [
       {
-        title: "HackerU — Développement Full Stack",
-        date: "2024 – 2026",
-        description: "Formation en développement web frontend et backend : React, Node.js, MongoDB, API, authentification, architecture de projet et déploiement."
+        title: "HackerU",
+        date: "Développement Full Stack",
+        description: "2024 – 2026"
       },
       {
-        title: "Habetzefer, Tel Aviv — Marketing Digital & Création de Contenu",
-        date: "2024",
-        description: "Formation en stratégie marketing digital, création de contenu, réseaux sociaux, branding et structure de campagnes."
+        title: "Habetzefer, Tel Aviv",
+        date: "Marketing Digital & Création de Contenu",
+        description: "2024"
       }
     ]
   },
   languages: {
-    title: "LANGUES",
+    title: "Langues",
     items: [
-      "Français : Langue maternelle",
-      "Hébreu : Niveau professionnel",
-      "Anglais : Niveau professionnel"
+      "Français — Langue maternelle",
+      "Hébreu — Niveau professionnel",
+      "Anglais — Niveau professionnel"
     ]
   },
   footer: "Shay Acoca · Développeur Full Stack · shay-acoca-portfolio.vercel.app"
