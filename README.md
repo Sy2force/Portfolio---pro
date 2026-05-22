@@ -4,7 +4,7 @@ A modern portfolio built with Next.js 14, TypeScript, Tailwind CSS and MongoDB A
 
 ## About
 
-This portfolio is designed to present my projects clearly and professionally for startup and junior developer opportunities. It includes a private admin dashboard, a MongoDB-backed contact form and per-project visitor comments.
+This portfolio is designed to present my projects clearly and professionally for developer opportunities. It includes a private admin dashboard, a MongoDB-backed contact form and per-project visitor comments.
 
 ## 🚀 Tech Stack
 
@@ -16,7 +16,7 @@ This portfolio is designed to present my projects clearly and professionally for
 - **Translations**: English & French support
 - **Deployment**: Vercel / Render compatible
 
-## � Portfolio MongoDB Admin
+## MongoDB Admin
 
 This project ships with a full backend on top of Next.js App Router:
 
@@ -97,14 +97,14 @@ data/
 └── projects.ts                 # Project data (FitWell URL updated)
 ```
 
-## � Security checklist
+## Security checklist
 
 - `.env.local` is in `.gitignore` and must never be committed.
 - The MongoDB password used during setup must be rotated if it was ever shared in plain text.
 - `ADMIN_PASSWORD` should be replaced with a strong value in production.
 - Admin endpoints (`GET /api/contact`, `PATCH/DELETE /api/contact/[id]`) require an `Authorization: Bearer <ADMIN_PASSWORD>` header.
 
-## 📱 Features
+## Features
 
 - Fully responsive Tailwind UI
 - Bilingual content (English / French)
