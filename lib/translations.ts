@@ -98,7 +98,7 @@ export const translations = {
     },
     // Footer
     footer: {
-      text: "Designed and built by Shay Acoca.",
+      text: "Shay Acoca",
       subtitle: "Full Stack Developer based in Jerusalem, Israel.",
       copyright: `© ${new Date().getFullYear()} Shay Acoca. All rights reserved.`
     },
@@ -216,7 +216,7 @@ export const translations = {
     },
     // Footer
     footer: {
-      text: "Conçu et développé par Shay Acoca.",
+      text: "Shay Acoca",
       subtitle: "Développeur Full Stack basé à Jérusalem, Israël.",
       copyright: `© ${new Date().getFullYear()} Shay Acoca. Tous droits réservés.`
     },
