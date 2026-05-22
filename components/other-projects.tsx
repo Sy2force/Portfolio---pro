@@ -52,7 +52,7 @@ export function OtherProjects() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.6 }}
-            className="text-center p-6 bg-card/50 border border-border rounded-lg"
+            className="text-center p-6 bg-card border border-border rounded-lg"
           >
             <p className="text-sm md:text-base text-white italic max-w-2xl mx-auto">
               {t.otherProjects.conclusion}
