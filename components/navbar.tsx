@@ -134,8 +134,8 @@ export function Navbar() {
         style={{ touchAction: 'manipulation' }}
       >
         <div className={cn(
-          "bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl shadow-2xl overflow-hidden transition-all duration-300",
-          isExpanded ? "bg-white/15 border-white/30 scale-110" : "scale-75 opacity-70"
+          "bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl shadow-2xl overflow-hidden transition-all duration-300",
+          isExpanded ? "bg-white/20 border-white/40 scale-110" : "scale-100 opacity-100"
         )}>
           <div className={cn(
             "flex flex-col items-center gap-1 transition-all duration-300",
@@ -153,7 +153,7 @@ export function Navbar() {
                   "flex items-center justify-center text-white rounded-xl transition-all duration-150 active:scale-95",
                   isExpanded 
                     ? "w-12 h-12 hover:bg-white/20 active:bg-white/30" 
-                    : "w-8 h-8 hover:bg-white/15 active:bg-white/25"
+                    : "w-10 h-10 hover:bg-white/15 active:bg-white/25"
                 )}
                 title={link.name}
                 style={{ touchAction: 'manipulation', WebkitTapHighlightColor: 'transparent' }}
@@ -192,7 +192,7 @@ export function Navbar() {
             ))}
             <div className={cn(
               "bg-white/20 transition-all duration-300",
-              isExpanded ? "w-8 h-px my-1" : "w-4 h-px my-1"
+              isExpanded ? "w-8 h-px my-1" : "w-6 h-px my-2"
             )} />
             <button
               onClick={(e) => {
@@ -209,12 +209,12 @@ export function Navbar() {
                 "flex items-center justify-center text-white rounded-xl transition-all duration-150 active:scale-95",
                 isExpanded 
                   ? "w-12 h-12 hover:bg-white/20 active:bg-white/30" 
-                  : "w-8 h-8 hover:bg-white/15 active:bg-white/25"
+                  : "w-10 h-10 hover:bg-white/15 active:bg-white/25"
               )}
               title={language === "en" ? "FR" : "EN"}
               style={{ touchAction: 'manipulation', WebkitTapHighlightColor: 'transparent' }}
             >
-              <span className={cn("font-semibold", isExpanded ? "text-xs" : "text-[10px]")}>{language === "en" ? "FR" : "EN"}</span>
+              <span className={cn("font-semibold", isExpanded ? "text-xs" : "text-xs")}>{language === "en" ? "FR" : "EN"}</span>
             </button>
             <a
               href="#contact"
@@ -222,12 +222,12 @@ export function Navbar() {
                 "flex items-center justify-center bg-green-600/80 hover:bg-green-600 text-white rounded-xl transition-all duration-150 active:scale-95",
                 isExpanded 
                   ? "w-12 h-12 active:bg-green-500" 
-                  : "w-8 h-8 active:bg-green-500"
+                  : "w-10 h-10 active:bg-green-500"
               )}
               title={t.nav.contact}
               style={{ touchAction: 'manipulation', WebkitTapHighlightColor: 'transparent' }}
             >
-              <svg className={cn("fill-none stroke text-white", isExpanded ? "w-5 h-5" : "w-4 h-4")} viewBox="0 0 24 24">
+              <svg className={cn("fill-none stroke text-white", isExpanded ? "w-5 h-5" : "w-5 h-5")} viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
               </svg>
             </a>
