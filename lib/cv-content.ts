@@ -4,6 +4,7 @@ export interface CVContent {
     title: string
     stack: string
     location: string
+    phone: string
     email: string
     portfolio: string
     linkedin: string
@@ -58,6 +59,7 @@ export const cvContentSummaryEN: CVContent = {
     title: "Full Stack Developer",
     stack: "React · Next.js · Node.js · MongoDB · Django",
     location: "Jerusalem, Israel",
+    phone: "+972 50 123 4567",
     email: "shayacoca20@gmail.com",
     portfolio: "shay-acoca-portfolio.vercel.app",
     linkedin: "linkedin.com/in/shay-acoca-046311302",
@@ -154,6 +156,7 @@ export const cvContentSummaryFR: CVContent = {
     title: "Développeur Full Stack",
     stack: "React · Next.js · Node.js · MongoDB · Django",
     location: "Jérusalem, Israël",
+    phone: "+972 50 123 4567",
     email: "shayacoca20@gmail.com",
     portfolio: "shay-acoca-portfolio.vercel.app",
     linkedin: "linkedin.com/in/shay-acoca-046311302",
@@ -249,11 +252,12 @@ export const cvContentEN: CVContent = {
     name: "SHAY ACOCA",
     title: "Full Stack Developer",
     stack: "React · Next.js · Node.js · MongoDB · Django",
-    location: "Contact",
+    location: "Jerusalem, Israel",
+    phone: "+972 50 123 4567",
     email: "shayacoca20@gmail.com",
-    portfolio: "shay-acoca-portfolio.vercel.app",
-    linkedin: "linkedin.com/in/shay-acoca-046311302",
-    github: "github.com/Sy2force"
+    portfolio: "",
+    linkedin: "",
+    github: ""
   },
   summary: {
     title: "Professional Profile",
@@ -373,11 +377,12 @@ export const cvContentFR: CVContent = {
     name: "SHAY ACOCA",
     title: "Développeur Full Stack",
     stack: "React · Next.js · Node.js · MongoDB · Django",
-    location: "Contact",
+    location: "Jérusalem, Israël",
+    phone: "+972 50 123 4567",
     email: "shayacoca20@gmail.com",
-    portfolio: "shay-acoca-portfolio.vercel.app",
-    linkedin: "linkedin.com/in/shay-acoca-046311302",
-    github: "github.com/Sy2force"
+    portfolio: "",
+    linkedin: "",
+    github: ""
   },
   summary: {
     title: "Profil professionnel",
