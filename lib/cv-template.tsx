@@ -102,7 +102,7 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   section: {
-    marginBottom: 16,
+    marginBottom: 18,
   },
   sectionTitle: {
     fontSize: 9.5,
@@ -110,7 +110,7 @@ const styles = StyleSheet.create({
     letterSpacing: 1.2,
     textTransform: "uppercase",
     color: "#111111",
-    marginBottom: 10,
+    marginBottom: 12,
     borderBottomColor: "#D9D9D9",
     borderBottomWidth: 1,
     paddingBottom: 5,
@@ -122,21 +122,21 @@ const styles = StyleSheet.create({
     marginBottom: 5,
   },
   projectTitle: {
-    fontSize: 9.8,
+    fontSize: 10,
     fontWeight: 700,
     color: "#111111",
-    marginBottom: 3,
+    marginBottom: 4,
   },
   projectStack: {
     fontSize: 8.3,
     fontStyle: "italic",
     color: "#444444",
-    marginBottom: 4,
+    marginBottom: 5,
   },
   bullet: {
     fontSize: 8.5,
     lineHeight: 1.4,
-    marginBottom: 3,
+    marginBottom: 4,
     marginLeft: 15,
     color: "#222222",
   },
