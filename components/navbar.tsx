@@ -121,14 +121,6 @@ export function Navbar() {
       <nav 
         className="md:hidden fixed top-1/2 right-4 -translate-y-1/2 z-50"
         onTouchStart={handleExpand}
-        onTouchEnd={(e) => {
-          e.preventDefault()
-          setTimeout(() => {
-            if (!expandTimerRef.current) {
-              setIsExpanded(false)
-            }
-          }, 200)
-        }}
         onMouseEnter={handleExpand}
         onMouseLeave={handleCollapse}
         style={{ touchAction: 'manipulation' }}
