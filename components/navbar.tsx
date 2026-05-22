@@ -135,7 +135,7 @@ export function Navbar() {
       >
         <div className={cn(
           "bg-white/50 backdrop-blur-xl border border-white/50 rounded-2xl shadow-2xl overflow-hidden transition-all duration-300",
-          isExpanded ? "bg-white/60 border-white/70 scale-110" : "scale-105 opacity-100"
+          isExpanded ? "bg-white/60 border-white/70 scale-110" : "scale-75 opacity-90"
         )}>
           <div className={cn(
             "flex flex-col items-center gap-1 transition-all duration-300",
@@ -153,7 +153,7 @@ export function Navbar() {
                   "flex items-center justify-center text-white rounded-xl transition-all duration-150 active:scale-95",
                   isExpanded 
                     ? "w-12 h-12 hover:bg-white/20 active:bg-white/30" 
-                    : "w-11 h-11 hover:bg-white/15 active:bg-white/25"
+                    : "w-8 h-8 hover:bg-white/15 active:bg-white/25"
                 )}
                 title={link.name}
                 style={{ touchAction: 'manipulation', WebkitTapHighlightColor: 'transparent' }}
@@ -221,12 +221,12 @@ export function Navbar() {
                 "flex items-center justify-center text-white rounded-xl transition-all duration-150 active:scale-95",
                 isExpanded 
                   ? "w-12 h-12 hover:bg-white/20 active:bg-white/30" 
-                  : "w-11 h-11 hover:bg-white/15 active:bg-white/25"
+                  : "w-8 h-8 hover:bg-white/15 active:bg-white/25"
               )}
               title={language === "en" ? "FR" : "EN"}
               style={{ touchAction: 'manipulation', WebkitTapHighlightColor: 'transparent' }}
             >
-              <span className={cn("font-bold", isExpanded ? "text-xs" : "text-xs")}>{language === "en" ? "FR" : "EN"}</span>
+              <span className={cn("font-bold", isExpanded ? "text-xs" : "text-[10px]")}>{language === "en" ? "FR" : "EN"}</span>
             </button>
             <a
               href="#contact"
@@ -234,7 +234,7 @@ export function Navbar() {
                 "flex items-center justify-center bg-green-600/80 hover:bg-green-600 text-white rounded-xl transition-all duration-150 active:scale-95",
                 isExpanded 
                   ? "w-12 h-12 active:bg-green-500" 
-                  : "w-11 h-11 active:bg-green-500"
+                  : "w-8 h-8 active:bg-green-500"
               )}
               title={t.nav.contact}
               style={{ touchAction: 'manipulation', WebkitTapHighlightColor: 'transparent' }}
