@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useState, useEffect, useRef } from "react"
 import Link from "next/link"
 import { cn } from "@/lib/utils"
 import { useLanguage } from "@/lib/language-context"
@@ -9,6 +9,12 @@ import { translations } from "@/lib/translations"
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)
   const { language, setLanguage } = useLanguage()
+  
+  // Draggable navbar state
+  const [position, setPosition] = useState({ x: 0, y: 0 })
+  const [isDragging, setIsDragging] = useState(false)
+  const [dragStart, setDragStart] = useState({ x: 0, y: 0 })
+  const navbarRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -37,6 +43,77 @@ export function Navbar() {
     { name: t.nav.resume, href: "/resume" },
     { name: t.nav.contact, href: "#contact" },
   ]
+
+  // Drag handlers
+  const handleMouseDown = (e: React.MouseEvent) => {
+    setIsDragging(true)
+    setDragStart({
+      x: e.clientX - position.x,
+      y: e.clientY - position.y
+    })
+  }
+
+  const handleMouseMove = (e: React.MouseEvent) => {
+    if (!isDragging) return
+    e.preventDefault()
+    setPosition({
+      x: e.clientX - dragStart.x,
+      y: e.clientY - dragStart.y
+    })
+  }
+
+  const handleMouseUp = () => {
+    setIsDragging(false)
+  }
+
+  // Touch handlers
+  const handleTouchStart = (e: React.TouchEvent) => {
+    setIsDragging(true)
+    const touch = e.touches[0]
+    setDragStart({
+      x: touch.clientX - position.x,
+      y: touch.clientY - position.y
+    })
+  }
+
+  const handleTouchMove = (e: React.TouchEvent) => {
+    if (!isDragging) return
+    e.preventDefault()
+    const touch = e.touches[0]
+    setPosition({
+      x: touch.clientX - dragStart.x,
+      y: touch.clientY - dragStart.y
+    })
+  }
+
+  const handleTouchEnd = () => {
+    setIsDragging(false)
+  }
+
+  // Global mouse move/up handlers
+  useEffect(() => {
+    const handleGlobalMouseMove = (e: MouseEvent) => {
+      if (!isDragging) return
+      setPosition({
+        x: e.clientX - dragStart.x,
+        y: e.clientY - dragStart.y
+      })
+    }
+
+    const handleGlobalMouseUp = () => {
+      setIsDragging(false)
+    }
+
+    if (isDragging) {
+      window.addEventListener('mousemove', handleGlobalMouseMove)
+      window.addEventListener('mouseup', handleGlobalMouseUp)
+    }
+
+    return () => {
+      window.removeEventListener('mousemove', handleGlobalMouseMove)
+      window.removeEventListener('mouseup', handleGlobalMouseUp)
+    }
+  }, [isDragging, dragStart])
 
   return (
     <>
@@ -89,23 +166,43 @@ export function Navbar() {
         </div>
       </nav>
 
-      {/* Mobile Side Navigation - Right Side Glassmorphism */}
-      <nav className="md:hidden fixed top-1/2 right-4 -translate-y-1/2 z-50">
-        <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl shadow-2xl overflow-hidden">
+      {/* Mobile Side Navigation - Right Side Glassmorphism - Draggable */}
+      <nav 
+        ref={navbarRef}
+        className="md:hidden fixed z-50"
+        style={{
+          top: `calc(50% + ${position.y}px)`,
+          right: `calc(1rem - ${position.x}px)`,
+          transform: 'translateY(-50%)',
+          cursor: isDragging ? 'grabbing' : 'grab'
+        }}
+        onMouseDown={handleMouseDown}
+        onMouseMove={handleMouseMove}
+        onMouseUp={handleMouseUp}
+        onTouchStart={handleTouchStart}
+        onTouchMove={handleTouchMove}
+        onTouchEnd={handleTouchEnd}
+      >
+        <div className={cn(
+          "bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl shadow-2xl overflow-hidden transition-all duration-200",
+          isDragging ? "scale-105" : ""
+        )}>
           <div className="flex flex-col items-center gap-1 p-3">
+            <div className="w-8 h-1 bg-white/30 rounded-full mb-2" />
             {mobileNavLinks.map((link) => (
               <a
                 key={link.name}
                 href={link.href}
                 className="w-10 h-10 flex items-center justify-center text-white hover:bg-white/20 rounded-xl transition-all duration-300 hover:scale-110 active:scale-95 touch-manipulation"
                 title={link.name}
+                onClick={(e) => e.stopPropagation()}
               >
                 <span className="text-xs font-medium truncate max-w-[3rem]">{link.name}</span>
               </a>
             ))}
             <div className="w-8 h-px bg-white/20 my-1" />
             <button
-              onClick={() => setLanguage(language === "en" ? "fr" : "en")}
+              onClick={(e) => { e.stopPropagation(); setLanguage(language === "en" ? "fr" : "en") }}
               className="w-10 h-10 flex items-center justify-center text-white hover:bg-white/20 rounded-xl transition-all duration-300 hover:scale-110 active:scale-95 touch-manipulation"
               title={language === "en" ? "FR" : "EN"}
             >
@@ -115,6 +212,7 @@ export function Navbar() {
               href="#contact"
               className="w-10 h-10 flex items-center justify-center bg-green-600/80 hover:bg-green-600 text-white rounded-xl transition-all duration-300 hover:scale-110 active:scale-95 touch-manipulation"
               title={t.nav.contact}
+              onClick={(e) => e.stopPropagation()}
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
