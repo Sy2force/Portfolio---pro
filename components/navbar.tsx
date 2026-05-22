@@ -134,8 +134,8 @@ export function Navbar() {
         style={{ touchAction: 'manipulation' }}
       >
         <div className={cn(
-          "bg-white/20 backdrop-blur-xl border border-white/30 rounded-2xl shadow-2xl overflow-hidden transition-all duration-300",
-          isExpanded ? "bg-white/30 border-white/50 scale-110" : "scale-105 opacity-100"
+          "bg-white/50 backdrop-blur-xl border border-white/50 rounded-2xl shadow-2xl overflow-hidden transition-all duration-300",
+          isExpanded ? "bg-white/60 border-white/70 scale-110" : "scale-105 opacity-100"
         )}>
           <div className={cn(
             "flex flex-col items-center gap-1 transition-all duration-300",
