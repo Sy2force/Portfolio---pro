@@ -54,7 +54,7 @@ export function Navbar() {
               href="/"
               className="text-xl font-semibold text-white hover:text-gray-300 transition-all duration-300"
             >
-              {t.footer.name}
+              {t.footer.text}
             </Link>
 
             <nav className="hidden md:flex items-center gap-8">
@@ -141,10 +141,10 @@ export function Navbar() {
       <div className="md:hidden fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-xl border-b border-gray-800 safe-area-top">
         <div className="flex items-center justify-between px-3 md:px-4 py-2 md:py-3">
           <a href="#" className="text-base md:text-lg font-semibold text-white">
-            {t.footer.name}
+            {t.footer.text}
           </a>
           <span className="text-[10px] md:text-xs text-gray-400 max-w-[150px] md:max-w-none truncate">
-            {t.footer.jobTitle}
+            {t.footer.subtitle}
           </span>
         </div>
       </div>

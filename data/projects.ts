@@ -36,47 +36,41 @@ export const projects: Project[] = [
     id: 1,
     title: "FitWell",
     type: {
-      en: "Fitness & Wellness SaaS Platform",
-      fr: "Plateforme SaaS Fitness & Bien-être"
+      en: "Full Stack Health & Fitness Platform",
+      fr: "Plateforme Full Stack Santé & Fitness"
     },
     description: {
-      en: "Fitness & wellness platform with dashboard, backend and user progression tracking. Built with Python and Django, this project provides a complete solution for tracking fitness goals and user progress.",
-      fr: "Plateforme fitness & bien-être avec dashboard, backend et suivi de progression utilisateur. Construite avec Python et Django, cette solution complète permet de suivre les objectifs fitness et la progression utilisateur."
+      en: "A full stack web application focused on fitness, wellness and content management. The project includes backend API structure, user-focused features and a clean responsive interface.",
+      fr: "Une application web full stack axée sur le fitness, le bien-être et la gestion de contenu. Le projet inclut une structure d'API backend, des fonctionnalités orientées utilisateur et une interface responsive propre."
     },
     problemSolved: {
-      en: "FitWell organizes tracking, motivation and user data into a clear and structured experience. The platform simplifies fitness management through an intuitive dashboard and organized data visualization.",
-      fr: "FitWell organise le suivi, la motivation et les données utilisateur dans une expérience claire et structurée. La plateforme simplifie la gestion fitness grâce à un tableau de bord intuitif et une visualisation organisée des données."
+      en: "FitWell provides a structured platform for tracking fitness goals and managing wellness content through a clean and organized user interface.",
+      fr: "FitWell fournit une plateforme structurée pour suivre les objectifs fitness et gérer le contenu bien-être à travers une interface utilisateur propre et organisée."
     },
     role: {
-      en: "Full stack development, backend architecture, frontend integration, product logic, documentation and deployment workflow.",
-      fr: "Développement full stack, architecture backend, intégration frontend, logique produit, documentation et workflow de déploiement."
+      en: "Full stack development, backend architecture, frontend integration and API design.",
+      fr: "Développement full stack, architecture backend, intégration frontend et conception d'API."
     },
-    techStack: ["Python", "Django", "HTML", "JavaScript", "CSS", "PostgreSQL", "GitHub Actions", "Vercel"],
+    techStack: ["Django", "Django REST Framework", "PostgreSQL", "JWT", "Swagger", "Docker"],
     keyFeatures: {
       en: [
-        "Fitness and wellness platform structure",
-        "User-oriented dashboard",
-        "Gamification logic",
-        "Analytics-oriented features",
-        "Backend architecture",
-        "Documentation",
-        "Deployment configuration",
-        "CI workflow"
+        "REST API architecture",
+        "Authentication logic",
+        "Articles and content structure",
+        "Responsive frontend",
+        "Backend data management"
       ],
       fr: [
-        "Structure de plateforme fitness et bien-être",
-        "Tableau de bord orienté utilisateur",
-        "Logique de gamification",
-        "Fonctionnalités orientées analyse",
-        "Architecture backend",
-        "Documentation",
-        "Configuration de déploiement",
-        "Workflow CI"
+        "Architecture REST API",
+        "Logique d'authentification",
+        "Structure d'articles et de contenu",
+        "Frontend responsive",
+        "Gestion de données backend"
       ]
     },
     demonstrates: {
-      en: "This project shows my ability to structure a complete application, organize a backend and create a clear user experience using Django and PostgreSQL.",
-      fr: "Ce projet montre ma capacité à structurer une application complète, organiser un backend et créer une expérience utilisateur claire avec Django et PostgreSQL."
+      en: "This project demonstrates my ability to build a full stack application with Django REST Framework, PostgreSQL and structured API architecture.",
+      fr: "Ce projet démontre ma capacité à construire une application full stack avec Django REST Framework, PostgreSQL et une architecture d'API structurée."
     },
     liveUrl: "https://app-fitwell.onrender.com",
     githubUrl: "https://github.com/Sy2force/Fitwell",
@@ -90,47 +84,43 @@ export const projects: Project[] = [
     id: 2,
     title: "OpticGlass",
     type: {
-      en: "Premium Eyewear E-commerce Project",
-      fr: "Projet E-commerce Lunettes Premium"
+      en: "Luxury E-commerce Web Application",
+      fr: "Application Web E-commerce de Luxe"
     },
     description: {
-      en: "Premium eyewear e-commerce project with modern visual identity and a smooth shopping experience. Built with React and Node.js, this project showcases product management and secure authentication.",
-      fr: "Boutique e-commerce premium dédiée aux lunettes, avec une identité visuelle moderne et une expérience d'achat fluide. Construite avec React et Node.js, cette solution met en valeur la gestion produit et l'authentification sécurisée."
+      en: "A modern e-commerce platform for premium eyewear, built with a strong focus on visual design, product presentation and user experience.",
+      fr: "Une plateforme e-commerce moderne pour lunettes premium, construite avec un fort focus sur le design visuel, la présentation produit et l'expérience utilisateur."
     },
     problemSolved: {
-      en: "OpticGlass presents premium products with clear navigation, strong visual identity and a trustworthy shopping experience. The project demonstrates e-commerce structure with secure user authentication.",
-      fr: "OpticGlass présente des produits premium avec une navigation claire, une identité visuelle forte et une expérience rassurante. Le projet démontre une structure e-commerce avec authentification utilisateur sécurisée."
+      en: "OpticGlass presents premium products through a clean, responsive interface with product catalog, detail pages and authentication structure.",
+      fr: "OpticGlass présente des produits premium à travers une interface propre et responsive avec catalogue produit, pages de détails et structure d'authentification."
     },
     role: {
-      en: "Frontend development, backend setup, product UI, authentication and e-commerce structure.",
-      fr: "Développement frontend, configuration backend, UI produit, authentification et structure e-commerce."
+      en: "Frontend development, backend setup, product UI implementation and e-commerce structure.",
+      fr: "Développement frontend, configuration backend, implémentation UI produit et structure e-commerce."
     },
-    techStack: ["React", "Vite", "Tailwind CSS", "Framer Motion", "React Router", "Node.js", "Express.js", "MongoDB", "JWT"],
+    techStack: ["React", "Vite", "Tailwind CSS", "Node.js", "Express", "MongoDB"],
     keyFeatures: {
       en: [
-        "Product listing",
+        "Product catalog",
         "Product detail pages",
-        "Authentication",
-        "Backend API",
-        "MongoDB database",
-        "Responsive design",
-        "Premium dark UI",
-        "E-commerce layout"
+        "Authentication structure",
+        "Admin-oriented logic",
+        "Responsive premium UI",
+        "Deployment-ready architecture"
       ],
       fr: [
-        "Liste de produits",
-        "Pages de détails de produit",
-        "Authentification",
-        "API backend",
-        "Base de données MongoDB",
-        "Design responsive",
-        "UI sombre premium",
-        "Layout e-commerce"
+        "Catalogue produit",
+        "Pages de détails produit",
+        "Structure d'authentification",
+        "Logique orientée admin",
+        "UI premium responsive",
+        "Architecture prête au déploiement"
       ]
     },
     demonstrates: {
-      en: "This project shows my skills in responsive design, e-commerce structure, product presentation, API and authentication using React and MongoDB.",
-      fr: "Ce projet montre mes compétences en design responsive, structure e-commerce, présentation produit, API et authentification avec React et MongoDB."
+      en: "This project showcases my skills in React, MongoDB, e-commerce structure and responsive design with a premium visual identity.",
+      fr: "Ce projet présente mes compétences en React, MongoDB, structure e-commerce et design responsive avec une identité visuelle premium."
     },
     liveUrl: "https://optic-glass.vercel.app",
     githubUrl: "https://github.com/Sy2force/OpticGlass",
@@ -144,45 +134,41 @@ export const projects: Project[] = [
     id: 3,
     title: "Food App",
     type: {
-      en: "Full Stack Restaurant Discovery Platform",
-      fr: "Plateforme Full Stack de Découverte de Restaurants"
+      en: "Restaurant & Food Ordering Interface",
+      fr: "Interface de Commande Restaurant & Nourriture"
     },
     description: {
-      en: "Food discovery application around restaurants, recipes and local content, with Hebrew localization and RTL support. Built with React and Node.js, this project handles multilingual content and right-to-left layouts.",
-      fr: "Application de découverte culinaire autour des restaurants, recettes et contenus locaux, avec localisation hébreu et support RTL. Construite avec React et Node.js, cette solution gère le contenu multilingue et les layouts droite-à-gauche."
+      en: "A responsive food application designed to present meals, categories and ordering flows through a clean and user-friendly interface.",
+      fr: "Une application de nourriture responsive conçue pour présenter les repas, catégories et flux de commande à travers une interface propre et conviviale."
     },
     problemSolved: {
-      en: "Food App brings restaurants, recipes and food content into a localized and easy-to-use experience. The project demonstrates RTL support and API integration for localized content.",
-      fr: "Food App regroupe restaurants, recettes et contenus culinaires dans une expérience localisée et facile à utiliser. Le projet démontre le support RTL et l'intégration API pour le contenu localisé."
+      en: "Food App provides a clean interface for browsing food items and categories with a focus on responsive design and user experience.",
+      fr: "Food App fournit une interface propre pour parcourir les articles et catégories de nourriture avec un focus sur le design responsive et l'expérience utilisateur."
     },
     role: {
-      en: "Full stack development, frontend implementation, backend APIs, localization and deployment configuration.",
-      fr: "Développement full stack, implémentation frontend, APIs backend, localisation et configuration de déploiement."
+      en: "Frontend development, component design and responsive layout implementation.",
+      fr: "Développement frontend, conception de composants et implémentation de layout responsive."
     },
-    techStack: ["React", "Node.js", "Express.js", "MongoDB", "JavaScript", "Vercel", "Render"],
+    techStack: ["React", "JavaScript", "CSS", "API logic"],
     keyFeatures: {
       en: [
-        "Restaurant and food discovery interface",
-        "Full Hebrew localization and RTL support",
-        "Frontend and backend structure",
-        "API routes",
-        "Responsive layout",
-        "Deployment configuration",
-        "Documentation guides"
+        "Modern responsive layout",
+        "Product/category structure",
+        "Reusable components",
+        "Clean user interface",
+        "Mobile-friendly experience"
       ],
       fr: [
-        "Interface de découverte de restaurants et de nourriture",
-        "Localisation complète en hébreu et support RTL",
-        "Structure frontend et backend",
-        "Routes API",
-        "Layout responsive",
-        "Configuration de déploiement",
-        "Guides de documentation"
+        "Layout responsive moderne",
+        "Structure produit/catégorie",
+        "Composants réutilisables",
+        "Interface utilisateur propre",
+        "Expérience mobile-friendly"
       ]
     },
     demonstrates: {
-      en: "This project shows my ability to build a localized application, handle RTL, connect an API and solve deployment issues using React and MongoDB.",
-      fr: "Ce projet montre ma capacité à créer une application localisée, gérer le RTL, connecter une API et résoudre des problèmes de déploiement avec React et MongoDB."
+      en: "This project demonstrates my ability to create clean, responsive interfaces with React and a focus on user experience.",
+      fr: "Ce projet démontre ma capacité à créer des interfaces propres et responsives avec React et un focus sur l'expérience utilisateur."
     },
     liveUrl: "https://restaurant-app-phi-gray.vercel.app",
     githubUrl: "https://github.com/Sy2force/Restaurant-app",
@@ -190,6 +176,56 @@ export const projects: Project[] = [
       "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
       "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80",
       "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80"
+    ]
+  },
+  {
+    id: 4,
+    title: "Digital Business Card App",
+    type: {
+      en: "Full Stack SaaS-style Application",
+      fr: "Application de Style SaaS Full Stack"
+    },
+    description: {
+      en: "A digital business card platform built with authentication, user roles, dashboard logic and dynamic card management.",
+      fr: "Une plateforme de carte de visite digitale construite avec authentification, rôles utilisateur, logique dashboard et gestion dynamique de cartes."
+    },
+    problemSolved: {
+      en: "Digital Business Card App provides a complete SaaS-style platform with user authentication, protected routes and role-based access control.",
+      fr: "Digital Business Card App fournit une plateforme de style SaaS complète avec authentification utilisateur, routes protégées et contrôle d'accès basé sur les rôles."
+    },
+    role: {
+      en: "Full stack development, authentication implementation, dashboard logic and role-based access control.",
+      fr: "Développement full stack, implémentation d'authentification, logique dashboard et contrôle d'accès basé sur les rôles."
+    },
+    techStack: ["React", "Node.js", "Express", "MongoDB", "JWT", "Tailwind CSS"],
+    keyFeatures: {
+      en: [
+        "User authentication",
+        "Protected routes",
+        "Dashboard",
+        "Role-based access",
+        "Card creation and management",
+        "Responsive design"
+      ],
+      fr: [
+        "Authentification utilisateur",
+        "Routes protégées",
+        "Dashboard",
+        "Accès basé sur les rôles",
+        "Création et gestion de cartes",
+        "Design responsive"
+      ]
+    },
+    demonstrates: {
+      en: "This project shows my ability to build a complete full stack application with authentication, role-based access control and dynamic content management.",
+      fr: "Ce projet montre ma capacité à construire une application full stack complète avec authentification, contrôle d'accès basé sur les rôles et gestion de contenu dynamique."
+    },
+    liveUrl: "https://digital-business-card.vercel.app",
+    githubUrl: "https://github.com/Sy2force/Digital-Business-Card",
+    images: [
+      "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&q=80",
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80"
     ]
   }
 ]

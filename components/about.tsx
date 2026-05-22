@@ -10,16 +10,20 @@ export function About() {
 
   const attributes = [
     {
-      title: t.about.productMinded,
-      description: t.about.productMindedDesc
+      title: t.valueProp.card1Title,
+      description: t.valueProp.card1Text
     },
     {
-      title: t.about.fullStackFoundation,
-      description: t.about.fullStackFoundationDesc
+      title: t.valueProp.card2Title,
+      description: t.valueProp.card2Text
     },
     {
-      title: t.about.consistentLearner,
-      description: t.about.consistentLearnerDesc
+      title: t.valueProp.card3Title,
+      description: t.valueProp.card3Text
+    },
+    {
+      title: t.valueProp.card4Title,
+      description: t.valueProp.card4Text
     }
   ]
 
@@ -38,38 +42,34 @@ export function About() {
           </h2>
 
           <div className="max-w-3xl mb-8 md:mb-12 lg:mb-16 px-2">
-            <p className="text-sm md:text-base lg:text-lg text-muted mb-4 md:mb-6 leading-relaxed">
-              {t.about.text1}
-            </p>
-            <p className="text-sm md:text-base lg:text-lg text-muted mb-4 md:mb-6 leading-relaxed">
-              {t.about.text2}
-            </p>
-            <p className="text-sm md:text-base lg:text-lg text-muted mb-4 md:mb-6 leading-relaxed">
-              {t.about.text3}
-            </p>
-            <p className="text-sm md:text-base lg:text-lg text-muted leading-relaxed">
-              {t.about.text4}
+            <p className="text-sm md:text-base lg:text-lg text-muted leading-relaxed whitespace-pre-line">
+              {t.about.text}
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-3 md:gap-4 lg:gap-6">
-            {attributes.map((attribute, index) => (
-              <motion.div
-                key={attribute.title}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="p-4 md:p-5 lg:p-6 bg-card border border-border rounded-lg hover:border-accent/30 transition-colors shadow-lg hover:shadow-accent/10"
-              >
-                <h3 className="text-base md:text-lg lg:text-xl font-semibold text-foreground mb-2 md:mb-3">
-                  {attribute.title}
-                </h3>
-                <p className="text-xs md:text-sm lg:text-base text-muted leading-relaxed">
-                  {attribute.description}
-                </p>
-              </motion.div>
-            ))}
+          <div className="mb-8 md:mb-12">
+            <h3 className="text-lg md:text-xl lg:text-2xl font-semibold text-foreground mb-4 md:mb-6 text-center">
+              {t.valueProp.title}
+            </h3>
+            <div className="grid md:grid-cols-2 gap-3 md:gap-4 lg:gap-6">
+              {attributes.map((attribute, index) => (
+                <motion.div
+                  key={attribute.title}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.6, delay: index * 0.1 }}
+                  className="p-4 md:p-5 lg:p-6 bg-card border border-border rounded-lg hover:border-accent/30 transition-colors shadow-lg hover:shadow-accent/10"
+                >
+                  <h4 className="text-base md:text-lg lg:text-xl font-semibold text-foreground mb-2 md:mb-3">
+                    {attribute.title}
+                  </h4>
+                  <p className="text-xs md:text-sm lg:text-base text-muted leading-relaxed">
+                    {attribute.description}
+                  </p>
+                </motion.div>
+              ))}
+            </div>
           </div>
         </motion.div>
       </div>

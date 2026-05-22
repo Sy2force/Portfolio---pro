@@ -12,8 +12,8 @@ export function Footer() {
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-center md:text-left">
-            <p className="text-foreground font-semibold mb-1">{t.footer.name}</p>
-            <p className="text-sm text-muted">{t.footer.jobTitle}</p>
+            <p className="text-foreground font-semibold mb-1">{t.footer.text}</p>
+            <p className="text-sm text-muted">{t.footer.subtitle}</p>
           </div>
 
           <div className="flex justify-center gap-6">
@@ -49,10 +49,6 @@ export function Footer() {
               </svg>
             </a>
           </div>
-
-          <p className="text-xs text-muted text-center md:text-right">
-            {t.footer.builtWith}
-          </p>
         </div>
 
         <div className="mt-6 pt-6 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">

@@ -68,7 +68,7 @@ export function Contact() {
             {t.contact.title}
           </h2>
           <p className="text-base md:text-lg text-muted mb-12 max-w-2xl mx-auto text-center">
-            {t.contact.subtitle}
+            {t.contact.text}
           </p>
 
           <div className="grid md:grid-cols-2 gap-8 md:gap-12">

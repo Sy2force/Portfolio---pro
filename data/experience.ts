@@ -1,77 +1,98 @@
 export const experience = [
   {
     title: {
-      en: "Full Stack Developer Training",
-      fr: "Formation Développeur Full Stack"
+      en: "Full Stack Developer",
+      fr: "Développeur Full Stack"
     },
     organization: {
-      en: "HackerU",
-      fr: "HackerU"
+      en: "Personal Projects & Portfolio",
+      fr: "Projets Personnels & Portfolio"
     },
     date: {
-      en: "November 2024 – Present",
-      fr: "Novembre 2024 – Présent"
+      en: "2024 – Present",
+      fr: "2024 – Présent"
     },
     description: {
-      en: "Intensive full stack development training covering modern web technologies: React, Next.js, Node.js, MongoDB, TypeScript and deployment workflows. Built several practical projects to strengthen frontend, backend, database, authentication, project architecture and deployment skills.",
-      fr: "Formation intensive en développement full stack couvrant les technologies web modernes : React, Next.js, Node.js, MongoDB, TypeScript et workflows de déploiement. Construction de plusieurs projets pratiques pour renforcer les compétences frontend, backend, base de données, authentification, architecture de projet et déploiement."
+      en: "Built and deployed several web applications using React, Next.js, Node.js, Express, MongoDB and Django. Projects include e-commerce platforms, REST APIs, dashboards, authentication systems and responsive user interfaces.",
+      fr: "Construit et déployé plusieurs applications web en utilisant React, Next.js, Node.js, Express, MongoDB et Django. Les projets incluent des plateformes e-commerce, APIs REST, dashboards, systèmes d'authentification et interfaces utilisateur responsives."
     },
-    type: "education"
-  },
-  {
-    title: {
-      en: "Freelance Web Designer & Developer",
-      fr: "Web Designer & Développeur Freelance"
-    },
-    organization: {
-      en: "Freelance",
-      fr: "Freelance"
-    },
-    date: {
-      en: "2021 – Present",
-      fr: "2021 – Présent"
-    },
-    description: {
-      en: "Designed and developed websites, web applications and digital tools for clients. Managed the entire project lifecycle: from concept and design to frontend implementation, responsive layouts, user experience optimization and deployment.",
-      fr: "Conception et développement de sites web, applications web et outils digitaux pour des clients. Gestion de l'ensemble du cycle de vie des projets : du concept et design à l'implémentation frontend, aux layouts responsives, à l'optimisation de l'expérience utilisateur et au déploiement."
+    bulletPoints: {
+      en: [
+        "Developed full stack applications from concept to deployment.",
+        "Built reusable frontend components and structured backend APIs.",
+        "Implemented authentication, protected routes and database logic.",
+        "Deployed projects using platforms such as Vercel, Render and MongoDB Atlas.",
+        "Improved project structure, UI consistency and user experience across multiple applications."
+      ],
+      fr: [
+        "Développé des applications full stack du concept au déploiement.",
+        "Construit des composants frontend réutilisables et des APIs backend structurées.",
+        "Implémenté l'authentification, les routes protégées et la logique de base de données.",
+        "Déployé des projets en utilisant des plateformes comme Vercel, Render et MongoDB Atlas.",
+        "Amélioré la structure de projet, la cohérence de l'UI et l'expérience utilisateur sur plusieurs applications."
+      ]
     },
     type: "experience"
   },
   {
     title: {
-      en: "Digital Marketing & Content Creation",
-      fr: "Marketing Digital & Création de Contenu"
+      en: "Digital Marketing & Web Creator",
+      fr: "Marketing Digital & Créateur Web"
     },
     organization: {
-      en: "Habetzefer, Tel Aviv",
-      fr: "Habetzefer, Tel Aviv"
+      en: "Personal Projects",
+      fr: "Projets Personnels"
     },
     date: {
-      en: "January 2024 – July 2024",
-      fr: "Janvier 2024 – Juillet 2024"
+      en: "2024 – Present",
+      fr: "2024 – Présent"
     },
     description: {
-      en: "Studied digital marketing fundamentals, content strategy, social media, branding and communication. This experience helps me understand how users interact with digital products, how to present offers clearly and how to create business-oriented web experiences.",
-      fr: "Études des fondamentaux du marketing digital, de la stratégie de contenu, des réseaux sociaux, du branding et de la communication. Cette expérience permet de comprendre comment les utilisateurs interagissent avec les produits digitaux, comment présenter une offre clairement et comment créer des expériences web orientées business."
+      en: "Created digital concepts combining web design, branding, landing pages and content strategy for online services and business-oriented projects.",
+      fr: "Créé des concepts digitaux combinant design web, branding, landing pages et stratégie de contenu pour des services en ligne et projets orientés business."
     },
-    type: "education"
+    bulletPoints: {
+      en: [
+        "Designed web pages with a focus on clarity, conversion and user experience.",
+        "Applied marketing principles to improve messaging and project presentation.",
+        "Worked on content structure, visual hierarchy and digital positioning."
+      ],
+      fr: [
+        "Conçu des pages web avec un focus sur la clarté, la conversion et l'expérience utilisateur.",
+        "Appliqué des principes marketing pour améliorer la messagerie et la présentation de projet.",
+        "Travaillé sur la structure de contenu, la hiérarchie visuelle et le positionnement digital."
+      ]
+    },
+    type: "experience"
   },
   {
     title: {
-      en: "Military Service",
-      fr: "Service Militaire"
+      en: "IDF Service",
+      fr: "Service Tsahal"
     },
     organization: {
-      en: "IDF, Givati Brigade",
-      fr: "Tsahal, Brigade Guivati"
+      en: "Guivati Unit",
+      fr: "Unité Guivati"
     },
     date: {
       en: "2019 – 2022",
       fr: "2019 – 2022"
     },
     description: {
-      en: "Completed military service in Israel, developing discipline, responsibility, teamwork and the ability to work under pressure. This experience strengthened my seriousness and professional approach to work.",
-      fr: "Service militaire effectué en Israël, avec développement de la discipline, du sens des responsabilités, du travail en équipe et de la capacité à travailler sous pression. Cette expérience a renforcé le sérieux et l'approche professionnelle du travail."
+      en: "Completed full military service in the IDF, developing discipline, responsibility, teamwork and the ability to perform in demanding environments.",
+      fr: "Effectué le service militaire complet dans l'IDF, développant la discipline, la responsabilité, le travail d'équipe et la capacité à performer dans des environnements exigeants."
+    },
+    bulletPoints: {
+      en: [
+        "Worked in a structured and high-responsibility environment.",
+        "Developed strong discipline, reliability and teamwork.",
+        "Learned to adapt quickly and stay focused under pressure."
+      ],
+      fr: [
+        "Travaillé dans un environnement structuré à haute responsabilité.",
+        "Développé une forte discipline, fiabilité et esprit d'équipe.",
+        "Appris à m'adapter rapidement et rester concentré sous pression."
+      ]
     },
     type: "experience"
   }

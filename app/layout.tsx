@@ -6,12 +6,12 @@ import { LanguageProvider } from "@/lib/language-context"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Shay Acoca | Full Stack Developer & Digital Marketing",
-  description: "Portfolio of Shay Acoca, a full stack developer and digital marketing specialist based in Jerusalem, Israel. Projects built with React, Next.js, Node.js, MongoDB and modern web technologies.",
-  keywords: ["Shay Acoca", "Full Stack Developer", "React Developer", "Next.js Developer", "Node.js Developer", "Junior Developer", "Web Developer Israel", "Digital Marketing", "Startup Developer", "HackerU"],
+  title: "Shay Acoca | Full Stack Developer",
+  description: "Full Stack Developer based in Jerusalem, Israel. Building modern web applications with React, Next.js, Node.js, MongoDB and Django, with a background in digital marketing and web design.",
+  keywords: ["Shay Acoca", "Full Stack Developer", "React Developer", "Next.js Developer", "Node.js Developer", "Web Developer Israel", "Digital Marketing", "Startup Developer", "MongoDB", "Django"],
   openGraph: {
-    title: "Shay Acoca | Full Stack Developer & Digital Marketing",
-    description: "Portfolio of Shay Acoca, a full stack developer and digital marketing specialist based in Jerusalem, Israel.",
+    title: "Shay Acoca — Full Stack Developer",
+    description: "Portfolio of Shay Acoca, Full Stack Developer focused on React, Next.js, Node.js, MongoDB, Django and modern web applications.",
     type: "website",
     locale: "en_US",
     alternateLocale: ["fr_FR"],

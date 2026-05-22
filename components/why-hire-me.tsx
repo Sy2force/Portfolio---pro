@@ -11,24 +11,20 @@ export function WhyHireMe() {
 
   const reasons = [
     {
-      title: t.whyHireMe.cleanExecution,
-      description: t.whyHireMe.cleanExecutionDesc
+      title: t.valueProp.card1Title,
+      description: t.valueProp.card1Text
     },
     {
-      title: t.whyHireMe.productAwareness,
-      description: t.whyHireMe.productAwarenessDesc
+      title: t.valueProp.card2Title,
+      description: t.valueProp.card2Text
     },
     {
-      title: t.whyHireMe.fullStackMindset,
-      description: t.whyHireMe.fullStackMindsetDesc
+      title: t.valueProp.card3Title,
+      description: t.valueProp.card3Text
     },
     {
-      title: t.whyHireMe.fastLearning,
-      description: t.whyHireMe.fastLearningDesc
-    },
-    {
-      title: t.whyHireMe.professionalEthic,
-      description: t.whyHireMe.professionalEthicDesc
+      title: t.valueProp.card4Title,
+      description: t.valueProp.card4Text
     }
   ]
 
@@ -42,7 +38,7 @@ export function WhyHireMe() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground mb-8 text-center">
-            {t.whyHireMe.title}
+            {t.valueProp.title}
           </h2>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">

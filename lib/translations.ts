@@ -13,48 +13,46 @@ export const translations = {
     },
     // Hero
     hero: {
-      badge: "Full Stack Developer",
-      title: "I build modern, clear and functional web platforms.",
-      subtitle: "Full Stack Developer with a background in web design and digital marketing.",
-      description: "I design and build websites, applications and digital tools focused on usability, structure and clean presentation.",
+      title: "Shay Acoca",
+      subtitle: "Full Stack Developer",
+      shortPhrase: "I build modern, responsive and user-focused web applications with React, Next.js, Node.js and MongoDB.",
+      secondaryPhrase: "Based in Jerusalem, I combine full stack development, web design and digital marketing to create clean digital products that are functional, scalable and business-oriented.",
       viewProjects: "View Projects",
-      contactMe: "Contact Me",
-      location: "Based in Jerusalem, Israel · Open to Full Stack, Frontend and startup opportunities",
-      homepageSentence: "This portfolio demonstrates my evolution from design to full stack development and my ability to build practical solutions."
+      downloadResume: "Download Resume",
+      contactMe: "Contact Me"
     },
     // About
     about: {
-      title: "About",
-      text1: "My name is Shay Acoca, a Full Stack Developer based in Jerusalem.",
-      text2: "My background combines web development, design, digital marketing and content creation. I approach digital products with a practical vision: understanding not only how they work, but also how they look, feel and serve real business needs.",
-      text3: "I build professional websites, web applications, SaaS platforms, dashboards, e-commerce projects and digital tools. I focus on clean interfaces, solid structure and simple user experiences.",
-      text4: "I'm looking to join a team where I can bring reliability, creativity and technical skills to real projects.",
-      productMinded: "Product & design mindset",
-      productMindedDesc: "I think about interfaces so they are clear, useful and aligned with real needs.",
-      fullStackFoundation: "Full Stack profile",
-      fullStackFoundationDesc: "I can work on the main parts of a web project: interface, backend, API, database and deployment.",
-      consistentLearner: "Continuous growth",
-      consistentLearnerDesc: "I improve through real projects, testing, feedback and learning new technologies."
+      title: "About Me",
+      text: "I am a Full Stack Developer based in Jerusalem, Israel, with a background in digital marketing, web design and content creation.\n\nI build modern web applications using React, Next.js, Node.js, Express, MongoDB and Django. My work focuses on clean interfaces, responsive layouts, structured backend logic and practical user experiences.\n\nBefore focusing on development, I studied digital marketing and content creation, which helps me understand how digital products should look, communicate and support business goals.\n\nI am currently looking for developer opportunities where I can contribute to real projects, improve my technical skills and grow inside a professional team.",
+      shortText: "Full Stack Developer based in Jerusalem, with a background in digital marketing and web design. I build responsive web applications using React, Next.js, Node.js, MongoDB and Django, with a strong focus on clean UI, practical features and business value."
+    },
+    // Value Proposition
+    valueProp: {
+      title: "What I Bring",
+      card1Title: "Full Stack Development",
+      card1Text: "I build complete web applications from frontend interfaces to backend APIs, authentication, database structure and deployment.",
+      card2Title: "Product & UX Mindset",
+      card2Text: "My background in marketing and design helps me create digital experiences that are clear, useful and aligned with user needs.",
+      card3Title: "Real Project Experience",
+      card3Text: "I have built and deployed projects including e-commerce platforms, dashboards, APIs, authentication systems and responsive interfaces.",
+      card4Title: "Fast Learning & Ownership",
+      card4Text: "I am motivated, disciplined and used to learning quickly, solving problems and improving my work through real practice."
     },
     // Projects
     projects: {
-      title: "Selected Digital Projects",
-      subtitle: "A selection of projects I designed, structured and developed to show my skills in design, frontend, backend and product logic.",
-      problemSolved: "Problem solved",
-      role: "Role",
+      title: "Selected Projects",
+      subtitle: "A selection of web applications and digital products built with modern frontend and backend technologies.",
       techStack: "Tech Stack",
-      keyFeatures: "Key Features",
-      demonstrates: "What it demonstrates",
+      features: "Features",
       liveDemo: "Live Demo",
       github: "GitHub"
     },
     // Other Projects
     otherProjects: {
-      title: "Other projects in progress",
-      description: "Beyond the projects presented in this portfolio, I am also working on additional web applications, professional websites and technical experiments. These projects help me explore new ideas and improve my architecture skills.",
+      title: "Other Projects",
+      description: "Projects I'm currently working on to improve my skills and explore new technologies.",
       list: [
-        "Web applications with authentication, dashboards and user flows",
-        "Professional websites for services, agencies and personal brands",
         "E-commerce interfaces with product pages and admin logic",
         "Backend APIs with database structure and secure routes",
         "Tools and programs to improve my development workflow",
@@ -64,57 +62,53 @@ export const translations = {
     },
     // Skills
     skills: {
-      title: "Skills",
-      subtitle: "My skills cover the essential parts of a web project: interface, backend, database, authentication, deployment and user experience.",
+      title: "Technical Skills",
+      subtitle: "Technologies and tools I use to build modern web applications.",
       frontend: "Frontend",
       backend: "Backend",
       tools: "Tools & Deployment",
-      product: "Product & Design"
+      digital: "Digital & Product"
     },
     // Experience
     experience: {
-      title: "Experience",
-      subtitle: "My background combines web design, full stack development, digital marketing and professional experience.",
+      title: "Experience"
     },
-    // Why Hire Me
-    whyHireMe: {
-      title: "What I bring",
-      cleanExecution: "Clean execution",
-      cleanExecutionDesc: "I pay attention to structure, readability and the quality of the final result.",
-      productAwareness: "Design sense",
-      productAwarenessDesc: "My design background helps me create clear, modern and user-focused interfaces.",
-      fullStackMindset: "Full Stack profile",
-      fullStackMindsetDesc: "I can work across the interface, backend, APIs, database and deployment.",
-      fastLearning: "Autonomy",
-      fastLearningDesc: "I can move forward, find solutions and adapt to project needs.",
-      professionalEthic: "Reliability",
-      professionalEthicDesc: "I take my work seriously and aim to deliver clean, stable and useful results."
+    // Education
+    education: {
+      title: "Education"
+    },
+    // Languages
+    languages: {
+      title: "Languages"
     },
     // Contact
     contact: {
-      title: "Let's build something useful.",
-      subtitle: "I'm open to Full Stack, Frontend, startup, junior/mid-level opportunities or collaborations.\nHave a project, idea or opportunity?\nI'd be happy to talk.",
+      title: "Let's Work Together",
+      text: "I am open to developer opportunities, startup projects, collaborations and roles where I can contribute to modern web products.",
+      secondaryText: "If you are looking for someone who can build clean web interfaces, connect frontend and backend logic, and understand the business side of digital products, feel free to contact me.",
       getInTouch: "Get in touch",
       name: "Name",
       email: "Email",
       message: "Message",
       send: "Send Message",
+      emailMe: "Email Me",
+      linkedin: "LinkedIn",
+      github: "GitHub",
       downloadResume: "Download Resume"
     },
     // Footer
     footer: {
-      name: "Shay Acoca",
-      jobTitle: "Full Stack Developer · React · Next.js · Node.js",
-      builtWith: "Built with Next.js, TypeScript and Tailwind CSS.",
+      text: "Designed and built by Shay Acoca.",
+      subtitle: "Full Stack Developer based in Jerusalem, Israel.",
       copyright: `© ${new Date().getFullYear()} Shay Acoca. All rights reserved.`
     },
     // Resume
     resume: {
       title: "Shay Acoca — Full Stack Developer",
       subtitle: "Shay Acoca — Full Stack Developer",
-      about: "Full Stack Developer based in Jerusalem, with a background in web design, digital marketing and content creation.\nI design and build websites, applications and digital platforms by combining technical structure, clean interfaces and user-focused thinking.",
-      shortSummary: "Full Stack Developer with a solid background in web design and digital marketing.\nI build complete web projects: modern interfaces, backend APIs, authentication, databases, dashboards and deployment.\nI'm looking to join a team where I can contribute to real products, keep growing and bring a serious, creative and user-focused approach.",
-      experience: "Experience & Education",
+      about: "Full Stack Developer based in Jerusalem, with a background in digital marketing, web design and content creation.\nI build modern web applications using React, Next.js, Node.js, Express, MongoDB and Django. My work focuses on clean interfaces, responsive layouts, structured backend logic and practical user experiences.",
+      shortSummary: "Full Stack Developer based in Jerusalem, with a background in digital marketing and web design. I build responsive web applications using React, Next.js, Node.js, MongoDB and Django, with a strong focus on clean UI, practical features and business value.",
+      experience: "Experience",
       skills: "Skills",
       techStack: "Tech Stack",
       projects: "Projects",
@@ -137,48 +131,46 @@ export const translations = {
     },
     // Hero
     hero: {
-      badge: "Développeur Full Stack",
-      title: "Je crée des plateformes web modernes, claires et fonctionnelles.",
-      subtitle: "Développeur Full Stack avec un parcours en design web et marketing digital.",
-      description: "Je conçois des sites, applications et outils digitaux pensés pour être utiles, bien structurés et agréables à utiliser.",
+      title: "Shay Acoca",
+      subtitle: "Développeur Full Stack",
+      shortPhrase: "Je crée des applications web modernes, responsives et centrées sur l'utilisateur avec React, Next.js, Node.js et MongoDB.",
+      secondaryPhrase: "Basé à Jérusalem, je combine le développement full stack, le design web et le marketing digital pour créer des produits digitaux propres qui sont fonctionnels, évolutifs et orientés business.",
       viewProjects: "Voir mes projets",
-      contactMe: "Me contacter",
-      location: "Basé à Jérusalem, Israël · Ouvert aux opportunités Full Stack, Frontend et startup",
-      homepageSentence: "Ce portfolio démontre mon évolution du design vers le développement full stack et ma capacité à construire des solutions pratiques."
+      downloadResume: "Télécharger le CV",
+      contactMe: "Me contacter"
     },
     // About
     about: {
-      title: "À propos",
-      text1: "Je m'appelle Shay Acoca, développeur Full Stack basé à Jérusalem.",
-      text2: "Mon parcours combine développement web, design, marketing digital et création de contenu. J'aborde les produits digitaux avec une vision pratique : comprendre non seulement comment ils fonctionnent, mais aussi comment ils se présentent, se ressentent et servent les besoins réels d'une entreprise.",
-      text3: "Je construis des sites professionnels, applications web, plateformes SaaS, dashboards, e-commerce et outils digitaux. Je privilégie les interfaces propres, les structures solides et les expériences simples à utiliser.",
-      text4: "Aujourd'hui, je cherche à rejoindre une équipe où je peux apporter mon sérieux, ma créativité et mes compétences techniques sur des projets concrets.",
-      productMinded: "Vision produit & design",
-      productMindedDesc: "Je pense les interfaces pour qu'elles soient claires, utiles et adaptées aux besoins réels.",
-      fullStackFoundation: "Profil Full Stack",
-      fullStackFoundationDesc: "Je peux intervenir sur les principales parties d'un projet web : interface, backend, API, base de données et déploiement.",
-      consistentLearner: "Progression continue",
-      consistentLearnerDesc: "Je progresse à travers des projets réels, des tests, des retours et l'apprentissage de nouvelles technologies."
+      title: "À propos de moi",
+      text: "Je suis un développeur Full Stack basé à Jérusalem, Israël, avec un parcours en marketing digital, design web et création de contenu.\n\nJe construis des applications web modernes en utilisant React, Next.js, Node.js, Express, MongoDB et Django. Mon travail se concentre sur des interfaces propres, des layouts responsives, une logique backend structurée et des expériences utilisateur pratiques.\n\nAvant de me concentrer sur le développement, j'ai étudié le marketing digital et la création de contenu, ce qui m'aide à comprendre comment les produits digitaux doivent être présentés, communiquer et soutenir les objectifs business.\n\nJe suis actuellement à la recherche d'opportunités de développeur où je peux contribuer à des projets réels, améliorer mes compétences techniques et grandir au sein d'une équipe professionnelle.",
+      shortText: "Développeur Full Stack basé à Jérusalem, avec un parcours en marketing digital et design web. Je construis des applications web responsives en utilisant React, Next.js, Node.js, MongoDB et Django, avec un fort focus sur une UI propre, des fonctionnalités pratiques et de la valeur business."
+    },
+    // Value Proposition
+    valueProp: {
+      title: "Ce que j'apporte",
+      card1Title: "Développement Full Stack",
+      card1Text: "Je construis des applications web complètes des interfaces frontend aux APIs backend, authentification, structure de base de données et déploiement.",
+      card2Title: "Vision Produit & UX",
+      card2Text: "Mon parcours en marketing et design m'aide à créer des expériences digitales qui sont claires, utiles et alignées avec les besoins utilisateurs.",
+      card3Title: "Expérience de Projets Réels",
+      card3Text: "J'ai construit et déployé des projets incluant des plateformes e-commerce, dashboards, APIs, systèmes d'authentification et interfaces responsives.",
+      card4Title: "Apprentissage Rapide & Prise en Charge",
+      card4Text: "Je suis motivé, discipliné et habitué à apprendre rapidement, résoudre des problèmes et améliorer mon travail à travers la pratique réelle."
     },
     // Projects
     projects: {
-      title: "Mes créations digitales",
-      subtitle: "Une sélection de projets que j'ai conçus, structurés et développés pour montrer mes compétences en design, frontend, backend et logique produit.",
-      problemSolved: "Problème résolu",
-      role: "Rôle",
+      title: "Projets Sélectionnés",
+      subtitle: "Une sélection d'applications web et produits digitaux construits avec des technologies frontend et backend modernes.",
       techStack: "Stack technique",
-      keyFeatures: "Fonctionnalités clés",
-      demonstrates: "Ce que le projet démontre",
+      features: "Fonctionnalités",
       liveDemo: "Démo en ligne",
       github: "GitHub"
     },
     // Other Projects
     otherProjects: {
-      title: "Autres projets en cours",
-      description: "En plus des projets présentés dans ce portfolio, je travaille également sur d'autres applications web, sites professionnels et expérimentations techniques. Ces projets me permettent d'explorer de nouvelles idées et d'améliorer mon architecture.",
+      title: "Autres Projets",
+      description: "Projets sur lesquels je travaille actuellement pour améliorer mes compétences et explorer de nouvelles technologies.",
       list: [
-        "Applications web avec authentification, dashboards et parcours utilisateur",
-        "Sites professionnels pour services, agences et marques personnelles",
         "Interfaces e-commerce avec pages produits et logique admin",
         "APIs backend avec structure de base de données et routes sécurisées",
         "Outils et programmes pour améliorer mon workflow de développement",
@@ -188,57 +180,53 @@ export const translations = {
     },
     // Skills
     skills: {
-      title: "Compétences",
-      subtitle: "Mes compétences couvrent les parties essentielles d'un projet web : interface, backend, base de données, authentification, déploiement et expérience utilisateur.",
+      title: "Compétences Techniques",
+      subtitle: "Technologies et outils que j'utilise pour construire des applications web modernes.",
       frontend: "Frontend",
       backend: "Backend",
       tools: "Outils & Déploiement",
-      product: "Produit & Design"
+      digital: "Digital & Produit"
     },
     // Experience
     experience: {
-      title: "Expérience",
-      subtitle: "Mon parcours combine design web, développement full stack, marketing digital et expérience professionnelle.",
+      title: "Expérience"
     },
-    // Why Hire Me
-    whyHireMe: {
-      title: "Ce que j'apporte",
-      cleanExecution: "Exécution propre",
-      cleanExecutionDesc: "Je travaille avec attention sur la structure, la lisibilité et la qualité du rendu final.",
-      productAwareness: "Sens du design",
-      productAwarenessDesc: "Mon parcours en design m'aide à créer des interfaces claires, modernes et adaptées aux utilisateurs.",
-      fullStackMindset: "Profil Full Stack",
-      fullStackMindsetDesc: "Je peux intervenir sur l'interface, le backend, les APIs, la base de données et le déploiement.",
-      fastLearning: "Autonomie",
-      fastLearningDesc: "Je sais avancer, chercher des solutions et m'adapter aux besoins d'un projet.",
-      professionalEthic: "Fiabilité",
-      professionalEthicDesc: "Je prends mon travail au sérieux et je cherche à livrer un résultat propre, stable et utile."
+    // Education
+    education: {
+      title: "Formation"
+    },
+    // Languages
+    languages: {
+      title: "Langues"
     },
     // Contact
     contact: {
-      title: "Construisons quelque chose d'utile.",
-      subtitle: "Je suis ouvert aux opportunités Full Stack, Frontend, startup, poste junior/confirmé accessible ou collaboration.\nVous avez un projet, une idée ou une opportunité ?\nJe serais heureux d'en discuter.",
+      title: "Travaillons ensemble",
+      text: "Je suis ouvert aux opportunités de développeur, projets startup, collaborations et rôles où je peux contribuer à des produits web modernes.",
+      secondaryText: "Si vous cherchez quelqu'un capable de construire des interfaces web propres, connecter la logique frontend et backend, et comprendre le côté business des produits digitaux, n'hésitez pas à me contacter.",
       getInTouch: "Contactez-moi",
       name: "Nom",
       email: "Email",
       message: "Message",
       send: "Envoyer le message",
+      emailMe: "Envoyer un email",
+      linkedin: "LinkedIn",
+      github: "GitHub",
       downloadResume: "Télécharger le CV"
     },
     // Footer
     footer: {
-      name: "Shay Acoca",
-      jobTitle: "Développeur Full Stack · React · Next.js · Node.js",
-      builtWith: "Construit avec Next.js, TypeScript et Tailwind CSS.",
+      text: "Conçu et développé par Shay Acoca.",
+      subtitle: "Développeur Full Stack basé à Jérusalem, Israël.",
       copyright: `© ${new Date().getFullYear()} Shay Acoca. Tous droits réservés.`
     },
     // Resume
     resume: {
       title: "Shay Acoca — Développeur Full Stack",
       subtitle: "Shay Acoca — Développeur Full Stack",
-      about: "Développeur Full Stack basé à Jérusalem, avec un parcours en design web, marketing digital et création de contenu.\nJe conçois des sites, applications et plateformes digitales en combinant structure technique, interface claire et vision utilisateur.",
-      shortSummary: "Développeur Full Stack avec une base solide en design web et marketing digital.\nJe construis des projets web complets : interfaces modernes, APIs backend, authentification, bases de données, dashboards et déploiement.\nJe cherche à rejoindre une équipe où je peux contribuer à des produits concrets, continuer à progresser et apporter une approche sérieuse, créative et orientée utilisateur.",
-      experience: "Expérience & Formation",
+      about: "Développeur Full Stack basé à Jérusalem, avec un parcours en marketing digital, design web et création de contenu.\nJe construis des applications web modernes en utilisant React, Next.js, Node.js, Express, MongoDB et Django. Mon travail se concentre sur des interfaces propres, des layouts responsives, une logique backend structurée et des expériences utilisateur pratiques.",
+      shortSummary: "Développeur Full Stack basé à Jérusalem, avec un parcours en marketing digital et design web. Je construis des applications web responsives en utilisant React, Next.js, Node.js, MongoDB et Django, avec un fort focus sur une UI propre, des fonctionnalités pratiques et de la valeur business.",
+      experience: "Expérience",
       skills: "Compétences",
       techStack: "Stack technique",
       projects: "Projets",

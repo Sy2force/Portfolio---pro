@@ -14,7 +14,7 @@ export function Skills() {
     { name: t.skills.frontend, items: skills.frontend },
     { name: t.skills.backend, items: skills.backend },
     { name: t.skills.tools, items: skills.tools },
-    { name: t.skills.product, items: skills.product },
+    { name: t.skills.digital, items: skills.digital },
   ]
 
   return (

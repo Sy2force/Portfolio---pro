@@ -24,10 +24,6 @@ export function Hero() {
           transition={{ duration: 0.6 }}
           className="px-2"
         >
-          <span className="inline-block px-3 py-1.5 md:px-4 md:py-2 bg-gray-800/50 border border-gray-700 rounded-full text-xs md:text-sm text-gray-300 mb-6 md:mb-8 backdrop-blur-sm">
-            {t.hero.badge}
-          </span>
-
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-4 md:mb-6 leading-tight">
             {t.hero.title}
           </h1>
@@ -37,7 +33,11 @@ export function Hero() {
           </p>
 
           <p className="text-xs md:text-sm lg:text-base text-muted mb-8 md:mb-12 max-w-2xl mx-auto leading-relaxed">
-            {t.hero.description}
+            {t.hero.shortPhrase}
+          </p>
+
+          <p className="text-xs md:text-sm lg:text-base text-muted mb-8 md:mb-12 max-w-2xl mx-auto leading-relaxed">
+            {t.hero.secondaryPhrase}
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center mb-8 md:mb-12 px-4">
@@ -88,16 +88,6 @@ export function Hero() {
               </svg>
             </a>
           </div>
-
-          <p className="text-[11px] md:text-xs lg:text-sm text-gray-500 mb-4 md:mb-6 px-2">
-            {t.hero.location}
-          </p>
-
-          {t.hero.homepageSentence && (
-            <p className="text-[11px] md:text-xs lg:text-sm text-gray-400 max-w-2xl mx-auto italic px-2">
-              {t.hero.homepageSentence}
-            </p>
-          )}
         </motion.div>
       </div>
     </section>

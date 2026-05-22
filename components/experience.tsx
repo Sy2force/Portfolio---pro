@@ -15,7 +15,6 @@ export function Experience() {
       <div className="max-w-6xl mx-auto">
         <SectionTitle
           title={t.experience.title}
-          subtitle={t.experience.subtitle}
         />
 
         <div className="relative">
