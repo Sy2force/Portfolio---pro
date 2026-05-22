@@ -33,20 +33,20 @@ export default function ResumePage() {
         </button>
       </div>
 
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12 md:py-16 pt-20 md:pt-20">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8 md:py-10 pt-20 md:pt-20">
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="text-center mb-12 md:mb-16"
+          className="text-center mb-8 md:mb-10"
         >
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-3 bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
             Resume / CV
           </h1>
-          <h2 className="text-xl md:text-2xl text-gray-300 mb-6 font-light">
+          <h2 className="text-lg md:text-xl text-gray-300 mb-4 font-light">
             Download a clean, professional bilingual resume
           </h2>
-          <p className="text-base md:text-lg text-gray-400 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-sm md:text-base text-gray-400 max-w-2xl mx-auto leading-relaxed">
             Optimized for startups and professional applications. Available in English and French with a modern, corporate design.
           </p>
         </motion.div>
@@ -56,31 +56,31 @@ export default function ResumePage() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.1 }}
-          className="grid md:grid-cols-2 gap-6 md:gap-8 mb-12 md:mb-16"
+          className="grid md:grid-cols-2 gap-4 md:gap-6 mb-8 md:mb-10"
         >
           {/* English Resume Card */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
-            className="bg-gray-800/50 backdrop-blur-sm border border-gray-700/50 rounded-2xl p-8 md:p-10 hover:border-blue-500/50 transition-all duration-300 flex flex-col shadow-2xl hover:shadow-blue-500/10"
+            className="bg-gray-800/50 backdrop-blur-sm border border-gray-700/50 rounded-2xl p-6 md:p-8 hover:border-blue-500/50 transition-all duration-300 flex flex-col shadow-2xl hover:shadow-blue-500/10"
           >
-            <div className="flex items-center justify-between mb-6">
-              <h3 className="text-2xl md:text-3xl font-bold text-white">
+            <div className="flex items-center justify-between mb-4">
+              <h3 className="text-xl md:text-2xl font-bold text-white">
                 English Resume
               </h3>
               <span className="px-3 py-1 bg-blue-600/20 text-blue-400 text-xs font-medium rounded-full border border-blue-500/30">
                 1 page
               </span>
             </div>
-            <p className="text-base md:text-lg text-gray-300 mb-8 leading-relaxed flex-grow">
+            <p className="text-sm md:text-base text-gray-300 mb-6 leading-relaxed flex-grow">
               Clean black-and-white PDF optimized for professional applications and printing.
             </p>
-            <div className="space-y-4">
+            <div className="space-y-3">
               <a
                 href="/Shay_Acoca_CV_EN.pdf"
                 download
-                className="block w-full px-6 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-xl transition-all duration-300 font-semibold text-center touch-manipulation active:scale-98 shadow-lg shadow-blue-500/25 hover:shadow-blue-500/40"
+                className="block w-full px-5 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-xl transition-all duration-300 font-semibold text-center touch-manipulation active:scale-98 shadow-lg shadow-blue-500/25 hover:shadow-blue-500/40"
                 aria-label="Download Shay Acoca English CV PDF"
               >
                 Download English PDF
@@ -93,24 +93,24 @@ export default function ResumePage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
-            className="bg-gray-800/50 backdrop-blur-sm border border-gray-700/50 rounded-2xl p-8 md:p-10 hover:border-blue-500/50 transition-all duration-300 flex flex-col shadow-2xl hover:shadow-blue-500/10"
+            className="bg-gray-800/50 backdrop-blur-sm border border-gray-700/50 rounded-2xl p-6 md:p-8 hover:border-blue-500/50 transition-all duration-300 flex flex-col shadow-2xl hover:shadow-blue-500/10"
           >
-            <div className="flex items-center justify-between mb-6">
-              <h3 className="text-2xl md:text-3xl font-bold text-white">
+            <div className="flex items-center justify-between mb-4">
+              <h3 className="text-xl md:text-2xl font-bold text-white">
                 CV Français
               </h3>
               <span className="px-3 py-1 bg-blue-600/20 text-blue-400 text-xs font-medium rounded-full border border-blue-500/30">
                 1 page
               </span>
             </div>
-            <p className="text-base md:text-lg text-gray-300 mb-8 leading-relaxed flex-grow">
+            <p className="text-sm md:text-base text-gray-300 mb-6 leading-relaxed flex-grow">
               CV noir et blanc, propre et optimisé pour impression et candidatures professionnelles.
             </p>
-            <div className="space-y-4">
+            <div className="space-y-3">
               <a
                 href="/Shay_Acoca_CV_FR.pdf"
                 download
-                className="block w-full px-6 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-xl transition-all duration-300 font-semibold text-center touch-manipulation active:scale-98 shadow-lg shadow-blue-500/25 hover:shadow-blue-500/40"
+                className="block w-full px-5 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-xl transition-all duration-300 font-semibold text-center touch-manipulation active:scale-98 shadow-lg shadow-blue-500/25 hover:shadow-blue-500/40"
                 aria-label="Télécharger le CV français de Shay Acoca en PDF"
               >
                 Télécharger le PDF français
@@ -124,27 +124,27 @@ export default function ResumePage() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4 }}
-          className="bg-gray-800/30 backdrop-blur-sm border border-gray-700/30 rounded-2xl p-8 md:p-10 mb-12 md:mb-16"
+          className="bg-gray-800/30 backdrop-blur-sm border border-gray-700/30 rounded-2xl p-6 md:p-8 mb-8 md:mb-10"
         >
-          <h3 className="text-xl md:text-2xl font-bold text-white mb-6 text-center">
+          <h3 className="text-lg md:text-xl font-bold text-white mb-4 text-center">
             What&apos;s Inside
           </h3>
-          <div className="grid md:grid-cols-3 gap-6 text-center">
+          <div className="grid md:grid-cols-3 gap-4 md:gap-6 text-center">
             <div className="space-y-2">
-              <div className="text-3xl md:text-4xl font-bold text-blue-400">3</div>
-              <div className="text-sm md:text-base text-gray-300">Selected Projects</div>
+              <div className="text-2xl md:text-3xl font-bold text-blue-400">3</div>
+              <div className="text-xs md:text-sm text-gray-300">Selected Projects</div>
             </div>
             <div className="space-y-2">
-              <div className="text-3xl md:text-4xl font-bold text-blue-400">3</div>
-              <div className="text-sm md:text-base text-gray-300">Experience Items</div>
+              <div className="text-2xl md:text-3xl font-bold text-blue-400">3</div>
+              <div className="text-xs md:text-sm text-gray-300">Experience Items</div>
             </div>
             <div className="space-y-2">
-              <div className="text-3xl md:text-4xl font-bold text-blue-400">2</div>
-              <div className="text-sm md:text-base text-gray-300">Educational Programs</div>
+              <div className="text-2xl md:text-3xl font-bold text-blue-400">2</div>
+              <div className="text-xs md:text-sm text-gray-300">Educational Programs</div>
             </div>
           </div>
-          <div className="mt-6 pt-6 border-t border-gray-700/50 text-center">
-            <p className="text-sm md:text-base text-gray-400">
+          <div className="mt-4 md:mt-6 pt-4 md:pt-6 border-t border-gray-700/50 text-center">
+            <p className="text-xs md:text-sm text-gray-400">
               Print-friendly black-and-white design • Clean professional PDF • Optimized for A4 printing
             </p>
           </div>
@@ -159,9 +159,9 @@ export default function ResumePage() {
         >
           <Link
             href="/"
-            className="inline-flex items-center gap-2 text-blue-400 hover:text-blue-300 transition-colors font-medium touch-manipulation active:scale-95 text-base md:text-lg"
+            className="inline-flex items-center gap-2 text-blue-400 hover:text-blue-300 transition-colors font-medium touch-manipulation active:scale-95 text-sm md:text-base"
           >
-            <svg className="w-5 h-5 md:w-6 md:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="w-4 h-4 md:w-5 md:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
             </svg>
             Back to Portfolio
