@@ -261,7 +261,7 @@ export const cvContentEN: CVContent = {
   },
   summary: {
     title: "Professional Profile",
-    text: "Full Stack Developer based in Jerusalem with a background in digital marketing, web design and content creation. I build responsive web applications using React, Next.js, Node.js, Express, MongoDB and Django. My goal is to create clean interfaces, useful features and structured web projects while continuing to grow within a professional team."
+    text: "Full Stack Developer with hands-on experience building modern web applications using React, Next.js, Node.js, Express, MongoDB, and Django. Skilled in developing responsive interfaces, RESTful APIs, and authentication systems. Committed to delivering high-quality, maintainable code with focus on user experience and performance optimization."
   },
   skills: {
     title: "Skills",
@@ -292,8 +292,8 @@ export const cvContentEN: CVContent = {
         stack: "Django · Django REST Framework · PostgreSQL · JWT · Swagger · Docker",
         description: "Backend-focused health and fitness platform with REST API logic, content management and deployment-ready structure.",
         bullets: [
-          "Built API logic for articles, comments and user-related features.",
-          "Implemented authentication, documentation and backend architecture."
+          "Developed API endpoints for articles, comments, and user management with JWT authentication.",
+          "Implemented comprehensive documentation with Swagger and Docker containerization for production deployment."
         ]
       },
       {
@@ -301,8 +301,8 @@ export const cvContentEN: CVContent = {
         stack: "React · Vite · Tailwind CSS · Node.js · Express · MongoDB",
         description: "Modern premium eyewear e-commerce application focused on product presentation and user experience.",
         bullets: [
-          "Created product catalog, detail pages and reusable frontend components.",
-          "Structured frontend/backend logic for an e-commerce-style application."
+          "Built responsive product catalog, detail pages, and reusable frontend components with Tailwind CSS.",
+          "Developed scalable frontend/backend architecture with MongoDB integration and Express API."
         ]
       },
       {
@@ -310,8 +310,8 @@ export const cvContentEN: CVContent = {
         stack: "React 18 · Vite · Tailwind CSS · Zustand · i18next · Framer Motion",
         description: "Modern React portfolio for discovering Israeli restaurants with responsive design, multilingual support (FR/EN/HE), and comprehensive testing.",
         bullets: [
-          "Responsive restaurant and dish discovery with dark mode, authentication, and SEO optimization.",
-          "Built with React 18, Zustand state management, i18next for translations, and full test coverage with Vitest and Playwright."
+          "Developed responsive restaurant and dish discovery platform with dark mode, authentication, and SEO optimization.",
+          "Implemented React 18 with Zustand state management, i18next for multilingual support, and comprehensive testing with Vitest and Playwright."
         ]
       }
     ]
@@ -323,25 +323,25 @@ export const cvContentEN: CVContent = {
         title: "Full Stack Developer — Personal Projects & Portfolio",
         date: "2024 – Present",
         bullets: [
-          "Built and deployed web applications using React, Next.js, Node.js, Express, MongoDB and Django.",
-          "Developed frontend interfaces, backend APIs and authentication systems.",
-          "Used Git, GitHub, Vercel, Render and MongoDB Atlas."
+          "Built and deployed modern web applications using React, Next.js, Node.js, Express, MongoDB, and Django.",
+          "Developed responsive frontend interfaces, RESTful backend APIs, and authentication systems with JWT.",
+          "Utilized Git, GitHub, Vercel, Render, and MongoDB Atlas for version control and deployment."
         ]
       },
       {
         title: "Digital Marketing & Web Creator — Personal Projects",
         date: "2024 – Present",
         bullets: [
-          "Created digital concepts combining web design, branding and landing pages.",
-          "Applied marketing principles to improve project presentation."
+          "Created digital concepts combining web design, branding, and landing pages for online presence.",
+          "Applied marketing principles to enhance project presentation and user engagement strategies."
         ]
       },
       {
         title: "IDF Service — Guivati Unit",
         date: "2019 – 2022",
         bullets: [
-          "Completed full military service in a structured and demanding environment.",
-          "Developed discipline, teamwork and reliability."
+          "Completed full military service in a structured and demanding environment requiring discipline.",
+          "Developed teamwork skills, reliability, and ability to work under pressure in challenging conditions."
         ]
       }
     ]
@@ -386,7 +386,7 @@ export const cvContentFR: CVContent = {
   },
   summary: {
     title: "Profil professionnel",
-    text: "Développeur Full Stack basé à Jérusalem, avec un parcours en marketing digital, web design et création de contenu. Je conçois des applications web responsives avec React, Next.js, Node.js, Express, MongoDB et Django. Mon objectif est de créer des interfaces propres, des fonctionnalités utiles et des projets web structurés, tout en continuant à progresser au sein d'une équipe professionnelle."
+    text: "Développeur Full Stack avec une expérience pratique dans le développement d'applications web modernes utilisant React, Next.js, Node.js, Express, MongoDB et Django. Compétent dans le développement d'interfaces responsives, d'API RESTful et de systèmes d'authentification. Engagement à fournir un code de haute qualité et maintenable, avec un focus sur l'expérience utilisateur et l'optimisation des performances."
   },
   skills: {
     title: "Compétences",
@@ -417,8 +417,8 @@ export const cvContentFR: CVContent = {
         stack: "Django · Django REST Framework · PostgreSQL · JWT · Swagger · Docker",
         description: "Plateforme backend orientée santé et fitness avec API REST, gestion de contenu et structure prête au déploiement.",
         bullets: [
-          "Création d'une logique API pour articles, commentaires et utilisateurs.",
-          "Mise en place de l'authentification, documentation et architecture backend."
+          "Développé des endpoints API pour articles, commentaires et gestion utilisateurs avec authentification JWT.",
+          "Implémenté documentation complète avec Swagger et conteneurisation Docker pour déploiement en production."
         ]
       },
       {
@@ -426,8 +426,8 @@ export const cvContentFR: CVContent = {
         stack: "React · Vite · Tailwind CSS · Node.js · Express · MongoDB",
         description: "Application e-commerce moderne pour lunettes premium, centrée sur la présentation produit et l'expérience utilisateur.",
         bullets: [
-          "Création du catalogue produit, pages détail et composants réutilisables.",
-          "Structuration frontend/backend pour une application de type e-commerce."
+          "Construit catalogue produit responsive, pages détail et composants frontend réutilisables avec Tailwind CSS.",
+          "Développé architecture frontend/backend scalable avec intégration MongoDB et API Express."
         ]
       },
       {
@@ -435,8 +435,8 @@ export const cvContentFR: CVContent = {
         stack: "React 18 · Vite · Tailwind CSS · Zustand · i18next · Framer Motion",
         description: "Portfolio React moderne pour découvrir les restaurants israéliens avec design responsive, support multilingue (FR/EN/HE) et tests complets.",
         bullets: [
-          "Découverte responsive de restaurants et plats avec mode sombre, authentification et optimisation SEO.",
-          "Développé avec React 18, gestion d'état Zustand, i18next pour les traductions, et tests complets avec Vitest et Playwright."
+          "Développé plateforme de découverte responsive de restaurants et plats avec mode sombre, authentification et optimisation SEO.",
+          "Implémenté React 18 avec gestion d'état Zustand, i18next pour support multilingue et tests complets avec Vitest et Playwright."
         ]
       }
     ]
@@ -448,25 +448,25 @@ export const cvContentFR: CVContent = {
         title: "Développeur Full Stack — Projets personnels & Portfolio",
         date: "2024 – Présent",
         bullets: [
-          "Développement et déploiement d'applications web avec React, Next.js, Node.js, Express, MongoDB et Django.",
-          "Création d'interfaces frontend, d'API backend et de systèmes d'authentification.",
-          "Utilisation de Git, GitHub, Vercel, Render et MongoDB Atlas."
+          "Développé et déployé des applications web modernes avec React, Next.js, Node.js, Express, MongoDB et Django.",
+          "Créé des interfaces frontend responsives, des API backend RESTful et des systèmes d'authentification avec JWT.",
+          "Utilisé Git, GitHub, Vercel, Render et MongoDB Atlas pour le contrôle de version et le déploiement."
         ]
       },
       {
         title: "Marketing Digital & Création Web — Projets personnels",
         date: "2024 – Présent",
         bullets: [
-          "Création de concepts digitaux combinant web design, branding et landing pages.",
-          "Application de principes marketing pour améliorer la présentation des projets."
+          "Conçu des concepts digitaux combinant web design, branding et landing pages pour une présence en ligne.",
+          "Appliqué des principes marketing pour améliorer la présentation des projets et les stratégies d'engagement utilisateur."
         ]
       },
       {
         title: "Service Militaire — Unité Guivati, IDF",
         date: "2019 – 2022",
         bullets: [
-          "Service militaire complet dans un environnement structuré et exigeant.",
-          "Développement de la discipline, du travail d'équipe et de la fiabilité."
+          "Service militaire complet dans un environnement structuré et exigeant nécessitant discipline.",
+          "Développé compétences travail d'équipe, fiabilité et capacité à travailler sous pression dans des conditions exigeantes."
         ]
       }
     ]
