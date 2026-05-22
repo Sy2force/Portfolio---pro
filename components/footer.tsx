@@ -12,7 +12,7 @@ export function Footer() {
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-center md:text-left">
-            <p className="text-foreground font-semibold mb-1">Shay Acoca</p>
+            <p className="text-foreground font-semibold mb-1">{t.footer.text}</p>
             <p className="text-sm text-muted">{t.footer.subtitle}</p>
           </div>
 
