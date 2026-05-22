@@ -121,6 +121,13 @@ const styles = StyleSheet.create({
     color: "#222222",
     marginBottom: 5,
   },
+  projectBox: {
+    backgroundColor: "#F9F9F9",
+    padding: 8,
+    marginBottom: 8,
+    borderLeftColor: "#000000",
+    borderLeftWidth: 2,
+  },
   projectTitle: {
     fontSize: 10,
     fontWeight: 700,
@@ -234,7 +241,7 @@ export const CVDocument: React.FC<CVDocumentProps> = ({ content }) => (
           <View style={styles.section}>
             <Text style={styles.sectionTitle}>{content.projects.title}</Text>
             {content.projects.items.slice(0, 3).map((project, index) => (
-              <View key={index} wrap={false}>
+              <View key={index} style={styles.projectBox} wrap={false}>
                 <Text style={styles.projectTitle}>{project.title}</Text>
                 <Text style={styles.projectStack}>{project.stack}</Text>
                 <Text style={styles.text}>
