@@ -14,6 +14,7 @@ export function Navbar() {
   const [position, setPosition] = useState({ x: 0, y: 0 })
   const [isDragging, setIsDragging] = useState(false)
   const [dragStart, setDragStart] = useState({ x: 0, y: 0 })
+  const [isExpanded, setIsExpanded] = useState(false)
   const navbarRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -179,71 +180,98 @@ export function Navbar() {
         onMouseDown={handleMouseDown}
         onMouseMove={handleMouseMove}
         onMouseUp={handleMouseUp}
+        onMouseEnter={() => setIsExpanded(true)}
+        onMouseLeave={() => setIsExpanded(false)}
         onTouchStart={handleTouchStart}
         onTouchMove={handleTouchMove}
         onTouchEnd={handleTouchEnd}
       >
         <div className={cn(
-          "bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl shadow-2xl overflow-hidden transition-all duration-200",
-          isDragging ? "scale-105" : ""
+          "bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl shadow-2xl overflow-hidden transition-all duration-300",
+          isDragging ? "scale-105 bg-white/20" : "",
+          isExpanded ? "bg-white/15 border-white/30 scale-110" : "scale-90 opacity-80"
         )}>
-          <div className="flex flex-col items-center gap-1 p-3">
-            <div className="w-8 h-1 bg-white/30 rounded-full mb-2" />
+          <div className={cn(
+            "flex flex-col items-center gap-1 transition-all duration-300",
+            isExpanded ? "p-4 gap-2" : "p-2 gap-0.5"
+          )}>
+            <div className={cn(
+              "bg-white/30 rounded-full transition-all duration-300",
+              isExpanded ? "w-8 h-1 mb-2" : "w-6 h-0.5 mb-1"
+            )} />
             {mobileNavLinks.map((link) => (
               <a
                 key={link.name}
                 href={link.href}
-                className="w-10 h-10 flex items-center justify-center text-white hover:bg-white/20 rounded-xl transition-all duration-300 hover:scale-110 active:scale-95 touch-manipulation"
+                className={cn(
+                  "flex items-center justify-center text-white rounded-xl transition-all duration-300 touch-manipulation",
+                  isExpanded 
+                    ? "w-12 h-12 hover:bg-white/20 hover:scale-110 active:scale-95" 
+                    : "w-8 h-8 hover:bg-white/15 hover:scale-105 active:scale-95"
+                )}
                 title={link.name}
                 onClick={(e) => e.stopPropagation()}
               >
                 {link.name === t.nav.about && (
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className={cn("fill-none stroke", isExpanded ? "w-6 h-6" : "w-4 h-4")} viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                   </svg>
                 )}
                 {link.name === t.nav.projects && (
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className={cn("fill-none stroke", isExpanded ? "w-6 h-6" : "w-4 h-4")} viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
                   </svg>
                 )}
                 {link.name === t.nav.skills && (
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className={cn("fill-none stroke", isExpanded ? "w-6 h-6" : "w-4 h-4")} viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
                   </svg>
                 )}
                 {link.name === t.nav.experience && (
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className={cn("fill-none stroke", isExpanded ? "w-6 h-6" : "w-4 h-4")} viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
                 )}
                 {link.name === t.nav.resume && (
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className={cn("fill-none stroke", isExpanded ? "w-6 h-6" : "w-4 h-4")} viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                   </svg>
                 )}
                 {link.name === t.nav.contact && (
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className={cn("fill-none stroke", isExpanded ? "w-6 h-6" : "w-4 h-4")} viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
                   </svg>
                 )}
               </a>
             ))}
-            <div className="w-8 h-px bg-white/20 my-1" />
+            <div className={cn(
+              "bg-white/20 transition-all duration-300",
+              isExpanded ? "w-8 h-px my-1" : "w-6 h-px my-0.5"
+            )} />
             <button
               onClick={(e) => { e.stopPropagation(); setLanguage(language === "en" ? "fr" : "en") }}
-              className="w-10 h-10 flex items-center justify-center text-white hover:bg-white/20 rounded-xl transition-all duration-300 hover:scale-110 active:scale-95 touch-manipulation"
+              className={cn(
+                "flex items-center justify-center text-white rounded-xl transition-all duration-300 hover:bg-white/20 hover:scale-110 active:scale-95 touch-manipulation",
+                isExpanded 
+                  ? "w-12 h-12" 
+                  : "w-8 h-8"
+              )}
               title={language === "en" ? "FR" : "EN"}
             >
-              <span className="text-xs font-semibold">{language === "en" ? "FR" : "EN"}</span>
+              <span className={cn("font-semibold", isExpanded ? "text-xs" : "text-[10px]")}>{language === "en" ? "FR" : "EN"}</span>
             </button>
             <a
               href="#contact"
-              className="w-10 h-10 flex items-center justify-center bg-green-600/80 hover:bg-green-600 text-white rounded-xl transition-all duration-300 hover:scale-110 active:scale-95 touch-manipulation"
+              className={cn(
+                "flex items-center justify-center bg-green-600/80 hover:bg-green-600 text-white rounded-xl transition-all duration-300 hover:scale-110 active:scale-95 touch-manipulation",
+                isExpanded 
+                  ? "w-12 h-12" 
+                  : "w-8 h-8"
+              )}
               title={t.nav.contact}
               onClick={(e) => e.stopPropagation()}
             >
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className={cn("fill-none stroke", isExpanded ? "w-5 h-5" : "w-4 h-4")} viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
               </svg>
             </a>
