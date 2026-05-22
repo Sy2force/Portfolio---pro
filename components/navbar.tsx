@@ -195,7 +195,16 @@ export function Navbar() {
               isExpanded ? "w-8 h-px my-1" : "w-6 h-px my-2"
             )} />
             <button
-              onClick={() => setLanguage(language === "en" ? "fr" : "en")}
+              onClick={(e) => {
+                e.preventDefault()
+                e.stopPropagation()
+                setLanguage(language === "en" ? "fr" : "en")
+              }}
+              onTouchEnd={(e) => {
+                e.preventDefault()
+                e.stopPropagation()
+                setLanguage(language === "en" ? "fr" : "en")
+              }}
               className={cn(
                 "flex items-center justify-center text-white rounded-xl transition-all duration-150 active:scale-95",
                 isExpanded 
