@@ -306,12 +306,12 @@ export const cvContentEN: CVContent = {
         ]
       },
       {
-        title: "Digital Business Card App — SaaS-style Application",
-        stack: "React · Node.js · Express · MongoDB · JWT · Tailwind CSS",
-        description: "Digital business card platform with authentication, protected routes and dashboard-oriented logic.",
+        title: "Flavors of Israel — Restaurant Discovery Platform",
+        stack: "React 18 · Vite · Tailwind CSS · Zustand · i18next · Framer Motion",
+        description: "Modern React portfolio for discovering Israeli restaurants with responsive design, multilingual support (FR/EN/HE), and comprehensive testing.",
         bullets: [
-          "Implemented user authentication and role-based logic.",
-          "Connected frontend and backend features with a structured full stack approach."
+          "Responsive restaurant and dish discovery with dark mode, authentication, and SEO optimization.",
+          "Built with React 18, Zustand state management, i18next for translations, and full test coverage with Vitest and Playwright."
         ]
       }
     ]
@@ -431,12 +431,12 @@ export const cvContentFR: CVContent = {
         ]
       },
       {
-        title: "Digital Business Card App — Application SaaS",
-        stack: "React · Node.js · Express · MongoDB · JWT · Tailwind CSS",
-        description: "Plateforme de cartes de visite numériques avec authentification, routes protégées et logique dashboard.",
+        title: "Flavors of Israel — Plateforme de Découverte de Restaurants",
+        stack: "React 18 · Vite · Tailwind CSS · Zustand · i18next · Framer Motion",
+        description: "Portfolio React moderne pour découvrir les restaurants israéliens avec design responsive, support multilingue (FR/EN/HE) et tests complets.",
         bullets: [
-          "Mise en place de l'authentification utilisateur et de la logique de rôles.",
-          "Connexion des fonctionnalités frontend et backend dans une approche full stack."
+          "Découverte responsive de restaurants et plats avec mode sombre, authentification et optimisation SEO.",
+          "Développé avec React 18, gestion d'état Zustand, i18next pour les traductions, et tests complets avec Vitest et Playwright."
         ]
       }
     ]
