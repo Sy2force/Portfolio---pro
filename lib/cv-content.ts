@@ -364,9 +364,9 @@ export const cvContentEN: CVContent = {
   languages: {
     title: "Languages",
     items: [
-      "French — Native",
-      "Hebrew — Professional",
-      "English — Professional"
+      "French (Native)",
+      "Hebrew (Professional)",
+      "English (Professional)"
     ]
   },
   footer: "Shay Acoca · Full Stack Developer · shay-acoca-portfolio.vercel.app"
@@ -489,9 +489,9 @@ export const cvContentFR: CVContent = {
   languages: {
     title: "Langues",
     items: [
-      "Français — Langue maternelle",
-      "Hébreu — Niveau professionnel",
-      "Anglais — Niveau professionnel"
+      "Français (Natif)",
+      "Hébreu (Professionnel)",
+      "Anglais (Professionnel)"
     ]
   },
   footer: "Shay Acoca · Développeur Full Stack · shay-acoca-portfolio.vercel.app"
