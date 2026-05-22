@@ -11,114 +11,114 @@ import { CVContent } from "./cv-content"
 const styles = StyleSheet.create({
   page: {
     fontFamily: "Helvetica",
-    fontSize: 10,
-    lineHeight: 1.42,
+    fontSize: 9.5,
+    lineHeight: 1.38,
     color: "#1F2933",
     backgroundColor: "#FFFFFF",
-    paddingTop: 32,
-    paddingBottom: 40,
-    paddingHorizontal: 42,
+    paddingTop: 28,
+    paddingBottom: 32,
+    paddingHorizontal: 36,
   },
   header: {
-    marginBottom: 18,
+    marginBottom: 14,
   },
   name: {
-    fontSize: 28,
+    fontSize: 24,
     fontWeight: 700,
-    letterSpacing: 0.8,
+    letterSpacing: 0.7,
     color: "#111827",
     textTransform: "uppercase",
-    marginBottom: 6,
-  },
-  title: {
-    fontSize: 13,
-    fontWeight: 500,
-    color: "#1F2937",
     marginBottom: 4,
   },
+  title: {
+    fontSize: 12,
+    fontWeight: 500,
+    color: "#1F2937",
+    marginBottom: 2,
+  },
   stack: {
-    fontSize: 10.5,
+    fontSize: 9.5,
     color: "#4B5563",
-    marginBottom: 10,
+    marginBottom: 8,
   },
   contacts: {
-    fontSize: 9.2,
+    fontSize: 8.5,
     color: "#374151",
-    lineHeight: 1.5,
+    lineHeight: 1.4,
   },
   headerSeparator: {
     borderBottomColor: "#D1D5DB",
     borderBottomWidth: 1.5,
-    marginBottom: 18,
+    marginBottom: 14,
   },
   sectionTitle: {
-    fontSize: 10.5,
+    fontSize: 9.5,
     fontWeight: 700,
     letterSpacing: 1,
     textTransform: "uppercase",
     color: "#111827",
     borderBottomColor: "#D1D5DB",
     borderBottomWidth: 1,
-    paddingBottom: 3,
-    marginBottom: 8,
-    marginTop: 16,
+    paddingBottom: 2,
+    marginBottom: 6,
+    marginTop: 12,
   },
   text: {
-    fontSize: 10,
-    lineHeight: 1.45,
-    marginBottom: 4,
+    fontSize: 9.2,
+    lineHeight: 1.38,
+    marginBottom: 3,
   },
   bullet: {
-    fontSize: 9.5,
-    lineHeight: 1.4,
-    marginBottom: 3,
-    marginLeft: 14,
+    fontSize: 8.8,
+    lineHeight: 1.35,
+    marginBottom: 2,
+    marginLeft: 12,
   },
   projectTitle: {
-    fontSize: 10.5,
+    fontSize: 9.5,
     fontWeight: 700,
     color: "#111827",
-    marginBottom: 2,
+    marginBottom: 1.5,
   },
   projectStack: {
-    fontSize: 9,
+    fontSize: 8.5,
     fontStyle: "italic",
     color: "#4B5563",
-    marginBottom: 3,
+    marginBottom: 2,
   },
   experienceHeader: {
-    fontSize: 10.3,
+    fontSize: 9.2,
     fontWeight: 600,
     marginBottom: 1,
     color: "#111827",
   },
   experienceDate: {
-    fontSize: 9.4,
+    fontSize: 8.8,
     color: "#4B5563",
-    marginBottom: 4,
+    marginBottom: 3,
   },
   languages: {
-    fontSize: 10,
-    lineHeight: 1.45,
+    fontSize: 9.2,
+    lineHeight: 1.38,
   },
   footer: {
     position: "absolute",
-    bottom: 18,
-    left: 42,
-    right: 42,
+    bottom: 16,
+    left: 36,
+    right: 36,
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
     borderTopColor: "#E5E7EB",
     borderTopWidth: 0.5,
-    paddingTop: 8,
+    paddingTop: 6,
   },
   footerText: {
-    fontSize: 8,
+    fontSize: 7.5,
     color: "#9CA3AF",
   },
   pageNumber: {
-    fontSize: 8,
+    fontSize: 7.5,
     color: "#9CA3AF",
   },
 })
@@ -171,14 +171,6 @@ export const CVDocument: React.FC<CVDocumentProps> = ({ content }) => (
         </View>
       ))}
 
-      {/* Footer Page 1 */}
-      <View style={styles.footer}>
-        <Text style={styles.footerText}>{content.footer}</Text>
-        <Text style={styles.pageNumber}>Page 1 / 2</Text>
-      </View>
-    </Page>
-
-    <Page size="A4" style={styles.page}>
       {/* Experience */}
       <Text style={styles.sectionTitle}>{content.experience.title}</Text>
       {content.experience.items.map((item, index) => (
@@ -211,10 +203,10 @@ export const CVDocument: React.FC<CVDocumentProps> = ({ content }) => (
         </Text>
       ))}
 
-      {/* Footer Page 2 */}
+      {/* Footer */}
       <View style={styles.footer}>
         <Text style={styles.footerText}>{content.footer}</Text>
-        <Text style={styles.pageNumber}>Page 2 / 2</Text>
+        <Text style={styles.pageNumber}>Page 1 / 1</Text>
       </View>
     </Page>
   </Document>

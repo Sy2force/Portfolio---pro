@@ -71,14 +71,24 @@ export default function ResumePage() {
             <p className="text-sm md:text-base text-muted mb-6 leading-relaxed flex-grow">
               Professional CV for international and tech opportunities.
             </p>
-            <a
-              href="/Shay_Acoca_CV_EN.pdf"
-              download
-              className="px-6 py-3 bg-accent hover:bg-accent-hover text-white rounded-lg transition-colors font-medium text-center touch-manipulation active:scale-95"
-              aria-label="Download Shay Acoca English CV PDF"
-            >
-              Download English PDF
-            </a>
+            <div className="space-y-3">
+              <a
+                href="/Shay_Acoca_CV_EN.pdf"
+                download
+                className="block w-full px-6 py-3 bg-accent hover:bg-accent-hover text-white rounded-lg transition-colors font-medium text-center touch-manipulation active:scale-95"
+                aria-label="Download Shay Acoca English CV PDF"
+              >
+                Download English PDF (2 pages)
+              </a>
+              <a
+                href="/Shay_Acoca_CV_Summary_EN.pdf"
+                download
+                className="block w-full px-6 py-3 bg-gray-700 hover:bg-gray-600 text-white rounded-lg transition-colors font-medium text-center touch-manipulation active:scale-95"
+                aria-label="Download Shay Acoca English Summary CV PDF"
+              >
+                Download Summary PDF (1 page)
+              </a>
+            </div>
           </motion.div>
 
           {/* French Resume Card */}
@@ -94,14 +104,24 @@ export default function ResumePage() {
             <p className="text-sm md:text-base text-muted mb-6 leading-relaxed flex-grow">
               Version française complète pour candidatures francophones.
             </p>
-            <a
-              href="/Shay_Acoca_CV_FR.pdf"
-              download
-              className="px-6 py-3 bg-accent hover:bg-accent-hover text-white rounded-lg transition-colors font-medium text-center touch-manipulation active:scale-95"
-              aria-label="Télécharger le CV français de Shay Acoca en PDF"
-            >
-              Télécharger le PDF français
-            </a>
+            <div className="space-y-3">
+              <a
+                href="/Shay_Acoca_CV_FR.pdf"
+                download
+                className="block w-full px-6 py-3 bg-accent hover:bg-accent-hover text-white rounded-lg transition-colors font-medium text-center touch-manipulation active:scale-95"
+                aria-label="Télécharger le CV français de Shay Acoca en PDF"
+              >
+                Télécharger le PDF français (2 pages)
+              </a>
+              <a
+                href="/Shay_Acoca_CV_Summary_FR.pdf"
+                download
+                className="block w-full px-6 py-3 bg-gray-700 hover:bg-gray-600 text-white rounded-lg transition-colors font-medium text-center touch-manipulation active:scale-95"
+                aria-label="Télécharger le CV résumé français de Shay Acoca en PDF"
+              >
+                Télécharger le résumé PDF (1 page)
+              </a>
+            </div>
           </motion.div>
         </motion.div>
 
