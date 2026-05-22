@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
     letterSpacing: 1,
     textTransform: "uppercase",
     color: "#111111",
-    marginBottom: 7,
+    marginBottom: 10,
     borderBottomColor: "#D9D9D9",
     borderBottomWidth: 1,
     paddingBottom: 4,
@@ -68,7 +68,7 @@ const styles = StyleSheet.create({
     fontSize: 8.2,
     lineHeight: 1.4,
     color: "#222222",
-    marginBottom: 2.5,
+    marginBottom: 3,
   },
   sidebarTextBold: {
     fontSize: 8.2,
@@ -77,10 +77,11 @@ const styles = StyleSheet.create({
     marginBottom: 2,
   },
   sidebarCategory: {
-    fontSize: 8.2,
-    fontWeight: 600,
+    fontSize: 8.3,
+    fontWeight: 700,
     color: "#000000",
-    marginBottom: 2.5,
+    marginBottom: 4,
+    marginTop: 6,
   },
   mainHeader: {
     marginBottom: 16,
