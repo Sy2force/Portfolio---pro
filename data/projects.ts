@@ -180,48 +180,48 @@ export const projects: Project[] = [
   },
   {
     id: 4,
-    title: "Digital Business Card App",
+    title: "FuturistCards",
     type: {
-      en: "Full Stack SaaS-style Application",
-      fr: "Application de Style SaaS Full Stack"
+      en: "Digital Business Cards Platform",
+      fr: "Plateforme de Cartes de Visite Digitales"
     },
     description: {
-      en: "A digital business card platform built with authentication, user roles, dashboard logic and dynamic card management.",
-      fr: "Une plateforme de carte de visite digitale construite avec authentification, rôles utilisateur, logique dashboard et gestion dynamique de cartes."
+      en: "A modern digital business card platform for creating, sharing and managing professional business cards with eco-friendly solutions.",
+      fr: "Une plateforme moderne de cartes de visite digitales pour créer, partager et gérer des cartes professionnelles avec des solutions écologiques."
     },
     problemSolved: {
-      en: "Digital Business Card App provides a complete SaaS-style platform with user authentication, protected routes and role-based access control.",
-      fr: "Digital Business Card App fournit une plateforme de style SaaS complète avec authentification utilisateur, routes protégées et contrôle d'accès basé sur les rôles."
+      en: "FuturistCards provides a modern solution for professionals to create and share digital business cards, reducing paper waste and improving networking efficiency.",
+      fr: "FuturistCards fournit une solution moderne pour les professionnels afin de créer et partager des cartes de visite digitales, réduisant le gaspillage de papier et améliorant l'efficacité du networking."
     },
     role: {
-      en: "Full stack development, authentication implementation, dashboard logic and role-based access control.",
-      fr: "Développement full stack, implémentation d'authentification, logique dashboard et contrôle d'accès basé sur les rôles."
+      en: "Full stack development, UI/UX design and platform implementation.",
+      fr: "Développement full stack, conception UI/UX et implémentation de plateforme."
     },
-    techStack: ["React", "Node.js", "Express", "MongoDB", "JWT", "Tailwind CSS"],
+    techStack: ["React", "Vite", "Tailwind CSS", "JavaScript", "Modern Web Technologies"],
     keyFeatures: {
       en: [
-        "User authentication",
-        "Protected routes",
-        "Dashboard",
-        "Role-based access",
-        "Card creation and management",
+        "Digital card creation",
+        "Professional templates",
+        "Easy sharing",
+        "Eco-friendly solution",
+        "Modern interface",
         "Responsive design"
       ],
       fr: [
-        "Authentification utilisateur",
-        "Routes protégées",
-        "Dashboard",
-        "Accès basé sur les rôles",
-        "Création et gestion de cartes",
+        "Création de cartes digitales",
+        "Templates professionnels",
+        "Partage facile",
+        "Solution écologique",
+        "Interface moderne",
         "Design responsive"
       ]
     },
     demonstrates: {
-      en: "This project shows my ability to build a complete full stack application with authentication, role-based access control and dynamic content management.",
-      fr: "Ce projet montre ma capacité à construire une application full stack complète avec authentification, contrôle d'accès basé sur les rôles et gestion de contenu dynamique."
+      en: "This project demonstrates my ability to build modern, user-friendly platforms with focus on sustainability and professional networking.",
+      fr: "Ce projet démontre ma capacité à construire des plateformes modernes et conviviales avec un focus sur la durabilité et le networking professionnel."
     },
-    liveUrl: "https://digital-business-card.vercel.app",
-    githubUrl: "https://github.com/Sy2force/Digital-Business-Card",
+    liveUrl: "https://futurist-cards-frontend.vercel.app",
+    githubUrl: "https://github.com/Sy2force/FuturistCards",
     images: [
       "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&q=80",
       "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
