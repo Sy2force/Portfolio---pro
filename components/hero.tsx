@@ -48,11 +48,10 @@ export function Hero() {
               {t.hero.viewProjects}
             </a>
             <a
-              href="/Shay_Acoca_CV.pdf"
-              download
+              href="/resume"
               className="px-5 py-2.5 md:px-6 md:py-3 bg-gray-700 hover:bg-gray-600 text-white font-medium rounded-lg transition-all border border-gray-600 text-center touch-manipulation active:scale-95"
             >
-              {t.hero.downloadResume}
+              View Resume
             </a>
             <a
               href="#contact"
