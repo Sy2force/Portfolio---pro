@@ -257,7 +257,7 @@ export const cvContentEN: CVContent = {
   },
   summary: {
     title: "PROFESSIONAL SUMMARY",
-    text: "Full Stack Developer based in Jerusalem, with a background in digital marketing, web design and content creation. I build responsive web applications with React, Next.js, Node.js, Express, MongoDB and Django, with a focus on clean interfaces, structured backend logic and practical user experiences. I am looking for a developer role where I can contribute to real products and grow within a professional team."
+    text: "Full Stack Developer based in Jerusalem, with a background in digital marketing, web design and content creation. I build responsive web applications using React, Next.js, Node.js, Express, MongoDB and Django, with a strong focus on clean interfaces, structured backend logic and practical user experience. I am looking for a web development opportunity where I can contribute to real products, collaborate within a professional team and continue growing technically."
   },
   skills: {
     title: "TECHNICAL SKILLS",
@@ -271,11 +271,11 @@ export const cvContentEN: CVContent = {
         skills: "Node.js, Express.js, Django, Django REST Framework, REST APIs, JWT, MongoDB, PostgreSQL"
       },
       {
-        name: "Tools",
+        name: "Tools & Deployment",
         skills: "Git, GitHub, Vercel, Render, MongoDB Atlas, Postman, Docker, Swagger"
       },
       {
-        name: "Digital",
+        name: "Digital & Product",
         skills: "Web Design, Landing Pages, Digital Marketing, SEO Basics, Content Creation, UX Writing"
       }
     ]
@@ -286,25 +286,25 @@ export const cvContentEN: CVContent = {
       {
         title: "FitWell — Full Stack Health & Fitness Platform",
         stack: "Django · Django REST Framework · PostgreSQL · JWT · Swagger · Docker",
-        description: "Built a full stack health and fitness platform focused on API structure, content management and user-oriented backend features.",
+        description: "Built a health and fitness platform focused on API structure, content management and user-oriented backend features.",
         bullets: [
           "Developed REST API logic for articles, comments and user-related features.",
           "Implemented authentication, documentation and deployment-ready project organization."
         ]
       },
       {
-        title: "OpticGlass — Luxury E-commerce Web Application",
+        title: "OpticGlass — Luxury Eyewear E-commerce Application",
         stack: "React · Vite · Tailwind CSS · Node.js · Express · MongoDB",
-        description: "Built a modern e-commerce application for premium eyewear with a focus on product presentation and responsive UI.",
+        description: "Built a modern premium eyewear e-commerce application with a strong focus on product presentation and responsive UI.",
         bullets: [
-          "Created product catalog, product detail pages and reusable frontend components.",
+          "Created product catalog, detail pages and reusable frontend components.",
           "Structured frontend and backend logic for an e-commerce-style application."
         ]
       },
       {
-        title: "Food App — Restaurant & Food Ordering Interface",
+        title: "Food App — Restaurant & Ordering Interface",
         stack: "React · JavaScript · CSS · API Logic",
-        description: "Built a responsive food application designed to present meals, categories and ordering flows through a clean interface.",
+        description: "Built a responsive food application to present meals, categories and ordering flows in a clear interface.",
         bullets: [
           "Developed mobile-friendly layouts and category-based UI structure.",
           "Improved visual hierarchy, component organization and user experience."
@@ -357,19 +357,21 @@ export const cvContentEN: CVContent = {
       {
         title: "HackerU — Full Stack Development",
         date: "2024 – 2026",
-        description: "Frontend and backend web development training: React, Node.js, MongoDB, APIs, authentication, project architecture and deployment."
+        description: "Training in frontend and backend web development: React, Node.js, MongoDB, APIs, authentication, project architecture and deployment."
       },
       {
         title: "Habetzefer, Tel Aviv — Digital Marketing & Content Creation",
         date: "2024",
-        description: "Digital marketing strategy, content creation, social media, branding and campaign structure."
+        description: "Training in digital marketing strategy, content creation, social media, branding and campaign structure."
       }
     ]
   },
   languages: {
     title: "LANGUAGES",
     items: [
-      "French: Native | Hebrew: Professional working proficiency | English: Professional working proficiency"
+      "French: Native",
+      "Hebrew: Professional",
+      "English: Professional"
     ]
   },
   footer: "Shay Acoca · Full Stack Developer · shay-acoca-portfolio.vercel.app"
@@ -388,7 +390,7 @@ export const cvContentFR: CVContent = {
   },
   summary: {
     title: "PROFIL PROFESSIONNEL",
-    text: "Développeur Full Stack basé à Jérusalem, avec un parcours en marketing digital, web design et création de contenu. Je conçois des applications web responsives avec React, Next.js, Node.js, Express, MongoDB et Django, avec une attention particulière portée aux interfaces propres, à la logique backend structurée et à l'expérience utilisateur. Je recherche une opportunité en développement web où contribuer à des produits concrets et progresser au sein d'une équipe professionnelle."
+    text: "Développeur Full Stack basé à Jérusalem, avec un parcours en marketing digital, web design et création de contenu. Je conçois des applications web responsives avec React, Next.js, Node.js, Express, MongoDB et Django, avec une attention particulière portée aux interfaces propres, à la logique backend structurée et à l'expérience utilisateur. Je recherche une opportunité en développement web où contribuer à des produits concrets, collaborer au sein d'une équipe professionnelle et continuer à progresser techniquement."
   },
   skills: {
     title: "COMPÉTENCES TECHNIQUES",
@@ -399,14 +401,14 @@ export const cvContentFR: CVContent = {
       },
       {
         name: "Backend",
-        skills: "Node.js, Express.js, Django, Django REST Framework, API REST, Authentification JWT, MongoDB, PostgreSQL"
+        skills: "Node.js, Express.js, Django, Django REST Framework, API REST, JWT, MongoDB, PostgreSQL"
       },
       {
-        name: "Outils",
+        name: "Outils & Déploiement",
         skills: "Git, GitHub, Vercel, Render, MongoDB Atlas, Postman, Docker, Swagger"
       },
       {
-        name: "Digital",
+        name: "Digital & Produit",
         skills: "Web Design, Landing Pages, Marketing Digital, Bases SEO, Création de Contenu, UX Writing"
       }
     ]
@@ -500,7 +502,9 @@ export const cvContentFR: CVContent = {
   languages: {
     title: "LANGUES",
     items: [
-      "Français : Langue maternelle | Hébreu : Niveau professionnel | Anglais : Niveau professionnel"
+      "Français : Langue maternelle",
+      "Hébreu : Niveau professionnel",
+      "Anglais : Niveau professionnel"
     ]
   },
   footer: "Shay Acoca · Développeur Full Stack · shay-acoca-portfolio.vercel.app"
