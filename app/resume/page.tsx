@@ -31,135 +31,167 @@ export default function ResumePage() {
   return (
     <>
       <style jsx global>{`
-        @keyframes waveMove {
-          0%, 100% {
-            transform: translateX(0) translateY(0);
-          }
-          25% {
-            transform: translateX(10px) translateY(-5px);
-          }
-          50% {
-            transform: translateX(-5px) translateY(5px);
-          }
-          75% {
-            transform: translateX(-10px) translateY(-3px);
-          }
-        }
-
-        @keyframes shimmer {
-          0%, 100% {
-            opacity: 0.3;
-            transform: translateX(-100%);
-          }
-          50% {
-            opacity: 0.8;
-            transform: translateX(100%);
-          }
-        }
-
-        @keyframes float {
-          0%, 100% {
-            transform: translateY(0);
-          }
-          50% {
-            transform: translateY(-10px);
-          }
-        }
-
         .resume-wave-background {
           position: relative;
           min-height: 100vh;
           overflow: hidden;
+          isolation: isolate;
           background:
-            radial-gradient(circle at 20% 10%, rgba(226,232,240,0.55), transparent 28%),
-            radial-gradient(circle at 85% 20%, rgba(241,245,249,0.8), transparent 30%),
-            linear-gradient(180deg, #ffffff 0%, #f8fafc 50%, #ffffff 100%);
+            radial-gradient(circle at 18% 12%, rgba(226, 232, 240, 0.75), transparent 28%),
+            radial-gradient(circle at 82% 18%, rgba(241, 245, 249, 0.95), transparent 32%),
+            linear-gradient(180deg, #ffffff 0%, #f8fafc 48%, #ffffff 100%);
         }
 
-        .resume-wave-background::before {
-          content: "";
-          position: absolute;
-          inset: -120px -10% auto -10%;
-          height: 360px;
-          background:
-            linear-gradient(165deg, transparent 0 18%, rgba(255,255,255,0.95) 19% 28%, transparent 29% 100%),
-            linear-gradient(170deg, transparent 0 30%, rgba(226,232,240,0.55) 31% 40%, transparent 41% 100%),
-            linear-gradient(175deg, transparent 0 43%, rgba(255,255,255,0.92) 44% 53%, transparent 54% 100%),
-            linear-gradient(168deg, transparent 0 57%, rgba(203,213,225,0.38) 58% 66%, transparent 67% 100%);
-          filter: blur(0.2px);
-          opacity: 0.95;
-          pointer-events: none;
-          z-index: 0;
-          animation: waveMove 8s ease-in-out infinite;
-        }
-
+        .resume-wave-background::before,
         .resume-wave-background::after {
           content: "";
           position: absolute;
-          left: -8%;
-          right: -8%;
-          bottom: -130px;
+          left: -15%;
+          right: -15%;
+          pointer-events: none;
+          z-index: -1;
+          will-change: transform;
+        }
+
+        .resume-wave-background::before {
+          top: -110px;
           height: 420px;
-          background:
-            linear-gradient(12deg, transparent 0 22%, rgba(226,232,240,0.45) 23% 31%, transparent 32% 100%),
-            linear-gradient(8deg, transparent 0 38%, rgba(255,255,255,0.96) 39% 49%, transparent 50% 100%),
-            linear-gradient(5deg, transparent 0 55%, rgba(203,213,225,0.35) 56% 65%, transparent 66% 100%),
-            linear-gradient(2deg, transparent 0 70%, rgba(255,255,255,0.9) 71% 80%, transparent 81% 100%);
-          box-shadow:
-            0 -35px 80px rgba(15, 23, 42, 0.08),
-            inset 0 35px 80px rgba(255, 255, 255, 0.85),
-            0 0 60px rgba(59, 130, 246, 0.1);
           opacity: 0.95;
-          pointer-events: none;
-          z-index: 0;
-          animation: waveMove 10s ease-in-out infinite reverse;
+          background:
+            radial-gradient(120% 80% at 50% 100%, rgba(255,255,255,0.98) 0 36%, transparent 37%),
+            radial-gradient(115% 75% at 48% 92%, rgba(226,232,240,0.65) 0 38%, transparent 39%),
+            radial-gradient(110% 70% at 52% 82%, rgba(255,255,255,0.96) 0 40%, transparent 41%),
+            radial-gradient(105% 65% at 50% 72%, rgba(203,213,225,0.42) 0 42%, transparent 43%);
+          filter: drop-shadow(0 24px 32px rgba(15, 23, 42, 0.10));
+          animation: resumeWaveTop 14s ease-in-out infinite alternate;
         }
 
-        .wave-shimmer {
+        .resume-wave-background::after {
+          bottom: -150px;
+          height: 520px;
+          opacity: 0.98;
+          background:
+            radial-gradient(125% 85% at 50% 0%, rgba(255,255,255,0.98) 0 34%, transparent 35%),
+            radial-gradient(120% 80% at 52% 10%, rgba(226,232,240,0.58) 0 36%, transparent 37%),
+            radial-gradient(115% 78% at 48% 22%, rgba(255,255,255,0.96) 0 38%, transparent 39%),
+            radial-gradient(110% 76% at 50% 34%, rgba(203,213,225,0.38) 0 40%, transparent 41%);
+          filter: drop-shadow(0 -28px 44px rgba(15, 23, 42, 0.12));
+          animation: resumeWaveBottom 18s ease-in-out infinite alternate;
+        }
+
+        .resume-wave-layer {
           position: absolute;
-          top: 0;
-          left: 0;
-          right: 0;
-          bottom: 0;
+          inset: 0;
+          z-index: -1;
+          pointer-events: none;
+          overflow: hidden;
+        }
+
+        .resume-wave-layer span {
+          position: absolute;
+          left: -20%;
+          width: 140%;
+          height: 90px;
+          border-radius: 999px;
           background: linear-gradient(
-            90deg,
-            transparent 0%,
-            rgba(255, 255, 255, 0.4) 50%,
-            transparent 100%
+            180deg,
+            rgba(255,255,255,0.96),
+            rgba(226,232,240,0.42)
           );
-          animation: shimmer 3s ease-in-out infinite;
-          pointer-events: none;
-          z-index: 0;
-          opacity: 0.3;
+          box-shadow:
+            0 18px 38px rgba(15, 23, 42, 0.08),
+            inset 0 12px 24px rgba(255, 255, 255, 0.9);
+          opacity: 0.65;
+          transform: rotate(-2deg);
+          animation: resumeSoftWave 16s ease-in-out infinite alternate;
         }
 
-        .wave-cross-effect {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          width: 200%;
-          height: 200%;
-          background: radial-gradient(
-            ellipse at center,
-            rgba(59, 130, 246, 0.05) 0%,
-            transparent 70%
-          );
-          animation: float 6s ease-in-out infinite;
-          pointer-events: none;
-          z-index: 0;
+        .resume-wave-layer span:nth-child(1) {
+          top: 130px;
+          animation-duration: 15s;
         }
 
-        .resume-wave-background > * {
-          position: relative;
-          z-index: 1;
+        .resume-wave-layer span:nth-child(2) {
+          top: 210px;
+          opacity: 0.45;
+          transform: rotate(2deg);
+          animation-duration: 19s;
+        }
+
+        .resume-wave-layer span:nth-child(3) {
+          bottom: 170px;
+          opacity: 0.5;
+          transform: rotate(-1.5deg);
+          animation-duration: 22s;
+        }
+
+        .resume-wave-layer span:nth-child(4) {
+          bottom: 85px;
+          opacity: 0.38;
+          transform: rotate(1.5deg);
+          animation-duration: 24s;
+        }
+
+        @keyframes resumeWaveTop {
+          from {
+            transform: translate3d(-24px, 0, 0) scaleX(1.02);
+          }
+          to {
+            transform: translate3d(24px, 18px, 0) scaleX(1.06);
+          }
+        }
+
+        @keyframes resumeWaveBottom {
+          from {
+            transform: translate3d(32px, 0, 0) scaleX(1.04);
+          }
+          to {
+            transform: translate3d(-32px, -18px, 0) scaleX(1.08);
+          }
+        }
+
+        @keyframes resumeSoftWave {
+          from {
+            transform: translate3d(-28px, 0, 0) rotate(-2deg);
+          }
+          to {
+            transform: translate3d(28px, 12px, 0) rotate(2deg);
+          }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+          .resume-wave-background::before,
+          .resume-wave-background::after,
+          .resume-wave-layer span {
+            animation: none;
+          }
+        }
+
+        @media (max-width: 768px) {
+          .resume-wave-background::before {
+            height: 300px;
+            top: -90px;
+          }
+
+          .resume-wave-background::after {
+            height: 360px;
+            bottom: -120px;
+          }
+
+          .resume-wave-layer span {
+            height: 64px;
+            opacity: 0.42;
+          }
         }
       `}</style>
       <div className="min-h-screen text-gray-900 relative overflow-hidden resume-wave-background">
-        {/* Shimmer effect */}
-        <div className="wave-shimmer" />
-        {/* Cross effect */}
-        <div className="wave-cross-effect" />
+        {/* Wave layer for additional depth */}
+        <div className="resume-wave-layer" aria-hidden="true">
+          <span />
+          <span />
+          <span />
+          <span />
+        </div>
 
       {/* Language Toggle - Mobile */}
       <div className="fixed top-4 right-4 z-50 md:hidden">
