@@ -46,17 +46,20 @@
 ### Dossier api
 
 #### Dossier auth
-- Contient les endpoints d authentification
+- route.ts - Endpoint d authentification
 
 #### Dossier comments
-- Contient les endpoints pour les commentaires
+- route.ts - Endpoint principal pour les commentaires
+- [id]/route.ts - Endpoint pour les commentaires par ID
 
 #### Dossier contact
-- Contient les endpoints pour le formulaire de contact
+- route.ts - Endpoint principal pour les messages de contact
+- [id]/route.ts - Endpoint pour les messages de contact par ID
 
 ### Dossier resume
 
 - page.tsx - Page de telechargement des CV avec traduction
+- __tests__/page.test.tsx - Tests unitaires pour la page resume
 
 ## Dossier components
 
@@ -89,7 +92,8 @@
 
 ### Dossier models
 
-- Contient les schemas de donnees MongoDB
+- Comment.ts - Schema de donnees pour les commentaires
+- ContactMessage.ts - Schema de donnees pour les messages de contact
 
 ## Dossier data
 
@@ -105,7 +109,7 @@
 
 - Shay_Acoca_CV_EN.pdf - CV en anglais
 - Shay_Acoca_CV_FR.pdf - CV en francais
-- Autres assets statiques (images, icones, etc.)
+- projects/ - Dossier pour les images de projets (vide actuellement)
 
 ## Dossier scripts
 
