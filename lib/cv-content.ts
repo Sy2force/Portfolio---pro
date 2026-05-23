@@ -261,7 +261,7 @@ export const cvContentEN: CVContent = {
   },
   summary: {
     title: "Professional Profile",
-    text: "Full Stack Developer building modern web applications with React, Next.js, Node.js, Express, Django, MongoDB, and PostgreSQL. Experienced in developing responsive interfaces, REST APIs, authentication systems, and complete web solutions. Focused on clean, maintainable code with emphasis on user experience and performance."
+    text: "Full Stack Developer building modern web applications with React, Next.js, Node.js, Express, Django, MongoDB and PostgreSQL. Experienced in responsive interfaces, REST APIs, authentication systems and complete web solutions, with a focus on clean code, UX and performance."
   },
   skills: {
     title: "Skills",
@@ -392,7 +392,7 @@ export const cvContentFR: CVContent = {
   },
   summary: {
     title: "Profil professionnel",
-    text: "Développeur Full Stack avec expérience applications web modernes (React, Next.js, Node.js, Express, MongoDB, Django). Compétent en interfaces responsives, API REST, systèmes d'authentification. Engagement code haute qualité, maintenable, focus UX et performances."
+    text: "Développeur Full Stack créant des applications web modernes avec React, Next.js, Node.js, Express, Django, MongoDB et PostgreSQL. Expérimenté en interfaces responsives, API REST, systèmes d'authentification et solutions web complètes, avec focus sur code propre, UX et performances."
   },
   skills: {
     title: "Compétences",
