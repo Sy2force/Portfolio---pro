@@ -139,7 +139,7 @@ export default function ResumePage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
-            className="grid md:grid-cols-2 gap-6 mb-10"
+            className="grid md:grid-cols-2 gap-8 mb-12"
           >
             {/* English Resume Card */}
             <motion.div
@@ -151,7 +151,7 @@ export default function ResumePage() {
                 rotateY: 2,
                 rotateX: 2
               }}
-              className="bg-white/95 backdrop-blur-xl border-2 border-gray-200 rounded-3xl p-8 hover:border-blue-500 transition-all duration-500 flex flex-col shadow-xl hover:shadow-2xl hover:shadow-blue-500/20 relative overflow-hidden"
+              className="bg-white/95 backdrop-blur-xl border-2 border-gray-200 rounded-3xl p-12 hover:border-blue-500 transition-all duration-500 flex flex-col shadow-xl hover:shadow-2xl hover:shadow-blue-500/20 relative overflow-hidden"
               style={{
                 perspective: '1000px'
               }}
@@ -160,14 +160,14 @@ export default function ResumePage() {
               <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-purple-500/5 opacity-0 hover:opacity-100 transition-opacity duration-500" />
               
               <div className="relative z-10 flex items-center justify-between mb-4">
-                <h3 className="text-2xl font-bold text-gray-900">
+                <h3 className="text-3xl font-bold text-gray-900">
                   English Resume
                 </h3>
-                <span className="px-4 py-2 bg-gradient-to-r from-blue-600 to-blue-700 text-white text-sm font-bold rounded-full shadow-lg shadow-blue-500/30">
+                <span className="px-4 py-2 bg-gradient-to-r from-blue-600 to-blue-700 text-white text-base font-bold rounded-full shadow-lg shadow-blue-500/30">
                   1 page
                 </span>
               </div>
-              <p className="text-base text-gray-700 mb-6 leading-relaxed flex-grow relative z-10 font-medium">
+              <p className="text-lg text-gray-700 mb-8 leading-relaxed flex-grow relative z-10 font-medium">
                 Clean one-page PDF optimized for LinkedIn, startups and tech applications.
               </p>
               <div className="space-y-4 relative z-10 flex flex-col items-center">
@@ -197,7 +197,7 @@ export default function ResumePage() {
                 rotateY: -2,
                 rotateX: 2
               }}
-              className="bg-white/95 backdrop-blur-xl border-2 border-gray-200 rounded-3xl p-8 hover:border-purple-500 transition-all duration-500 flex flex-col shadow-xl hover:shadow-2xl hover:shadow-purple-500/20 relative overflow-hidden"
+              className="bg-white/95 backdrop-blur-xl border-2 border-gray-200 rounded-3xl p-12 hover:border-purple-500 transition-all duration-500 flex flex-col shadow-xl hover:shadow-2xl hover:shadow-purple-500/20 relative overflow-hidden"
               style={{
                 perspective: '1000px'
               }}
@@ -206,14 +206,14 @@ export default function ResumePage() {
               <div className="absolute inset-0 bg-gradient-to-br from-purple-500/5 to-pink-500/5 opacity-0 hover:opacity-100 transition-opacity duration-500" />
               
               <div className="relative z-10 flex items-center justify-between mb-4">
-                <h3 className="text-2xl font-bold text-gray-900">
+                <h3 className="text-3xl font-bold text-gray-900">
                   CV Français
                 </h3>
-                <span className="px-4 py-2 bg-gradient-to-r from-purple-600 to-purple-700 text-white text-sm font-bold rounded-full shadow-lg shadow-purple-500/30">
+                <span className="px-4 py-2 bg-gradient-to-r from-purple-600 to-purple-700 text-white text-base font-bold rounded-full shadow-lg shadow-purple-500/30">
                   1 page
                 </span>
               </div>
-              <p className="text-base text-gray-700 mb-6 leading-relaxed flex-grow relative z-10 font-medium">
+              <p className="text-lg text-gray-700 mb-8 leading-relaxed flex-grow relative z-10 font-medium">
                 CV professionnel en une page, optimisé pour candidatures tech et startups.
               </p>
               <div className="space-y-4 relative z-10 flex flex-col items-center">
