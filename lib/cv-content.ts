@@ -261,26 +261,26 @@ export const cvContentEN: CVContent = {
   },
   summary: {
     title: "Professional Profile",
-    text: "Full Stack Developer with modern web applications experience (React, Next.js, Node.js, Express, MongoDB, Django). Skilled in responsive interfaces, REST APIs, authentication systems. Committed to high-quality, maintainable code with focus on UX and performance."
+    text: "Full Stack Developer building modern web applications with React, Next.js, Node.js, Express, Django, MongoDB, and PostgreSQL. Experienced in developing responsive interfaces, REST APIs, authentication systems, and complete web solutions. Focused on clean, maintainable code with emphasis on user experience and performance."
   },
   skills: {
     title: "Skills",
     categories: [
       {
         name: "Frontend",
-        skills: "React, Next.js, JavaScript, TypeScript, HTML5, CSS3, Tailwind CSS"
+        skills: "React, Next.js, TypeScript, JavaScript, HTML5, CSS3, Tailwind CSS, Framer Motion"
       },
       {
         name: "Backend",
-        skills: "Node.js, Express.js, Django, REST APIs, JWT, MongoDB, PostgreSQL"
+        skills: "Node.js, Express.js, Python, Django, Django REST Framework, REST APIs, JWT Authentication, Protected Routes, MongoDB, PostgreSQL"
       },
       {
-        name: "Tools",
-        skills: "Git, GitHub, Vercel, Render, Postman, Docker, Swagger"
+        name: "Tools & Deployment",
+        skills: "Git, GitHub, Docker, Vercel, Render, Postman, Swagger, API Documentation"
       },
       {
-        name: "Digital",
-        skills: "Web Design, Landing Pages, Digital Marketing, SEO, UX Writing"
+        name: "Digital & Design",
+        skills: "Web Design, Landing Pages, UX Writing, SEO, Digital Marketing"
       }
     ]
   },
@@ -290,28 +290,31 @@ export const cvContentEN: CVContent = {
       {
         title: "FitWell — Health & Fitness Platform",
         stack: "Django · Django REST Framework · PostgreSQL · JWT · Swagger · Docker",
-        description: "Backend health/fitness platform with REST API, content management, deployment-ready structure.",
+        description: "Backend platform with REST API for health and fitness content management.",
         bullets: [
-          "API endpoints for articles, comments, user management with JWT authentication.",
-          "Swagger documentation, Docker containerization for production deployment."
+          "Developed REST API endpoints for articles, comments, and user management with JWT authentication",
+          "Integrated Swagger documentation and Docker containerization for production deployment",
+          "Built secure protected routes and user authorization system"
         ]
       },
       {
         title: "OpticGlass — Premium E-commerce Application",
         stack: "React · Vite · Tailwind CSS · Node.js · Express · MongoDB",
-        description: "Modern premium eyewear e-commerce with product presentation and UX focus.",
+        description: "Modern eyewear e-commerce application with focus on product presentation and user experience.",
         bullets: [
-          "Responsive product catalog, detail pages, reusable components with Tailwind CSS.",
-          "Scalable frontend/backend architecture with MongoDB integration and Express API."
+          "Designed responsive product catalog and detail pages with Tailwind CSS and reusable components",
+          "Implemented scalable frontend/backend architecture with MongoDB integration and Express API",
+          "Created modular component structure for maintainability and performance"
         ]
       },
       {
         title: "Restaurant App — Discovery Platform",
         stack: "React 18 · Vite · Tailwind CSS · Zustand · i18next · Framer Motion",
-        description: "Modern React portfolio for discovering Israeli restaurants with responsive design, multilingual support (FR/EN/HE), comprehensive testing.",
+        description: "Restaurant discovery platform with multilingual support and comprehensive testing.",
         bullets: [
-          "Responsive restaurant/dish discovery with dark mode, authentication, SEO optimization.",
-          "React 18 with Zustand state management, i18next multilingual support, Vitest/Playwright testing."
+          "Built responsive restaurant and dish discovery interface with dark mode and SEO optimization",
+          "Implemented Zustand state management and i18next for multilingual support",
+          "Added Vitest and Playwright for end-to-end testing and quality assurance"
         ]
       }
     ]
@@ -323,25 +326,28 @@ export const cvContentEN: CVContent = {
         title: "Full Stack Developer — Personal Projects & Portfolio",
         date: "2024 – Present",
         bullets: [
-          "Built/deployed modern web apps (React, Next.js, Node.js, Express, MongoDB, Django).",
-          "Responsive frontend interfaces, RESTful backend APIs, JWT authentication systems.",
-          "Git, GitHub, Vercel, Render, MongoDB Atlas for version control and deployment."
+          "Developed and deployed modern web applications using React, Next.js, Node.js, Express, MongoDB, Django, and PostgreSQL",
+          "Built responsive frontend interfaces and RESTful backend APIs with JWT authentication and protected routes",
+          "Implemented Git version control, CI/CD with GitHub, and deployment on Vercel and Render platforms",
+          "Designed and integrated MongoDB Atlas for scalable data management"
         ]
       },
       {
         title: "Digital Marketing & Web Creator — Personal Projects",
         date: "2024 – Present",
         bullets: [
-          "Digital concepts combining web design, branding, landing pages for online presence.",
-          "Marketing principles for project presentation and user engagement strategies."
+          "Created digital concepts combining web design, branding, and landing pages for online presence",
+          "Applied marketing principles for project presentation and user engagement strategies",
+          "Developed SEO-optimized content and UX writing for digital platforms"
         ]
       },
       {
         title: "IDF Service — Guivati Unit",
         date: "2019 – 2022",
         bullets: [
-          "Full military service in structured, demanding environment requiring discipline.",
-          "Teamwork skills, reliability, ability to work under pressure in challenging conditions."
+          "Completed full military service in structured environment requiring discipline and teamwork",
+          "Developed reliability and ability to work under pressure in challenging conditions",
+          "Gained experience in collaborative team operations and mission-driven projects"
         ]
       }
     ]
