@@ -21,6 +21,7 @@ export default function ResumePage() {
           min-height: 100vh;
           overflow: hidden;
           background: #ffffff;
+          perspective: 1000px;
         }
 
         .wave-container {
@@ -29,43 +30,102 @@ export default function ResumePage() {
           z-index: 0;
           pointer-events: none;
           overflow: hidden;
+          transform-style: preserve-3d;
         }
 
         .wave {
           position: absolute;
-          left: 0;
+          left: -50%;
           width: 200%;
           height: 100%;
-          background: linear-gradient(90deg, transparent, rgba(30, 58, 138, 0.3), transparent);
-          animation: waveMove 3s ease-in-out infinite;
+          background: linear-gradient(90deg, 
+            transparent 0%, 
+            rgba(30, 58, 138, 0.15) 20%, 
+            rgba(59, 130, 246, 0.3) 50%, 
+            rgba(30, 58, 138, 0.15) 80%, 
+            transparent 100%
+          );
+          animation: waveMove3D 4s ease-in-out infinite;
+          transform: translateZ(0);
+          filter: blur(1px);
         }
 
         .wave:nth-child(1) {
           top: 0;
           animation-delay: 0s;
+          transform: rotateX(15deg) translateZ(20px);
+          animation-name: waveMove3D1;
         }
 
         .wave:nth-child(2) {
           top: 25%;
-          animation-delay: 0.5s;
+          animation-delay: 0.8s;
+          transform: rotateX(10deg) translateZ(15px) rotateY(-5deg);
+          animation-name: waveMove3D2;
+          opacity: 0.8;
         }
 
         .wave:nth-child(3) {
           top: 50%;
-          animation-delay: 1s;
+          animation-delay: 1.6s;
+          transform: rotateX(5deg) translateZ(10px) rotateY(5deg);
+          animation-name: waveMove3D3;
+          opacity: 0.6;
         }
 
         .wave:nth-child(4) {
           top: 75%;
-          animation-delay: 1.5s;
+          animation-delay: 2.4s;
+          transform: rotateX(-5deg) translateZ(5px) rotateY(-5deg);
+          animation-name: waveMove3D4;
+          opacity: 0.4;
         }
 
-        @keyframes waveMove {
+        @keyframes waveMove3D1 {
           0% {
-            transform: translateX(-100%);
+            transform: translateX(-100%) rotateX(15deg) translateZ(20px);
+          }
+          50% {
+            transform: translateX(0%) rotateX(15deg) translateZ(30px);
           }
           100% {
-            transform: translateX(100%);
+            transform: translateX(100%) rotateX(15deg) translateZ(20px);
+          }
+        }
+
+        @keyframes waveMove3D2 {
+          0% {
+            transform: translateX(-100%) rotateX(10deg) translateZ(15px) rotateY(-5deg);
+          }
+          50% {
+            transform: translateX(0%) rotateX(10deg) translateZ(25px) rotateY(-5deg);
+          }
+          100% {
+            transform: translateX(100%) rotateX(10deg) translateZ(15px) rotateY(-5deg);
+          }
+        }
+
+        @keyframes waveMove3D3 {
+          0% {
+            transform: translateX(-100%) rotateX(5deg) translateZ(10px) rotateY(5deg);
+          }
+          50% {
+            transform: translateX(0%) rotateX(5deg) translateZ(20px) rotateY(5deg);
+          }
+          100% {
+            transform: translateX(100%) rotateX(5deg) translateZ(10px) rotateY(5deg);
+          }
+        }
+
+        @keyframes waveMove3D4 {
+          0% {
+            transform: translateX(-100%) rotateX(-5deg) translateZ(5px) rotateY(-5deg);
+          }
+          50% {
+            transform: translateX(0%) rotateX(-5deg) translateZ(15px) rotateY(-5deg);
+          }
+          100% {
+            transform: translateX(100%) rotateX(-5deg) translateZ(5px) rotateY(-5deg);
           }
         }
 
