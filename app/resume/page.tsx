@@ -11,6 +11,10 @@ export default function ResumePage() {
   const { language, setLanguage } = useLanguage()
   const t = translations[language]
 
+  const handlePrint = (pdfUrl: string) => {
+    window.open(pdfUrl, '_blank')
+  }
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 text-white">
       {/* Language Toggle - Mobile */}
@@ -44,10 +48,10 @@ export default function ResumePage() {
             Resume / CV
           </h1>
           <h2 className="text-base md:text-lg text-gray-300 mb-3 font-light">
-            Download a clean, professional bilingual resume
+            Download or print a clean, professional bilingual resume
           </h2>
           <p className="text-xs md:text-sm text-gray-400 max-w-2xl mx-auto leading-relaxed">
-            Optimized for startups and professional applications. Available in English and French with a modern, corporate design.
+            Available in English and French. Optimized for startups, tech companies and professional applications.
           </p>
         </motion.div>
 
@@ -74,7 +78,7 @@ export default function ResumePage() {
               </span>
             </div>
             <p className="text-xs md:text-sm text-gray-300 mb-4 leading-relaxed flex-grow">
-              Clean black-and-white PDF optimized for professional applications and printing.
+              Clean one-page PDF optimized for LinkedIn, startups and tech applications.
             </p>
             <div className="space-y-3">
               <a
@@ -85,6 +89,13 @@ export default function ResumePage() {
               >
                 Download English PDF
               </a>
+              <button
+                onClick={() => handlePrint("/Shay_Acoca_CV_EN.pdf")}
+                className="block w-full px-4 py-2 bg-gray-700 hover:bg-gray-600 text-white rounded-xl transition-all duration-300 font-semibold text-center touch-manipulation active:scale-98 shadow-lg shadow-gray-500/25 hover:shadow-gray-500/40"
+                aria-label="Print Shay Acoca English CV"
+              >
+                Print English CV
+              </button>
             </div>
           </motion.div>
 
@@ -104,7 +115,7 @@ export default function ResumePage() {
               </span>
             </div>
             <p className="text-xs md:text-sm text-gray-300 mb-4 leading-relaxed flex-grow">
-              CV noir et blanc, propre et optimisé pour impression et candidatures professionnelles.
+              CV professionnel en une page, optimisé pour candidatures tech et startups.
             </p>
             <div className="space-y-3">
               <a
@@ -115,6 +126,13 @@ export default function ResumePage() {
               >
                 Télécharger le PDF français
               </a>
+              <button
+                onClick={() => handlePrint("/Shay_Acoca_CV_FR.pdf")}
+                className="block w-full px-4 py-2 bg-gray-700 hover:bg-gray-600 text-white rounded-xl transition-all duration-300 font-semibold text-center touch-manipulation active:scale-98 shadow-lg shadow-gray-500/25 hover:shadow-gray-500/40"
+                aria-label="Imprimer le CV français"
+              >
+                Imprimer le CV français
+              </button>
             </div>
           </motion.div>
         </motion.div>
@@ -145,7 +163,7 @@ export default function ResumePage() {
           </div>
           <div className="mt-3 md:mt-4 pt-3 md:pt-4 border-t border-gray-700/50 text-center">
             <p className="text-xs text-gray-400">
-              Print-friendly black-and-white design • Clean professional PDF • Optimized for A4 printing
+              Print-friendly design · Clean professional PDF · Optimized for A4
             </p>
           </div>
         </motion.div>

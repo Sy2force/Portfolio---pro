@@ -261,7 +261,7 @@ export const cvContentEN: CVContent = {
   },
   summary: {
     title: "Professional Profile",
-    text: "Full Stack Developer building modern web applications with React, Next.js, Node.js, Express, Django, MongoDB and PostgreSQL. Experienced in REST APIs, authentication, responsive interfaces and clean, maintainable code."
+    text: "Full Stack Developer focused on building clear and functional web applications. I work with React, Node.js, Express, Django, MongoDB and PostgreSQL, with experience in REST APIs, authentication, responsive interfaces and deployment."
   },
   skills: {
     title: "Skills",
@@ -288,30 +288,30 @@ export const cvContentEN: CVContent = {
     title: "Selected Projects",
     items: [
       {
-        title: "FitWell — Health Platform",
-        stack: "Django · Django REST Framework · PostgreSQL · JWT · Swagger · Docker",
-        description: "Backend health platform with REST APIs and JWT authentication.",
+        title: "FitWell — Health & Fitness Platform",
+        stack: "Django · DRF · PostgreSQL · JWT · Swagger · Docker",
+        description: "Backend platform for health and fitness content management.",
         bullets: [
-          "Built API endpoints for articles, comments and user management.",
-          "Added Swagger documentation and Docker setup for deployment."
+          "Built REST API endpoints for articles, comments and users.",
+          "Added JWT authentication, Swagger documentation and Docker setup."
         ]
       },
       {
-        title: "OpticGlass — E-commerce",
+        title: "OpticGlass — Premium E-commerce Application",
         stack: "React · Vite · Tailwind CSS · Node.js · Express · MongoDB",
-        description: "Premium e-commerce app with React, Node.js, Express and MongoDB.",
+        description: "Premium e-commerce app focused on product presentation and user experience.",
         bullets: [
           "Built responsive product pages and reusable UI components.",
-          "Connected frontend to Express API and MongoDB database."
+          "Connected the frontend to an Express API and MongoDB database."
         ]
       },
       {
-        title: "Restaurant App — Discovery",
-        stack: "React 18 · Vite · Tailwind CSS · Zustand · i18next · Framer Motion",
-        description: "Restaurant discovery app with React, Vite, Zustand and i18next.",
+        title: "Restaurant App — Discovery Platform",
+        stack: "React · Vite · Tailwind CSS · Zustand · i18next",
+        description: "Restaurant discovery app with multilingual support and responsive design.",
         bullets: [
-          "Built restaurant/dish discovery with dark mode and SEO.",
-          "Added state management, multilingual support and testing setup."
+          "Built restaurant and dish discovery with dark mode and SEO basics.",
+          "Added state management, translations and testing setup."
         ]
       }
     ]
@@ -320,18 +320,18 @@ export const cvContentEN: CVContent = {
     title: "Experience",
     items: [
       {
-        title: "Full Stack Developer — Personal Projects",
+        title: "Full Stack Developer — Personal Projects & Portfolio",
         date: "2024 – Present",
         bullets: [
-          "Built web apps with React, Next.js, Node.js, Express, MongoDB, Django and PostgreSQL.",
-          "Developed responsive UIs, REST APIs, JWT authentication and protected routes."
+          "Built and deployed web apps with React, Next.js, Node.js, Express, MongoDB, Django and PostgreSQL.",
+          "Developed responsive interfaces, REST APIs, JWT authentication and protected routes."
         ]
       },
       {
         title: "Digital Marketing & Web Creator — Personal Projects",
         date: "2024 – Present",
         bullets: [
-          "Created web design, branding and landing pages for online presence.",
+          "Created landing pages, branding concepts and web design for online presence.",
           "Applied SEO, UX writing and marketing principles to digital projects."
         ]
       },
@@ -385,7 +385,7 @@ export const cvContentFR: CVContent = {
   },
   summary: {
     title: "Profil professionnel",
-    text: "Développeur Full Stack créant des applications web modernes avec React, Next.js, Node.js, Express, Django, MongoDB et PostgreSQL. Expérience en API REST, authentification, interfaces responsives et code propre et maintenable."
+    text: "Développeur Full Stack orienté vers la création d'applications web claires et fonctionnelles. Je travaille avec React, Node.js, Express, Django, MongoDB et PostgreSQL, avec de l'expérience en API REST, authentification, interfaces responsives et déploiement."
   },
   skills: {
     title: "Compétences",
@@ -412,30 +412,30 @@ export const cvContentFR: CVContent = {
     title: "Projets sélectionnés",
     items: [
       {
-        title: "FitWell — Plateforme Santé",
-        stack: "Django · Django REST Framework · PostgreSQL · JWT · Swagger · Docker",
-        description: "Plateforme backend santé avec API REST et authentification JWT.",
+        title: "FitWell — Plateforme Santé & Fitness",
+        stack: "Django · DRF · PostgreSQL · JWT · Swagger · Docker",
+        description: "Plateforme backend pour la gestion de contenus santé et fitness.",
         bullets: [
-          "Création d'endpoints pour articles, commentaires et gestion utilisateurs.",
-          "Documentation Swagger et configuration Docker pour le déploiement."
+          "Création d'endpoints REST pour articles, commentaires et utilisateurs.",
+          "Ajout de l'authentification JWT, documentation Swagger et configuration Docker."
         ]
       },
       {
-        title: "OpticGlass — E-commerce",
+        title: "OpticGlass — Application E-commerce Premium",
         stack: "React · Vite · Tailwind CSS · Node.js · Express · MongoDB",
-        description: "Application e-commerce premium avec React, Node.js, Express et MongoDB.",
+        description: "Application e-commerce premium centrée sur la présentation produit et l'expérience utilisateur.",
         bullets: [
-          "Création de pages produits responsives et composants réutilisables.",
-          "Connexion frontend avec API Express et base MongoDB."
+          "Création de pages produits responsives et composants UI réutilisables.",
+          "Connexion du frontend à une API Express et une base MongoDB."
         ]
       },
       {
-        title: "Restaurant App — Découverte",
-        stack: "React 18 · Vite · Tailwind CSS · Zustand · i18next · Framer Motion",
-        description: "Application de découverte restaurants avec React, Vite, Zustand et i18next.",
+        title: "Restaurant App — Plateforme de Découverte",
+        stack: "React · Vite · Tailwind CSS · Zustand · i18next",
+        description: "Application de découverte de restaurants avec support multilingue et design responsive.",
         bullets: [
-          "Création d'une recherche restaurants/plats avec dark mode et SEO.",
-          "Gestion d'état, support multilingue et configuration de tests."
+          "Création d'une recherche restaurants/plats avec dark mode et bases SEO.",
+          "Ajout de la gestion d'état, traductions et configuration de tests."
         ]
       }
     ]
@@ -444,23 +444,23 @@ export const cvContentFR: CVContent = {
     title: "Expérience",
     items: [
       {
-        title: "Développeur Full Stack — Projets personnels",
+        title: "Développeur Full Stack — Projets Personnels & Portfolio",
         date: "2024 – Présent",
         bullets: [
-          "Développement d'applications avec React, Next.js, Node.js, Express, MongoDB, Django et PostgreSQL.",
+          "Développement et déploiement d'applications avec React, Next.js, Node.js, Express, MongoDB, Django et PostgreSQL.",
           "Création d'interfaces responsives, API REST, authentification JWT et routes protégées."
         ]
       },
       {
-        title: "Marketing Digital & Création Web — Projets personnels",
+        title: "Marketing Digital & Web Creator — Projets Personnels",
         date: "2024 – Présent",
         bullets: [
-          "Création de web design, branding et landing pages pour présence en ligne.",
+          "Création de landing pages, concepts de branding et web design pour présence en ligne.",
           "Application du SEO, UX writing et principes marketing aux projets digitaux."
         ]
       },
       {
-        title: "Service Militaire — Unité Guivati, IDF",
+        title: "Service Militaire — Unité Guivati",
         date: "2019 – 2022",
         bullets: [
           "Service militaire complet dans un environnement structuré et exigeant.",
