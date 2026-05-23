@@ -151,7 +151,7 @@ export default function ResumePage() {
             <div className="flex justify-center">
               <button
                 onClick={() => setLanguage(language === "en" ? "fr" : "en")}
-                className="px-4 py-2 md:px-6 md:py-3 bg-gradient-to-br from-blue-600 via-blue-500 to-blue-600 hover:from-blue-700 hover:via-blue-600 hover:to-blue-700 text-white rounded-full transition-all duration-400 font-black shadow-2xl shadow-blue-600/50 hover:shadow-3xl hover:shadow-blue-700/60 text-sm md:text-lg border-2 border-blue-400/30"
+                className="px-6 py-3 md:px-8 md:py-4 bg-gradient-to-br from-blue-600 via-blue-500 to-blue-600 hover:from-blue-700 hover:via-blue-600 hover:to-blue-700 text-white rounded-full transition-all duration-400 font-black shadow-2xl shadow-blue-600/50 hover:shadow-3xl hover:shadow-blue-700/60 text-sm md:text-lg border-2 border-blue-400/30"
               >
                 {language === "en" ? "FR" : "EN"}
               </button>
@@ -163,7 +163,7 @@ export default function ResumePage() {
             <div className="flex justify-center">
               <button
                 onClick={() => setLanguage(language === "en" ? "fr" : "en")}
-                className="px-6 py-3 bg-gradient-to-br from-blue-600 via-blue-500 to-blue-600 hover:from-blue-700 hover:via-blue-600 hover:to-blue-700 text-white rounded-full transition-all duration-400 font-black shadow-2xl shadow-blue-600/50 hover:shadow-3xl hover:shadow-blue-700/60 text-lg border-2 border-blue-400/30"
+                className="px-8 py-4 bg-gradient-to-br from-blue-600 via-blue-500 to-blue-600 hover:from-blue-700 hover:via-blue-600 hover:to-blue-700 text-white rounded-full transition-all duration-400 font-black shadow-2xl shadow-blue-600/50 hover:shadow-3xl hover:shadow-blue-700/60 text-lg border-2 border-blue-400/30"
               >
                 {language === "en" ? "FR" : "EN"}
               </button>
@@ -249,13 +249,13 @@ export default function ResumePage() {
                 <a
                   href="/Shay_Acoca_CV_EN.pdf"
                   download
-                  className="w-full px-4 py-2 md:px-12 md:py-6 bg-gradient-to-br from-blue-600 via-blue-500 to-blue-600 hover:from-blue-700 hover:via-blue-600 hover:to-blue-700 text-white rounded-full transition-all duration-400 font-black text-center shadow-2xl shadow-blue-600/50 hover:shadow-3xl hover:shadow-blue-700/60 text-sm md:text-2xl active:scale-95 border-2 border-blue-400/30"
+                  className="w-full px-6 py-3 md:px-14 md:py-7 bg-gradient-to-br from-blue-600 via-blue-500 to-blue-600 hover:from-blue-700 hover:via-blue-600 hover:to-blue-700 text-white rounded-full transition-all duration-400 font-black text-center shadow-2xl shadow-blue-600/50 hover:shadow-3xl hover:shadow-blue-700/60 text-sm md:text-2xl active:scale-95 border-2 border-blue-400/30"
                 >
                   {t.englishCard.download}
                 </a>
                 <button
                   onClick={() => handlePrint("/Shay_Acoca_CV_EN.pdf")}
-                  className="w-full px-4 py-2 md:px-12 md:py-6 bg-gradient-to-br from-gray-800 via-gray-700 to-gray-800 hover:from-gray-700 hover:via-gray-600 hover:to-gray-700 text-white rounded-full transition-all duration-400 font-black text-center shadow-2xl shadow-gray-600/50 hover:shadow-3xl hover:shadow-gray-700/60 text-sm md:text-2xl active:scale-95 border-2 border-gray-500/30"
+                  className="w-full px-6 py-3 md:px-14 md:py-7 bg-gradient-to-br from-gray-800 via-gray-700 to-gray-800 hover:from-gray-700 hover:via-gray-600 hover:to-gray-700 text-white rounded-full transition-all duration-400 font-black text-center shadow-2xl shadow-gray-600/50 hover:shadow-3xl hover:shadow-gray-700/60 text-sm md:text-2xl active:scale-95 border-2 border-gray-500/30"
                 >
                   {t.englishCard.print}
                 </button>
@@ -307,13 +307,13 @@ export default function ResumePage() {
                 <a
                   href="/Shay_Acoca_CV_FR.pdf"
                   download
-                  className="w-full px-4 py-2 md:px-12 md:py-6 bg-gradient-to-br from-purple-600 via-purple-500 to-purple-600 hover:from-purple-700 hover:via-purple-600 hover:to-purple-700 text-white rounded-full transition-all duration-400 font-black text-center shadow-2xl shadow-purple-600/50 hover:shadow-3xl hover:shadow-purple-700/60 text-sm md:text-2xl active:scale-95 border-2 border-purple-400/30"
+                  className="w-full px-6 py-3 md:px-14 md:py-7 bg-gradient-to-br from-purple-600 via-purple-500 to-purple-600 hover:from-purple-700 hover:via-purple-600 hover:to-purple-700 text-white rounded-full transition-all duration-400 font-black text-center shadow-2xl shadow-purple-600/50 hover:shadow-3xl hover:shadow-purple-700/60 text-sm md:text-2xl active:scale-95 border-2 border-purple-400/30"
                 >
                   {t.frenchCard.download}
                 </a>
                 <button
                   onClick={() => handlePrint("/Shay_Acoca_CV_FR.pdf")}
-                  className="w-full px-4 py-2 md:px-12 md:py-6 bg-gradient-to-br from-gray-800 via-gray-700 to-gray-800 hover:from-gray-700 hover:via-gray-600 hover:to-gray-700 text-white rounded-full transition-all duration-400 font-black text-center shadow-2xl shadow-gray-600/50 hover:shadow-3xl hover:shadow-gray-700/60 text-sm md:text-2xl active:scale-95 border-2 border-gray-500/30"
+                  className="w-full px-6 py-3 md:px-14 md:py-7 bg-gradient-to-br from-gray-800 via-gray-700 to-gray-800 hover:from-gray-700 hover:via-gray-600 hover:to-gray-700 text-white rounded-full transition-all duration-400 font-black text-center shadow-2xl shadow-gray-600/50 hover:shadow-3xl hover:shadow-gray-700/60 text-sm md:text-2xl active:scale-95 border-2 border-gray-500/30"
                 >
                   {t.frenchCard.print}
                 </button>
@@ -384,7 +384,7 @@ export default function ResumePage() {
           >
             <Link
               href="/"
-              className="inline-flex items-center gap-2 bg-gradient-to-r from-gray-800 to-gray-700 hover:from-gray-700 hover:to-gray-600 text-white transition-all duration-300 font-bold px-4 py-2 md:px-6 md:py-3 rounded-full shadow-xl shadow-gray-500/30 hover:shadow-2xl hover:shadow-gray-500/50 active:scale-95 text-sm md:text-base"
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-gray-800 to-gray-700 hover:from-gray-700 hover:to-gray-600 text-white transition-all duration-300 font-bold px-6 py-3 md:px-8 md:py-4 rounded-full shadow-xl shadow-gray-500/30 hover:shadow-2xl hover:shadow-gray-500/50 active:scale-95 text-sm md:text-base"
             >
               <svg className="w-3 h-3 md:w-4 md:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
