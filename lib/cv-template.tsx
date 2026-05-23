@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
     lineHeight: 1,
   },
   sidebarSection: {
-    marginBottom: 14,
+    marginBottom: 10,
   },
   sidebarSectionTitle: {
     fontSize: 9,
@@ -102,7 +102,7 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   section: {
-    marginBottom: 14,
+    marginBottom: 10,
   },
   sectionTitle: {
     fontSize: 9,
@@ -124,14 +124,14 @@ const styles = StyleSheet.create({
   projectBox: {
     backgroundColor: "#F9F9F9",
     padding: 5,
-    marginBottom: 6,
+    marginBottom: 4,
     borderLeftColor: "#000000",
     borderLeftWidth: 2,
   },
   experienceBox: {
     backgroundColor: "#F9F9F9",
     padding: 5,
-    marginBottom: 6,
+    marginBottom: 4,
     borderLeftColor: "#000000",
     borderLeftWidth: 2,
   },
