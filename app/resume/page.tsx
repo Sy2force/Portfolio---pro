@@ -214,7 +214,7 @@ export default function ResumePage() {
                 rotateY: 2,
                 rotateX: 2
               }}
-              className="bg-white/95 backdrop-blur-xl border-3 border-gray-300 rounded-3xl p-4 md:p-20 hover:border-blue-600 transition-all duration-500 flex flex-col shadow-2xl hover:shadow-3xl hover:shadow-blue-600/30 relative overflow-hidden"
+              className="bg-white/95 backdrop-blur-xl border-3 border-gray-300 rounded-full p-6 md:p-24 hover:border-blue-600 transition-all duration-500 flex flex-col shadow-2xl hover:shadow-3xl hover:shadow-blue-600/30 relative overflow-hidden"
               style={{
                 perspective: '1000px'
               }}
@@ -223,26 +223,26 @@ export default function ResumePage() {
               <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-purple-500/5 opacity-0 hover:opacity-100 transition-opacity duration-500" />
               
               {/* Logo */}
-              <div className="relative z-10 flex justify-center mb-2 md:mb-6">
-                <div className="w-12 h-12 md:w-24 md:h-24 bg-gradient-to-br from-blue-600 to-blue-700 rounded-2xl shadow-2xl shadow-blue-500/40 flex items-center justify-center">
-                  <svg className="w-7 h-7 md:w-14 md:h-14 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="relative z-10 flex justify-center mb-3 md:mb-8">
+                <div className="w-10 h-10 md:w-20 md:h-20 bg-gradient-to-br from-blue-600 to-blue-700 rounded-2xl shadow-2xl shadow-blue-500/40 flex items-center justify-center">
+                  <svg className="w-5 h-5 md:w-10 md:h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                   </svg>
                 </div>
               </div>
               
-              <div className="relative z-10 flex flex-col items-center justify-center mb-2 md:mb-6">
-                <h3 className="text-3xl md:text-7xl font-black text-gray-900 tracking-tight">
+              <div className="relative z-10 flex flex-col items-center justify-center mb-3 md:mb-8">
+                <h3 className="text-2xl md:text-6xl font-black text-gray-900 tracking-tight">
                   CV
                 </h3>
-                <span className="text-sm md:text-xl text-gray-500 font-medium mt-1 md:mt-2">
+                <span className="text-xs md:text-lg text-gray-500 font-medium mt-1 md:mt-2">
                   {t.englishCard.language}
                 </span>
-                <span className="text-xs md:text-lg text-gray-600 font-semibold mt-1 md:mt-2">
+                <span className="text-xs md:text-base text-gray-600 font-semibold mt-1 md:mt-2">
                   {t.englishCard.miniSummary}
                 </span>
               </div>
-              <p className="text-sm md:text-2xl text-gray-600 mb-4 md:mb-12 leading-relaxed flex-grow relative z-10 font-medium text-center">
+              <p className="text-xs md:text-xl text-gray-600 mb-3 md:mb-10 leading-relaxed flex-grow relative z-10 font-medium text-center px-2">
                 {t.englishCard.description}
               </p>
               <div className="space-y-3 md:space-y-6 relative z-10 flex flex-col items-center">
@@ -272,7 +272,7 @@ export default function ResumePage() {
                 rotateY: -2,
                 rotateX: 2
               }}
-              className="bg-white/95 backdrop-blur-xl border-3 border-gray-300 rounded-3xl p-4 md:p-20 hover:border-purple-600 transition-all duration-500 flex flex-col shadow-2xl hover:shadow-3xl hover:shadow-purple-600/30 relative overflow-hidden"
+              className="bg-white/95 backdrop-blur-xl border-3 border-gray-300 rounded-full p-6 md:p-24 hover:border-purple-600 transition-all duration-500 flex flex-col shadow-2xl hover:shadow-3xl hover:shadow-purple-600/30 relative overflow-hidden"
               style={{
                 perspective: '1000px'
               }}
@@ -281,26 +281,26 @@ export default function ResumePage() {
               <div className="absolute inset-0 bg-gradient-to-br from-purple-500/5 to-pink-500/5 opacity-0 hover:opacity-100 transition-opacity duration-500" />
               
               {/* Logo */}
-              <div className="relative z-10 flex justify-center mb-2 md:mb-6">
-                <div className="w-12 h-12 md:w-24 md:h-24 bg-gradient-to-br from-purple-600 to-purple-700 rounded-2xl shadow-2xl shadow-purple-500/40 flex items-center justify-center">
-                  <svg className="w-7 h-7 md:w-14 md:h-14 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="relative z-10 flex justify-center mb-3 md:mb-8">
+                <div className="w-10 h-10 md:w-20 md:h-20 bg-gradient-to-br from-purple-600 to-purple-700 rounded-2xl shadow-2xl shadow-purple-500/40 flex items-center justify-center">
+                  <svg className="w-5 h-5 md:w-10 md:h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                   </svg>
                 </div>
               </div>
               
-              <div className="relative z-10 flex flex-col items-center justify-center mb-2 md:mb-6">
-                <h3 className="text-3xl md:text-7xl font-black text-gray-900 tracking-tight">
+              <div className="relative z-10 flex flex-col items-center justify-center mb-3 md:mb-8">
+                <h3 className="text-2xl md:text-6xl font-black text-gray-900 tracking-tight">
                   CV
                 </h3>
-                <span className="text-sm md:text-xl text-gray-500 font-medium mt-1 md:mt-2">
+                <span className="text-xs md:text-lg text-gray-500 font-medium mt-1 md:mt-2">
                   {t.frenchCard.language}
                 </span>
-                <span className="text-xs md:text-lg text-gray-600 font-semibold mt-1 md:mt-2">
+                <span className="text-xs md:text-base text-gray-600 font-semibold mt-1 md:mt-2">
                   {t.frenchCard.miniSummary}
                 </span>
               </div>
-              <p className="text-sm md:text-2xl text-gray-600 mb-4 md:mb-12 leading-relaxed flex-grow relative z-10 font-medium text-center">
+              <p className="text-xs md:text-xl text-gray-600 mb-3 md:mb-10 leading-relaxed flex-grow relative z-10 font-medium text-center px-2">
                 {t.frenchCard.description}
               </p>
               <div className="space-y-3 md:space-y-6 relative z-10 flex flex-col items-center">
