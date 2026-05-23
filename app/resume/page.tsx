@@ -13,6 +13,61 @@ export default function ResumePage() {
     window.open(pdfUrl, '_blank')
   }
 
+  const translations = {
+    en: {
+      title: "Resume / CV",
+      subtitle: "Download or print a clean, professional bilingual resume",
+      description: "Available in English and French. Optimized for startups, tech companies and professional applications.",
+      englishCard: {
+        language: "English",
+        description: "Clean one-page PDF optimized for LinkedIn, startups and tech applications.",
+        download: "Download English PDF",
+        print: "Print English CV"
+      },
+      frenchCard: {
+        language: "Français",
+        description: "CV professionnel en une page, optimisé pour candidatures tech et startups.",
+        download: "Télécharger le PDF français",
+        print: "Imprimer le CV français"
+      },
+      infoBlock: {
+        title: "What's Inside",
+        projects: "Selected Projects",
+        experience: "Experience Items",
+        education: "Educational Programs",
+        footer: "Print-friendly design · Clean professional PDF · Optimized for A4"
+      },
+      backToPortfolio: "Back to Portfolio"
+    },
+    fr: {
+      title: "CV / Resume",
+      subtitle: "Téléchargez ou imprimez un CV bilingue propre et professionnel",
+      description: "Disponible en anglais et français. Optimisé pour les startups, les entreprises tech et les candidatures professionnelles.",
+      englishCard: {
+        language: "Anglais",
+        description: "PDF d'une page optimisé pour LinkedIn, les startups et les applications tech.",
+        download: "Télécharger le PDF anglais",
+        print: "Imprimer le CV anglais"
+      },
+      frenchCard: {
+        language: "Français",
+        description: "CV professionnel en une page, optimisé pour candidatures tech et startups.",
+        download: "Télécharger le PDF français",
+        print: "Imprimer le CV français"
+      },
+      infoBlock: {
+        title: "Ce que contient le CV",
+        projects: "Projets sélectionnés",
+        experience: "Expériences",
+        education: "Formations",
+        footer: "Design imprimable · PDF professionnel propre · Optimisé pour A4"
+      },
+      backToPortfolio: "Retour au Portfolio"
+    }
+  }
+
+  const t = translations[language]
+
   return (
     <>
       <style jsx global>{`
@@ -128,13 +183,13 @@ export default function ResumePage() {
                 ease: "linear"
               }}
             >
-              Resume / CV
+              {t.title}
             </motion.h1>
             <h2 className="text-xl text-black mb-4 font-semibold">
-              Download or print a clean, professional bilingual resume
+              {t.subtitle}
             </h2>
             <p className="text-base text-gray-700 max-w-2xl mx-auto">
-              Available in English and French. Optimized for startups, tech companies and professional applications.
+              {t.description}
             </p>
           </motion.div>
 
@@ -177,11 +232,11 @@ export default function ResumePage() {
                   CV
                 </h3>
                 <span className="text-xl text-gray-500 font-medium mt-2">
-                  English
+                  {t.englishCard.language}
                 </span>
               </div>
               <p className="text-2xl text-gray-600 mb-12 leading-relaxed flex-grow relative z-10 font-medium text-center">
-                Clean one-page PDF optimized for LinkedIn, startups and tech applications.
+                {t.englishCard.description}
               </p>
               <div className="space-y-6 relative z-10 flex flex-col items-center">
                 <a
@@ -189,13 +244,13 @@ export default function ResumePage() {
                   download
                   className="w-full px-12 py-6 bg-gradient-to-br from-blue-600 via-blue-500 to-blue-600 hover:from-blue-700 hover:via-blue-600 hover:to-blue-700 text-white rounded-2xl transition-all duration-400 font-black text-center shadow-2xl shadow-blue-600/50 hover:shadow-3xl hover:shadow-blue-700/60 text-2xl active:scale-95 border-2 border-blue-400/30"
                 >
-                  Download English PDF
+                  {t.englishCard.download}
                 </a>
                 <button
                   onClick={() => handlePrint("/Shay_Acoca_CV_EN.pdf")}
                   className="w-full px-12 py-6 bg-gradient-to-br from-gray-800 via-gray-700 to-gray-800 hover:from-gray-700 hover:via-gray-600 hover:to-gray-700 text-white rounded-2xl transition-all duration-400 font-black text-center shadow-2xl shadow-gray-600/50 hover:shadow-3xl hover:shadow-gray-700/60 text-2xl active:scale-95 border-2 border-gray-500/30"
                 >
-                  Print English CV
+                  {t.englishCard.print}
                 </button>
               </div>
             </motion.div>
@@ -232,11 +287,11 @@ export default function ResumePage() {
                   CV
                 </h3>
                 <span className="text-xl text-gray-500 font-medium mt-2">
-                  Français
+                  {t.frenchCard.language}
                 </span>
               </div>
               <p className="text-2xl text-gray-600 mb-12 leading-relaxed flex-grow relative z-10 font-medium text-center">
-                CV professionnel en une page, optimisé pour candidatures tech et startups.
+                {t.frenchCard.description}
               </p>
               <div className="space-y-6 relative z-10 flex flex-col items-center">
                 <a
@@ -244,13 +299,13 @@ export default function ResumePage() {
                   download
                   className="w-full px-12 py-6 bg-gradient-to-br from-purple-600 via-purple-500 to-purple-600 hover:from-purple-700 hover:via-purple-600 hover:to-purple-700 text-white rounded-2xl transition-all duration-400 font-black text-center shadow-2xl shadow-purple-600/50 hover:shadow-3xl hover:shadow-purple-700/60 text-2xl active:scale-95 border-2 border-purple-400/30"
                 >
-                  Télécharger le PDF français
+                  {t.frenchCard.download}
                 </a>
                 <button
                   onClick={() => handlePrint("/Shay_Acoca_CV_FR.pdf")}
                   className="w-full px-12 py-6 bg-gradient-to-br from-gray-800 via-gray-700 to-gray-800 hover:from-gray-700 hover:via-gray-600 hover:to-gray-700 text-white rounded-2xl transition-all duration-400 font-black text-center shadow-2xl shadow-gray-600/50 hover:shadow-3xl hover:shadow-gray-700/60 text-2xl active:scale-95 border-2 border-gray-500/30"
                 >
-                  Imprimer le CV français
+                  {t.frenchCard.print}
                 </button>
               </div>
             </motion.div>
@@ -268,7 +323,7 @@ export default function ResumePage() {
             
             <div className="relative z-10">
               <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">
-                What&apos;s Inside
+                {t.infoBlock.title}
               </h3>
               <div className="grid md:grid-cols-3 gap-6 text-center">
                 <motion.div 
@@ -279,7 +334,7 @@ export default function ResumePage() {
                   <div className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">
                     3
                   </div>
-                  <div className="text-base text-gray-700 font-medium">Selected Projects</div>
+                  <div className="text-base text-gray-700 font-medium">{t.infoBlock.projects}</div>
                 </motion.div>
                 <motion.div 
                   className="space-y-2"
@@ -289,7 +344,7 @@ export default function ResumePage() {
                   <div className="text-3xl font-bold bg-gradient-to-r from-purple-600 to-purple-700 bg-clip-text text-transparent">
                     3
                   </div>
-                  <div className="text-base text-gray-700 font-medium">Experience Items</div>
+                  <div className="text-base text-gray-700 font-medium">{t.infoBlock.experience}</div>
                 </motion.div>
                 <motion.div 
                   className="space-y-2"
@@ -299,12 +354,12 @@ export default function ResumePage() {
                   <div className="text-3xl font-bold bg-gradient-to-r from-pink-600 to-pink-700 bg-clip-text text-transparent">
                     2
                   </div>
-                  <div className="text-base text-gray-700 font-medium">Educational Programs</div>
+                  <div className="text-base text-gray-700 font-medium">{t.infoBlock.education}</div>
                 </motion.div>
               </div>
               <div className="mt-6 pt-6 border-t border-gray-200 text-center">
                 <p className="text-sm text-gray-600 font-medium">
-                  Print-friendly design · Clean professional PDF · Optimized for A4
+                  {t.infoBlock.footer}
                 </p>
               </div>
             </div>
@@ -324,7 +379,7 @@ export default function ResumePage() {
               <svg className="w-4 h-4 md:w-5 md:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
               </svg>
-              Back to Portfolio
+              {t.backToPortfolio}
             </Link>
           </motion.div>
         </div>
