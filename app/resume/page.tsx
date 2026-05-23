@@ -20,12 +20,14 @@ export default function ResumePage() {
       description: "Available in English and French. Optimized for startups, tech companies and professional applications.",
       englishCard: {
         language: "English",
+        miniSummary: "Full Stack Developer",
         description: "Clean one-page PDF optimized for LinkedIn, startups and tech applications.",
         download: "Download English PDF",
         print: "Print English CV"
       },
       frenchCard: {
         language: "Français",
+        miniSummary: "Développeur Full Stack",
         description: "CV professionnel en une page, optimisé pour candidatures tech et startups.",
         download: "Télécharger le PDF français",
         print: "Imprimer le CV français"
@@ -45,12 +47,14 @@ export default function ResumePage() {
       description: "Disponible en anglais et français. Optimisé pour les startups, les entreprises tech et les candidatures professionnelles.",
       englishCard: {
         language: "Anglais",
+        miniSummary: "Développeur Full Stack",
         description: "PDF d'une page optimisé pour LinkedIn, les startups et les applications tech.",
         download: "Télécharger le PDF anglais",
         print: "Imprimer le CV anglais"
       },
       frenchCard: {
         language: "Français",
+        miniSummary: "Développeur Full Stack",
         description: "CV professionnel en une page, optimisé pour candidatures tech et startups.",
         download: "Télécharger le PDF français",
         print: "Imprimer le CV français"
@@ -234,6 +238,9 @@ export default function ResumePage() {
                 <span className="text-xl text-gray-500 font-medium mt-2">
                   {t.englishCard.language}
                 </span>
+                <span className="text-sm text-gray-400 font-medium mt-1">
+                  {t.englishCard.miniSummary}
+                </span>
               </div>
               <p className="text-2xl text-gray-600 mb-12 leading-relaxed flex-grow relative z-10 font-medium text-center">
                 {t.englishCard.description}
@@ -288,6 +295,9 @@ export default function ResumePage() {
                 </h3>
                 <span className="text-xl text-gray-500 font-medium mt-2">
                   {t.frenchCard.language}
+                </span>
+                <span className="text-sm text-gray-400 font-medium mt-1">
+                  {t.frenchCard.miniSummary}
                 </span>
               </div>
               <p className="text-2xl text-gray-600 mb-12 leading-relaxed flex-grow relative z-10 font-medium text-center">
