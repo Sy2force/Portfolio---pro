@@ -59,22 +59,24 @@ export default function ResumePage() {
           width: 140%;
           border-radius: 999px;
           pointer-events: none;
-          will-change: transform;
           transform-origin: center;
-          filter: blur(1px);
+          filter: blur(0.5px);
         }
 
         .resume-wave-field .wave-1 {
           top: 8%;
           height: 180px;
-          background: linear-gradient(
-            180deg,
-            rgba(255,255,255,0.92) 0%,
-            rgba(226,232,240,0.55) 100%
-          );
+          background:
+            linear-gradient(
+              180deg,
+              rgba(255,255,255,0.95) 0%,
+              rgba(241,245,249,0.75) 40%,
+              rgba(226,232,240,0.55) 100%
+            );
           box-shadow:
-            0 20px 50px rgba(15,23,42,0.08),
-            inset 0 12px 30px rgba(255,255,255,0.9);
+            0 25px 60px rgba(15,23,42,0.06),
+            0 10px 30px rgba(15,23,42,0.04),
+            inset 0 15px 35px rgba(255,255,255,0.95);
           transform: rotate(-6deg);
           animation: waveFloatA 18s ease-in-out infinite alternate;
         }
@@ -82,12 +84,14 @@ export default function ResumePage() {
         .resume-wave-field .wave-2 {
           top: 18%;
           height: 140px;
-          background: linear-gradient(
-            180deg,
-            rgba(255,255,255,0.78) 0%,
-            rgba(203,213,225,0.35) 100%
-          );
-          opacity: 0.8;
+          background:
+            linear-gradient(
+              180deg,
+              rgba(255,255,255,0.82) 0%,
+              rgba(241,245,249,0.60) 40%,
+              rgba(203,213,225,0.35) 100%
+            );
+          opacity: 0.85;
           transform: rotate(5deg);
           animation: waveFloatB 22s ease-in-out infinite alternate;
         }
@@ -95,12 +99,14 @@ export default function ResumePage() {
         .resume-wave-field .wave-3 {
           top: 34%;
           height: 170px;
-          background: linear-gradient(
-            180deg,
-            rgba(255,255,255,0.86) 0%,
-            rgba(226,232,240,0.40) 100%
-          );
-          opacity: 0.72;
+          background:
+            linear-gradient(
+              180deg,
+              rgba(255,255,255,0.88) 0%,
+              rgba(241,245,249,0.65) 40%,
+              rgba(226,232,240,0.40) 100%
+            );
+          opacity: 0.78;
           transform: rotate(-4deg);
           animation: waveFloatC 24s ease-in-out infinite alternate;
         }
@@ -108,12 +114,14 @@ export default function ResumePage() {
         .resume-wave-field .wave-4 {
           top: 48%;
           height: 150px;
-          background: linear-gradient(
-            180deg,
-            rgba(255,255,255,0.74) 0%,
-            rgba(203,213,225,0.30) 100%
-          );
-          opacity: 0.68;
+          background:
+            linear-gradient(
+              180deg,
+              rgba(255,255,255,0.78) 0%,
+              rgba(241,245,249,0.55) 40%,
+              rgba(203,213,225,0.30) 100%
+            );
+          opacity: 0.72;
           transform: rotate(4deg);
           animation: waveFloatA 26s ease-in-out infinite alternate;
         }
@@ -121,12 +129,14 @@ export default function ResumePage() {
         .resume-wave-field .wave-5 {
           top: 66%;
           height: 180px;
-          background: linear-gradient(
-            180deg,
-            rgba(255,255,255,0.84) 0%,
-            rgba(226,232,240,0.34) 100%
-          );
-          opacity: 0.72;
+          background:
+            linear-gradient(
+              180deg,
+              rgba(255,255,255,0.86) 0%,
+              rgba(241,245,249,0.60) 40%,
+              rgba(226,232,240,0.34) 100%
+            );
+          opacity: 0.76;
           transform: rotate(-5deg);
           animation: waveFloatB 28s ease-in-out infinite alternate;
         }
@@ -134,12 +144,14 @@ export default function ResumePage() {
         .resume-wave-field .wave-6 {
           top: 82%;
           height: 160px;
-          background: linear-gradient(
-            180deg,
-            rgba(255,255,255,0.90) 0%,
-            rgba(203,213,225,0.28) 100%
-          );
-          opacity: 0.76;
+          background:
+            linear-gradient(
+              180deg,
+              rgba(255,255,255,0.92) 0%,
+              rgba(241,245,249,0.70) 40%,
+              rgba(203,213,225,0.28) 100%
+            );
+          opacity: 0.80;
           transform: rotate(3deg);
           animation: waveFloatC 30s ease-in-out infinite alternate;
         }
