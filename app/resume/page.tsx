@@ -29,38 +29,139 @@ export default function ResumePage() {
   }, [])
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-950 via-gray-900 to-black text-white relative overflow-hidden">
-      {/* Animated gradient background */}
-      <div 
-        className="absolute inset-0 opacity-30"
-        style={{
-          background: `radial-gradient(circle at ${mousePosition.x}% ${mousePosition.y}%, rgba(59, 130, 246, 0.3) 0%, transparent 50%)`,
-          transition: 'background 0.3s ease'
-        }}
-      />
+    <>
+      <style jsx global>{`
+        @keyframes waterfallFlow {
+          0% {
+            transform: translateY(-100%);
+            opacity: 0;
+          }
+          50% {
+            opacity: 1;
+          }
+          100% {
+            transform: translateY(100%);
+            opacity: 0;
+          }
+        }
+      `}</style>
+      <div className="min-h-screen text-white relative overflow-hidden">
+      {/* Forest background with waterfalls */}
+      <div className="absolute inset-0 bg-gradient-to-b from-green-900/30 via-green-800/20 to-blue-900/40" />
       
-      {/* Floating particles */}
+      {/* Animated waterfalls */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        {[...Array(20)].map((_, i) => (
+        {/* Waterfall 1 */}
+        <motion.div
+          className="absolute top-0 left-1/4 w-32 h-full"
+          animate={{
+            opacity: [0.3, 0.5, 0.3]
+          }}
+          transition={{
+            duration: 4,
+            repeat: Infinity,
+            ease: "easeInOut"
+          }}
+        >
+          <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-blue-400/20 via-blue-500/30 to-blue-600/40 blur-sm" />
+          <div 
+            className="absolute top-0 left-1/2 -translate-x-1/2 w-16 h-full"
+            style={{
+              background: `linear-gradient(180deg, 
+                rgba(59, 130, 246, 0.4) 0%, 
+                rgba(59, 130, 246, 0.6) 50%, 
+                rgba(59, 130, 246, 0.3) 100%)`,
+              animation: 'waterfallFlow 2s linear infinite'
+            }}
+          />
+        </motion.div>
+
+        {/* Waterfall 2 */}
+        <motion.div
+          className="absolute top-0 right-1/4 w-24 h-full"
+          animate={{
+            opacity: [0.4, 0.6, 0.4]
+          }}
+          transition={{
+            duration: 5,
+            repeat: Infinity,
+            ease: "easeInOut",
+            delay: 1
+          }}
+        >
+          <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-cyan-400/20 via-cyan-500/30 to-cyan-600/40 blur-sm" />
+          <div 
+            className="absolute top-0 left-1/2 -translate-x-1/2 w-12 h-full"
+            style={{
+              background: `linear-gradient(180deg, 
+                rgba(34, 211, 238, 0.4) 0%, 
+                rgba(34, 211, 238, 0.6) 50%, 
+                rgba(34, 211, 238, 0.3) 100%)`,
+              animation: 'waterfallFlow 2.5s linear infinite'
+            }}
+          />
+        </motion.div>
+
+        {/* Waterfall 3 */}
+        <motion.div
+          className="absolute top-0 left-1/2 -translate-x-1/2 w-40 h-full"
+          animate={{
+            opacity: [0.2, 0.4, 0.2]
+          }}
+          transition={{
+            duration: 6,
+            repeat: Infinity,
+            ease: "easeInOut",
+            delay: 2
+          }}
+        >
+          <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-blue-300/20 via-blue-400/30 to-blue-500/40 blur-sm" />
+          <div 
+            className="absolute top-0 left-1/2 -translate-x-1/2 w-20 h-full"
+            style={{
+              background: `linear-gradient(180deg, 
+                rgba(147, 197, 253, 0.4) 0%, 
+                rgba(147, 197, 253, 0.6) 50%, 
+                rgba(147, 197, 253, 0.3) 100%)`,
+              animation: 'waterfallFlow 3s linear infinite'
+            }}
+          />
+        </motion.div>
+      </div>
+
+      {/* Forest trees silhouettes */}
+      <div className="absolute bottom-0 left-0 right-0 h-64 pointer-events-none">
+        <svg className="absolute bottom-0 left-0 w-full h-full opacity-30" viewBox="0 0 1440 256" preserveAspectRatio="none">
+          <path fill="#0f172a" d="M0,256 L0,180 L40,180 L40,140 L80,140 L80,180 L120,180 L120,100 L160,100 L160,180 L200,180 L200,120 L240,120 L240,180 L280,180 L280,80 L320,80 L320,180 L360,180 L360,130 L400,130 L400,180 L440,180 L440,90 L480,90 L480,180 L520,180 L520,110 L560,110 L560,180 L600,180 L600,70 L640,70 L640,180 L680,180 L680,120 L720,120 L720,180 L760,180 L760,100 L800,100 L800,180 L840,180 L840,140 L880,140 L880,180 L920,180 L920,80 L960,80 L960,180 L1000,180 L1000,110 L1040,110 L1040,180 L1080,180 L1080,90 L1120,90 L1120,180 L1160,180 L1160,130 L1200,130 L1200,180 L1240,180 L1240,100 L1280,100 L1280,180 L1320,180 L1320,120 L1360,120 L1360,180 L1400,180 L1400,150 L1440,150 L1440,256 Z" />
+        </svg>
+      </div>
+
+      {/* Water droplets/particles */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        {[...Array(30)].map((_, i) => (
           <motion.div
             key={i}
-            className="absolute w-2 h-2 bg-blue-500/20 rounded-full"
+            className="absolute w-1 h-3 bg-blue-400/30 rounded-full"
             style={{
-              left: `${Math.random() * 100}%`,
+              left: `${10 + Math.random() * 80}%`,
               top: `${Math.random() * 100}%`
             }}
             animate={{
-              y: [0, -20, 0],
-              opacity: [0.2, 0.5, 0.2]
+              y: [0, 100, 0],
+              opacity: [0, 0.6, 0]
             }}
             transition={{
-              duration: 3 + Math.random() * 2,
+              duration: 2 + Math.random() * 2,
               repeat: Infinity,
-              delay: Math.random() * 2
+              delay: Math.random() * 2,
+              ease: "easeIn"
             }}
           />
         ))}
       </div>
+
+      {/* Mist/fog effect */}
+      <div className="absolute inset-0 bg-gradient-to-t from-blue-900/30 via-transparent to-green-900/20 pointer-events-none" />
 
       {/* Language Toggle - Mobile */}
       <div className="fixed top-4 right-4 z-50 md:hidden">
@@ -287,5 +388,6 @@ export default function ResumePage() {
         </motion.div>
       </div>
     </div>
+    </>
   )
 }
