@@ -272,7 +272,7 @@ export const cvContentEN: CVContent = {
       },
       {
         name: "Backend",
-        skills: "Node.js, Express.js, Python, Django, Django REST Framework, REST APIs, JWT Authentication, Protected Routes, MongoDB, PostgreSQL"
+        skills: "Node.js, Express.js, Python, Django, DRF, REST APIs, JWT Auth, Protected Routes, MongoDB, PostgreSQL"
       },
       {
         name: "Tools & Deployment",
@@ -328,7 +328,7 @@ export const cvContentEN: CVContent = {
         bullets: [
           "Developed and deployed modern web applications using React, Next.js, Node.js, Express, MongoDB, Django, and PostgreSQL",
           "Built responsive frontend interfaces and RESTful backend APIs with JWT authentication and protected routes",
-          "Implemented Git version control, CI/CD with GitHub, and deployment on Vercel and Render platforms",
+          "Git version control, CI/CD with GitHub, Vercel and Render deployment",
           "Designed and integrated MongoDB Atlas for scalable data management"
         ]
       },
