@@ -61,6 +61,8 @@ export default function ResumePage() {
           pointer-events: none;
           transform-origin: center;
           filter: blur(0.5px);
+          perspective: 1000px;
+          transform-style: preserve-3d;
         }
 
         .resume-wave-field .wave-1 {
@@ -77,8 +79,8 @@ export default function ResumePage() {
             0 25px 60px rgba(59, 130, 246, 0.08),
             0 10px 30px rgba(59, 130, 246, 0.04),
             inset 0 15px 35px rgba(255,255,255,0.95);
-          transform: rotate(-6deg);
-          animation: waveFloatA 6s ease-in-out infinite alternate;
+          transform: rotate(-6deg) translateZ(20px);
+          animation: waveFloatA 3s ease-in-out infinite alternate;
         }
 
         .resume-wave-field .wave-2 {
@@ -92,8 +94,8 @@ export default function ResumePage() {
               rgba(167, 139, 250, 0.15) 100%
             );
           opacity: 0.85;
-          transform: rotate(5deg);
-          animation: waveFloatB 7s ease-in-out infinite alternate;
+          transform: rotate(5deg) translateZ(-10px);
+          animation: waveFloatB 3.5s ease-in-out infinite alternate;
         }
 
         .resume-wave-field .wave-3 {
@@ -107,8 +109,8 @@ export default function ResumePage() {
               rgba(147, 197, 253, 0.18) 100%
             );
           opacity: 0.78;
-          transform: rotate(-4deg);
-          animation: waveFloatC 8s ease-in-out infinite alternate;
+          transform: rotate(-4deg) translateZ(15px);
+          animation: waveFloatC 4s ease-in-out infinite alternate;
         }
 
         .resume-wave-field .wave-4 {
@@ -122,8 +124,8 @@ export default function ResumePage() {
               rgba(167, 139, 250, 0.18) 100%
             );
           opacity: 0.72;
-          transform: rotate(4deg);
-          animation: waveFloatA 9s ease-in-out infinite alternate;
+          transform: rotate(4deg) translateZ(-15px);
+          animation: waveFloatA 4.5s ease-in-out infinite alternate;
         }
 
         .resume-wave-field .wave-5 {
@@ -137,8 +139,8 @@ export default function ResumePage() {
               rgba(147, 197, 253, 0.20) 100%
             );
           opacity: 0.76;
-          transform: rotate(-5deg);
-          animation: waveFloatB 10s ease-in-out infinite alternate;
+          transform: rotate(-5deg) translateZ(25px);
+          animation: waveFloatB 5s ease-in-out infinite alternate;
         }
 
         .resume-wave-field .wave-6 {
@@ -152,34 +154,34 @@ export default function ResumePage() {
               rgba(167, 139, 250, 0.20) 100%
             );
           opacity: 0.80;
-          transform: rotate(3deg);
-          animation: waveFloatC 11s ease-in-out infinite alternate;
+          transform: rotate(3deg) translateZ(-20px);
+          animation: waveFloatC 5.5s ease-in-out infinite alternate;
         }
 
         @keyframes waveFloatA {
           from {
-            transform: translate3d(-40px, 0, 0) rotate(-6deg) scaleX(1.02);
+            transform: translate3d(-40px, 0, 20px) rotate(-6deg) scaleX(1.02) scaleY(1.01);
           }
           to {
-            transform: translate3d(40px, 16px, 0) rotate(-2deg) scaleX(1.08);
+            transform: translate3d(40px, 16px, 20px) rotate(-2deg) scaleX(1.08) scaleY(1.05);
           }
         }
 
         @keyframes waveFloatB {
           from {
-            transform: translate3d(34px, 0, 0) rotate(5deg) scaleX(1.03);
+            transform: translate3d(34px, 0, -10px) rotate(5deg) scaleX(1.03) scaleY(1.02);
           }
           to {
-            transform: translate3d(-34px, 14px, 0) rotate(1deg) scaleX(1.07);
+            transform: translate3d(-34px, 14px, -10px) rotate(1deg) scaleX(1.07) scaleY(1.06);
           }
         }
 
         @keyframes waveFloatC {
           from {
-            transform: translate3d(-28px, 0, 0) rotate(-4deg) scaleX(1.01);
+            transform: translate3d(-28px, 0, 15px) rotate(-4deg) scaleX(1.01) scaleY(1.01);
           }
           to {
-            transform: translate3d(28px, 18px, 0) rotate(2deg) scaleX(1.06);
+            transform: translate3d(28px, 18px, 15px) rotate(2deg) scaleX(1.06) scaleY(1.05);
           }
         }
 
