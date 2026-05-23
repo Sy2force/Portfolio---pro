@@ -37,268 +37,164 @@ export default function ResumePage() {
           overflow: hidden;
           isolation: isolate;
           background:
-            radial-gradient(circle at 18% 12%, rgba(226, 232, 240, 0.75), transparent 28%),
-            radial-gradient(circle at 82% 18%, rgba(241, 245, 249, 0.95), transparent 32%),
-            linear-gradient(180deg, #ffffff 0%, #f8fafc 48%, #ffffff 100%);
+            linear-gradient(180deg, #ffffff 0%, #f8fafc 45%, #f1f5f9 100%);
         }
 
-        .resume-wave-background::before,
-        .resume-wave-background::after {
-          content: "";
-          position: absolute;
-          left: -15%;
-          right: -15%;
-          pointer-events: none;
-          z-index: -1;
-          will-change: transform;
-        }
-
-        .resume-wave-background::before {
-          top: -150px;
-          height: 500px;
-          opacity: 0.95;
-          background:
-            radial-gradient(120% 80% at 50% 100%, rgba(255,255,255,0.98) 0 36%, transparent 37%),
-            radial-gradient(115% 75% at 48% 92%, rgba(226,232,240,0.65) 0 38%, transparent 39%),
-            radial-gradient(110% 70% at 52% 82%, rgba(255,255,255,0.96) 0 40%, transparent 41%),
-            radial-gradient(105% 65% at 50% 72%, rgba(203,213,225,0.42) 0 42%, transparent 43%);
-          filter: drop-shadow(0 24px 32px rgba(15, 23, 42, 0.10));
-          animation: resumeWaveTop 14s ease-in-out infinite alternate;
-        }
-
-        .resume-wave-background::after {
-          bottom: -150px;
-          height: 550px;
-          opacity: 0.98;
-          background:
-            radial-gradient(125% 85% at 50% 0%, rgba(255,255,255,0.98) 0 34%, transparent 35%),
-            radial-gradient(120% 80% at 52% 10%, rgba(226,232,240,0.58) 0 36%, transparent 37%),
-            radial-gradient(115% 78% at 48% 22%, rgba(255,255,255,0.96) 0 38%, transparent 39%),
-            radial-gradient(110% 76% at 50% 34%, rgba(203,213,225,0.38) 0 40%, transparent 41%);
-          filter: drop-shadow(0 -28px 44px rgba(15, 23, 42, 0.12));
-          animation: resumeWaveBottom 18s ease-in-out infinite alternate;
-        }
-
-        .resume-wave-layer {
+        .resume-wave-field {
           position: absolute;
           inset: 0;
-          z-index: -1;
+          z-index: 0;
           pointer-events: none;
           overflow: hidden;
         }
 
-        .resume-wave-layer span {
+        .resume-wave-background > *:not(.resume-wave-field) {
+          position: relative;
+          z-index: 1;
+        }
+
+        .resume-wave-field .wave {
           position: absolute;
           left: -20%;
           width: 140%;
-          height: 90px;
           border-radius: 999px;
+          pointer-events: none;
+          will-change: transform;
+          transform-origin: center;
+          filter: blur(1px);
+        }
+
+        .resume-wave-field .wave-1 {
+          top: 8%;
+          height: 180px;
           background: linear-gradient(
             180deg,
-            rgba(255,255,255,0.96),
-            rgba(226,232,240,0.42)
+            rgba(255,255,255,0.92) 0%,
+            rgba(226,232,240,0.55) 100%
           );
           box-shadow:
-            0 18px 38px rgba(15, 23, 42, 0.08),
-            inset 0 12px 24px rgba(255, 255, 255, 0.9);
-          opacity: 0.65;
-          transform: rotate(-2deg);
-          animation: resumeSoftWave 16s ease-in-out infinite alternate;
+            0 20px 50px rgba(15,23,42,0.08),
+            inset 0 12px 30px rgba(255,255,255,0.9);
+          transform: rotate(-6deg);
+          animation: waveFloatA 18s ease-in-out infinite alternate;
         }
 
-        .resume-wave-layer span:nth-child(1) {
-          top: 100px;
-          animation-duration: 15s;
+        .resume-wave-field .wave-2 {
+          top: 18%;
+          height: 140px;
+          background: linear-gradient(
+            180deg,
+            rgba(255,255,255,0.78) 0%,
+            rgba(203,213,225,0.35) 100%
+          );
+          opacity: 0.8;
+          transform: rotate(5deg);
+          animation: waveFloatB 22s ease-in-out infinite alternate;
         }
 
-        .resume-wave-layer span:nth-child(2) {
-          top: 200px;
-          opacity: 0.45;
-          transform: rotate(2deg);
-          animation-duration: 19s;
+        .resume-wave-field .wave-3 {
+          top: 34%;
+          height: 170px;
+          background: linear-gradient(
+            180deg,
+            rgba(255,255,255,0.86) 0%,
+            rgba(226,232,240,0.40) 100%
+          );
+          opacity: 0.72;
+          transform: rotate(-4deg);
+          animation: waveFloatC 24s ease-in-out infinite alternate;
         }
 
-        .resume-wave-layer span:nth-child(3) {
-          bottom: 200px;
-          opacity: 0.5;
-          transform: rotate(-1.5deg);
-          animation-duration: 22s;
+        .resume-wave-field .wave-4 {
+          top: 48%;
+          height: 150px;
+          background: linear-gradient(
+            180deg,
+            rgba(255,255,255,0.74) 0%,
+            rgba(203,213,225,0.30) 100%
+          );
+          opacity: 0.68;
+          transform: rotate(4deg);
+          animation: waveFloatA 26s ease-in-out infinite alternate;
         }
 
-        .resume-wave-layer span:nth-child(4) {
-          bottom: 100px;
-          opacity: 0.38;
-          transform: rotate(1.5deg);
-          animation-duration: 24s;
+        .resume-wave-field .wave-5 {
+          top: 66%;
+          height: 180px;
+          background: linear-gradient(
+            180deg,
+            rgba(255,255,255,0.84) 0%,
+            rgba(226,232,240,0.34) 100%
+          );
+          opacity: 0.72;
+          transform: rotate(-5deg);
+          animation: waveFloatB 28s ease-in-out infinite alternate;
         }
 
-        .resume-wave-layer span:nth-child(5) {
-          top: 50%;
-          transform: translateY(-50%) rotate(1deg);
-          opacity: 0.3;
-          animation-duration: 28s;
+        .resume-wave-field .wave-6 {
+          top: 82%;
+          height: 160px;
+          background: linear-gradient(
+            180deg,
+            rgba(255,255,255,0.90) 0%,
+            rgba(203,213,225,0.28) 100%
+          );
+          opacity: 0.76;
+          transform: rotate(3deg);
+          animation: waveFloatC 30s ease-in-out infinite alternate;
         }
 
-        @keyframes resumeWaveTop {
+        @keyframes waveFloatA {
           from {
-            transform: translate3d(-24px, 0, 0) scaleX(1.02);
+            transform: translate3d(-40px, 0, 0) rotate(-6deg) scaleX(1.02);
           }
           to {
-            transform: translate3d(24px, 18px, 0) scaleX(1.06);
+            transform: translate3d(40px, 16px, 0) rotate(-2deg) scaleX(1.08);
           }
         }
 
-        @keyframes resumeWaveBottom {
+        @keyframes waveFloatB {
           from {
-            transform: translate3d(32px, 0, 0) scaleX(1.04);
+            transform: translate3d(34px, 0, 0) rotate(5deg) scaleX(1.03);
           }
           to {
-            transform: translate3d(-32px, -18px, 0) scaleX(1.08);
+            transform: translate3d(-34px, 14px, 0) rotate(1deg) scaleX(1.07);
           }
         }
 
-        @keyframes resumeSoftWave {
+        @keyframes waveFloatC {
           from {
-            transform: translate3d(-28px, 0, 0) rotate(-2deg);
+            transform: translate3d(-28px, 0, 0) rotate(-4deg) scaleX(1.01);
           }
           to {
-            transform: translate3d(28px, 12px, 0) rotate(2deg);
+            transform: translate3d(28px, 18px, 0) rotate(2deg) scaleX(1.06);
           }
         }
 
         @media (prefers-reduced-motion: reduce) {
-          .resume-wave-background::before,
-          .resume-wave-background::after,
-          .resume-wave-layer span {
+          .resume-wave-field .wave {
             animation: none;
           }
         }
 
         @media (max-width: 768px) {
-          .resume-wave-background::before {
-            height: 350px;
-            top: -120px;
-          }
-
-          .resume-wave-background::after {
-            height: 400px;
-            bottom: -120px;
-          }
-
-          .resume-wave-layer span {
-            height: 70px;
-            opacity: 0.42;
-          }
-        }
-
-        .resume-wave-center {
-          position: absolute;
-          inset: 0;
-          z-index: -1;
-          pointer-events: none;
-          overflow: hidden;
-        }
-
-        .resume-wave-center span {
-          position: absolute;
-          left: -18%;
-          width: 136%;
-          height: 115px;
-          border-radius: 999px;
-          background:
-            linear-gradient(
-              180deg,
-              rgba(255, 255, 255, 0.92) 0%,
-              rgba(248, 250, 252, 0.82) 42%,
-              rgba(203, 213, 225, 0.30) 100%
-            );
-          box-shadow:
-            0 22px 46px rgba(15, 23, 42, 0.055),
-            inset 0 14px 28px rgba(255, 255, 255, 0.92),
-            inset 0 -12px 24px rgba(148, 163, 184, 0.12);
-          opacity: 0.48;
-          will-change: transform;
-          animation: resumeCenterWave 20s ease-in-out infinite alternate;
-        }
-
-        .resume-wave-center span:nth-child(1) {
-          top: 28%;
-          transform: rotate(-1.4deg);
-          animation-duration: 18s;
-        }
-
-        .resume-wave-center span:nth-child(2) {
-          top: 38%;
-          opacity: 0.42;
-          transform: rotate(1.2deg);
-          animation-duration: 22s;
-        }
-
-        .resume-wave-center span:nth-child(3) {
-          top: 49%;
-          opacity: 0.38;
-          transform: rotate(-1deg);
-          animation-duration: 24s;
-        }
-
-        .resume-wave-center span:nth-child(4) {
-          top: 60%;
-          opacity: 0.34;
-          transform: rotate(1.1deg);
-          animation-duration: 26s;
-        }
-
-        .resume-wave-center span:nth-child(5) {
-          top: 71%;
-          opacity: 0.30;
-          transform: rotate(-0.9deg);
-          animation-duration: 28s;
-        }
-
-        @keyframes resumeCenterWave {
-          from {
-            transform: translate3d(-26px, 0, 0) rotate(-1.2deg) scaleX(1.02);
-          }
-          to {
-            transform: translate3d(26px, 12px, 0) rotate(1.2deg) scaleX(1.05);
-          }
-        }
-
-        @media (prefers-reduced-motion: reduce) {
-          .resume-wave-center span {
-            animation: none;
-          }
-        }
-
-        @media (max-width: 768px) {
-          .resume-wave-center span {
-            height: 78px;
-            opacity: 0.34;
-          }
-
-          .resume-wave-center span:nth-child(1) { top: 26%; }
-          .resume-wave-center span:nth-child(2) { top: 38%; }
-          .resume-wave-center span:nth-child(3) { top: 50%; }
-          .resume-wave-center span:nth-child(4) { top: 62%; }
-          .resume-wave-center span:nth-child(5) { top: 74%; }
+          .resume-wave-field .wave-1 { top: 10%; height: 120px; }
+          .resume-wave-field .wave-2 { top: 22%; height: 100px; }
+          .resume-wave-field .wave-3 { top: 38%; height: 120px; }
+          .resume-wave-field .wave-4 { top: 53%; height: 110px; }
+          .resume-wave-field .wave-5 { top: 69%; height: 120px; }
+          .resume-wave-field .wave-6 { top: 84%; height: 110px; }
         }
       `}</style>
       <div className="min-h-screen text-gray-900 relative overflow-hidden resume-wave-background">
-        {/* Wave layer for additional depth */}
-        <div className="resume-wave-layer" aria-hidden="true">
-          <span />
-          <span />
-          <span />
-          <span />
-          <span />
-        </div>
-        {/* Center wave layer */}
-        <div className="resume-wave-center" aria-hidden="true">
-          <span />
-          <span />
-          <span />
-          <span />
-          <span />
+        {/* Wave field - full screen waves */}
+        <div className="resume-wave-field" aria-hidden="true">
+          <span className="wave wave-1" />
+          <span className="wave wave-2" />
+          <span className="wave wave-3" />
+          <span className="wave wave-4" />
+          <span className="wave wave-5" />
+          <span className="wave wave-6" />
         </div>
 
       {/* Language Toggle - Mobile */}
