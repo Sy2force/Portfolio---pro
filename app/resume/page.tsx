@@ -172,9 +172,6 @@ export default function ResumePage() {
                 <h3 className="text-5xl font-black text-gray-900">
                   English Resume
                 </h3>
-                <span className="px-6 py-4 bg-gradient-to-r from-blue-600 to-blue-700 text-white text-xl font-black rounded-full shadow-2xl shadow-blue-500/40">
-                  1 page
-                </span>
               </div>
               <p className="text-2xl text-gray-700 mb-12 leading-relaxed flex-grow relative z-10 font-semibold">
                 Clean one-page PDF optimized for LinkedIn, startups and tech applications.
@@ -227,9 +224,6 @@ export default function ResumePage() {
                 <h3 className="text-5xl font-black text-gray-900">
                   CV Français
                 </h3>
-                <span className="px-6 py-4 bg-gradient-to-r from-purple-600 to-purple-700 text-white text-xl font-black rounded-full shadow-2xl shadow-purple-500/40">
-                  1 page
-                </span>
               </div>
               <p className="text-2xl text-gray-700 mb-12 leading-relaxed flex-grow relative z-10 font-semibold">
                 CV professionnel en une page, optimisé pour candidatures tech et startups.
