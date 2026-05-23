@@ -193,6 +193,12 @@ export const CVDocument: React.FC<CVDocumentProps> = ({ content }) => (
             <Text style={styles.sidebarText}>{content.header.location}</Text>
             <Text style={styles.sidebarText}>{content.header.phone}</Text>
             <Text style={styles.sidebarText}>{content.header.email}</Text>
+            {content.header.portfolio && <Text style={styles.sidebarTextBold}>Portfolio</Text>}
+            {content.header.portfolio && <Text style={styles.sidebarText}>{content.header.portfolio}</Text>}
+            {content.header.github && <Text style={styles.sidebarTextBold}>GitHub</Text>}
+            {content.header.github && <Text style={styles.sidebarText}>{content.header.github}</Text>}
+            {content.header.linkedin && <Text style={styles.sidebarTextBold}>LinkedIn</Text>}
+            {content.header.linkedin && <Text style={styles.sidebarText}>{content.header.linkedin}</Text>}
           </View>
 
           {/* Skills */}

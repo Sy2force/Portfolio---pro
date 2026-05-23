@@ -268,19 +268,19 @@ export const cvContentEN: CVContent = {
     categories: [
       {
         name: "Frontend",
-        skills: "React, Next.js, TypeScript, JavaScript, HTML5, CSS3, Tailwind CSS, Framer Motion"
+        skills: "React, Next.js, TypeScript, JavaScript\nHTML5, CSS3, Tailwind CSS"
       },
       {
         name: "Backend",
-        skills: "Node.js, Express.js, Python, Django, DRF, REST APIs, JWT Auth, Protected Routes, MongoDB, PostgreSQL"
+        skills: "Node.js, Express.js, Python, Django\nDRF, REST APIs, JWT Auth\nMongoDB, PostgreSQL"
       },
       {
-        name: "Tools & Deployment",
-        skills: "Git, GitHub, Docker, Vercel, Render, Postman, Swagger, API Documentation"
+        name: "Tools",
+        skills: "Git, GitHub, Docker\nVercel, Render, Swagger"
       },
       {
-        name: "Digital & Design",
-        skills: "Web Design, Landing Pages, UX Writing, SEO, Digital Marketing"
+        name: "Design",
+        skills: "Web Design, Landing Pages\nUX Writing, SEO"
       }
     ]
   },
@@ -399,19 +399,19 @@ export const cvContentFR: CVContent = {
     categories: [
       {
         name: "Frontend",
-        skills: "React, Next.js, TypeScript, JavaScript, HTML5, CSS3, Tailwind CSS, Framer Motion"
+        skills: "React, Next.js, TypeScript, JavaScript\nHTML5, CSS3, Tailwind CSS"
       },
       {
         name: "Backend",
-        skills: "Node.js, Express.js, Python, Django, DRF, API REST, JWT Auth, Routes Protégées, MongoDB, PostgreSQL"
+        skills: "Node.js, Express.js, Python, Django\nDRF, API REST, JWT Auth\nMongoDB, PostgreSQL"
       },
       {
-        name: "Outils & Déploiement",
-        skills: "Git, GitHub, Docker, Vercel, Render, Postman, Swagger, Documentation API"
+        name: "Outils",
+        skills: "Git, GitHub, Docker\nVercel, Render, Swagger"
       },
       {
-        name: "Digital & Design",
-        skills: "Web Design, Landing Pages, Rédaction UX, SEO, Marketing Digital"
+        name: "Design",
+        skills: "Web Design, Landing Pages\nRédaction UX, SEO"
       }
     ]
   },
