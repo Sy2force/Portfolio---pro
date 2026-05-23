@@ -54,8 +54,8 @@ export default function ResumePage() {
         }
 
         .resume-wave-background::before {
-          top: -110px;
-          height: 420px;
+          top: -150px;
+          height: 500px;
           opacity: 0.95;
           background:
             radial-gradient(120% 80% at 50% 100%, rgba(255,255,255,0.98) 0 36%, transparent 37%),
@@ -68,7 +68,7 @@ export default function ResumePage() {
 
         .resume-wave-background::after {
           bottom: -150px;
-          height: 520px;
+          height: 550px;
           opacity: 0.98;
           background:
             radial-gradient(125% 85% at 50% 0%, rgba(255,255,255,0.98) 0 34%, transparent 35%),
@@ -107,29 +107,36 @@ export default function ResumePage() {
         }
 
         .resume-wave-layer span:nth-child(1) {
-          top: 130px;
+          top: 100px;
           animation-duration: 15s;
         }
 
         .resume-wave-layer span:nth-child(2) {
-          top: 210px;
+          top: 200px;
           opacity: 0.45;
           transform: rotate(2deg);
           animation-duration: 19s;
         }
 
         .resume-wave-layer span:nth-child(3) {
-          bottom: 170px;
+          bottom: 200px;
           opacity: 0.5;
           transform: rotate(-1.5deg);
           animation-duration: 22s;
         }
 
         .resume-wave-layer span:nth-child(4) {
-          bottom: 85px;
+          bottom: 100px;
           opacity: 0.38;
           transform: rotate(1.5deg);
           animation-duration: 24s;
+        }
+
+        .resume-wave-layer span:nth-child(5) {
+          top: 50%;
+          transform: translateY(-50%) rotate(1deg);
+          opacity: 0.3;
+          animation-duration: 28s;
         }
 
         @keyframes resumeWaveTop {
@@ -169,17 +176,17 @@ export default function ResumePage() {
 
         @media (max-width: 768px) {
           .resume-wave-background::before {
-            height: 300px;
-            top: -90px;
+            height: 350px;
+            top: -120px;
           }
 
           .resume-wave-background::after {
-            height: 360px;
+            height: 400px;
             bottom: -120px;
           }
 
           .resume-wave-layer span {
-            height: 64px;
+            height: 70px;
             opacity: 0.42;
           }
         }
@@ -187,6 +194,7 @@ export default function ResumePage() {
       <div className="min-h-screen text-gray-900 relative overflow-hidden resume-wave-background">
         {/* Wave layer for additional depth */}
         <div className="resume-wave-layer" aria-hidden="true">
+          <span />
           <span />
           <span />
           <span />
