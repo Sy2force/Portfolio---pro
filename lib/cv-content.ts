@@ -386,9 +386,9 @@ export const cvContentFR: CVContent = {
     location: "Jérusalem, Israël",
     phone: "+972 50 123 4567",
     email: "shayacoca20@gmail.com",
-    portfolio: "",
-    linkedin: "",
-    github: ""
+    portfolio: "shay-acoca-portfolio.vercel.app",
+    linkedin: "linkedin.com/in/shay-acoca-046311302",
+    github: "github.com/Sy2force"
   },
   summary: {
     title: "Profil professionnel",
@@ -399,19 +399,19 @@ export const cvContentFR: CVContent = {
     categories: [
       {
         name: "Frontend",
-        skills: "React, Next.js, JavaScript, TypeScript, HTML5, CSS3, Tailwind CSS"
+        skills: "React, Next.js, TypeScript, JavaScript, HTML5, CSS3, Tailwind CSS, Framer Motion"
       },
       {
         name: "Backend",
-        skills: "Node.js, Express.js, Django, API REST, JWT, MongoDB, PostgreSQL"
+        skills: "Node.js, Express.js, Python, Django, DRF, API REST, JWT Auth, Routes Protégées, MongoDB, PostgreSQL"
       },
       {
-        name: "Outils",
-        skills: "Git, GitHub, Vercel, Render, Postman, Docker, Swagger"
+        name: "Outils & Déploiement",
+        skills: "Git, GitHub, Docker, Vercel, Render, Postman, Swagger, Documentation API"
       },
       {
-        name: "Digital",
-        skills: "Web Design, Landing Pages, Marketing Digital, SEO, UX Writing"
+        name: "Digital & Design",
+        skills: "Web Design, Landing Pages, Rédaction UX, SEO, Marketing Digital"
       }
     ]
   },
@@ -454,9 +454,10 @@ export const cvContentFR: CVContent = {
         title: "Développeur Full Stack — Projets personnels & Portfolio",
         date: "2024 – Présent",
         bullets: [
-          "Développé/déployé apps web modernes (React, Next.js, Node.js, Express, MongoDB, Django).",
-          "Interfaces frontend responsives, API backend RESTful, systèmes authentification JWT.",
-          "Git, GitHub, Vercel, Render, MongoDB Atlas pour contrôle version et déploiement."
+          "Développé et déployé applications web modernes avec React, Next.js, Node.js, Express, MongoDB, Django et PostgreSQL",
+          "Interfaces frontend responsives et APIs backend RESTful avec authentification JWT et routes protégées",
+          "Contrôle version Git, CI/CD avec GitHub, déploiement Vercel et Render",
+          "Conçu et intégré MongoDB Atlas pour gestion données évolutive"
         ]
       },
       {
