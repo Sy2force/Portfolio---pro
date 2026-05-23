@@ -214,7 +214,7 @@ export default function ResumePage() {
                 rotateY: 2,
                 rotateX: 2
               }}
-              className="bg-white/95 backdrop-blur-xl border-3 border-gray-300 rounded-full p-4 md:p-20 hover:border-blue-600 transition-all duration-500 flex flex-col shadow-2xl hover:shadow-3xl hover:shadow-blue-600/30 relative overflow-hidden"
+              className="bg-white/95 backdrop-blur-xl border-3 border-gray-300 rounded-3xl p-4 md:p-20 hover:border-blue-600 transition-all duration-500 flex flex-col shadow-2xl hover:shadow-3xl hover:shadow-blue-600/30 relative overflow-hidden"
               style={{
                 perspective: '1000px'
               }}
@@ -249,13 +249,13 @@ export default function ResumePage() {
                 <a
                   href="/Shay_Acoca_CV_EN.pdf"
                   download
-                  className="w-full px-4 py-2 md:px-8 md:py-3 bg-gradient-to-br from-blue-600 via-blue-500 to-blue-600 hover:from-blue-700 hover:via-blue-600 hover:to-blue-700 text-white rounded-full transition-all duration-400 font-black text-center shadow-2xl shadow-blue-600/50 hover:shadow-3xl hover:shadow-blue-700/60 text-xs md:text-lg active:scale-95 border-2 border-blue-400/30"
+                  className="w-full px-3 py-1 md:px-6 md:py-2 bg-gradient-to-br from-blue-600 via-blue-500 to-blue-600 hover:from-blue-700 hover:via-blue-600 hover:to-blue-700 text-white rounded-full transition-all duration-400 font-black text-center shadow-2xl shadow-blue-600/50 hover:shadow-3xl hover:shadow-blue-700/60 text-xs md:text-base active:scale-95 border-2 border-blue-400/30"
                 >
                   {t.englishCard.download}
                 </a>
                 <button
                   onClick={() => handlePrint("/Shay_Acoca_CV_EN.pdf")}
-                  className="w-full px-4 py-2 md:px-8 md:py-3 bg-gradient-to-br from-gray-800 via-gray-700 to-gray-800 hover:from-gray-700 hover:via-gray-600 hover:to-gray-700 text-white rounded-full transition-all duration-400 font-black text-center shadow-2xl shadow-gray-600/50 hover:shadow-3xl hover:shadow-gray-700/60 text-xs md:text-lg active:scale-95 border-2 border-gray-500/30"
+                  className="w-full px-3 py-1 md:px-6 md:py-2 bg-gradient-to-br from-gray-800 via-gray-700 to-gray-800 hover:from-gray-700 hover:via-gray-600 hover:to-gray-700 text-white rounded-full transition-all duration-400 font-black text-center shadow-2xl shadow-gray-600/50 hover:shadow-3xl hover:shadow-gray-700/60 text-xs md:text-base active:scale-95 border-2 border-gray-500/30"
                 >
                   {t.englishCard.print}
                 </button>
@@ -272,7 +272,7 @@ export default function ResumePage() {
                 rotateY: -2,
                 rotateX: 2
               }}
-              className="bg-white/95 backdrop-blur-xl border-3 border-gray-300 rounded-full p-4 md:p-20 hover:border-purple-600 transition-all duration-500 flex flex-col shadow-2xl hover:shadow-3xl hover:shadow-purple-600/30 relative overflow-hidden"
+              className="bg-white/95 backdrop-blur-xl border-3 border-gray-300 rounded-3xl p-4 md:p-20 hover:border-purple-600 transition-all duration-500 flex flex-col shadow-2xl hover:shadow-3xl hover:shadow-purple-600/30 relative overflow-hidden"
               style={{
                 perspective: '1000px'
               }}
@@ -307,13 +307,13 @@ export default function ResumePage() {
                 <a
                   href="/Shay_Acoca_CV_FR.pdf"
                   download
-                  className="w-full px-4 py-2 md:px-8 md:py-3 bg-gradient-to-br from-purple-600 via-purple-500 to-purple-600 hover:from-purple-700 hover:via-purple-600 hover:to-purple-700 text-white rounded-full transition-all duration-400 font-black text-center shadow-2xl shadow-purple-600/50 hover:shadow-3xl hover:shadow-purple-700/60 text-xs md:text-lg active:scale-95 border-2 border-purple-400/30"
+                  className="w-full px-3 py-1 md:px-6 md:py-2 bg-gradient-to-br from-purple-600 via-purple-500 to-purple-600 hover:from-purple-700 hover:via-purple-600 hover:to-purple-700 text-white rounded-full transition-all duration-400 font-black text-center shadow-2xl shadow-purple-600/50 hover:shadow-3xl hover:shadow-purple-700/60 text-xs md:text-base active:scale-95 border-2 border-purple-400/30"
                 >
                   {t.frenchCard.download}
                 </a>
                 <button
                   onClick={() => handlePrint("/Shay_Acoca_CV_FR.pdf")}
-                  className="w-full px-4 py-2 md:px-8 md:py-3 bg-gradient-to-br from-gray-800 via-gray-700 to-gray-800 hover:from-gray-700 hover:via-gray-600 hover:to-gray-700 text-white rounded-full transition-all duration-400 font-black text-center shadow-2xl shadow-gray-600/50 hover:shadow-3xl hover:shadow-gray-700/60 text-xs md:text-lg active:scale-95 border-2 border-gray-500/30"
+                  className="w-full px-3 py-1 md:px-6 md:py-2 bg-gradient-to-br from-gray-800 via-gray-700 to-gray-800 hover:from-gray-700 hover:via-gray-600 hover:to-gray-700 text-white rounded-full transition-all duration-400 font-black text-center shadow-2xl shadow-gray-600/50 hover:shadow-3xl hover:shadow-gray-700/60 text-xs md:text-base active:scale-95 border-2 border-gray-500/30"
                 >
                   {t.frenchCard.print}
                 </button>
