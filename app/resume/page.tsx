@@ -33,7 +33,7 @@ export default function ResumePage() {
 
         .resume-wave-background > *:not(.resume-wave-field) {
           position: relative;
-          z-index: 1;
+          z-index: 10;
         }
 
         .resume-wave-field .wave-svg {
@@ -46,28 +46,28 @@ export default function ResumePage() {
         .resume-wave-field .wave-svg-1 {
           top: 10%;
           height: 180px;
-          opacity: 0.6;
+          opacity: 0.15;
           animation: waveSvgFloat 5s ease-in-out infinite alternate;
         }
 
         .resume-wave-field .wave-svg-2 {
           top: 30%;
           height: 150px;
-          opacity: 0.5;
+          opacity: 0.12;
           animation: waveSvgFloat 6s ease-in-out infinite alternate-reverse;
         }
 
         .resume-wave-field .wave-svg-3 {
           top: 50%;
           height: 140px;
-          opacity: 0.4;
+          opacity: 0.1;
           animation: waveSvgFloat 7s ease-in-out infinite alternate;
         }
 
         .resume-wave-field .wave-svg-4 {
           top: 70%;
           height: 160px;
-          opacity: 0.5;
+          opacity: 0.08;
           animation: waveSvgFloat 8s ease-in-out infinite alternate-reverse;
         }
 
@@ -97,16 +97,16 @@ export default function ResumePage() {
         {/* Wave field - full screen SVG waves */}
         <div className="resume-wave-field" aria-hidden="true">
           <svg className="wave-svg wave-svg-1" viewBox="0 0 1440 320" preserveAspectRatio="none">
-            <path fill="rgba(30, 58, 138, 0.3)" fillOpacity="1" d="M0,224L60,213.3C120,203,240,181,360,149.3C480,117,600,75,720,48C840,21,960,11,1080,16C1200,21,1320,43,1380,53.3L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+            <path fill="rgba(30, 58, 138, 0.15)" fillOpacity="1" d="M0,224L60,213.3C120,203,240,181,360,149.3C480,117,600,75,720,48C840,21,960,11,1080,16C1200,21,1320,43,1380,53.3L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
           </svg>
           <svg className="wave-svg wave-svg-2" viewBox="0 0 1440 320" preserveAspectRatio="none">
-            <path fill="rgba(30, 64, 175, 0.25)" fillOpacity="1" d="M0,192L48,197.3C96,203,192,213,288,229.3C384,245,480,267,576,250.7C672,235,768,181,864,181.3C960,181,1056,235,1152,234.7C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            <path fill="rgba(30, 64, 175, 0.12)" fillOpacity="1" d="M0,192L48,197.3C96,203,192,213,288,229.3C384,245,480,267,576,250.7C672,235,768,181,864,181.3C960,181,1056,235,1152,234.7C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
           </svg>
           <svg className="wave-svg wave-svg-3" viewBox="0 0 1440 320" preserveAspectRatio="none">
-            <path fill="rgba(30, 58, 138, 0.2)" fillOpacity="1" d="M0,160L80,181.3C160,203,320,245,480,245.3C640,245,800,203,960,186.7C1120,171,1280,181,1360,186.7L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+            <path fill="rgba(30, 58, 138, 0.05)" fillOpacity="1" d="M0,160L80,181.3C160,203,320,245,480,245.3C640,245,800,203,960,186.7C1120,171,1280,181,1360,186.7L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
           </svg>
           <svg className="wave-svg wave-svg-4" viewBox="0 0 1440 320" preserveAspectRatio="none">
-            <path fill="rgba(30, 64, 175, 0.15)" fillOpacity="1" d="M0,128L60,144C120,160,240,192,360,197.3C480,203,600,181,720,165.3C840,149,960,139,1080,144C1200,149,1320,171,1380,181.3L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+            <path fill="rgba(30, 64, 175, 0.04)" fillOpacity="1" d="M0,128L60,144C120,160,240,192,360,197.3C480,203,600,181,720,165.3C840,149,960,139,1080,144C1200,149,1320,171,1380,181.3L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
           </svg>
         </div>
 
