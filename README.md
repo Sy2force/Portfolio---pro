@@ -1,118 +1,156 @@
-# Shay Acoca Portfolio
+# Structure du Projet Portfolio
 
-A modern portfolio built with Next.js 14, TypeScript, Tailwind CSS and MongoDB Atlas to showcase my full stack projects, capture contact messages and host project comments.
+## Racine du Projet
 
-## About
+### Fichiers de Configuration
 
-This portfolio is designed to present my projects clearly and professionally for developer opportunities. It includes a private admin dashboard, a MongoDB-backed contact form and per-project visitor comments.
+- package.json - Dependances et scripts du projet
+- package-lock.json - Lockfile des dependances
+- tsconfig.json - Configuration TypeScript
+- tsconfig.tsbuildinfo - Fichier de build TypeScript
+- next.config.js - Configuration Next.js
+- tailwind.config.ts - Configuration Tailwind CSS
+- postcss.config.js - Configuration PostCSS
+- .eslintrc.json - Configuration ESLint
+- jest.config.js - Configuration Jest pour les tests
+- jest.setup.js - Setup initial pour les tests
+- .gitignore - Fichiers ignores par Git
+- .env.local - Variables d environnement locales
+- .env.example - Exemple de variables d environnement
+- .env.local.example - Exemple de variables locales
+- next-env.d.ts - Types TypeScript pour Next.js
 
-## 🚀 Tech Stack
+### Fichiers de Documentation
 
-- **Framework**: Next.js 14.2 (App Router)
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS
-- **Animations**: Framer Motion
-- **Database**: MongoDB Atlas + Mongoose
-- **Translations**: English & French support
-- **Deployment**: Vercel / Render compatible
+- README.md - Documentation principale du projet
+- PROJECT_STRUCTURE.md - Ce fichier, structure du projet
+- RENDER_DEPLOYMENT_GUIDE.md - Guide de deploiement sur Render
+- RENDER_SETUP_INSTRUCTIONS.md - Instructions de setup Render
+- LINKEDIN_TEXTS.md - Textes pour LinkedIn
+- PORTFOLIO_COMPLETE_CONTENT.md - Contenu complet du portfolio
 
-## MongoDB Admin
+### Fichiers de Deploiement
 
-This project ships with a full backend on top of Next.js App Router:
+- render.yaml - Configuration de deploiement Render
+- vercel.json - Configuration de deploiement Vercel
 
-- `/api/contact` — public POST + admin-only GET (Bearer token)
-- `/api/contact/[id]` — admin-only PATCH (status) + DELETE
-- `/api/comments` — public GET + POST per project
-- `/api/comments/[id]` — DELETE restricted to the original author email
-- `/api/auth` — admin login (compares against `ADMIN_PASSWORD`)
-- `/admin` — private dashboard with stats, filters, status update, delete
+## Dossier app
 
-### Required environment variables
+### Fichiers Principaux
 
-Create a local `.env.local` (never commit it):
+- layout.tsx - Layout principal de l application
+- page.tsx - Page d accueil du portfolio
+- globals.css - Styles globaux CSS
 
-```env
-MONGODB_URI=mongodb+srv://YOUR_USER:YOUR_PASSWORD@cluster0.ticelk0.mongodb.net/portfolio?retryWrites=true&w=majority&appName=Cluster0
-ADMIN_PASSWORD=admin123
-```
+### Dossier admin
 
-> ⚠️ Replace `admin123` with a strong password before deploying to production.
-> ⚠️ If your MongoDB password was ever exposed (committed, screenshotted, sent in chat), rotate it immediately in MongoDB Atlas → Database Access.
+- page.tsx - Page d administration pour gerer le contenu
 
-A safe template is provided in `.env.example`. The file `.env.local` is git-ignored.
+### Dossier api
 
-### Install & run
+#### Dossier auth
+- route.ts - Endpoint d authentification
 
-```bash
-npm install
-npm run dev
-```
+#### Dossier comments
+- route.ts - Endpoint principal pour les commentaires
+- [id]/route.ts - Endpoint pour les commentaires par ID
 
-Then open:
+#### Dossier contact
+- route.ts - Endpoint principal pour les messages de contact
+- [id]/route.ts - Endpoint pour les messages de contact par ID
 
-- Public site: http://localhost:3000
-- Admin dashboard: http://localhost:3000/admin
+### Dossier resume
 
-### Build
+- page.tsx - Page de telechargement des CV avec traduction
+- __tests__/page.test.tsx - Tests unitaires pour la page resume
 
-```bash
-npm run build
-npm start
-```
+## Dossier components
 
-### Manual tests
+### Composants de l Interface
 
-1. **Homepage** — verify visible info: `shayacoca20@gmail.com`, `053-3700551`, Jerusalem, Israel.
-2. **Contact form** — submit a message of type `recruteur`, expect success state and a new MongoDB document.
-3. **Admin** — open `/admin`, wrong password is rejected, `admin123` is accepted, the message appears in the list, status can be changed, deletion works.
-4. **Comments** — open any project card, click "Voir / ajouter des commentaires", post a comment, refresh the page → comment still visible, delete button only appears for comments you own (tracked in `localStorage`).
-5. **Build** — `npm run build` exits without errors.
+- about.tsx - Section a propos
+- contact.tsx - Formulaire de contact
+- experience.tsx - Section experience professionnelle
+- footer.tsx - Pied de page
+- hero.tsx - Section principale avec titre et description
+- navbar.tsx - Barre de navigation
+- other-projects.tsx - Section autres projets
+- project-card.tsx - Carte de projet individuelle
+- project-comments.tsx - Systeme de commentaires sur projets
+- projects.tsx - Section projets
+- section-title.tsx - Titre de section reutilisable
+- skills.tsx - Section competences techniques
+- why-hire-me.tsx - Section pourquoi me recruter
 
-## 📁 Project Structure (key files)
+## Dossier lib
 
-```
-app/
-├── admin/page.tsx              # Private admin dashboard
-├── api/
-│   ├── auth/route.ts           # Admin password check
-│   ├── contact/route.ts        # POST contact, GET messages (admin)
-│   ├── contact/[id]/route.ts   # PATCH/DELETE messages (admin)
-│   ├── comments/route.ts       # GET/POST project comments
-│   └── comments/[id]/route.ts  # DELETE own comment
-├── layout.tsx
-└── page.tsx                    # Homepage
-components/
-├── contact.tsx                 # Contact form (MongoDB-powered)
-├── project-card.tsx            # Project card + comments toggle
-├── project-comments.tsx        # Comments per project
-├── hero.tsx                    # Hero section
-└── ...
-lib/
-├── mongodb.ts                  # Mongoose connection cache
-├── models/
-│   ├── ContactMessage.ts       # Mongoose model (timestamps + status)
-│   └── Comment.ts              # Mongoose model
-└── translations.ts             # i18n (Jerusalem, Israel)
-data/
-└── projects.ts                 # Project data (FitWell URL updated)
-```
+### Fichiers de Logique
 
-## Security checklist
+- cv-content.ts - Contenu des CV anglais et francais
+- cv-template.tsx - Template pour generer les CV en PDF
+- language-context.tsx - Contexte React pour la gestion des langues
+- mongodb.ts - Configuration de la connexion MongoDB
+- translations.ts - Traductions pour tout le site
+- utils.ts - Fonctions utilitaires
 
-- `.env.local` is in `.gitignore` and must never be committed.
-- The MongoDB password used during setup must be rotated if it was ever shared in plain text.
-- `ADMIN_PASSWORD` should be replaced with a strong value in production.
-- Admin endpoints (`GET /api/contact`, `PATCH/DELETE /api/contact/[id]`) require an `Authorization: Bearer <ADMIN_PASSWORD>` header.
+### Dossier models
 
-## Features
+- Comment.ts - Schema de donnees pour les commentaires
+- ContactMessage.ts - Schema de donnees pour les messages de contact
 
-- Fully responsive Tailwind UI
-- Bilingual content (English / French)
-- MongoDB-backed contact form (recruteur, startup, partenariat, autre)
-- Per-project comments with author-only delete (via `localStorage`)
-- Private admin dashboard with stats, filters and CRUD on messages
+## Dossier data
 
----
+### Donnees du Portfolio
 
-Built with Next.js 14, TypeScript, Tailwind CSS and MongoDB.
+- experience.ts - Donnees de l experience professionnelle
+- projects.ts - Donnees des projets
+- skills.ts - Donnees des competences techniques
 
+## Dossier public
+
+### Fichiers Statiques
+
+- Shay_Acoca_CV_EN.pdf - CV en anglais
+- Shay_Acoca_CV_FR.pdf - CV en francais
+- projects/ - Dossier pour les images de projets (vide actuellement)
+
+## Dossier scripts
+
+- Contient les scripts d automatisation (vide actuellement)
+
+## Dossiers Generes
+
+- .next/ - Fichiers de build Next.js
+- .swc/ - Fichiers de compilation SWC
+- .vercel/ - Fichiers de configuration Vercel
+- node_modules/ - Dependances npm
+
+## Architecture
+
+### Frameworks et Technologies
+
+- Next.js 14 - Framework React
+- React 18 - Library UI
+- TypeScript - Typage statique
+- Tailwind CSS - Framework CSS
+- Framer Motion - Animations
+- MongoDB - Base de donnees
+- Mongoose - ODM pour MongoDB
+
+### Fonctionnalites Principales
+
+- Site bilingue anglais et francais
+- Systeme de traduction dynamique
+- Generation de CV en PDF
+- Formulaire de contact
+- Systeme de commentaires sur projets
+- Panel d administration
+- Responsive design mobile et desktop
+- Tests unitaires avec Jest
+
+### Deploiement
+
+- Vercel - Deploiement principal
+- Render - Deploiement alternatif
+- Support de variables d environnement
+- Configuration automatique
