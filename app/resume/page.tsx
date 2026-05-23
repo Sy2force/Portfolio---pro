@@ -186,10 +186,10 @@ export default function ResumePage() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="text-center mb-6 md:mb-8"
+          className="text-center mb-8 md:mb-10"
         >
           <motion.h1 
-            className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2 bg-gradient-to-r from-blue-400 via-blue-500 to-purple-600 bg-clip-text text-transparent"
+            className="text-3xl sm:text-4xl md:text-5xl font-bold mb-3 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 bg-clip-text text-transparent"
             animate={{
               backgroundPosition: ['0%', '100%', '0%']
             }}
@@ -201,10 +201,10 @@ export default function ResumePage() {
           >
             Resume / CV
           </motion.h1>
-          <h2 className="text-base md:text-lg text-gray-300 mb-3 font-light">
+          <h2 className="text-lg md:text-xl text-gray-800 mb-4 font-semibold">
             Download or print a clean, professional bilingual resume
           </h2>
-          <p className="text-xs md:text-sm text-gray-400 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed font-medium">
             Available in English and French. Optimized for startups, tech companies and professional applications.
           </p>
         </motion.div>
@@ -214,7 +214,7 @@ export default function ResumePage() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.1 }}
-          className="grid md:grid-cols-2 gap-3 md:gap-5 mb-6 md:mb-8"
+          className="grid md:grid-cols-2 gap-4 md:gap-6 mb-8 md:mb-10"
         >
           {/* English Resume Card */}
           <motion.div
@@ -226,7 +226,7 @@ export default function ResumePage() {
               rotateY: 2,
               rotateX: 2
             }}
-            className="bg-gradient-to-br from-gray-800/60 via-gray-800/40 to-gray-900/60 backdrop-blur-xl border border-gray-700/50 rounded-3xl p-5 md:p-6 hover:border-blue-500/50 transition-all duration-500 flex flex-col shadow-2xl hover:shadow-blue-500/20 relative overflow-hidden"
+            className="bg-white/95 backdrop-blur-xl border-2 border-gray-200 rounded-3xl p-6 md:p-8 hover:border-blue-500 transition-all duration-500 flex flex-col shadow-xl hover:shadow-2xl hover:shadow-blue-500/20 relative overflow-hidden"
             style={{
               perspective: '1000px'
             }}
@@ -234,29 +234,29 @@ export default function ResumePage() {
             {/* Card glow effect */}
             <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-purple-500/5 opacity-0 hover:opacity-100 transition-opacity duration-500" />
             
-            <div className="relative z-10 flex items-center justify-between mb-3">
-              <h3 className="text-lg md:text-xl font-bold text-white">
+            <div className="relative z-10 flex items-center justify-between mb-4">
+              <h3 className="text-xl md:text-2xl font-bold text-gray-900">
                 English Resume
               </h3>
-              <span className="px-3 py-1 bg-gradient-to-r from-blue-600/30 to-purple-600/30 text-blue-400 text-xs font-medium rounded-full border border-blue-500/30 backdrop-blur-sm">
+              <span className="px-4 py-2 bg-gradient-to-r from-blue-600 to-blue-700 text-white text-sm font-bold rounded-full shadow-lg shadow-blue-500/30">
                 1 page
               </span>
             </div>
-            <p className="text-xs md:text-sm text-gray-300 mb-4 leading-relaxed flex-grow relative z-10">
+            <p className="text-sm md:text-base text-gray-700 mb-6 leading-relaxed flex-grow relative z-10 font-medium">
               Clean one-page PDF optimized for LinkedIn, startups and tech applications.
             </p>
-            <div className="space-y-3 relative z-10">
+            <div className="space-y-4 relative z-10">
               <a
                 href="/Shay_Acoca_CV_EN.pdf"
                 download
-                className="block w-full px-4 py-2 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white rounded-xl transition-all duration-300 font-semibold text-center touch-manipulation active:scale-98 shadow-lg shadow-blue-500/30 hover:shadow-blue-500/50"
+                className="block w-full px-6 py-3 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white rounded-xl transition-all duration-300 font-bold text-center touch-manipulation active:scale-98 shadow-xl shadow-blue-500/40 hover:shadow-2xl hover:shadow-blue-500/50 text-lg"
                 aria-label="Download Shay Acoca English CV PDF"
               >
                 Download English PDF
               </a>
               <button
                 onClick={() => handlePrint("/Shay_Acoca_CV_EN.pdf")}
-                className="block w-full px-4 py-2 bg-gradient-to-r from-gray-700 to-gray-600 hover:from-gray-600 hover:to-gray-500 text-white rounded-xl transition-all duration-300 font-semibold text-center touch-manipulation active:scale-98 shadow-lg shadow-gray-500/30 hover:shadow-gray-500/50"
+                className="block w-full px-6 py-3 bg-gradient-to-r from-gray-700 to-gray-600 hover:from-gray-600 hover:to-gray-500 text-white rounded-xl transition-all duration-300 font-bold text-center touch-manipulation active:scale-98 shadow-xl shadow-gray-500/40 hover:shadow-2xl hover:shadow-gray-500/50 text-lg"
                 aria-label="Print Shay Acoca English CV"
               >
                 Print English CV
@@ -274,7 +274,7 @@ export default function ResumePage() {
               rotateY: -2,
               rotateX: 2
             }}
-            className="bg-gradient-to-br from-gray-800/60 via-gray-800/40 to-gray-900/60 backdrop-blur-xl border border-gray-700/50 rounded-3xl p-5 md:p-6 hover:border-purple-500/50 transition-all duration-500 flex flex-col shadow-2xl hover:shadow-purple-500/20 relative overflow-hidden"
+            className="bg-white/95 backdrop-blur-xl border-2 border-gray-200 rounded-3xl p-6 md:p-8 hover:border-purple-500 transition-all duration-500 flex flex-col shadow-xl hover:shadow-2xl hover:shadow-purple-500/20 relative overflow-hidden"
             style={{
               perspective: '1000px'
             }}
@@ -282,29 +282,29 @@ export default function ResumePage() {
             {/* Card glow effect */}
             <div className="absolute inset-0 bg-gradient-to-br from-purple-500/5 to-pink-500/5 opacity-0 hover:opacity-100 transition-opacity duration-500" />
             
-            <div className="relative z-10 flex items-center justify-between mb-3">
-              <h3 className="text-lg md:text-xl font-bold text-white">
+            <div className="relative z-10 flex items-center justify-between mb-4">
+              <h3 className="text-xl md:text-2xl font-bold text-gray-900">
                 CV Français
               </h3>
-              <span className="px-3 py-1 bg-gradient-to-r from-purple-600/30 to-pink-600/30 text-purple-400 text-xs font-medium rounded-full border border-purple-500/30 backdrop-blur-sm">
+              <span className="px-4 py-2 bg-gradient-to-r from-purple-600 to-purple-700 text-white text-sm font-bold rounded-full shadow-lg shadow-purple-500/30">
                 1 page
               </span>
             </div>
-            <p className="text-xs md:text-sm text-gray-300 mb-4 leading-relaxed flex-grow relative z-10">
+            <p className="text-sm md:text-base text-gray-700 mb-6 leading-relaxed flex-grow relative z-10 font-medium">
               CV professionnel en une page, optimisé pour candidatures tech et startups.
             </p>
-            <div className="space-y-3 relative z-10">
+            <div className="space-y-4 relative z-10">
               <a
                 href="/Shay_Acoca_CV_FR.pdf"
                 download
-                className="block w-full px-4 py-2 bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white rounded-xl transition-all duration-300 font-semibold text-center touch-manipulation active:scale-98 shadow-lg shadow-purple-500/30 hover:shadow-purple-500/50"
+                className="block w-full px-6 py-3 bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white rounded-xl transition-all duration-300 font-bold text-center touch-manipulation active:scale-98 shadow-xl shadow-purple-500/40 hover:shadow-2xl hover:shadow-purple-500/50 text-lg"
                 aria-label="Télécharger le CV français de Shay Acoca en PDF"
               >
                 Télécharger le PDF français
               </a>
               <button
                 onClick={() => handlePrint("/Shay_Acoca_CV_FR.pdf")}
-                className="block w-full px-4 py-2 bg-gradient-to-r from-gray-700 to-gray-600 hover:from-gray-600 hover:to-gray-500 text-white rounded-xl transition-all duration-300 font-semibold text-center touch-manipulation active:scale-98 shadow-lg shadow-gray-500/30 hover:shadow-gray-500/50"
+                className="block w-full px-6 py-3 bg-gradient-to-r from-gray-700 to-gray-600 hover:from-gray-600 hover:to-gray-500 text-white rounded-xl transition-all duration-300 font-bold text-center touch-manipulation active:scale-98 shadow-xl shadow-gray-500/40 hover:shadow-2xl hover:shadow-gray-500/50 text-lg"
                 aria-label="Imprimer le CV français"
               >
                 Imprimer le CV français
@@ -318,49 +318,49 @@ export default function ResumePage() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4 }}
-          className="bg-gradient-to-br from-gray-800/40 via-gray-800/30 to-gray-900/40 backdrop-blur-xl border border-gray-700/40 rounded-3xl p-5 md:p-6 mb-6 md:mb-8 relative overflow-hidden"
+          className="bg-white/95 backdrop-blur-xl border-2 border-gray-200 rounded-3xl p-6 md:p-8 mb-8 md:mb-10 relative overflow-hidden shadow-xl"
         >
           {/* Subtle gradient overlay */}
           <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-purple-500/5" />
           
           <div className="relative z-10">
-            <h3 className="text-base md:text-lg font-bold text-white mb-3 text-center">
+            <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-4 text-center">
               What&apos;s Inside
             </h3>
-            <div className="grid md:grid-cols-3 gap-3 md:gap-5 text-center">
+            <div className="grid md:grid-cols-3 gap-4 md:gap-6 text-center">
               <motion.div 
                 className="space-y-2"
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.2 }}
               >
-                <div className="text-xl md:text-2xl font-bold bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
+                <div className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">
                   3
                 </div>
-                <div className="text-xs md:text-sm text-gray-300">Selected Projects</div>
+                <div className="text-sm md:text-base text-gray-700 font-medium">Selected Projects</div>
               </motion.div>
               <motion.div 
                 className="space-y-2"
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.2 }}
               >
-                <div className="text-xl md:text-2xl font-bold bg-gradient-to-r from-purple-400 to-purple-600 bg-clip-text text-transparent">
+                <div className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-purple-600 to-purple-700 bg-clip-text text-transparent">
                   3
                 </div>
-                <div className="text-xs md:text-sm text-gray-300">Experience Items</div>
+                <div className="text-sm md:text-base text-gray-700 font-medium">Experience Items</div>
               </motion.div>
               <motion.div 
                 className="space-y-2"
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.2 }}
               >
-                <div className="text-xl md:text-2xl font-bold bg-gradient-to-r from-pink-400 to-pink-600 bg-clip-text text-transparent">
+                <div className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-pink-600 to-pink-700 bg-clip-text text-transparent">
                   2
                 </div>
-                <div className="text-xs md:text-sm text-gray-300">Educational Programs</div>
+                <div className="text-sm md:text-base text-gray-700 font-medium">Educational Programs</div>
               </motion.div>
             </div>
-            <div className="mt-3 md:mt-4 pt-3 md:pt-4 border-t border-gray-700/50 text-center">
-              <p className="text-xs text-gray-400">
+            <div className="mt-4 md:mt-6 pt-4 md:pt-6 border-t border-gray-200 text-center">
+              <p className="text-sm text-gray-600 font-medium">
                 Print-friendly design · Clean professional PDF · Optimized for A4
               </p>
             </div>
@@ -376,9 +376,9 @@ export default function ResumePage() {
         >
           <Link
             href="/"
-            className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-500/20 to-purple-500/20 hover:from-blue-500/30 hover:to-purple-500/30 text-blue-400 hover:text-blue-300 transition-all duration-300 font-medium touch-manipulation active:scale-95 text-xs md:text-sm px-4 py-2 rounded-xl backdrop-blur-sm border border-blue-500/20"
+            className="inline-flex items-center gap-2 bg-gradient-to-r from-gray-800 to-gray-700 hover:from-gray-700 hover:to-gray-600 text-white transition-all duration-300 font-bold touch-manipulation active:scale-95 text-sm md:text-base px-6 py-3 rounded-xl shadow-xl shadow-gray-500/30 hover:shadow-2xl hover:shadow-gray-500/50"
           >
-            <svg className="w-3 h-3 md:w-4 md:h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="w-4 h-4 md:w-5 md:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
             </svg>
             Back to Portfolio
