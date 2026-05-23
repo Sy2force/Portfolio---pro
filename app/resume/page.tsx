@@ -35,9 +35,7 @@ export default function ResumePage() {
           position: relative;
           min-height: 100vh;
           overflow: hidden;
-          isolation: isolate;
-          background:
-            linear-gradient(180deg, #ffffff 0%, #f8fafc 45%, #f1f5f9 100%);
+          background: linear-gradient(180deg, #ffffff 0%, #f8fafc 45%, #f1f5f9 100%);
         }
 
         .resume-wave-field {
@@ -61,67 +59,39 @@ export default function ResumePage() {
         }
 
         .resume-wave-field .wave-svg-1 {
-          top: 5%;
-          height: 200px;
-          opacity: 0.7;
-          animation: waveSvgFloat 4s ease-in-out infinite alternate;
+          top: 10%;
+          height: 180px;
+          opacity: 0.6;
+          animation: waveSvgFloat 5s ease-in-out infinite alternate;
         }
 
         .resume-wave-field .wave-svg-2 {
-          top: 15%;
-          height: 180px;
-          opacity: 0.6;
-          animation: waveSvgFloat 5s ease-in-out infinite alternate-reverse;
+          top: 30%;
+          height: 150px;
+          opacity: 0.5;
+          animation: waveSvgFloat 6s ease-in-out infinite alternate-reverse;
         }
 
         .resume-wave-field .wave-svg-3 {
-          top: 25%;
-          height: 160px;
-          opacity: 0.5;
-          animation: waveSvgFloat 6s ease-in-out infinite alternate;
+          top: 50%;
+          height: 140px;
+          opacity: 0.4;
+          animation: waveSvgFloat 7s ease-in-out infinite alternate;
         }
 
         .resume-wave-field .wave-svg-4 {
-          top: 35%;
-          height: 140px;
-          opacity: 0.45;
-          animation: waveSvgFloat 7s ease-in-out infinite alternate-reverse;
-        }
-
-        .resume-wave-field .wave-svg-5 {
-          top: 45%;
-          height: 150px;
-          opacity: 0.4;
-          animation: waveSvgFloat 8s ease-in-out infinite alternate;
-        }
-
-        .resume-wave-field .wave-svg-6 {
-          top: 55%;
-          height: 130px;
-          opacity: 0.35;
-          animation: waveSvgFloat 9s ease-in-out infinite alternate-reverse;
-        }
-
-        .resume-wave-field .wave-svg-7 {
-          top: 65%;
-          height: 140px;
-          opacity: 0.4;
-          animation: waveSvgFloat 10s ease-in-out infinite alternate;
-        }
-
-        .resume-wave-field .wave-svg-8 {
-          top: 75%;
+          top: 70%;
           height: 160px;
-          opacity: 0.45;
-          animation: waveSvgFloat 11s ease-in-out infinite alternate-reverse;
+          opacity: 0.5;
+          animation: waveSvgFloat 8s ease-in-out infinite alternate-reverse;
         }
 
         @keyframes waveSvgFloat {
           from {
-            transform: translateX(-20px);
+            transform: translateX(-15px);
           }
           to {
-            transform: translateX(20px);
+            transform: translateX(15px);
           }
         }
 
@@ -132,42 +102,26 @@ export default function ResumePage() {
         }
 
         @media (max-width: 768px) {
-          .resume-wave-field .wave-svg-1 { height: 120px; top: 8%; }
-          .resume-wave-field .wave-svg-2 { height: 110px; top: 18%; }
-          .resume-wave-field .wave-svg-3 { height: 100px; top: 28%; }
-          .resume-wave-field .wave-svg-4 { height: 90px; top: 38%; }
-          .resume-wave-field .wave-svg-5 { height: 95px; top: 48%; }
-          .resume-wave-field .wave-svg-6 { height: 85px; top: 58%; }
-          .resume-wave-field .wave-svg-7 { height: 90px; top: 68%; }
-          .resume-wave-field .wave-svg-8 { height: 100px; top: 78%; }
+          .resume-wave-field .wave-svg-1 { height: 120px; top: 12%; }
+          .resume-wave-field .wave-svg-2 { height: 100px; top: 32%; }
+          .resume-wave-field .wave-svg-3 { height: 90px; top: 52%; }
+          .resume-wave-field .wave-svg-4 { height: 100px; top: 72%; }
         }
       `}</style>
       <div className="min-h-screen text-gray-900 relative overflow-hidden resume-wave-background">
         {/* Wave field - full screen SVG waves */}
         <div className="resume-wave-field" aria-hidden="true">
           <svg className="wave-svg wave-svg-1" viewBox="0 0 1440 320" preserveAspectRatio="none">
-            <path fill="rgba(59, 130, 246, 0.15)" fillOpacity="1" d="M0,224L60,213.3C120,203,240,181,360,149.3C480,117,600,75,720,48C840,21,960,11,1080,16C1200,21,1320,43,1380,53.3L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+            <path fill="rgba(59, 130, 246, 0.12)" fillOpacity="1" d="M0,224L60,213.3C120,203,240,181,360,149.3C480,117,600,75,720,48C840,21,960,11,1080,16C1200,21,1320,43,1380,53.3L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
           </svg>
           <svg className="wave-svg wave-svg-2" viewBox="0 0 1440 320" preserveAspectRatio="none">
-            <path fill="rgba(99, 102, 241, 0.12)" fillOpacity="1" d="M0,192L48,197.3C96,203,192,213,288,229.3C384,245,480,267,576,250.7C672,235,768,181,864,181.3C960,181,1056,235,1152,234.7C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            <path fill="rgba(99, 102, 241, 0.1)" fillOpacity="1" d="M0,192L48,197.3C96,203,192,213,288,229.3C384,245,480,267,576,250.7C672,235,768,181,864,181.3C960,181,1056,235,1152,234.7C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
           </svg>
           <svg className="wave-svg wave-svg-3" viewBox="0 0 1440 320" preserveAspectRatio="none">
-            <path fill="rgba(59, 130, 246, 0.1)" fillOpacity="1" d="M0,160L80,181.3C160,203,320,245,480,245.3C640,245,800,203,960,186.7C1120,171,1280,181,1360,186.7L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+            <path fill="rgba(59, 130, 246, 0.08)" fillOpacity="1" d="M0,160L80,181.3C160,203,320,245,480,245.3C640,245,800,203,960,186.7C1120,171,1280,181,1360,186.7L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
           </svg>
           <svg className="wave-svg wave-svg-4" viewBox="0 0 1440 320" preserveAspectRatio="none">
-            <path fill="rgba(99, 102, 241, 0.08)" fillOpacity="1" d="M0,128L60,144C120,160,240,192,360,197.3C480,203,600,181,720,165.3C840,149,960,139,1080,144C1200,149,1320,171,1380,181.3L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
-          </svg>
-          <svg className="wave-svg wave-svg-5" viewBox="0 0 1440 320" preserveAspectRatio="none">
-            <path fill="rgba(59, 130, 246, 0.08)" fillOpacity="1" d="M0,96L48,112C96,128,192,160,288,186.7C384,213,480,235,576,218.7C672,203,768,149,864,144C960,139,1056,181,1152,197.3C1248,213,1344,203,1392,197.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
-          </svg>
-          <svg className="wave-svg wave-svg-6" viewBox="0 0 1440 320" preserveAspectRatio="none">
-            <path fill="rgba(99, 102, 241, 0.06)" fillOpacity="1" d="M0,64L60,80C120,96,240,128,360,144C480,160,600,160,720,149.3C840,139,960,117,1080,122.7C1200,128,1320,160,1380,176L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
-          </svg>
-          <svg className="wave-svg wave-svg-7" viewBox="0 0 1440 320" preserveAspectRatio="none">
-            <path fill="rgba(59, 130, 246, 0.06)" fillOpacity="1" d="M0,32L48,53.3C96,75,192,117,288,133.3C384,149,480,139,576,122.7C672,107,768,85,864,90.7C960,96,1056,128,1152,144C1248,160,1344,160,1392,160L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
-          </svg>
-          <svg className="wave-svg wave-svg-8" viewBox="0 0 1440 320" preserveAspectRatio="none">
-            <path fill="rgba(99, 102, 241, 0.04)" fillOpacity="1" d="M0,0L60,16C120,32,240,64,360,80C480,96,600,96,720,85.3C840,75,960,53,1080,58.7C1200,64,1320,96,1380,112L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+            <path fill="rgba(99, 102, 241, 0.06)" fillOpacity="1" d="M0,128L60,144C120,160,240,192,360,197.3C480,203,600,181,720,165.3C840,149,960,139,1080,144C1200,149,1320,171,1380,181.3L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
           </svg>
         </div>
 
