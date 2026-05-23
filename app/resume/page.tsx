@@ -87,7 +87,7 @@ export default function ResumePage() {
         </div>
 
         {/* Language Toggle - Mobile */}
-        <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-50 md:hidden">
+        <div className="fixed top-24 left-1/2 transform -translate-x-1/2 z-50 md:hidden">
           <button
             onClick={() => setLanguage(language === "en" ? "fr" : "en")}
             className="px-6 py-3 bg-gradient-to-br from-blue-600 via-blue-500 to-blue-600 hover:from-blue-700 hover:via-blue-600 hover:to-blue-700 text-white rounded-2xl transition-all duration-400 font-black shadow-2xl shadow-blue-600/50 hover:shadow-3xl hover:shadow-blue-700/60 text-lg border-2 border-blue-400/30"
@@ -97,7 +97,7 @@ export default function ResumePage() {
         </div>
 
         {/* Language Toggle - Desktop */}
-        <div className="hidden md:block fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-50">
+        <div className="hidden md:block fixed top-24 left-1/2 transform -translate-x-1/2 z-50">
           <button
             onClick={() => setLanguage(language === "en" ? "fr" : "en")}
             className="px-6 py-3 bg-gradient-to-br from-blue-600 via-blue-500 to-blue-600 hover:from-blue-700 hover:via-blue-600 hover:to-blue-700 text-white rounded-2xl transition-all duration-400 font-black shadow-2xl shadow-blue-600/50 hover:shadow-3xl hover:shadow-blue-700/60 text-lg border-2 border-blue-400/30"
