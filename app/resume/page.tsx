@@ -238,7 +238,7 @@ export default function ResumePage() {
                 <span className="text-xl text-gray-500 font-medium mt-2">
                   {t.englishCard.language}
                 </span>
-                <span className="text-sm text-gray-400 font-medium mt-1">
+                <span className="text-lg text-gray-600 font-semibold mt-2">
                   {t.englishCard.miniSummary}
                 </span>
               </div>
@@ -296,7 +296,7 @@ export default function ResumePage() {
                 <span className="text-xl text-gray-500 font-medium mt-2">
                   {t.frenchCard.language}
                 </span>
-                <span className="text-sm text-gray-400 font-medium mt-1">
+                <span className="text-lg text-gray-600 font-semibold mt-2">
                   {t.frenchCard.miniSummary}
                 </span>
               </div>
