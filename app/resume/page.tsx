@@ -32,78 +32,57 @@ export default function ResumePage() {
     <>
       <style jsx global>{`
         .resume-wave-background {
-          background: #ffffff;
           position: relative;
+          min-height: 100vh;
           overflow: hidden;
+          background:
+            radial-gradient(circle at 20% 10%, rgba(226,232,240,0.55), transparent 28%),
+            radial-gradient(circle at 85% 20%, rgba(241,245,249,0.8), transparent 30%),
+            linear-gradient(180deg, #ffffff 0%, #f8fafc 50%, #ffffff 100%);
         }
 
         .resume-wave-background::before {
-          content: '';
+          content: "";
           position: absolute;
-          top: 0;
-          left: 0;
-          right: 0;
-          height: 120px;
-          background: linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.8) 100%);
-          border-radius: 0 0 50% 50% / 20px;
-          box-shadow: 0 4px 20px rgba(0,0,0,0.05);
-          z-index: 1;
+          inset: -120px -10% auto -10%;
+          height: 360px;
+          background:
+            linear-gradient(165deg, transparent 0 18%, rgba(255,255,255,0.95) 19% 28%, transparent 29% 100%),
+            linear-gradient(170deg, transparent 0 30%, rgba(226,232,240,0.55) 31% 40%, transparent 41% 100%),
+            linear-gradient(175deg, transparent 0 43%, rgba(255,255,255,0.92) 44% 53%, transparent 54% 100%),
+            linear-gradient(168deg, transparent 0 57%, rgba(203,213,225,0.38) 58% 66%, transparent 67% 100%);
+          filter: blur(0.2px);
+          opacity: 0.95;
+          pointer-events: none;
+          z-index: 0;
         }
 
         .resume-wave-background::after {
-          content: '';
+          content: "";
           position: absolute;
-          top: 40px;
-          left: 0;
-          right: 0;
-          height: 100px;
-          background: linear-gradient(180deg, rgba(248,250,252,0.9) 0%, rgba(255,255,255,0.7) 100%);
-          border-radius: 0 0 50% 50% / 20px;
-          box-shadow: 0 6px 25px rgba(0,0,0,0.03);
+          left: -8%;
+          right: -8%;
+          bottom: -130px;
+          height: 420px;
+          background:
+            linear-gradient(12deg, transparent 0 22%, rgba(226,232,240,0.45) 23% 31%, transparent 32% 100%),
+            linear-gradient(8deg, transparent 0 38%, rgba(255,255,255,0.96) 39% 49%, transparent 50% 100%),
+            linear-gradient(5deg, transparent 0 55%, rgba(203,213,225,0.35) 56% 65%, transparent 66% 100%),
+            linear-gradient(2deg, transparent 0 70%, rgba(255,255,255,0.9) 71% 80%, transparent 81% 100%);
+          box-shadow:
+            0 -35px 80px rgba(15, 23, 42, 0.08),
+            inset 0 35px 80px rgba(255, 255, 255, 0.85);
+          opacity: 0.95;
+          pointer-events: none;
           z-index: 0;
         }
 
-        .wave-layer-1 {
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          right: 0;
-          height: 150px;
-          background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(248,250,252,0.6) 50%, rgba(255,255,255,0.9) 100%);
-          border-radius: 50% 50% 0 0 / 30px;
-          box-shadow: 0 -10px 40px rgba(0,0,0,0.04);
+        .resume-wave-background > * {
+          position: relative;
           z-index: 1;
-        }
-
-        .wave-layer-2 {
-          position: absolute;
-          bottom: 30px;
-          left: -10%;
-          right: -10%;
-          height: 120px;
-          background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(241,245,249,0.5) 50%, rgba(255,255,255,0.8) 100%);
-          border-radius: 50% 50% 0 0 / 25px;
-          box-shadow: 0 -8px 30px rgba(0,0,0,0.03);
-          z-index: 0;
-        }
-
-        .wave-layer-3 {
-          position: absolute;
-          bottom: 60px;
-          left: -5%;
-          right: -5%;
-          height: 100px;
-          background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(248,250,252,0.4) 50%, rgba(255,255,255,0.7) 100%);
-          border-radius: 50% 50% 0 0 / 20px;
-          box-shadow: 0 -6px 20px rgba(0,0,0,0.02);
-          z-index: 0;
         }
       `}</style>
       <div className="min-h-screen text-gray-900 relative overflow-hidden resume-wave-background">
-        {/* Wave layers for 3D effect */}
-        <div className="wave-layer-1" />
-        <div className="wave-layer-2" />
-        <div className="wave-layer-3" />
 
       {/* Language Toggle - Mobile */}
       <div className="fixed top-4 right-4 z-50 md:hidden">
