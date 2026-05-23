@@ -168,10 +168,13 @@ export default function ResumePage() {
                 </div>
               </div>
               
-              <div className="relative z-10 flex items-center justify-center mb-6">
-                <h3 className="text-6xl font-black text-gray-900 tracking-tight">
-                  English Resume
+              <div className="relative z-10 flex flex-col items-center justify-center mb-6">
+                <h3 className="text-7xl font-black text-gray-900 tracking-tight">
+                  CV
                 </h3>
+                <span className="text-xl text-gray-500 font-medium mt-2">
+                  English
+                </span>
               </div>
               <p className="text-2xl text-gray-600 mb-12 leading-relaxed flex-grow relative z-10 font-medium text-center">
                 Clean one-page PDF optimized for LinkedIn, startups and tech applications.
@@ -220,10 +223,13 @@ export default function ResumePage() {
                 </div>
               </div>
               
-              <div className="relative z-10 flex items-center justify-center mb-6">
-                <h3 className="text-6xl font-black text-gray-900 tracking-tight">
-                  CV Français
+              <div className="relative z-10 flex flex-col items-center justify-center mb-6">
+                <h3 className="text-7xl font-black text-gray-900 tracking-tight">
+                  CV
                 </h3>
+                <span className="text-xl text-gray-500 font-medium mt-2">
+                  Français
+                </span>
               </div>
               <p className="text-2xl text-gray-600 mb-12 leading-relaxed flex-grow relative z-10 font-medium text-center">
                 CV professionnel en une page, optimisé pour candidatures tech et startups.
