@@ -69,13 +69,13 @@ export default function ResumePage() {
           background:
             linear-gradient(
               180deg,
-              rgba(255,255,255,0.95) 0%,
-              rgba(241,245,249,0.75) 40%,
-              rgba(226,232,240,0.55) 100%
+              rgba(59, 130, 246, 0.08) 0%,
+              rgba(96, 165, 250, 0.12) 40%,
+              rgba(147, 197, 253, 0.15) 100%
             );
           box-shadow:
-            0 25px 60px rgba(15,23,42,0.06),
-            0 10px 30px rgba(15,23,42,0.04),
+            0 25px 60px rgba(59, 130, 246, 0.08),
+            0 10px 30px rgba(59, 130, 246, 0.04),
             inset 0 15px 35px rgba(255,255,255,0.95);
           transform: rotate(-6deg);
           animation: waveFloatA 18s ease-in-out infinite alternate;
@@ -87,9 +87,9 @@ export default function ResumePage() {
           background:
             linear-gradient(
               180deg,
-              rgba(255,255,255,0.82) 0%,
-              rgba(241,245,249,0.60) 40%,
-              rgba(203,213,225,0.35) 100%
+              rgba(99, 102, 241, 0.08) 0%,
+              rgba(129, 140, 248, 0.12) 40%,
+              rgba(167, 139, 250, 0.15) 100%
             );
           opacity: 0.85;
           transform: rotate(5deg);
@@ -102,9 +102,9 @@ export default function ResumePage() {
           background:
             linear-gradient(
               180deg,
-              rgba(255,255,255,0.88) 0%,
-              rgba(241,245,249,0.65) 40%,
-              rgba(226,232,240,0.40) 100%
+              rgba(59, 130, 246, 0.10) 0%,
+              rgba(96, 165, 250, 0.14) 40%,
+              rgba(147, 197, 253, 0.18) 100%
             );
           opacity: 0.78;
           transform: rotate(-4deg);
@@ -117,9 +117,9 @@ export default function ResumePage() {
           background:
             linear-gradient(
               180deg,
-              rgba(255,255,255,0.78) 0%,
-              rgba(241,245,249,0.55) 40%,
-              rgba(203,213,225,0.30) 100%
+              rgba(99, 102, 241, 0.10) 0%,
+              rgba(129, 140, 248, 0.14) 40%,
+              rgba(167, 139, 250, 0.18) 100%
             );
           opacity: 0.72;
           transform: rotate(4deg);
@@ -132,9 +132,9 @@ export default function ResumePage() {
           background:
             linear-gradient(
               180deg,
-              rgba(255,255,255,0.86) 0%,
-              rgba(241,245,249,0.60) 40%,
-              rgba(226,232,240,0.34) 100%
+              rgba(59, 130, 246, 0.12) 0%,
+              rgba(96, 165, 250, 0.16) 40%,
+              rgba(147, 197, 253, 0.20) 100%
             );
           opacity: 0.76;
           transform: rotate(-5deg);
@@ -147,9 +147,9 @@ export default function ResumePage() {
           background:
             linear-gradient(
               180deg,
-              rgba(255,255,255,0.92) 0%,
-              rgba(241,245,249,0.70) 40%,
-              rgba(203,213,225,0.28) 100%
+              rgba(99, 102, 241, 0.12) 0%,
+              rgba(129, 140, 248, 0.16) 40%,
+              rgba(167, 139, 250, 0.20) 100%
             );
           opacity: 0.80;
           transform: rotate(3deg);
