@@ -35,7 +35,7 @@ export default function ResumePage() {
           position: relative;
           min-height: 100vh;
           overflow: hidden;
-          background: linear-gradient(180deg, #ffffff 0%, #f8fafc 45%, #f1f5f9 100%);
+          background: #ffffff;
         }
 
         .resume-wave-field {
