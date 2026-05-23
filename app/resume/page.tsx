@@ -249,13 +249,13 @@ export default function ResumePage() {
                 <a
                   href="/Shay_Acoca_CV_EN.pdf"
                   download
-                  className="w-full px-6 py-4 md:px-14 md:py-8 bg-gradient-to-br from-blue-600 via-blue-500 to-blue-600 hover:from-blue-700 hover:via-blue-600 hover:to-blue-700 text-white rounded-full transition-all duration-400 font-black text-center shadow-2xl shadow-blue-600/50 hover:shadow-3xl hover:shadow-blue-700/60 text-sm md:text-2xl active:scale-95 border-2 border-blue-400/30"
+                  className="w-full px-4 py-2 md:px-8 md:py-3 bg-gradient-to-br from-blue-600 via-blue-500 to-blue-600 hover:from-blue-700 hover:via-blue-600 hover:to-blue-700 text-white rounded-full transition-all duration-400 font-black text-center shadow-2xl shadow-blue-600/50 hover:shadow-3xl hover:shadow-blue-700/60 text-xs md:text-lg active:scale-95 border-2 border-blue-400/30"
                 >
                   {t.englishCard.download}
                 </a>
                 <button
                   onClick={() => handlePrint("/Shay_Acoca_CV_EN.pdf")}
-                  className="w-full px-6 py-4 md:px-14 md:py-8 bg-gradient-to-br from-gray-800 via-gray-700 to-gray-800 hover:from-gray-700 hover:via-gray-600 hover:to-gray-700 text-white rounded-full transition-all duration-400 font-black text-center shadow-2xl shadow-gray-600/50 hover:shadow-3xl hover:shadow-gray-700/60 text-sm md:text-2xl active:scale-95 border-2 border-gray-500/30"
+                  className="w-full px-4 py-2 md:px-8 md:py-3 bg-gradient-to-br from-gray-800 via-gray-700 to-gray-800 hover:from-gray-700 hover:via-gray-600 hover:to-gray-700 text-white rounded-full transition-all duration-400 font-black text-center shadow-2xl shadow-gray-600/50 hover:shadow-3xl hover:shadow-gray-700/60 text-xs md:text-lg active:scale-95 border-2 border-gray-500/30"
                 >
                   {t.englishCard.print}
                 </button>
@@ -307,13 +307,13 @@ export default function ResumePage() {
                 <a
                   href="/Shay_Acoca_CV_FR.pdf"
                   download
-                  className="w-full px-6 py-4 md:px-14 md:py-8 bg-gradient-to-br from-purple-600 via-purple-500 to-purple-600 hover:from-purple-700 hover:via-purple-600 hover:to-purple-700 text-white rounded-full transition-all duration-400 font-black text-center shadow-2xl shadow-purple-600/50 hover:shadow-3xl hover:shadow-purple-700/60 text-sm md:text-2xl active:scale-95 border-2 border-purple-400/30"
+                  className="w-full px-4 py-2 md:px-8 md:py-3 bg-gradient-to-br from-purple-600 via-purple-500 to-purple-600 hover:from-purple-700 hover:via-purple-600 hover:to-purple-700 text-white rounded-full transition-all duration-400 font-black text-center shadow-2xl shadow-purple-600/50 hover:shadow-3xl hover:shadow-purple-700/60 text-xs md:text-lg active:scale-95 border-2 border-purple-400/30"
                 >
                   {t.frenchCard.download}
                 </a>
                 <button
                   onClick={() => handlePrint("/Shay_Acoca_CV_FR.pdf")}
-                  className="w-full px-6 py-4 md:px-14 md:py-8 bg-gradient-to-br from-gray-800 via-gray-700 to-gray-800 hover:from-gray-700 hover:via-gray-600 hover:to-gray-700 text-white rounded-full transition-all duration-400 font-black text-center shadow-2xl shadow-gray-600/50 hover:shadow-3xl hover:shadow-gray-700/60 text-sm md:text-2xl active:scale-95 border-2 border-gray-500/30"
+                  className="w-full px-4 py-2 md:px-8 md:py-3 bg-gradient-to-br from-gray-800 via-gray-700 to-gray-800 hover:from-gray-700 hover:via-gray-600 hover:to-gray-700 text-white rounded-full transition-all duration-400 font-black text-center shadow-2xl shadow-gray-600/50 hover:shadow-3xl hover:shadow-gray-700/60 text-xs md:text-lg active:scale-95 border-2 border-gray-500/30"
                 >
                   {t.frenchCard.print}
                 </button>
