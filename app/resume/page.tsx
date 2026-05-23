@@ -86,31 +86,31 @@ export default function ResumePage() {
           <div className="wave"></div>
         </div>
 
-        {/* Language Toggle - Mobile */}
-        <div className="relative z-50 md:hidden mb-8">
-          <div className="flex justify-center">
-            <button
-              onClick={() => setLanguage(language === "en" ? "fr" : "en")}
-              className="px-6 py-3 bg-gradient-to-br from-blue-600 via-blue-500 to-blue-600 hover:from-blue-700 hover:via-blue-600 hover:to-blue-700 text-white rounded-2xl transition-all duration-400 font-black shadow-2xl shadow-blue-600/50 hover:shadow-3xl hover:shadow-blue-700/60 text-lg border-2 border-blue-400/30"
-            >
-              {language === "en" ? "FR" : "EN"}
-            </button>
-          </div>
-        </div>
-
-        {/* Language Toggle - Desktop */}
-        <div className="hidden md:block relative z-50 mb-8">
-          <div className="flex justify-center">
-            <button
-              onClick={() => setLanguage(language === "en" ? "fr" : "en")}
-              className="px-6 py-3 bg-gradient-to-br from-blue-600 via-blue-500 to-blue-600 hover:from-blue-700 hover:via-blue-600 hover:to-blue-700 text-white rounded-2xl transition-all duration-400 font-black shadow-2xl shadow-blue-600/50 hover:shadow-3xl hover:shadow-blue-700/60 text-lg border-2 border-blue-400/30"
-            >
-              {language === "en" ? "FR" : "EN"}
-            </button>
-          </div>
-        </div>
-
         <div className="max-w-6xl mx-auto px-4 py-20">
+          {/* Language Toggle - Mobile */}
+          <div className="relative z-50 md:hidden mb-8">
+            <div className="flex justify-center">
+              <button
+                onClick={() => setLanguage(language === "en" ? "fr" : "en")}
+                className="px-6 py-3 bg-gradient-to-br from-blue-600 via-blue-500 to-blue-600 hover:from-blue-700 hover:via-blue-600 hover:to-blue-700 text-white rounded-2xl transition-all duration-400 font-black shadow-2xl shadow-blue-600/50 hover:shadow-3xl hover:shadow-blue-700/60 text-lg border-2 border-blue-400/30"
+              >
+                {language === "en" ? "FR" : "EN"}
+              </button>
+            </div>
+          </div>
+
+          {/* Language Toggle - Desktop */}
+          <div className="hidden md:block relative z-50 mb-8">
+            <div className="flex justify-center">
+              <button
+                onClick={() => setLanguage(language === "en" ? "fr" : "en")}
+                className="px-6 py-3 bg-gradient-to-br from-blue-600 via-blue-500 to-blue-600 hover:from-blue-700 hover:via-blue-600 hover:to-blue-700 text-white rounded-2xl transition-all duration-400 font-black shadow-2xl shadow-blue-600/50 hover:shadow-3xl hover:shadow-blue-700/60 text-lg border-2 border-blue-400/30"
+              >
+                {language === "en" ? "FR" : "EN"}
+              </button>
+            </div>
+          </div>
+
           {/* Header */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
