@@ -159,6 +159,15 @@ export default function ResumePage() {
               {/* Card glow effect */}
               <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-purple-500/5 opacity-0 hover:opacity-100 transition-opacity duration-500" />
               
+              {/* Logo */}
+              <div className="relative z-10 flex justify-center mb-6">
+                <div className="w-24 h-24 bg-gradient-to-br from-blue-600 to-blue-700 rounded-2xl shadow-2xl shadow-blue-500/40 flex items-center justify-center">
+                  <svg className="w-14 h-14 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                  </svg>
+                </div>
+              </div>
+              
               <div className="relative z-10 flex items-center justify-between mb-4">
                 <h3 className="text-5xl font-black text-gray-900">
                   English Resume
@@ -174,13 +183,13 @@ export default function ResumePage() {
                 <a
                   href="/Shay_Acoca_CV_EN.pdf"
                   download
-                  className="w-full px-10 py-5 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white rounded-2xl transition-all duration-300 font-black text-center shadow-2xl shadow-blue-600/50 hover:shadow-3xl hover:shadow-blue-600/60 text-2xl active:scale-95"
+                  className="w-full px-12 py-6 bg-gradient-to-br from-blue-600 via-blue-500 to-blue-600 hover:from-blue-700 hover:via-blue-600 hover:to-blue-700 text-white rounded-2xl transition-all duration-400 font-black text-center shadow-2xl shadow-blue-600/50 hover:shadow-3xl hover:shadow-blue-700/60 text-2xl active:scale-95 border-2 border-blue-400/30"
                 >
                   Download English PDF
                 </a>
                 <button
                   onClick={() => handlePrint("/Shay_Acoca_CV_EN.pdf")}
-                  className="w-full px-10 py-5 bg-gradient-to-r from-gray-800 to-gray-700 hover:from-gray-700 hover:to-gray-600 text-white rounded-2xl transition-all duration-300 font-black text-center shadow-2xl shadow-gray-600/50 hover:shadow-3xl hover:shadow-gray-600/60 text-2xl active:scale-95"
+                  className="w-full px-12 py-6 bg-gradient-to-br from-gray-800 via-gray-700 to-gray-800 hover:from-gray-700 hover:via-gray-600 hover:to-gray-700 text-white rounded-2xl transition-all duration-400 font-black text-center shadow-2xl shadow-gray-600/50 hover:shadow-3xl hover:shadow-gray-700/60 text-2xl active:scale-95 border-2 border-gray-500/30"
                 >
                   Print English CV
                 </button>
@@ -205,6 +214,15 @@ export default function ResumePage() {
               {/* Card glow effect */}
               <div className="absolute inset-0 bg-gradient-to-br from-purple-500/5 to-pink-500/5 opacity-0 hover:opacity-100 transition-opacity duration-500" />
               
+              {/* Logo */}
+              <div className="relative z-10 flex justify-center mb-6">
+                <div className="w-24 h-24 bg-gradient-to-br from-purple-600 to-purple-700 rounded-2xl shadow-2xl shadow-purple-500/40 flex items-center justify-center">
+                  <svg className="w-14 h-14 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                  </svg>
+                </div>
+              </div>
+              
               <div className="relative z-10 flex items-center justify-between mb-4">
                 <h3 className="text-5xl font-black text-gray-900">
                   CV Français
@@ -220,13 +238,13 @@ export default function ResumePage() {
                 <a
                   href="/Shay_Acoca_CV_FR.pdf"
                   download
-                  className="w-full px-10 py-5 bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white rounded-2xl transition-all duration-300 font-black text-center shadow-2xl shadow-purple-600/50 hover:shadow-3xl hover:shadow-purple-600/60 text-2xl active:scale-95"
+                  className="w-full px-12 py-6 bg-gradient-to-br from-purple-600 via-purple-500 to-purple-600 hover:from-purple-700 hover:via-purple-600 hover:to-purple-700 text-white rounded-2xl transition-all duration-400 font-black text-center shadow-2xl shadow-purple-600/50 hover:shadow-3xl hover:shadow-purple-700/60 text-2xl active:scale-95 border-2 border-purple-400/30"
                 >
                   Télécharger le PDF français
                 </a>
                 <button
                   onClick={() => handlePrint("/Shay_Acoca_CV_FR.pdf")}
-                  className="w-full px-10 py-5 bg-gradient-to-r from-gray-800 to-gray-700 hover:from-gray-700 hover:to-gray-600 text-white rounded-2xl transition-all duration-300 font-black text-center shadow-2xl shadow-gray-600/50 hover:shadow-3xl hover:shadow-gray-600/60 text-2xl active:scale-95"
+                  className="w-full px-12 py-6 bg-gradient-to-br from-gray-800 via-gray-700 to-gray-800 hover:from-gray-700 hover:via-gray-600 hover:to-gray-700 text-white rounded-2xl transition-all duration-400 font-black text-center shadow-2xl shadow-gray-600/50 hover:shadow-3xl hover:shadow-gray-700/60 text-2xl active:scale-95 border-2 border-gray-500/30"
                 >
                   Imprimer le CV français
                 </button>
