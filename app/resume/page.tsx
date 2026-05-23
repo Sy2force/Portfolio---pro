@@ -151,7 +151,7 @@ export default function ResumePage() {
                 rotateY: 2,
                 rotateX: 2
               }}
-              className="bg-white/95 backdrop-blur-xl border-2 border-gray-200 rounded-3xl p-12 hover:border-blue-500 transition-all duration-500 flex flex-col shadow-xl hover:shadow-2xl hover:shadow-blue-500/20 relative overflow-hidden"
+              className="bg-white/95 backdrop-blur-xl border-2 border-gray-200 rounded-3xl p-16 hover:border-blue-500 transition-all duration-500 flex flex-col shadow-xl hover:shadow-2xl hover:shadow-blue-500/20 relative overflow-hidden"
               style={{
                 perspective: '1000px'
               }}
@@ -160,27 +160,27 @@ export default function ResumePage() {
               <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-purple-500/5 opacity-0 hover:opacity-100 transition-opacity duration-500" />
               
               <div className="relative z-10 flex items-center justify-between mb-4">
-                <h3 className="text-3xl font-bold text-gray-900">
+                <h3 className="text-4xl font-bold text-gray-900">
                   English Resume
                 </h3>
-                <span className="px-4 py-2 bg-gradient-to-r from-blue-600 to-blue-700 text-white text-base font-bold rounded-full shadow-lg shadow-blue-500/30">
+                <span className="px-5 py-3 bg-gradient-to-r from-blue-600 to-blue-700 text-white text-lg font-bold rounded-full shadow-lg shadow-blue-500/30">
                   1 page
                 </span>
               </div>
-              <p className="text-lg text-gray-700 mb-8 leading-relaxed flex-grow relative z-10 font-medium">
+              <p className="text-xl text-gray-700 mb-10 leading-relaxed flex-grow relative z-10 font-medium">
                 Clean one-page PDF optimized for LinkedIn, startups and tech applications.
               </p>
-              <div className="space-y-4 relative z-10 flex flex-col items-center">
+              <div className="space-y-5 relative z-10 flex flex-col items-center">
                 <a
                   href="/Shay_Acoca_CV_EN.pdf"
                   download
-                  className="w-full px-6 py-3 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white rounded-xl transition-all duration-300 font-bold text-center shadow-xl shadow-blue-500/40 hover:shadow-2xl hover:shadow-blue-500/50 text-lg active:scale-95"
+                  className="w-full px-8 py-4 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white rounded-xl transition-all duration-300 font-bold text-center shadow-xl shadow-blue-500/40 hover:shadow-2xl hover:shadow-blue-500/50 text-xl active:scale-95"
                 >
                   Download English PDF
                 </a>
                 <button
                   onClick={() => handlePrint("/Shay_Acoca_CV_EN.pdf")}
-                  className="w-full px-6 py-3 bg-gradient-to-r from-gray-700 to-gray-600 hover:from-gray-600 hover:to-gray-500 text-white rounded-xl transition-all duration-300 font-bold text-center shadow-xl shadow-gray-500/40 hover:shadow-2xl hover:shadow-gray-500/50 text-lg active:scale-95"
+                  className="w-full px-8 py-4 bg-gradient-to-r from-gray-700 to-gray-600 hover:from-gray-600 hover:to-gray-500 text-white rounded-xl transition-all duration-300 font-bold text-center shadow-xl shadow-gray-500/40 hover:shadow-2xl hover:shadow-gray-500/50 text-xl active:scale-95"
                 >
                   Print English CV
                 </button>
@@ -197,7 +197,7 @@ export default function ResumePage() {
                 rotateY: -2,
                 rotateX: 2
               }}
-              className="bg-white/95 backdrop-blur-xl border-2 border-gray-200 rounded-3xl p-12 hover:border-purple-500 transition-all duration-500 flex flex-col shadow-xl hover:shadow-2xl hover:shadow-purple-500/20 relative overflow-hidden"
+              className="bg-white/95 backdrop-blur-xl border-2 border-gray-200 rounded-3xl p-16 hover:border-purple-500 transition-all duration-500 flex flex-col shadow-xl hover:shadow-2xl hover:shadow-purple-500/20 relative overflow-hidden"
               style={{
                 perspective: '1000px'
               }}
@@ -206,27 +206,27 @@ export default function ResumePage() {
               <div className="absolute inset-0 bg-gradient-to-br from-purple-500/5 to-pink-500/5 opacity-0 hover:opacity-100 transition-opacity duration-500" />
               
               <div className="relative z-10 flex items-center justify-between mb-4">
-                <h3 className="text-3xl font-bold text-gray-900">
+                <h3 className="text-4xl font-bold text-gray-900">
                   CV Français
                 </h3>
-                <span className="px-4 py-2 bg-gradient-to-r from-purple-600 to-purple-700 text-white text-base font-bold rounded-full shadow-lg shadow-purple-500/30">
+                <span className="px-5 py-3 bg-gradient-to-r from-purple-600 to-purple-700 text-white text-lg font-bold rounded-full shadow-lg shadow-purple-500/30">
                   1 page
                 </span>
               </div>
-              <p className="text-lg text-gray-700 mb-8 leading-relaxed flex-grow relative z-10 font-medium">
+              <p className="text-xl text-gray-700 mb-10 leading-relaxed flex-grow relative z-10 font-medium">
                 CV professionnel en une page, optimisé pour candidatures tech et startups.
               </p>
-              <div className="space-y-4 relative z-10 flex flex-col items-center">
+              <div className="space-y-5 relative z-10 flex flex-col items-center">
                 <a
                   href="/Shay_Acoca_CV_FR.pdf"
                   download
-                  className="w-full px-6 py-3 bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white rounded-xl transition-all duration-300 font-bold text-center shadow-xl shadow-purple-500/40 hover:shadow-2xl hover:shadow-purple-500/50 text-lg active:scale-95"
+                  className="w-full px-8 py-4 bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white rounded-xl transition-all duration-300 font-bold text-center shadow-xl shadow-purple-500/40 hover:shadow-2xl hover:shadow-purple-500/50 text-xl active:scale-95"
                 >
                   Télécharger le PDF français
                 </a>
                 <button
                   onClick={() => handlePrint("/Shay_Acoca_CV_FR.pdf")}
-                  className="w-full px-6 py-3 bg-gradient-to-r from-gray-700 to-gray-600 hover:from-gray-600 hover:to-gray-500 text-white rounded-xl transition-all duration-300 font-bold text-center shadow-xl shadow-gray-500/40 hover:shadow-2xl hover:shadow-gray-500/50 text-lg active:scale-95"
+                  className="w-full px-8 py-4 bg-gradient-to-r from-gray-700 to-gray-600 hover:from-gray-600 hover:to-gray-500 text-white rounded-xl transition-all duration-300 font-bold text-center shadow-xl shadow-gray-500/40 hover:shadow-2xl hover:shadow-gray-500/50 text-xl active:scale-95"
                 >
                   Imprimer le CV français
                 </button>
