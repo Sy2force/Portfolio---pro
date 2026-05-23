@@ -190,10 +190,110 @@ export default function ResumePage() {
             opacity: 0.42;
           }
         }
+
+        .resume-wave-center {
+          position: absolute;
+          inset: 0;
+          z-index: -1;
+          pointer-events: none;
+          overflow: hidden;
+        }
+
+        .resume-wave-center span {
+          position: absolute;
+          left: -18%;
+          width: 136%;
+          height: 115px;
+          border-radius: 999px;
+          background:
+            linear-gradient(
+              180deg,
+              rgba(255, 255, 255, 0.92) 0%,
+              rgba(248, 250, 252, 0.82) 42%,
+              rgba(203, 213, 225, 0.30) 100%
+            );
+          box-shadow:
+            0 22px 46px rgba(15, 23, 42, 0.055),
+            inset 0 14px 28px rgba(255, 255, 255, 0.92),
+            inset 0 -12px 24px rgba(148, 163, 184, 0.12);
+          opacity: 0.48;
+          will-change: transform;
+          animation: resumeCenterWave 20s ease-in-out infinite alternate;
+        }
+
+        .resume-wave-center span:nth-child(1) {
+          top: 28%;
+          transform: rotate(-1.4deg);
+          animation-duration: 18s;
+        }
+
+        .resume-wave-center span:nth-child(2) {
+          top: 38%;
+          opacity: 0.42;
+          transform: rotate(1.2deg);
+          animation-duration: 22s;
+        }
+
+        .resume-wave-center span:nth-child(3) {
+          top: 49%;
+          opacity: 0.38;
+          transform: rotate(-1deg);
+          animation-duration: 24s;
+        }
+
+        .resume-wave-center span:nth-child(4) {
+          top: 60%;
+          opacity: 0.34;
+          transform: rotate(1.1deg);
+          animation-duration: 26s;
+        }
+
+        .resume-wave-center span:nth-child(5) {
+          top: 71%;
+          opacity: 0.30;
+          transform: rotate(-0.9deg);
+          animation-duration: 28s;
+        }
+
+        @keyframes resumeCenterWave {
+          from {
+            transform: translate3d(-26px, 0, 0) rotate(-1.2deg) scaleX(1.02);
+          }
+          to {
+            transform: translate3d(26px, 12px, 0) rotate(1.2deg) scaleX(1.05);
+          }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+          .resume-wave-center span {
+            animation: none;
+          }
+        }
+
+        @media (max-width: 768px) {
+          .resume-wave-center span {
+            height: 78px;
+            opacity: 0.34;
+          }
+
+          .resume-wave-center span:nth-child(1) { top: 26%; }
+          .resume-wave-center span:nth-child(2) { top: 38%; }
+          .resume-wave-center span:nth-child(3) { top: 50%; }
+          .resume-wave-center span:nth-child(4) { top: 62%; }
+          .resume-wave-center span:nth-child(5) { top: 74%; }
+        }
       `}</style>
       <div className="min-h-screen text-gray-900 relative overflow-hidden resume-wave-background">
         {/* Wave layer for additional depth */}
         <div className="resume-wave-layer" aria-hidden="true">
+          <span />
+          <span />
+          <span />
+          <span />
+          <span />
+        </div>
+        {/* Center wave layer */}
+        <div className="resume-wave-center" aria-hidden="true">
           <span />
           <span />
           <span />
