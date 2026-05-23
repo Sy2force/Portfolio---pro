@@ -5,7 +5,9 @@
 ### Fichiers de Configuration
 
 - package.json - Dependances et scripts du projet
+- package-lock.json - Lockfile des dependances
 - tsconfig.json - Configuration TypeScript
+- tsconfig.tsbuildinfo - Fichier de build TypeScript
 - next.config.js - Configuration Next.js
 - tailwind.config.ts - Configuration Tailwind CSS
 - postcss.config.js - Configuration PostCSS
@@ -15,6 +17,7 @@
 - .gitignore - Fichiers ignores par Git
 - .env.local - Variables d environnement locales
 - .env.example - Exemple de variables d environnement
+- .env.local.example - Exemple de variables locales
 - next-env.d.ts - Types TypeScript pour Next.js
 
 ### Fichiers de Documentation
@@ -113,7 +116,7 @@
 
 ## Dossier scripts
 
-- Contient les scripts d automatisation
+- Contient les scripts d automatisation (vide actuellement)
 
 ## Dossiers Generes
 
