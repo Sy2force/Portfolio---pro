@@ -31,6 +31,41 @@ export default function ResumePage() {
   return (
     <>
       <style jsx global>{`
+        @keyframes waveMove {
+          0%, 100% {
+            transform: translateX(0) translateY(0);
+          }
+          25% {
+            transform: translateX(10px) translateY(-5px);
+          }
+          50% {
+            transform: translateX(-5px) translateY(5px);
+          }
+          75% {
+            transform: translateX(-10px) translateY(-3px);
+          }
+        }
+
+        @keyframes shimmer {
+          0%, 100% {
+            opacity: 0.3;
+            transform: translateX(-100%);
+          }
+          50% {
+            opacity: 0.8;
+            transform: translateX(100%);
+          }
+        }
+
+        @keyframes float {
+          0%, 100% {
+            transform: translateY(0);
+          }
+          50% {
+            transform: translateY(-10px);
+          }
+        }
+
         .resume-wave-background {
           position: relative;
           min-height: 100vh;
@@ -55,6 +90,7 @@ export default function ResumePage() {
           opacity: 0.95;
           pointer-events: none;
           z-index: 0;
+          animation: waveMove 8s ease-in-out infinite;
         }
 
         .resume-wave-background::after {
@@ -71,8 +107,45 @@ export default function ResumePage() {
             linear-gradient(2deg, transparent 0 70%, rgba(255,255,255,0.9) 71% 80%, transparent 81% 100%);
           box-shadow:
             0 -35px 80px rgba(15, 23, 42, 0.08),
-            inset 0 35px 80px rgba(255, 255, 255, 0.85);
+            inset 0 35px 80px rgba(255, 255, 255, 0.85),
+            0 0 60px rgba(59, 130, 246, 0.1);
           opacity: 0.95;
+          pointer-events: none;
+          z-index: 0;
+          animation: waveMove 10s ease-in-out infinite reverse;
+        }
+
+        .wave-shimmer {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: linear-gradient(
+            90deg,
+            transparent 0%,
+            rgba(255, 255, 255, 0.4) 50%,
+            transparent 100%
+          );
+          animation: shimmer 3s ease-in-out infinite;
+          pointer-events: none;
+          z-index: 0;
+          opacity: 0.3;
+        }
+
+        .wave-cross-effect {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 200%;
+          height: 200%;
+          background: radial-gradient(
+            ellipse at center,
+            rgba(59, 130, 246, 0.05) 0%,
+            transparent 70%
+          );
+          animation: float 6s ease-in-out infinite;
           pointer-events: none;
           z-index: 0;
         }
@@ -83,6 +156,10 @@ export default function ResumePage() {
         }
       `}</style>
       <div className="min-h-screen text-gray-900 relative overflow-hidden resume-wave-background">
+        {/* Shimmer effect */}
+        <div className="wave-shimmer" />
+        {/* Cross effect */}
+        <div className="wave-cross-effect" />
 
       {/* Language Toggle - Mobile */}
       <div className="fixed top-4 right-4 z-50 md:hidden">
