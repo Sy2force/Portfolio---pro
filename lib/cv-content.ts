@@ -288,16 +288,16 @@ export const cvContentEN: CVContent = {
     title: "Selected Projects",
     items: [
       {
-        title: "FitWell — Health & Fitness Platform",
+        title: "FitWell — Health Platform",
         stack: "Django · Django REST Framework · PostgreSQL · JWT · Swagger · Docker",
-        description: "Backend health platform with REST APIs, JWT authentication, PostgreSQL, Swagger and Docker.",
+        description: "Backend health platform with REST APIs and JWT authentication.",
         bullets: [
           "Built API endpoints for articles, comments and user management.",
           "Added Swagger documentation and Docker setup for deployment."
         ]
       },
       {
-        title: "OpticGlass — Premium E-commerce Application",
+        title: "OpticGlass — E-commerce",
         stack: "React · Vite · Tailwind CSS · Node.js · Express · MongoDB",
         description: "Premium e-commerce app with React, Node.js, Express and MongoDB.",
         bullets: [
@@ -306,11 +306,11 @@ export const cvContentEN: CVContent = {
         ]
       },
       {
-        title: "Restaurant App — Discovery Platform",
+        title: "Restaurant App — Discovery",
         stack: "React 18 · Vite · Tailwind CSS · Zustand · i18next · Framer Motion",
-        description: "Restaurant discovery app with React, Vite, Zustand, i18next and responsive UI.",
+        description: "Restaurant discovery app with React, Vite, Zustand and i18next.",
         bullets: [
-          "Built restaurant/dish discovery with dark mode and SEO optimization.",
+          "Built restaurant/dish discovery with dark mode and SEO.",
           "Added state management, multilingual support and testing setup."
         ]
       }
@@ -320,10 +320,10 @@ export const cvContentEN: CVContent = {
     title: "Experience",
     items: [
       {
-        title: "Full Stack Developer — Personal Projects & Portfolio",
+        title: "Full Stack Developer — Personal Projects",
         date: "2024 – Present",
         bullets: [
-          "Built and deployed web apps using React, Next.js, Node.js, Express, MongoDB, Django and PostgreSQL.",
+          "Built web apps with React, Next.js, Node.js, Express, MongoDB, Django and PostgreSQL.",
           "Developed responsive UIs, REST APIs, JWT authentication and protected routes."
         ]
       },
@@ -412,16 +412,16 @@ export const cvContentFR: CVContent = {
     title: "Projets sélectionnés",
     items: [
       {
-        title: "FitWell — Plateforme Santé & Fitness",
+        title: "FitWell — Plateforme Santé",
         stack: "Django · Django REST Framework · PostgreSQL · JWT · Swagger · Docker",
-        description: "Plateforme backend santé avec API REST, authentification JWT, PostgreSQL, Swagger et Docker.",
+        description: "Plateforme backend santé avec API REST et authentification JWT.",
         bullets: [
           "Création d'endpoints pour articles, commentaires et gestion utilisateurs.",
           "Documentation Swagger et configuration Docker pour le déploiement."
         ]
       },
       {
-        title: "OpticGlass — E-commerce Premium",
+        title: "OpticGlass — E-commerce",
         stack: "React · Vite · Tailwind CSS · Node.js · Express · MongoDB",
         description: "Application e-commerce premium avec React, Node.js, Express et MongoDB.",
         bullets: [
@@ -430,9 +430,9 @@ export const cvContentFR: CVContent = {
         ]
       },
       {
-        title: "Restaurant App — Plateforme de Découverte",
+        title: "Restaurant App — Découverte",
         stack: "React 18 · Vite · Tailwind CSS · Zustand · i18next · Framer Motion",
-        description: "Application de découverte de restaurants avec React, Vite, Zustand, i18next et interface responsive.",
+        description: "Application de découverte restaurants avec React, Vite, Zustand et i18next.",
         bullets: [
           "Création d'une recherche restaurants/plats avec dark mode et SEO.",
           "Gestion d'état, support multilingue et configuration de tests."
@@ -444,10 +444,10 @@ export const cvContentFR: CVContent = {
     title: "Expérience",
     items: [
       {
-        title: "Développeur Full Stack — Projets personnels & Portfolio",
+        title: "Développeur Full Stack — Projets personnels",
         date: "2024 – Présent",
         bullets: [
-          "Développement et déploiement d'applications avec React, Next.js, Node.js, Express, MongoDB, Django et PostgreSQL.",
+          "Développement d'applications avec React, Next.js, Node.js, Express, MongoDB, Django et PostgreSQL.",
           "Création d'interfaces responsives, API REST, authentification JWT et routes protégées."
         ]
       },
