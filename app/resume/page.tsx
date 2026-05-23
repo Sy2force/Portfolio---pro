@@ -2,31 +2,16 @@
 
 import { motion } from "framer-motion"
 import { useLanguage } from "@/lib/language-context"
-import { translations } from "@/lib/translations"
 import Link from "next/link"
-import { useState, useEffect } from "react"
 
 export const dynamic = 'force-dynamic'
 
 export default function ResumePage() {
   const { language, setLanguage } = useLanguage()
-  const t = translations[language]
-  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
 
   const handlePrint = (pdfUrl: string) => {
     window.open(pdfUrl, '_blank')
   }
-
-  useEffect(() => {
-    const handleMouseMove = (e: MouseEvent) => {
-      setMousePosition({
-        x: (e.clientX / window.innerWidth) * 100,
-        y: (e.clientY / window.innerHeight) * 100
-      })
-    }
-    window.addEventListener('mousemove', handleMouseMove)
-    return () => window.removeEventListener('mousemove', handleMouseMove)
-  }, [])
 
   return (
     <>
