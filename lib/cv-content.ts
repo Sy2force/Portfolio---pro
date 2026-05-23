@@ -255,9 +255,9 @@ export const cvContentEN: CVContent = {
     location: "Jerusalem, Israel",
     phone: "+972 50 123 4567",
     email: "shayacoca20@gmail.com",
-    portfolio: "",
-    linkedin: "",
-    github: ""
+    portfolio: "shay-acoca-portfolio.vercel.app",
+    linkedin: "linkedin.com/in/shay-acoca-046311302",
+    github: "github.com/Sy2force"
   },
   summary: {
     title: "Professional Profile",
