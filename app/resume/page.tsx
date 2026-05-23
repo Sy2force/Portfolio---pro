@@ -78,7 +78,7 @@ export default function ResumePage() {
             0 10px 30px rgba(59, 130, 246, 0.04),
             inset 0 15px 35px rgba(255,255,255,0.95);
           transform: rotate(-6deg);
-          animation: waveFloatA 18s ease-in-out infinite alternate;
+          animation: waveFloatA 6s ease-in-out infinite alternate;
         }
 
         .resume-wave-field .wave-2 {
@@ -93,7 +93,7 @@ export default function ResumePage() {
             );
           opacity: 0.85;
           transform: rotate(5deg);
-          animation: waveFloatB 22s ease-in-out infinite alternate;
+          animation: waveFloatB 7s ease-in-out infinite alternate;
         }
 
         .resume-wave-field .wave-3 {
@@ -108,7 +108,7 @@ export default function ResumePage() {
             );
           opacity: 0.78;
           transform: rotate(-4deg);
-          animation: waveFloatC 24s ease-in-out infinite alternate;
+          animation: waveFloatC 8s ease-in-out infinite alternate;
         }
 
         .resume-wave-field .wave-4 {
@@ -123,7 +123,7 @@ export default function ResumePage() {
             );
           opacity: 0.72;
           transform: rotate(4deg);
-          animation: waveFloatA 26s ease-in-out infinite alternate;
+          animation: waveFloatA 9s ease-in-out infinite alternate;
         }
 
         .resume-wave-field .wave-5 {
@@ -138,7 +138,7 @@ export default function ResumePage() {
             );
           opacity: 0.76;
           transform: rotate(-5deg);
-          animation: waveFloatB 28s ease-in-out infinite alternate;
+          animation: waveFloatB 10s ease-in-out infinite alternate;
         }
 
         .resume-wave-field .wave-6 {
@@ -153,7 +153,7 @@ export default function ResumePage() {
             );
           opacity: 0.80;
           transform: rotate(3deg);
-          animation: waveFloatC 30s ease-in-out infinite alternate;
+          animation: waveFloatC 11s ease-in-out infinite alternate;
         }
 
         @keyframes waveFloatA {
