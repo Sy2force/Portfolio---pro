@@ -214,7 +214,7 @@ export default function ResumePage() {
                 rotateY: 2,
                 rotateX: 2
               }}
-              className="bg-white/95 backdrop-blur-xl border-3 border-gray-300 rounded-3xl p-4 md:p-20 hover:border-blue-600 transition-all duration-500 flex flex-col shadow-2xl hover:shadow-3xl hover:shadow-blue-600/30 relative overflow-hidden"
+              className="bg-white/95 backdrop-blur-xl border-3 border-gray-300 rounded-full p-4 md:p-20 hover:border-blue-600 transition-all duration-500 flex flex-col shadow-2xl hover:shadow-3xl hover:shadow-blue-600/30 relative overflow-hidden"
               style={{
                 perspective: '1000px'
               }}
@@ -272,7 +272,7 @@ export default function ResumePage() {
                 rotateY: -2,
                 rotateX: 2
               }}
-              className="bg-white/95 backdrop-blur-xl border-3 border-gray-300 rounded-3xl p-4 md:p-20 hover:border-purple-600 transition-all duration-500 flex flex-col shadow-2xl hover:shadow-3xl hover:shadow-purple-600/30 relative overflow-hidden"
+              className="bg-white/95 backdrop-blur-xl border-3 border-gray-300 rounded-full p-4 md:p-20 hover:border-purple-600 transition-all duration-500 flex flex-col shadow-2xl hover:shadow-3xl hover:shadow-purple-600/30 relative overflow-hidden"
               style={{
                 perspective: '1000px'
               }}
