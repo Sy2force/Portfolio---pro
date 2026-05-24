@@ -85,14 +85,14 @@ const styles = StyleSheet.create({
     marginTop: 3,
   },
   mainHeader: {
-    marginBottom: 12,
+    marginBottom: 20,
   },
   mainName: {
     fontSize: 22,
     fontWeight: 700,
     letterSpacing: 0.8,
     color: "#111111",
-    marginBottom: 5,
+    marginBottom: 12,
   },
   mainTitle: {
     fontSize: 10.5,
