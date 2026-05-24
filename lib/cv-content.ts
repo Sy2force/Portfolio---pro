@@ -84,10 +84,10 @@ export const cvContentSummaryEN: CVContent = {
       {
         title: "FitWell — Health & Fitness Platform",
         stack: "Django · Django REST · PostgreSQL · JWT · Docker",
-        description: "Full stack platform focused on API structure and user features.",
+        description: "Complete backend platform for health and fitness content management with structured REST API.",
         bullets: [
-          "Developed REST API logic for articles and user features.",
-          "Implemented authentication and deployment-ready organization."
+          "Developed robust REST API for articles, comments and user features.",
+          "Implemented JWT authentication, Swagger documentation and Docker configuration."
         ]
       },
       {
@@ -177,10 +177,10 @@ export const cvContentSummaryFR: CVContent = {
       {
         title: "FitWell — Plateforme Santé & Fitness",
         stack: "Django · Django REST · PostgreSQL · JWT · Docker",
-        description: "Plateforme centrée sur la structure API et fonctionnalités utilisateur.",
+        description: "Plateforme backend complète pour la gestion de contenus santé et fitness avec API REST structurée.",
         bullets: [
-          "Création d'une logique API REST pour articles et fonctionnalités.",
-          "Mise en place de l'authentification et organisation prête au déploiement."
+          "Développement d'une API REST robuste pour articles, commentaires et utilisateurs.",
+          "Implémentation de l'authentification JWT, documentation Swagger et configuration Docker."
         ]
       },
       {
@@ -274,10 +274,10 @@ export const cvContentEN: CVContent = {
       {
         title: "FitWell — Health & Fitness Platform",
         stack: "Django · DRF · PostgreSQL · JWT · Swagger · Docker",
-        description: "Backend platform for health and fitness content management.",
+        description: "Complete backend platform for health and fitness content management with structured REST API.",
         bullets: [
-          "Built REST API endpoints for articles, comments and users.",
-          "Added JWT authentication, Swagger documentation and Docker setup."
+          "Built robust REST API endpoints for articles, comments and users.",
+          "Implemented JWT authentication, Swagger documentation and Docker configuration."
         ]
       },
       {
@@ -394,10 +394,10 @@ export const cvContentFR: CVContent = {
       {
         title: "FitWell — Plateforme Santé & Fitness",
         stack: "Django · DRF · PostgreSQL · JWT · Swagger · Docker",
-        description: "Plateforme backend pour la gestion de contenus santé et fitness.",
+        description: "Plateforme backend complète pour la gestion de contenus santé et fitness avec API REST structurée.",
         bullets: [
-          "Création d'endpoints REST pour articles, commentaires et utilisateurs.",
-          "Ajout de l'authentification JWT, documentation Swagger et configuration Docker."
+          "Développement d'endpoints REST robustes pour articles, commentaires et utilisateurs.",
+          "Implémentation de l'authentification JWT, documentation Swagger et configuration Docker."
         ]
       },
       {
