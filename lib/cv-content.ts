@@ -4,6 +4,7 @@ export interface CVContent {
     location: string
     phone: string
     email: string
+    age: string
   }
   summary: {
     title: string
@@ -53,7 +54,8 @@ export const cvContentSummaryEN: CVContent = {
     name: "SHAY ACOCA",
     location: "Jerusalem, Israel",
     phone: "+972 50 123 4567",
-    email: "shayacoca20@gmail.com"
+    email: "shayacoca20@gmail.com",
+    age: "26 ans (1 juin 2000)"
   },
   summary: {
     title: "PROFESSIONAL SUMMARY",
@@ -145,7 +147,8 @@ export const cvContentSummaryFR: CVContent = {
     name: "SHAY ACOCA",
     location: "Jérusalem, Israël",
     phone: "+972 50 123 4567",
-    email: "shayacoca20@gmail.com"
+    email: "shayacoca20@gmail.com",
+    age: "26 ans (1 juin 2000)"
   },
   summary: {
     title: "PROFIL PROFESSIONNEL",
@@ -237,7 +240,8 @@ export const cvContentEN: CVContent = {
     name: "SHAY ACOCA",
     location: "Jerusalem, Israel",
     phone: "+972 50 123 4567",
-    email: "shayacoca20@gmail.com"
+    email: "shayacoca20@gmail.com",
+    age: "26 ans (1 juin 2000)"
   },
   summary: {
     title: "Professional Profile",
@@ -356,7 +360,8 @@ export const cvContentFR: CVContent = {
     name: "SHAY ACOCA",
     location: "Jérusalem, Israël",
     phone: "+972 50 123 4567",
-    email: "shayacoca20@gmail.com"
+    email: "shayacoca20@gmail.com",
+    age: "26 ans (1 juin 2000)"
   },
   summary: {
     title: "Profil professionnel",
