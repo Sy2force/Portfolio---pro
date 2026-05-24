@@ -93,10 +93,10 @@ export const cvContentSummaryEN: CVContent = {
       {
         title: "OpticGlass — Luxury E-commerce",
         stack: "React · Vite · Tailwind · Node.js · Express · MongoDB",
-        description: "E-commerce application for premium eyewear with responsive UI.",
+        description: "Premium e-commerce application for high-quality eyewear with responsive and modern user interface.",
         bullets: [
-          "Created product catalog and reusable frontend components.",
-          "Structured frontend and backend logic for e-commerce."
+          "Developed complete product catalog and reusable frontend components.",
+          "Structured frontend and backend architecture for optimal e-commerce experience."
         ]
       }
     ]
@@ -108,17 +108,17 @@ export const cvContentSummaryEN: CVContent = {
         title: "Full Stack Developer — Personal Projects & Portfolio",
         date: "2024 – Present",
         bullets: [
-          "Built web applications using React, Next.js, Node.js, Express, MongoDB and Django.",
-          "Developed frontend interfaces, backend APIs, authentication systems and database features.",
-          "Used Git, GitHub, Vercel, Render for development and deployment workflows."
+          "Developed and deployed full-stack web applications using React, Next.js, Node.js, Express, MongoDB and Django.",
+          "Created responsive user interfaces, REST APIs, JWT authentication systems and database features.",
+          "Implemented Git workflows, GitHub version control, and deployed applications using Vercel and Render."
         ]
       },
       {
         title: "Digital Marketing & Web Creator — Personal Projects",
         date: "2024 – Present",
         bullets: [
-          "Created digital concepts combining web design, branding and content strategy.",
-          "Applied marketing principles to improve messaging and project presentation."
+          "Designed and developed digital concepts combining web design, branding and content strategy.",
+          "Applied digital marketing principles and UX writing to enhance messaging and project presentation."
         ]
       }
     ]
@@ -186,10 +186,10 @@ export const cvContentSummaryFR: CVContent = {
       {
         title: "OpticGlass — E-commerce Premium",
         stack: "React · Vite · Tailwind · Node.js · Express · MongoDB",
-        description: "Application e-commerce pour lunettes premium avec interface responsive.",
+        description: "Application e-commerce premium pour lunettes de haute qualité avec interface utilisateur responsive et moderne.",
         bullets: [
-          "Création du catalogue produit et composants frontend réutilisables.",
-          "Structuration de la logique frontend et backend pour e-commerce."
+          "Développement du catalogue produit complet et composants frontend réutilisables.",
+          "Architecture frontend et backend structurée pour expérience e-commerce optimale."
         ]
       }
     ]
@@ -201,17 +201,17 @@ export const cvContentSummaryFR: CVContent = {
         title: "Développeur Full Stack — Projets personnels & Portfolio",
         date: "2024 – Présent",
         bullets: [
-          "Développement d'applications web avec React, Next.js, Node.js, Express, MongoDB et Django.",
-          "Création d'interfaces frontend, API backend, systèmes d'authentification et fonctionnalités base de données.",
-          "Utilisation de Git, GitHub, Vercel, Render dans les workflows de développement."
+          "Développement et déploiement d'applications web complètes avec React, Next.js, Node.js, Express, MongoDB et Django.",
+          "Création d'interfaces utilisateur responsives, API REST, systèmes d'authentification JWT et fonctionnalités base de données.",
+          "Implémentation de workflows Git, contrôle de version GitHub et déploiement d'applications via Vercel et Render."
         ]
       },
       {
         title: "Marketing Digital & Création Web — Projets personnels",
         date: "2024 – Présent",
         bullets: [
-          "Création de concepts digitaux combinant web design, branding et stratégie de contenu.",
-          "Application de principes marketing pour améliorer les messages et présentation."
+          "Conception et développement de concepts digitaux combinant web design, branding et stratégie de contenu.",
+          "Application de principes de marketing digital et rédaction UX pour améliorer les messages et présentation."
         ]
       }
     ]
@@ -283,19 +283,19 @@ export const cvContentEN: CVContent = {
       {
         title: "OpticGlass — Premium E-commerce Application",
         stack: "React · Vite · Tailwind CSS · Node.js · Express · MongoDB",
-        description: "Premium e-commerce app focused on product presentation and user experience.",
+        description: "Premium e-commerce application focused on high-quality product presentation and seamless user experience.",
         bullets: [
-          "Built responsive product pages and reusable UI components.",
-          "Connected the frontend to an Express API and MongoDB database."
+          "Built responsive product pages with reusable UI components and modern design patterns.",
+          "Connected frontend to Express API and MongoDB database for complete e-commerce functionality."
         ]
       },
       {
         title: "Restaurant App — Discovery Platform",
         stack: "React · Vite · Tailwind CSS · Zustand · i18next",
-        description: "Restaurant discovery app with multilingual support and responsive design.",
+        description: "Restaurant discovery application with multilingual support, responsive design and modern user experience.",
         bullets: [
-          "Built restaurant and dish discovery with dark mode and SEO basics.",
-          "Added state management, translations and testing setup."
+          "Implemented restaurant and dish discovery features with dark mode support and SEO optimization.",
+          "Integrated state management with Zustand, internationalization with i18next and testing setup."
         ]
       }
     ]
@@ -307,16 +307,17 @@ export const cvContentEN: CVContent = {
         title: "Full Stack Developer — Personal Projects & Portfolio",
         date: "2024 – Present",
         bullets: [
-          "Built and deployed web apps with React, Next.js, Node.js, Express, MongoDB, Django and PostgreSQL.",
-          "Developed responsive interfaces, REST APIs, JWT authentication and protected routes."
+          "Developed and deployed full-stack web applications using React, Next.js, Node.js, Express, MongoDB, Django and PostgreSQL.",
+          "Created responsive user interfaces, REST APIs, JWT authentication systems and protected routes.",
+          "Implemented Git workflows, GitHub version control, and deployed applications using Vercel and Render."
         ]
       },
       {
         title: "Digital Marketing & Web Creator — Personal Projects",
         date: "2024 – Present",
         bullets: [
-          "Created landing pages, branding concepts and web design for online presence.",
-          "Applied SEO, UX writing and marketing principles to digital projects."
+          "Designed and developed landing pages, branding concepts and web design for online presence.",
+          "Applied SEO optimization, UX writing and digital marketing principles to enhance project presentation."
         ]
       },
       {
@@ -403,19 +404,19 @@ export const cvContentFR: CVContent = {
       {
         title: "OpticGlass — Application E-commerce Premium",
         stack: "React · Vite · Tailwind CSS · Node.js · Express · MongoDB",
-        description: "Application e-commerce premium centrée sur la présentation produit et l'expérience utilisateur.",
+        description: "Application e-commerce premium centrée sur la présentation de produits de haute qualité et expérience utilisateur fluide.",
         bullets: [
-          "Création de pages produits responsives et composants UI réutilisables.",
-          "Connexion du frontend à une API Express et une base MongoDB."
+          "Développement de pages produits responsives avec composants UI réutilisables et patterns de design modernes.",
+          "Connexion du frontend à une API Express et base de données MongoDB pour fonctionnalité e-commerce complète."
         ]
       },
       {
         title: "Restaurant App — Plateforme de Découverte",
         stack: "React · Vite · Tailwind CSS · Zustand · i18next",
-        description: "Application de découverte de restaurants avec support multilingue et design responsive.",
+        description: "Application de découverte de restaurants avec support multilingue, design responsive et expérience utilisateur moderne.",
         bullets: [
-          "Création d'une recherche restaurants/plats avec dark mode et bases SEO.",
-          "Ajout de la gestion d'état, traductions et configuration de tests."
+          "Implémentation de fonctionnalités de découverte restaurants/plats avec support dark mode et optimisation SEO.",
+          "Intégration de la gestion d'état avec Zustand, internationalisation avec i18next et configuration de tests."
         ]
       }
     ]
@@ -427,16 +428,17 @@ export const cvContentFR: CVContent = {
         title: "Développeur Full Stack — Projets Personnels & Portfolio",
         date: "2024 – Présent",
         bullets: [
-          "Développement et déploiement d'applications avec React, Next.js, Node.js, Express, MongoDB, Django et PostgreSQL.",
-          "Création d'interfaces responsives, API REST, authentification JWT et routes protégées."
+          "Développement et déploiement d'applications web complètes avec React, Next.js, Node.js, Express, MongoDB, Django et PostgreSQL.",
+          "Création d'interfaces utilisateur responsives, API REST, systèmes d'authentification JWT et routes protégées.",
+          "Implémentation de workflows Git, contrôle de version GitHub et déploiement d'applications via Vercel et Render."
         ]
       },
       {
         title: "Marketing Digital & Web Creator — Projets Personnels",
         date: "2024 – Présent",
         bullets: [
-          "Création de landing pages, concepts de branding et web design pour présence en ligne.",
-          "Application du SEO, UX writing et principes marketing aux projets digitaux."
+          "Conception et développement de landing pages, concepts de branding et web design pour présence en ligne.",
+          "Application de l'optimisation SEO, rédaction UX et principes de marketing digital pour améliorer la présentation."
         ]
       },
       {
