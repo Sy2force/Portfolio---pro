@@ -1,14 +1,9 @@
 export interface CVContent {
   header: {
     name: string
-    title: string
-    stack: string
     location: string
     phone: string
     email: string
-    portfolio: string
-    linkedin: string
-    github: string
   }
   summary: {
     title: string
@@ -56,14 +51,9 @@ export interface CVContent {
 export const cvContentSummaryEN: CVContent = {
   header: {
     name: "SHAY ACOCA",
-    title: "Full Stack Developer",
-    stack: "React · Next.js · Node.js · MongoDB · Django",
     location: "Jerusalem, Israel",
     phone: "+972 50 123 4567",
-    email: "shayacoca20@gmail.com",
-    portfolio: "shay-acoca-portfolio.vercel.app",
-    linkedin: "linkedin.com/in/shay-acoca-046311302",
-    github: "github.com/Sy2force"
+    email: "shayacoca20@gmail.com"
   },
   summary: {
     title: "PROFESSIONAL SUMMARY",
@@ -153,14 +143,9 @@ export const cvContentSummaryEN: CVContent = {
 export const cvContentSummaryFR: CVContent = {
   header: {
     name: "SHAY ACOCA",
-    title: "Développeur Full Stack",
-    stack: "React · Next.js · Node.js · MongoDB · Django",
     location: "Jérusalem, Israël",
     phone: "+972 50 123 4567",
-    email: "shayacoca20@gmail.com",
-    portfolio: "shay-acoca-portfolio.vercel.app",
-    linkedin: "linkedin.com/in/shay-acoca-046311302",
-    github: "github.com/Sy2force"
+    email: "shayacoca20@gmail.com"
   },
   summary: {
     title: "PROFIL PROFESSIONNEL",
@@ -250,14 +235,9 @@ export const cvContentSummaryFR: CVContent = {
 export const cvContentEN: CVContent = {
   header: {
     name: "SHAY ACOCA",
-    title: "Full Stack Developer",
-    stack: "React · Next.js · Node.js · MongoDB · Django",
     location: "Jerusalem, Israel",
     phone: "+972 50 123 4567",
-    email: "shayacoca20@gmail.com",
-    portfolio: "shay-acoca-portfolio.vercel.app",
-    linkedin: "linkedin.com/in/shay-acoca-046311302",
-    github: "github.com/Sy2force"
+    email: "shayacoca20@gmail.com"
   },
   summary: {
     title: "Professional Profile",
@@ -374,14 +354,9 @@ export const cvContentEN: CVContent = {
 export const cvContentFR: CVContent = {
   header: {
     name: "SHAY ACOCA",
-    title: "Développeur Full Stack",
-    stack: "React · Next.js · Node.js · MongoDB · Django",
     location: "Jérusalem, Israël",
     phone: "+972 50 123 4567",
-    email: "shayacoca20@gmail.com",
-    portfolio: "shay-acoca-portfolio.vercel.app",
-    linkedin: "linkedin.com/in/shay-acoca-046311302",
-    github: "github.com/Sy2force"
+    email: "shayacoca20@gmail.com"
   },
   summary: {
     title: "Profil professionnel",
